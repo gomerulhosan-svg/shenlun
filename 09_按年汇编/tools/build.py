@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """按年汇编：python3 09_按年汇编/tools/build.py
 
-把每套卷的题干、小题（答案、考场上的思路、逐条解析、压缩与成本）、大作文（考场上的思路、作文、逐句解析）
+把每套卷的给定材料、题干、小题（答案、考场上的思路、逐条解析、压缩与成本）、大作文（考场上的思路、作文、逐句解析）
 拼成一年一个 Markdown 文件，写到 09_按年汇编/。
+- 给定材料：同一份 material.txt 里「问题一」之前的部分，按 08_小题重写/tools/common.py 分则分段，每段标段号；
 - 题干：08_小题重写/samples/<套>/material.txt 里「问题一」以后的作答要求，原文照录；
 - 小题：08_小题重写/<套>/Qn.md（第二遍终稿）；
 - 大作文：07_句子层/重写/<套>_重写.md 的「考场上的思路」「一、作文」「二、逐句标注」三节。
@@ -59,12 +60,28 @@ TWINS = {
     2024: '一卷问题一和二卷问题一是同一道题（题干逐字相同，材料二几乎相同），两份答案逐字相同；解析因为两卷材料分段不同，段号和个别说法有出入。',
 }
 
+sys.path.insert(0, os.path.join(SMALL, 'tools'))
+from common import split_blocks  # noqa: E402  分则分段，段号和 pool.py、解析里的「材料几第几段」一致
+
 CN = '一二三四五六七八九十'
 FILENAME = '{year}年广东申论_题干答案与逐句解析.md'
 
 
 def read(path):
     return open(path, encoding='utf-8').read()
+
+
+# ---------- 给定材料 ----------
+
+def materials_md(sid):
+    """每则一个小标题，每段前面标〔段号〕。"""
+    out, n = ['### 给定材料', ''], 0
+    for name, paras in split_blocks(sid):
+        out += ['#### ' + ('导语' if name == '导' else '材料' + name), '']
+        for i, para in enumerate(paras, 1):
+            out += ['〔%d〕%s' % (i, para), '']
+        n += 1
+    return out, sum(1 for name, _ in split_blocks(sid) if name != '导')
 
 
 # ---------- 题干 ----------
@@ -227,8 +244,10 @@ def build_year(year, papers):
     for sid, name, short in papers:
         qs = sorted(f for f in os.listdir(os.path.join(SMALL, sid)) if re.match(r'^Q\d\.md$', f))
         body += ['---', '', '## ' + name, '']
-        body += stems_md(sid)
+        mat, nmat = materials_md(sid)
+        body += mat + stems_md(sid)
         toc.append('- **%s**' % name)
+        toc.append('  - 给定材料（%d 则）· 题干' % nmat)
         for f in qs:
             title, lines = question_md(os.path.join(SMALL, sid, f))
             body += lines + ['']
@@ -245,12 +264,11 @@ def build_year(year, papers):
         '# %d 年广东申论：题干 · 答案 · 逐句解析' % year, '',
         '收 %d 套卷：%s。' % (len(papers), names), '',
         '每套卷依次是：', '',
+        '0. **给定材料**：原卷材料全文，每段前面的〔段号〕就是解析里说的「材料几第几段」。',
         '1. **题干**：试卷的作答要求，照原卷录入。',
         '2. **小题**：每道题依次是答案、考场上的思路、逐条解析、压缩与成本。逐条解析先说每个要点「现实里是一件什么事」「为什么归成这一条」，'
         '再对答案里的每个分句写来源（材料几第几段第几句的原话）、怎么改的、为什么这么改、不这么写会怎样、以后遇到怎么办。',
         '3. **大作文**：考场上的思路、作文、逐句解析。逐句解析按标题、开头、各段、结尾分块，每句写来源、怎么改的、为什么、以后遇到怎么办。',
-        '',
-        '解析里的「材料几第几段」指原卷给定材料的自然段，材料原文见仓库根目录同年份的真题 PDF。',
         '',
     ]
     if year in TWINS:
@@ -264,7 +282,7 @@ def build_year(year, papers):
 
 
 def check():
-    """逐行核对：每道小题 Qn.md、每篇大作文三节里的每一行、每道题的题干，都在年份文件里。返回缺的行数。"""
+    """逐行核对：给定材料的每一段、每道小题 Qn.md、每篇大作文三节里的每一行、每道题的题干，都在年份文件里。返回缺的行数。"""
     def norm(l):
         l = re.sub(r'^(#+|>|-)\s*', '', l.strip()).strip()
         return re.sub(r'^\*\*(.*)\*\*$', r'\1', l).rstrip()
@@ -288,6 +306,11 @@ def check():
                 if l.strip() and norm(l) not in have:
                     miss += 1
                     print('缺：%s %s %s' % (sid, where, l.strip()[:40]))
+            for name, paras in split_blocks(sid):
+                for i, para in enumerate(paras, 1):
+                    if '〔%d〕%s' % (i, para) not in have:
+                        miss += 1
+                        print('缺：%s 材料%s 第%d段' % (sid, name, i))
             for label, text, _ in stem_items(sid):
                 if '**%s**　%s' % (label, text) not in have:
                     miss += 1
