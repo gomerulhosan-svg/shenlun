@@ -1,0 +1,491 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<base target="_blank"></base>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>关于推进我省海洋牧场高质量发展的提案-广东政协网</title>
+<link rel="stylesheet" href="//g.alicdn.com/de/prismplayer/2.7.4/skins/default/aliplayer-min.css" />
+<script charset="utf-8" type="text/javascript" src="//g.alicdn.com/de/prismplayer/2.7.4/aliplayer-min.js"></script>
+<link href="/css/gdzx_reset_style.css" rel="stylesheet" type="text/css">
+<link href="/css/gdzx_head_foot_style.css" rel="stylesheet" type="text/css">
+<link href="/css/gdzx_style.css" rel="stylesheet" type="text/css"> 
+<link href="/css/gdzx_responsive_style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/booNavigation.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+</head>
+
+<body>
+    <img style="display:block;width:0;height:0" src="http://www.gdszx.gov.cn/images/szx_cover.jpg" />
+	<!-- header begin -->
+    <div class="nav boxMo">
+		<div class="content">
+			<ul class="nav_con">
+				<li>
+					<a class="nav_link" href="http://www.gdszx.gov.cn">首页</a>
+				</li>
+				<li>
+					<a class="nav_link nav_link_arr">概况</a>
+					<div class="sub_nav_list" >
+						                            <a href="https://www.gdszx.gov.cn/zxgk/zxld/liq/">政协领导</a>
+                                                    <a href="https://www.gdszx.gov.cn/zxgk/zxld/wymd/index.html">委员名单</a>
+                                                    <a href="http://www.gdszx.gov.cn/tzgg/rsxx/">人事任免</a>
+                                                    <a href="http://www.gdszx.gov.cn/zxzs/">政协知识</a>
+                                                    <a href="http://www.gdszx.gov.cn/gzzd/">规章制度</a>
+                                                    <a href="http://www.gdszx.gov.cn/llyj/">理论研究</a>
+                        						<!-- <a href="https://www.gdszx.gov.cn/zxgk/zxld/index.html">政协领导</a>						<a href="https://www.gdszx.gov.cn/zxgk/zxld/wymd/index.html">委员名单</a>						<a href="https://www.gdszx.gov.cn/zxgk/zxjg/index.html">政协机构</a>						<a href="https://www.gdszx.gov.cn/tzgg/rsxx/index.html">人事任免</a>						<a href="https://www.gdszx.gov.cn/zxzs/index.html">政协知识</a>						<a href="https://www.gdszx.gov.cn/zxwx/index.html">政协文献</a>						<a href="https://www.gdszx.gov.cn/gzzd/index.html">规章制度</a>						<a href="https://www.gdszx.gov.cn/llyj/index.html">理论研究</a> -->
+					</div>
+				</li>
+				<li>
+					<a class="nav_link nav_link_arr">新闻</a>
+					<div class="sub_nav_list">
+						                            <a href="http://www.gdszx.gov.cn/yw/">政协要闻</a>
+                                                    <a href="http://www.gdszx.gov.cn/ldhd/">领导活动</a>
+                                                    <a href="http://www.gdszx.gov.cn/wyfc/">委员风采</a>
+                                                    <a href="http://www.gdszx.gov.cn/spxw/">视频新闻</a>
+                                                    <a href="http://www.gdszx.gov.cn/mtjj/">媒体聚焦</a>
+                                                    <a href="http://www.gdszx.gov.cn/rdzt/">热点专题</a>
+                        						<!-- <a href="https://www.gdszx.gov.cn/yw/index.html">政协要闻</a>						<a href="https://www.gdszx.gov.cn/ldhd/index.html">领导活动</a>						<a href="https://www.gdszx.gov.cn/wyhd/index.html">委员活动</a>						<a href="https://www.gdszx.gov.cn/wyfc/index.html">委员风采</a>						<a href="https://www.gdszx.gov.cn/spxw/index.html">视频新闻</a>						<a href="https://www.gdszx.gov.cn/mtjj/index.html">媒体聚焦</a>						<a href="https://www.gdszx.gov.cn/rdzt/index.html">热点专题</a> -->
+					</div>
+				</li>
+				<li>
+					<a class="nav_link nav_link_arr">履职</a>
+					<div class="sub_nav_list">
+						                            <a href="http://www.gdszx.gov.cn/zxhy/">政协会议</a>
+                                                    <a href="http://www.gdszx.gov.cn/zwhgz/">专委会工作</a>
+                                                    <a href="http://www.gdszx.gov.cn/xsyz/">协商议政</a>
+                                                    <a href="http://www.gdszx.gov.cn/scdy/">调研视察</a>
+                                                    <a href="http://www.gdszx.gov.cn/tajy/">提案建言</a>
+                                                    <a href="http://www.gdszx.gov.cn/tjly/">团结联谊</a>
+                                                    <a href="https://www.gdszx.gov.cn/zsjs/ddjs/index.html">自身建设</a>
+                                                    <a href="http://www.gdszx.gov.cn/dptt/">党派团体</a>
+                                                    <a href="http://www.gdszx.gov.cn/sxzx/">市县政协</a>
+                        						<!-- <a href="https://www.gdszx.gov.cn/zxhy/index.html">政协会议</a>						<a href="http://www.gdszx.gov.cn/zwhgz/tawyh">专委会工作</a>						<a href="https://www.gdszx.gov.cn/xsyz/index.html">协商议政</a>						<a href="https://www.gdszx.gov.cn/scdy/index.html">视察调研</a>						<a href="https://www.gdszx.gov.cn/tajy/index.html">提案建言</a>						<a href="https://www.gdszx.gov.cn/tjly/index.html">团结联谊</a>						<a href="https://www.gdszx.gov.cn/zsjs/index.html">自身建设</a>						<a href="https://www.gdszx.gov.cn/dptt/index.html">党派团体</a>						<a href="https://www.gdszx.gov.cn/sxzx/index.html">市县政协</a> -->
+					</div>
+				</li>
+				<li>
+					<a class="nav_link nav_link_arr">提案</a>
+					<div class="sub_nav_list">
+						                            <a href="http://www.gdszx.gov.cn/tajy/dt/">提案工作动态</a>
+                                                    <a href="http://test.dc.cszysoft.com/notice/notice.html">提案提交</a>
+                                                    <a href="http://www.gdszx.gov.cn/tajy/tablfw/">提案选登</a>
+                                                    <a href="http://www.gdszx.gov.cn/tajy/tagztz/">提案通知</a>
+                                                    <a href="http://www.gdszx.gov.cn/tajy/gzwj/">工作文件</a>
+                                                    <a href="http://www.gdszx.gov.cn/tajy/taml/">提案目录</a>
+                                                    <a href="http://www.gdszx.gov.cn/tajy/tazswd/">提案知识问答</a>
+                        						<!-- <a href="https://www.gdszx.gov.cn/tajy/dt/index.html">工作动态</a>						<a href="http://test.dc.cszysoft.com/notice/notice.html">提案提交</a>
+						<a href="http://test.dc.cszysoft.com/notice/notice.html">提案查询</a>
+						<a href="https://www.gdszx.gov.cn/tajy/tablfw/index.html">提案选登</a>						<a href="https://www.gdszx.gov.cn/tajy/tagztz/index.html">提案通知</a>						<a href="https://www.gdszx.gov.cn/tajy/gzwj/index.html">工作文件</a>						<a href="https://www.gdszx.gov.cn/tajy/taml/index.html">提案目录</a>						<a href="https://www.gdszx.gov.cn/tajy/tazswd/index.html">知识问答</a> -->
+					</div>
+				</li>
+				<li>
+					<a class="nav_link nav_link_arr">服务</a>
+					<div class="sub_nav_list">
+						                            <a href="https://xtbg.gdzwfw.gov.cn/rz_sszzllz/szzx/index.html">数字政协</a>
+                                                    <a href="http://www.gdszx.gov.cn/tzgg/">通知公告</a>
+                                                    <a href="http://www.gdszx.gov.cn/tzgg/yjs/">预决算信息公开</a>
+                        						<!-- <a href="http://wyzj.gdzxb.gov.cn/">委员之家</a>
+						<a href="#">网上信访</a>
+						<a href="/zxbm/">记者报名</a>
+						<a href="https://www.gdszx.gov.cn/tzgg/index.html">通知公告</a>						<a href="https://www.gdszx.gov.cn/tzgg/yjs/index.html">预决算信息公开</a> -->
+					</div>
+				</li>
+				<li>
+					<a class="nav_link nav_link_arr">互动</a>
+					<div class="sub_nav_list">
+						                            <a href="http://www.gdszx.gov.cn/zbft/">大会直播</a>
+                                                    <a href="https://www.gdszx.gov.cn/wx/jchd/">融媒互动</a>
+                                                    <a href="https://www.gdszx.gov.cn/wx/2021/">精彩图解</a>
+                        						<!-- <a href="https://www.gdszx.gov.cn/zbft/index.html">直播访谈</a>						 -->
+					</div>
+				</li>
+				<li>
+					<a class="nav_link nav_link_arr">推荐</a>
+					<div class="sub_nav_list">
+						                            <a href="http://www.gdszx.gov.cn/tj/gsxt/">国是学堂</a>
+                                                    <a href="http://www.gdszx.gov.cn/zxkw/tzgj/">《同舟共进》</a>
+                                                    <a href="http://www.gdwsw.gov.cn/">广东文史网</a>
+                        						<!-- <a href="https://www.gdszx.gov.cn/tj/gsxt/index.html">国是学堂</a>						<a href="https://www.gdszx.gov.cn/tj/xsmz/index.html">《协商民主》</a>						<a href="https://www.gdszx.gov.cn/tj/ysting/index.html">《委员议事厅》</a>						<a href="https://www.gdszx.gov.cn/tj/wy/index.html">《政协委员》</a>						<a href="https://www.gdszx.gov.cn/tj/jbyzh/index.html">《界别圆桌汇》</a>						<a href="http://epaper.rmzxb.com.cn/">《人民政协报》</a>
+						<a href="https://www.gdszx.gov.cn/zxkw/tzgj/index.html">《同舟共进》</a>						<a href="https://www.gdszx.gov.cn/tj/gdzx/index.html">《广东政协》</a>						<a href="http://www.gdwsw.gov.cn/">广东文史网</a> -->
+					</div>
+				</li>
+				<li>
+					<a class="nav_link nav_link_arr">社团</a>
+					<div class="sub_nav_list">
+						                            <a href="http://www.gdszx.gov.cn/dptt/xsst/ggwjxh/">广东公共外交协会</a>
+                                                    <a href="http://www.gdszx.gov.cn/dptt/xsst/szsjjh/">孙中山基金会</a>
+                                                    <a href="http://www.gdszx.gov.cn/dptt/xsst/llyjxh/">政协理论研究会</a>
+                                                    <a href="http://www.gdszx.gov.cn/dptt/xsst/tagzyjh/">提案工作研究会</a>
+                        						<!-- <a href="https://www.gdszx.gov.cn/zxhy/qthy/2011/hywj/index.html">广东公共外交协会</a>						<a href="https://www.gdszx.gov.cn/dptt/xsst/szsjjh/index.html">孙中山基金会</a>						<a href="https://www.gdszx.gov.cn/dptt/xsst/zxshh/index.html">政协书画会</a>						<a href="https://www.gdszx.gov.cn/dptt/xsst/zxlyh/index.html">政协联谊会</a>						<a href="https://www.gdszx.gov.cn/dptt/xsst/fryjjxh/index.html">繁荣粤剧基金会</a>						<a href="https://www.gdszx.gov.cn/dptt/xsst/llyjxh/index.html">政协理论研究会</a>						<a href="https://www.gdszx.gov.cn/dptt/xsst/tagzyjh/index.html">提案工作研究会</a>						<a href="https://www.gdszx.gov.cn/dptt/xsst/zxw/index.html">研究咨询委员会</a> -->
+					</div>
+				</li>
+                <li class="search_wrap">
+					<form id="head_form" target="_blank" name="f1">
+						<input class="search_text" name="keywords" type="text" value="政协" placeholder="请输入关键词" />
+						<div class="search_sub_wrap">
+							<a class="search_sub"></a>
+							<!-- <input class="search_sub" type="submit"  value=""/> -->
+						</div>
+					</form>
+					<script>
+						$(function(){
+							$(".search_sub").on("click",function(){
+								var keyword = $(".search_text").val();
+								window.open("https://search.gdszx.gov.cn/search/local/268001?keywords=" + keyword)
+							})
+						})
+					</script>
+                </li>
+			</ul>
+		</div>
+	</div>
+	<!-- mobile nav -->
+	<div class="m_nav">
+		<div class="m_nav_top">
+			<a href="http://www.gdszx.gov.cn/"><img class="fl" src="/images/logo.png" /></a>
+		</div>
+		<nav id="m_nav_con" class="m_nav_con">
+			<ul>
+				<li class="navItem">
+					<a class="navItem_t">概况</a>
+					<ul class="navContent">
+						<li>
+							<div class="nav_tem">
+																	<a href="https://www.gdszx.gov.cn/zxgk/zxld/liq/">政协领导</a>
+																	<a href="https://www.gdszx.gov.cn/zxgk/zxld/wymd/index.html">委员名单</a>
+																	<a href="http://www.gdszx.gov.cn/tzgg/rsxx/">人事任免</a>
+																	<a href="http://www.gdszx.gov.cn/zxzs/">政协知识</a>
+																<!-- <a href="https://www.gdszx.gov.cn/zxgk/zxld/index.html">政协领导</a>                                <a href="https://www.gdszx.gov.cn/zxgk/zxld/wymd/index.html">委员名单</a>                                <a href="https://www.gdszx.gov.cn/zxgk/zxjg/index.html">政协机构</a>                                <a href="https://www.gdszx.gov.cn/tzgg/rsxx/index.html">人事任免</a> -->
+							</div>
+							<div class="nav_tem">
+																	<a href="http://www.gdszx.gov.cn/gzzd/">规章制度</a>
+																	<a href="http://www.gdszx.gov.cn/llyj/">理论研究</a>
+																<!-- <a href="https://www.gdszx.gov.cn/tzgg/rsxx/index.html">人事任免</a>                                <a href="https://www.gdszx.gov.cn/zxzs/index.html">政协知识</a>                                <a href="https://www.gdszx.gov.cn/zxwx/index.html">政协文献</a>                                <a href="https://www.gdszx.gov.cn/gzzd/index.html">规章制度</a>                                <a href="https://www.gdszx.gov.cn/llyj/index.html">理论研究</a> -->
+							</div>
+							<div class="slideup">收起</div>
+						</li>
+					</ul>
+				</li>
+				<li class="navItem">
+					<a class="navItem_t">新闻</a>
+					<ul class="navContent">
+						<li>
+							<div class="nav_tem">
+																	<a href="http://www.gdszx.gov.cn/yw/">政协要闻</a>
+																	<a href="http://www.gdszx.gov.cn/ldhd/">领导活动</a>
+																	<a href="http://www.gdszx.gov.cn/wyfc/">委员风采</a>
+																	<a href="http://www.gdszx.gov.cn/spxw/">视频新闻</a>
+																<!-- <a href="https://www.gdszx.gov.cn/yw/index.html">政协要闻</a>                                <a href="https://www.gdszx.gov.cn/ldhd/index.html">领导活动</a>                                <a href="https://www.gdszx.gov.cn/wyhd/index.html">委员活动</a>                                <a href="https://www.gdszx.gov.cn/wyfc/index.html">委员风采</a> -->
+                                
+							</div>
+							<div class="nav_tem">
+																	<a href="http://www.gdszx.gov.cn/mtjj/">媒体聚焦</a>
+																	<a href="http://www.gdszx.gov.cn/rdzt/">热点专题</a>
+																<!-- <a href="https://www.gdszx.gov.cn/spxw/index.html">视频新闻</a>                                <a href="https://www.gdszx.gov.cn/mtjj/index.html">媒体聚焦</a>                                <a href="https://www.gdszx.gov.cn/rdzt/index.html">热点专题</a> -->
+							</div>
+							<div class="slideup">收起</div>
+						</li>
+					</ul>
+				</li>
+				<li class="navItem">
+					<a class="navItem_t">履职</a>
+					<ul class="navContent">
+						<li>
+							<div class="nav_tem">
+																	<a href="http://www.gdszx.gov.cn/zxhy/">政协会议</a>
+																	<a href="http://www.gdszx.gov.cn/zwhgz/">专委会工作</a>
+																	<a href="http://www.gdszx.gov.cn/xsyz/">协商议政</a>
+								                                <!-- <a href="https://www.gdszx.gov.cn/zxhy/index.html">政协会议</a>                                <a href="http://www.gdszx.gov.cn/zwhgz/tawyh">专委会工作</a>                                <a href="https://www.gdszx.gov.cn/xsyz/index.html">协商议政</a> -->
+							</div>
+							<div class="nav_tem">
+																	<a href="http://www.gdszx.gov.cn/scdy/">调研视察</a>
+																	<a href="http://www.gdszx.gov.cn/tajy/">提案建言</a>
+																	<a href="http://www.gdszx.gov.cn/tjly/">团结联谊</a>
+																<!-- <a href="https://www.gdszx.gov.cn/scdy/index.html">视察调研</a>                                <a href="https://www.gdszx.gov.cn/tajy/index.html">提案建言</a>                                <a href="https://www.gdszx.gov.cn/tjly/index.html">团结联谊</a> -->
+							</div>
+							<div class="nav_tem">
+																	<a href="http://www.gdszx.gov.cn/scdy/">调研视察</a>
+																	<a href="http://www.gdszx.gov.cn/tajy/">提案建言</a>
+																	<a href="http://www.gdszx.gov.cn/tjly/">团结联谊</a>
+																<!-- <a href="https://www.gdszx.gov.cn/zsjs/index.html">自身建设</a>                                <a href="https://www.gdszx.gov.cn/dptt/index.html">党派团体</a>                                <a href="https://www.gdszx.gov.cn/sxzx/index.html">市县政协</a> -->
+							</div>
+							<div class="slideup">收起</div>
+						</li>
+					</ul>
+				</li>
+				<li class="navItem">
+					<a class="navItem_t">提案</a>
+					<ul class="navContent">
+						<li>
+							<div class="nav_tem">
+																	<a href="http://www.gdszx.gov.cn/tajy/dt/">提案工作动态</a>
+																	<a href="http://test.dc.cszysoft.com/notice/notice.html">提案提交</a>
+																	<a href="http://www.gdszx.gov.cn/tajy/tablfw/">提案选登</a>
+																	<a href="http://www.gdszx.gov.cn/tajy/tagztz/">提案通知</a>
+								                                <!-- <a href="https://www.gdszx.gov.cn/tajy/dt/index.html">工作动态</a>                                <a href="http://test.dc.cszysoft.com/notice/notice.html">提案提交</a>
+                                <a href="http://test.dc.cszysoft.com/notice/notice.html">提案查询</a>
+                                <a href="https://www.gdszx.gov.cn/tajy/tablfw/index.html">提案选登</a> -->
+							</div>
+							<div class="nav_tem">
+																	<a href="http://www.gdszx.gov.cn/tajy/gzwj/">工作文件</a>
+																	<a href="http://www.gdszx.gov.cn/tajy/taml/">提案目录</a>
+																	<a href="http://www.gdszx.gov.cn/tajy/tazswd/">提案知识问答</a>
+																<!-- <a href="https://www.gdszx.gov.cn/tajy/tagztz/index.html">提案通知</a>                                <a href="https://www.gdszx.gov.cn/tajy/gzwj/index.html">工作文件</a>                                <a href="https://www.gdszx.gov.cn/tajy/taml/index.html">提案目录</a>                                <a href="https://www.gdszx.gov.cn/tajy/tazswd/index.html">知识问答</a> -->
+							</div>				
+							<div class="slideup">收起</div>
+						</li>
+
+					</ul>
+				</li>
+				<li class="navItem">
+					<a class="navItem_t">服务</a>
+					<ul class="navContent">
+						<li>
+							<div class="nav_tem">
+																	<a href="https://xtbg.gdzwfw.gov.cn/rz_sszzllz/szzx/index.html">数字政协</a>
+																	<a href="http://www.gdszx.gov.cn/tzgg/">通知公告</a>
+																	<a href="http://www.gdszx.gov.cn/tzgg/yjs/">预决算信息公开</a>
+																<!-- <a href="http://wyzj.gdzxb.gov.cn/">委员之家</a>
+                                <a href="https://www.gdszx.gov.cn/tzgg/index.html">通知公告</a>                                <a href="https://www.gdszx.gov.cn/tzgg/yjs/index.html">预决算信息公开</a> -->
+							</div>
+							<div class="slideup">收起</div>
+						</li>
+					</ul>
+				</li>
+				<li class="navItem">
+					<a class="navItem_t">互动</a>
+					<ul class="navContent">
+						<li>
+							<div class="nav_tem">
+																	<a href="http://www.gdszx.gov.cn/zbft/">大会直播</a>
+																	<a href="https://www.gdszx.gov.cn/wx/jchd/">融媒互动</a>
+																	<a href="https://www.gdszx.gov.cn/wx/2021/">精彩图解</a>
+																<!-- <a href="https://www.gdszx.gov.cn/zbft/index.html">直播访谈</a>						         -->
+							</div>
+							<div class="slideup">收起</div>
+						</li>
+					</ul>
+				</li>
+				<li class="navItem">
+					<a class="navItem_t">社团</a>
+					<ul class="navContent">
+						<li>
+							<div class="nav_tem">
+																	<a href="http://www.gdszx.gov.cn/dptt/xsst/ggwjxh/">广东公共外交协会</a>
+																	<a href="http://www.gdszx.gov.cn/dptt/xsst/szsjjh/">孙中山基金会</a>
+																	<a href="http://www.gdszx.gov.cn/dptt/xsst/llyjxh/">政协理论研究会</a>
+								                                <!-- <a href="https://www.gdszx.gov.cn/tj/gsxt/index.html">国是学堂</a>                                <a href="https://www.gdszx.gov.cn/tj/xsmz/index.html">《协商民主》</a>                                <a href="https://www.gdszx.gov.cn/tj/ysting/index.html">《委员议事厅》</a> -->
+							</div>
+							<div class="nav_tem">
+																	<a href="http://www.gdszx.gov.cn/dptt/xsst/tagzyjh/">提案工作研究会</a>
+								                                <!-- <a href="https://www.gdszx.gov.cn/tj/wy/index.html">《政协委员》</a>                                <a href="https://www.gdszx.gov.cn/tj/jbyzh/index.html">《界别圆桌汇》</a>                                <a href="http://epaper.rmzxb.com.cn/">《人民政协报》</a> -->
+							</div>
+							<div class="nav_tem">
+								                                <!-- <a href="https://www.gdszx.gov.cn/zxkw/tzgj/index.html">《同舟共进》</a>                                <a href="https://www.gdszx.gov.cn/tj/gdzx/index.html">《广东政协》</a>                                <a href="http://www.gdwsw.gov.cn/">广东文史网</a> -->
+							</div>
+							<div class="slideup">收起</div>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div class="space370"></div>
+	<div class="layout2 bgf2">
+		<div class="loc pad20">
+			<div class="loc_con">
+				<a href="https://www.gdszx.gov.cn/">首页</a>&nbsp;&gt;&nbsp;<a href="https://www.gdszx.gov.cn/zxhy">政协会议</a>&nbsp;&gt;&nbsp;<a href="https://www.gdszx.gov.cn/zxhy/qthy">全体会议</a>&nbsp;&gt;&nbsp;<a href="https://www.gdszx.gov.cn/zxhy/qthy/2025">省政协十三届三次会议</a>&nbsp;&gt;&nbsp;<a href="https://www.gdszx.gov.cn/zxhy/qthy/2025/dhzlk">大会资料库</a>&nbsp;&gt;&nbsp;<a href="https://www.gdszx.gov.cn/zxhy/qthy/2025/dhzlk/wyta">委员提案</a>
+			</div>
+		</div>
+		<!-- LEFT -->
+		<div class="layout_left bgf">
+			<div class="article_wrap">
+				<h1 class="article_t">
+                    关于推进我省海洋牧场高质量发展的提案
+                </h1>
+				<div class="article_item">
+					<span>2025-01-15 10:11:55</span>
+					<span>来源：广东政协网</span>
+				</div>
+				<div class="article_con">
+					<p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　提出人：民革广东省委员会</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　内容：</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　2024年广东省政府工作报告提出要打造海上新广东，“大力发展深远海养殖和智慧渔业”，一系列措施力推海洋渔业高质量稳步发展，正探索构建一条从种业、养殖、装备到精深加工的现代化海洋牧场产业全链条。但目前我省现代化海洋牧场建设仍存在以下一些问题：</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　（一）核心技术尚待成熟，现代化海洋牧场发展受限</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　现代化海洋牧场以数字化和体系化为特征，其高质量发展目前受制于相关技术和理论尚未成熟，如深远海养殖领域数据碎片化、信息孤岛显著、数据实时性不足，缺乏对海量复杂数据整合分析，需要多要素协同解决海洋牧场资源环境信息化监测平台、灾害预警预报与专家决策系统、深远海智慧养殖管理平台等方面的技术难题；在海洋牧场高强度和高风险运营环节，如网衣清洗、水下作业和智能监测、多功能养殖辅助船、高海况下适渔性良好的养殖平台等所需的核心装备技术研发制造方面仍有待突破。</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　（二）水产种业发展滞后于海水养殖产业发展需求</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　我国海水养殖的良种覆盖率和更新率均较低，特别是在深远海养殖领域，适应性强、经济价值高的鱼种稀缺。此外，国内水产苗种企业普遍存在规模小、研发能力弱的问题，竞争力不足，由于周期长、投入大、风险高，企业参与良种选育积极性不高。上述问题使得水产种业在种质资源保护、品种选育、良种繁育等方面难以满足现代化海洋牧场快速发展的需求。</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　（三）产业融合拓展不足，综合效益未得到充分释放</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　海洋牧场建设尚存在海洋牧场产业链条延伸不够、产业融合程度较低的问题。一是，一产与二产的融合发展中存在加工企业规模小而不强，技术创新薄弱，深加工比例低，高质量产品少、缺乏竞争力等若干问题。二是，缺少与休闲渔业等新兴三产的有效融合，处于低水平的重复化发展状态，品牌建设亟待加强。三是，产业集群化程度较低，缺乏科学多样的分工，招商引资企业产品雷同，缺少能覆盖全环节全过程的龙头企业。</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　为此，建议：</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　（一）进一步加强现代化海洋牧场建设的科技支撑力度</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　一是整合省内涉海高校、科研院所、相关企业等科研力量组建省级海洋牧场科技研发协同创新中心，突破关键核心技术，促进科技成果转移转化，助力我省海洋牧场高质量发展。</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　二是依托已有一定基础的南方海洋科学与工程广东省实验室（珠海）、湛江湾实验室等海洋数据中心，在信息化和智能化建设方面加大探索、引领示范作用，推进5G网络、算力中心、智慧中台、物联网、人工智能等新一代信息技术应用，打造融合海洋牧场资源环境信息化监测、灾害预警预报与专家决策、深远海智慧养殖管理等系统的多功能大数据平台。</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　三是促进“政产学研金服用”创新要素有效集聚和优化配置，突破机械化和智能化的海洋农牧机械设施或作业机器人，如高海况下适渔性良好的智能养殖平台、水下巡航机器人、网衣自动清洁、无人运输投料船、智能监测传感器等核心装备技术研发制造，降低高强度和高风险环节的人力投入比例。</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　（二）完善水产种业产业链，健全商业化育种体系</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　一是统筹整合我省良种繁育资源，包括中山大学、广东海洋大学、中国科学院和中国水产科学研究院等高校、科研院所、良种场和苗种繁育企业等，依托省内自然资源禀赋，持续推进金鲳、黄姑鱼、马友、花鲈、石斑、章红、海马、青蟹、对虾等我省海洋牧场主导养殖品种的创新和苗种繁育，推动水产种质由资源优势向产业优势转变，避免同质化竞争。</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　二是培育自主研发能力强的水产种业龙头企业。支持企业联合高校、科研机构等构建良种“育繁推一体化”的产业技术创新联盟或现代种业集团，按照市场化、产业化育种模式开展品种研发，逐步建立以企业为主体的商业化育种新机制。</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　（三）推进一二三产融合发展，拓展高端蓝色产业集群</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　一是大力发展精深加工业，引入智能化生产线、机器人技术、人工智能和纳米技术，推进高科技、高附加值的海洋功能食品(多糖、多肽、皂苷等)、海洋医药（个性化药物、人工智能药物发现）等特色产业的研究，促进海洋渔业向产业链高价值环节跃升。</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　二是推动海洋牧场与休闲观光、生态旅游、风力发电等产业的有效融合，高标准规划建设珠海、湛江、汕尾等一批海洋牧场休闲旅游海钓基地，发展休闲渔业、海上观光、科普教育等第三产业，不断提升海洋牧场价值链。</p><p style="text-align: justify; font-family: 宋体; font-size: 16px; line-height: 2;">　　三是以海洋产业园为抓手，积极推动经营主体在陆域建设工厂化养殖设施、育苗基地、冷链物流基地、交易市场、渔家乐设施、养殖专用码头等上下游产业链，以“大渔带小渔”“新型带传统”模式，构建陆海协同发展、海陆产业互补的蓝色产业集群。</p><p><br/></p>
+				</div>
+			</div>
+		</div>
+        <!-- RIGHT -->
+		<div class="layout_right">
+			<!-- 政协要闻 -->
+			<div class="layout_right_tem">
+				<div class="i_lmT bge6">
+					<i class="i_lmT_dot"></i>
+					<a href="https://www.gdszx.gov.cn/yw/index.html">政协要闻</a>					<a class="i_lmT_more" href="https://www.gdszx.gov.cn/yw/index.html"></a>				</div>
+				<div class="space10"></div>
+				<ul class="newsList pad20">
+                   								<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/yw/content/post_43493.html">省委政协工作会议召开</a>
+						</li>
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/yw/content/post_43470.html">省政协党组扩大会议召开</a>
+						</li>
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/yw/content/post_43454.html">省政协召开专题协商会</a>
+						</li>
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/yw/content/post_43308.html">林克庆到水利部珠江水利委员会开展专题调研</a>
+						</li>
+                    					</ul>
+			</div>
+			<!-- 通知公告 -->
+			<div class="layout_right_tem">
+				<div class="i_lmT bge6">
+					<i class="i_lmT_dot"></i>
+					<a href="https://www.gdszx.gov.cn/tzgg/index.html">通知公告</a>					<a class="i_lmT_more" href="https://www.gdszx.gov.cn/tzgg/index.html"></a>				</div>
+				<div class="space10"></div>
+				<ul class="newsList pad20">
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/tzgg/content/post_40689.html">关于提案撰写提交事宜致全体政协委员和政协各参加单位的信</a>
+						</li>
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/tzgg/content/post_37555.html">关于提案撰写提交事宜致全体政协委员和政协各参加单位的信</a>
+						</li>
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/tzgg/content/post_34409.html">关于提案撰写提交事宜致全体政协委员和政协各参加单位的信</a>
+						</li>
+                    							<li>
+							<i class="dot2"></i>
+							<a href="http://www.gdszx.gov.cn/tzgg/rsxx/">【人事任免】</a>
+						</li>
+                    					</ul>
+			</div>
+			<!-- 视频新闻 -->
+			<div class="layout_right_tem">
+				<div class="i_lmT bge6">
+					<i class="i_lmT_dot"></i>
+					视频新闻
+					<a class="i_lmT_more" href="https://www.gdszx.gov.cn/spxw/index.html"></a>				</div>
+				<div class="space10"></div>
+				<ul class="layout_right_sp pad20">
+                    							<li class="fl">
+							<a href="https://www.gdtv.cn/tv/4aad94180ddf401721dc9060d3330fca"><img src="https://www.gdszx.gov.cn/img/0/26/26158/43372.jpg"></a>
+							<h3><a href="https://www.gdtv.cn/tv/4aad94180ddf401721dc9060d3330fca">省政协党组扩大会议暨党的建设工作领导小组会议召开</a></h3>
+						</li>
+					                    							<li class="fr">
+							<a href="https://www.gdtv.cn/tv/8cee0b05bbf1ac84c9e18079b0829ded"><img src="https://www.gdszx.gov.cn/img/0/26/26157/43371.jpg"></a>
+							<h3><a href="https://www.gdtv.cn/tv/8cee0b05bbf1ac84c9e18079b0829ded">省政协十三届四十六次主席会议召开</a></h3>
+						</li>
+									</ul>
+				<div class="space0"></div>
+			</div>
+			<!-- 专委会工作 -->
+			<div class="layout_right_tem">
+				<div class="i_lmT bge6">
+					<i class="i_lmT_dot"></i>
+					<a href="http://www.gdszx.gov.cn/zwhgz/tawyh">专委会工作</a>					<a class="i_lmT_more" href="http://www.gdszx.gov.cn/zwhgz/tawyh"></a>				</div>
+				<div class="space10"></div>
+				<ul class="newsList pad20">
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/zwhgz/content/post_43475.html">广东公共外交协会第三届第二次会员大会暨第四次理事会议在广州召开</a>
+						</li>
+                   								<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/zwhgz/content/post_43466.html">山东省政协副主席田卫东来粤考察</a>
+						</li>
+                   								<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/zwhgz/content/post_43472.html">住粤全国政协委员赴山西学习考察</a>
+						</li>
+                   								<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/zwhgz/content/post_43458.html">袁宝成副主席率队赴湖北、陕西省学习考察</a>
+						</li>
+                   						</ul>
+			</div>
+			<!-- 提案建言 -->
+			<div class="layout_right_tem">
+				<div class="i_lmT bge6">
+					<i class="i_lmT_dot"></i>
+					<a href="https://www.gdszx.gov.cn/tajy/index.html">提案建言</a>					<a class="i_lmT_more" href="https://www.gdszx.gov.cn/tajy/index.html"></a>				</div>
+				<div class="space10"></div>
+				<ul class="newsList pad20">
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/tajy/dt/content/post_43440.html">王学成副主席率队赴辽宁、河北学习考察</a>
+						</li>
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/tajy/dt/content/post_43399.html">温国辉副主席率队赴重庆开展专题学习考察</a>
+						</li>
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/tajy/dt/content/post_43205.html">人资环委开展专委会提案督办调研</a>
+						</li>
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/tajy/dt/content/post_43190.html">温国辉副主席率队赴韶关乐昌、南雄两市开展专题调研</a>
+						</li>
+                    					</ul>
+			</div>
+			<!-- 委员风采 -->
+			<div class="layout_right_tem">
+				<div class="i_lmT bge6">
+					<i class="i_lmT_dot"></i>
+					<a href="https://www.gdszx.gov.cn/wyfc/index.html">委员风采</a>					<a class="i_lmT_more" href="https://www.gdszx.gov.cn/wyfc/index.html"></a>				</div>
+				<div class="space10"></div>
+				<ul class="newsList pad20">
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/wyfc/content/post_43469.html">以履职之力守护岭南文脉</a>
+						</li>
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/wyfc/content/post_43288.html">让“第一生育大省”轻装上阵</a>
+						</li>
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/wyfc/content/post_43223.html">用心用情维护海上作业人员权益</a>
+						</li>
+                    							<li>
+							<i class="dot2"></i>
+							<a href="https://www.gdszx.gov.cn/wyfc/content/post_43231.html">“委员会客室”成破题智囊团，让专业思考变身接地气回复</a>
+						</li>
+                    					</ul>
+			</div>
+		</div>
+		<div class="space0"></div>
+	</div>
+	<div class="boxTem_bot"></div>
+	<!-- footer begin -->
+    <!-- sidebar -->
+	<div id="sidebar" class="sidebar">
+		<a class="sidebar_top_btn" href="#" target="_self"></a>
+	</div>         
+    <div class="footer boxMo">
+		<div class="content">
+			 <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' class='footer_i' %3E%3C/span%3E%3Cscript  src='https://dcs.conac.cn/js/20/000/0000/60410634/CA200000000604106340003.js' type='text/javascript'%3E%3C/script%3E"));</script>
+			 <p class="footer_des">
+                                    <a target="_blank" href="http://beian.miit.gov.cn">ICP备案号：粤ICP备14100626号</a><br>
+				Copyright @2006  All Rights Reserved  中国人民政治协商会议广东省委员会办公厅版权所有<br/>
+				主办：广东省政协办公厅   承办：南方网<br/>
+				(建议使用 IE7.0 以上版本浏览器)<br/>
+			 </p>
+		</div>
+	</div>
+	<footer class="m_footer">
+		<p> 
+			中国人民政治协商会议广东省委员会办公厅版权所有<br/>
+			主办：广东省政协办公厅   承办：南方网<br/>
+		</p>
+	</footer>
+	<!-- <script>window.NFCMS_SITE_ID=268001;window.NFCMS_PUB_TYPE="page";window.NFCMS_PAGE_ID="3";</script><script src="http://statistics.gd.gov.cn/scripts/s.js?t=1787023234" async></script> -->
+	<script>window.NFCMS_SITE_ID=268001;window.NFCMS_PUB_TYPE="post";window.NFCMS_POST_ID="37908";window.NFCMS_CAT_ID="1172";</script><script src="http://statistics.gd.gov.cn/scripts/s.js?t=1736907116" async></script>
+</body>
+</html>

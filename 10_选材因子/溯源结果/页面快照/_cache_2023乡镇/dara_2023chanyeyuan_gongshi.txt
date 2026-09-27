@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <title>关于2023年省级现代农业产业园推荐名单的公示</title>
+        <meta name="ColumnName" content="政府信息公开平台">
+    <meta name="ColumnDescription" content="按照严格依法、真实有效、及时便民的原则，采取科学的编制方式，集中发布广东省农业农村厅政府信息。">
+    <meta name="ColumnType" content="政府信息公开">
+    <meta name="ColumnKeywords" content="政府信息公开">
+        <meta name="ArticleTitle" content="关于2023年省级现代农业产业园推荐名单的公示">
+    <meta name="PubDate"
+          content="2023-12-22 09:45">
+    <meta name="ContentSource" content="本网">
+    <meta name="SiteName" content="广东省农业农村厅网站">
+    <meta name="SiteDomain" content="https://dara.gd.gov.cn">
+    <meta name="SiteIDCode" content="4400000028">
+<!--[if lt IE 9]>
+
+<script type="text/javascript" src="/gkmlpt/gkml/public/polyfill/es5-polyfill.min.js"></script>
+<script type="text/javascript" src="/gkmlpt/gkml/public/polyfill/es5.min.js"></script>
+<script type="text/javascript" src="/gkmlpt/gkml/public/polyfill/ie-polyfill.js"></script>
+    <script>
+      alert('为了您的使用体验，建议使用Chrome 、FireFox 、Safari、Edge 等现代浏览器或者360浏览器、搜狗浏览器、QQ浏览器、猎豹等浏览器的极速模式（webkit内核模式）');
+    </script>
+<![endif]-->
+<script type="text/javascript" src="/gkmlpt/gkml/public/jquery.min.js"></script>
+<!--[if (gte IE 9)|!(IE)]><!--><script src="//service.gd.gov.cn/wza/wza.js?check_type=site_id&site_id=182" referrerpolicy="origin"></script><script src="//slhsrv.southcn.com/wza/slh.js?check_type=site_id&site_id=182" referrerpolicy="origin"></script><!--<![endif]-->
+<script>
+    window._CONFIG = {
+        isMobile: true,
+        ACTION: 'content',
+        CSRF: 'dCYRpgqHrgeTCprQurBoJ1ltSPgD9R8WpKj076uw',
+        APP_URL: 'https://dara.gd.gov.cn',
+        SITE_INFO: {"footer":"    \u003Clink type=\u0022text\/css\u0022 rel=\u0022stylesheet\u0022 href=\u0022https:\/\/cloud.gd.gov.cn\/static\/footer\/less\/site_footer.css\u0022\u003E\n    \u003Cdiv class=\u0022footer-warp\u0022\u003E\n    \u003Cdiv class=\u0022footer-warp-warp\u0022\u003E\n      \u003Cdiv class=\u0022footer\u0022\u003E\n              \u003Cdiv class=\u0022footer-left \u0022\u003E\n                  \u003Cdiv class=\u0022info-itm zficon\u0022 id=\u0022footer-tpl\u0022\n                       style=\u0022display: inline-block\u0022\u003E\n                      \u003Cdiv class=\u0022jiucuo\u0022 style=\u0022display: inline-block\u0022\u003E\n                          \u003Cscript id=\u0022_jiucuo_\u0022 sitecode=\u00274400000028\u0027\n                                  src=\u0027https:\/\/zfwzgl.www.gov.cn\/exposure\/jiucuo.js\u0027\u003E\u003C\/script\u003E\n                      \u003C\/div\u003E\n                      \u003Cdiv class=\u0022ideConac\u0022 style=\u0022display: inline-block\u0022\u003E\n                        \u003Cscript type=\u0022text\/javascript\u0022\u003Edocument.write(unescape(\u0022%3Cspan id=\u0027_ideConac\u0027 %3E%3C\/span%3E%3Cscript src=\u0027\/\/dcs.conac.cn\/js\/20\/000\/0000\/45004372\/CA200000000450043720011.js\u0027 type=\u0027text\/javascript\u0027%3E%3C\/script%3E\u0022));\u003C\/script\u003E\u003Cspan id=\u0022_ideConac\u0022\u003E\u003C\/span\u003E\n                      \u003C\/div\u003E\n                     \n                  \u003C\/div\u003E\n              \u003C\/div\u003E\n              \u003Cdiv class=\u0022footer-right\u0022\u003E\n                  \u003Cdiv\u003E\n                      \u003Cp class=\u0022top\u0022\u003E\n                          \u4e3b\u529e\u5355\u4f4d\uff1a\u5e7f\u4e1c\u7701\u519c\u4e1a\u519c\u6751\u5385\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u8054\u7cfb\u65b9\u5f0f\uff1a020-37289320\u003C\/p\u003E\n                      \u003Cp class=\u0022bottom\u0022\n                         style=\u0022display: table-cell\u0022\n                      \u003E\n                          \u003Cimg src=\u0022https:\/\/cloud.gd.gov.cn\/static\/footer\/img\/icon_ga.png\u0022 alt=\u0022\u0022\n                               style=\u0022display: inline-block\u0022\u003E\n                          \u003Ca style=\u0022color: #666;\u0022 target=\u0022_blank\u0022 href=\u0022https:\/\/beian.mps.gov.cn\/#\/query\/webSearch?code=44010602004828\u0022\u003E\u7ca4\u516c\u7f51\u5b89\u590744010602004828\u53f7\u003C\/a\u003E\n                          \u003Cspan\u003E\u003Ca style=\u0022color: #666;\u0022 href=\u0022https:\/\/beian.miit.gov.cn\/\u0022 target=\u0022_blank\u0022\u003E\u7ca4ICP\u59072021045362\u53f7\u003C\/a\u003E   \u7f51\u7ad9\u6807\u8bc6\u7801\uff1a4400000028\u003C\/span\u003E\u003Cspan style=\u0022display: inline;\u0022 class=\u0022ipv6-wrap\u0022\u003E\u7f51\u7edc\u652f\u6301 \u003Cspan class=\u0022ipv6-content\u0022\u003EIPv6\u003C\/span\u003E \u7f51\u7edc\u003C\/span\u003E\n                      \u003C\/p\u003E\n                  \u003C\/div\u003E\n              \u003C\/div\u003E\n          \u003C\/div\u003E\n      \u003C\/div\u003E\n  \u003C\/div\u003E\u003Cscript src=\u0022\/\/app.gd.gov.cn\/asset\/js\/common_pc.js\u0022 type=\u0022text\/javascript\u0022\u003E\u003C\/script\u003E\u003Clink href=\u0022\/\/app.gd.gov.cn\/asset\/css\/common_pc.css\u0022 type=\u0022text\/css\u0022 rel=\u0022stylesheet\u0022\u003E","name":"\u5e7f\u4e1c\u7701\u519c\u4e1a\u519c\u6751\u5385\u7f51\u7ad9","domain":"dara.gd.gov.cn","proto":"https","sitecode":"4400000028","org_id":61,"org_type":2,"org_name":"\u5e7f\u4e1c\u7701\u519c\u4e1a\u519c\u6751\u5385","org_display_name":"\u5e7f\u4e1c\u7701\u519c\u4e1a\u519c\u6751\u5385","org_original_name":"\u5e7f\u4e1c\u7701\u519c\u4e1a\u519c\u6751\u5385","is_ipv6":1,"has_official":1,"url":"https:\/\/dara.gd.gov.cn","inner_url":"https:\/\/dara.gd.gov.cn","host":"https:\/\/dara.gd.gov.cn","id":"182","footer_url":""},
+        SID: '182',
+        ENV: 'production',
+        DETAIL: {"id":4304756,"title":"\u5173\u4e8e2023\u5e74\u7701\u7ea7\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u63a8\u8350\u540d\u5355\u7684\u516c\u793a","subtitle":"","short_title":"","author":"","editor":"","abstract":"\u4e3a\u6301\u7eed\u63a8\u8fdb\u7701\u7ea7\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u5efa\u8bbe\uff0c\u63a8\u52a8\u63d0\u5347\u6211\u7701\u73b0\u4ee3\u519c\u4e1a\u5168\u4ea7\u4e1a\u94fe\u53d1\u5c55\u6c34\u5e73\uff0c\u6839\u636e\u300a\u5e7f\u4e1c\u7701\u4eba\u6c11\u653f\u5e9c\u529e\u516c\u5385\u5173\u4e8e\u8f6c\u53d1\u7701\u519c\u4e1a\u519c\u6751\u5385 \u7701\u4e61\u6751\u632f\u5174\u5c402021-2023\u5e74\u5168\u7701\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u5efa\u8bbe\u5de5\u4f5c\u65b9\u6848\u300b\uff08\u7ca4\u529e\u51fd\u30142021\u3015207\u53f7\uff09\u548c\u300a\u5e7f\u4e1c\u7701\u4eba\u6c11\u653f\u5e9c\u529e\u516c\u5385\u5173\u4e8e\u5370\u53d1\u90e8\u5206\u8d22\u653f\u8d44\u91d1\u8bd5\u884c\u201c\u8865\u6539\u6295\u201d\u6539\u9769\u5de5\u4f5c\u65b9\u6848\u7684\u901a\u77e5\u300b\uff08\u7ca4\u529e\u51fd\u30142023\u3015274\u53f7\uff09\u7cbe\u795e\uff0c\u7701\u519c\u4e1a\u519c\u6751\u5385\u7ec4\u7ec7\u5f00\u5c55\u4e862023\u5e74\u73e0\u4e09\u89d2\u5730\u533a\u7701\u7ea7\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u63a8\u8350\u5165\u5e93\u5de5\u4f5c\uff0c\u5e76\u8054\u5408\u7701\u8d22\u653f\u5385\u5f00\u5c552023\u5e74\u7701\u7ea7\u8d22\u653f\u8d44\u91d1\u201c\u8865\u6539\u6295\u201d\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u8bd5\u70b9\u9879\u76ee\u9074\u9009\u5de5\u4f5c\u3002","content":"\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: justify;\u0022\u003E\u3000\u3000\u4e3a\u6301\u7eed\u63a8\u8fdb\u7701\u7ea7\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u5efa\u8bbe\uff0c\u63a8\u52a8\u63d0\u5347\u6211\u7701\u73b0\u4ee3\u519c\u4e1a\u5168\u4ea7\u4e1a\u94fe\u53d1\u5c55\u6c34\u5e73\uff0c\u6839\u636e\u300a\u5e7f\u4e1c\u7701\u4eba\u6c11\u653f\u5e9c\u529e\u516c\u5385\u5173\u4e8e\u8f6c\u53d1\u7701\u519c\u4e1a\u519c\u6751\u5385 \u7701\u4e61\u6751\u632f\u5174\u5c402021-2023\u5e74\u5168\u7701\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u5efa\u8bbe\u5de5\u4f5c\u65b9\u6848\u300b\uff08\u7ca4\u529e\u51fd\u30142021\u3015207\u53f7\uff09\u548c\u300a\u5e7f\u4e1c\u7701\u4eba\u6c11\u653f\u5e9c\u529e\u516c\u5385\u5173\u4e8e\u5370\u53d1\u90e8\u5206\u8d22\u653f\u8d44\u91d1\u8bd5\u884c\u201c\u8865\u6539\u6295\u201d\u6539\u9769\u5de5\u4f5c\u65b9\u6848\u7684\u901a\u77e5\u300b\uff08\u7ca4\u529e\u51fd\u30142023\u3015274\u53f7\uff09\u7cbe\u795e\uff0c\u7701\u519c\u4e1a\u519c\u6751\u5385\u7ec4\u7ec7\u5f00\u5c55\u4e862023\u5e74\u73e0\u4e09\u89d2\u5730\u533a\u7701\u7ea7\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u63a8\u8350\u5165\u5e93\u5de5\u4f5c\uff0c\u5e76\u8054\u5408\u7701\u8d22\u653f\u5385\u5f00\u5c552023\u5e74\u7701\u7ea7\u8d22\u653f\u8d44\u91d1\u201c\u8865\u6539\u6295\u201d\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u8bd5\u70b9\u9879\u76ee\u9074\u9009\u5de5\u4f5c\u3002\u5728\u8bc4\u5ba1\u9074\u9009\u7684\u57fa\u7840\u4e0a\uff0c\u7ecf\u7701\u519c\u4e1a\u519c\u6751\u5385\u515a\u7ec4\u4f1a\u8bae\u5ba1\u8bae\u901a\u8fc7\uff0c\u73b0\u5c062023\u5e74\u7701\u7ea7\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u63a8\u8350\u540d\u5355\u4e88\u4ee5\u516c\u793a\u3002\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: justify;\u0022\u003E\u3000\u3000\u516c\u793a\u671f\u4e3a12\u670822\u65e5\u81f312\u670826\u65e5\uff0c\u82e5\u5bf9\u4e0a\u8ff0\u516c\u793a\u5982\u6709\u5f02\u8bae\uff0c\u8bf7\u5b9e\u540d\uff08\u5355\u4f4d\u4e3b\u8981\u8d1f\u8d23\u4eba\u7b7e\u5b57\u5e76\u52a0\u76d6\u516c\u7ae0\u3001\u4e2a\u4eba\u540d\u4e49\u8981\u7528\u5b9e\u540d\uff09\u4e66\u9762\u5411\u7701\u519c\u4e1a\u519c\u6751\u5385\u53d1\u5c55\u89c4\u5212\u5904\u53cd\u6620\u3002\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: justify;\u0022\u003E\u3000\u3000\u9644\u4ef6\uff1a2023\u5e74\u7701\u7ea7\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u63a8\u8350\u540d\u5355\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: justify;\u0022\u003E\u3000\u3000\u8054\u7cfb\u7535\u8bdd\uff1a\u7701\u519c\u4e1a\u519c\u6751\u5385\u53d1\u5c55\u89c4\u5212\u5904020\u201437288750\uff0c\u4f20\u771f\u7535\u8bdd\uff1a020\u201437288489\u3002\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: right;\u0022\u003E\u3000\u3000\u5e7f\u4e1c\u7701\u519c\u4e1a\u519c\u6751\u5385\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: right;\u0022\u003E\u3000\u30002023\u5e7412\u670821\u65e5\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: justify;\u0022\u003E\u3000\u3000\u9644\u4ef6:\u003C\/p\u003E\u003Cp indenttext=\u0022\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: center;\u0022\u003E\u003Cstrong\u003E2023\u5e74\u7701\u7ea7\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u63a8\u8350\u540d\u5355\u003C\/strong\u003E\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: justify;\u0022\u003E\u3000\u3000\u003Cstrong\u003E\u4e00\u30012023\u5e74\u7701\u7ea7\u8d22\u653f\u8d44\u91d1\u201c\u8865\u6539\u6295\u201d\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u8bd5\u70b9\u9879\u76ee\u003C\/strong\u003E\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: justify;\u0022\u003E\u3000\u30001.\u6885\u6c5f\u533a\u5ba2\u5bb6\u9884\u5236\u83dc\u201c\u8865\u6539\u6295\u201d\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\uff1b\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: justify;\u0022\u003E\u3000\u30002.\u82f1\u5fb7\u5e02\u897f\u725b\u9ebb\u7af9\u7b0b\u201c\u8865\u6539\u6295\u201d\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\uff1b\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: justify;\u0022\u003E\u3000\u30003.\u6000\u96c6\u53bf\u755c\u79bd\u52a0\u5de5\u201c\u8865\u6539\u6295\u201d\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u3002\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: justify;\u0022\u003E\u3000\u3000\u003Cstrong\u003E\u4e8c\u30012023\u5e74\u73e0\u4e09\u89d2\u5730\u533a\u7701\u7ea7\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u003C\/strong\u003E\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: justify;\u0022\u003E\u3000\u30001.\u73e0\u6d77\u5e02\u4e07\u5c71\u6d77\u6d0b\u5f00\u53d1\u8bd5\u9a8c\u533a\u6d77\u6d0b\u6e14\u4e1a\u4ea7\u4e1a\u56ed\uff1b\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: justify;\u0022\u003E\u3000\u30002.\u4f5b\u5c71\u5e02\u4e09\u6c34\u533a\u9884\u5236\u83dc\u4ea7\u4e1a\u56ed\uff1b\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: justify;\u0022\u003E\u3000\u30003.\u4e1c\u839e\u5e02\u9884\u5236\u83dc\u4ea7\u4e1a\u56ed\uff1b\u003C\/p\u003E\u003Cp indenttext=\u0022\u3000\u3000\u0022 noextractcontent=\u0022true\u0022 style=\u0022text-align: justify;\u0022\u003E\u3000\u30004.\u4e2d\u5c71\u5e02\u7f8e\u98df\u9884\u5236\u83dc\u4ea7\u4e1a\u56ed\u3002\u003C\/p\u003E","source":"\u672c\u7f51","category":42224,"sync_cats":"","first_publish_time":1703210651,"publish_time":1766979099,"display_publish_time":1703209549,"create_time":1703209663,"type":"normal","linked":0,"origin_url":"","pages":0,"url":"https:\/\/dara.gd.gov.cn\/zwgk\/tzgg\/content\/post_4304756.html","keywords":null,"attachment":[],"json_ext":"[]","gkml_url":"https:\/\/dara.gd.gov.cn\/gkmlpt\/content\/4\/4304\/post_4304756.html","site":182,"site_domain":"dara.gd.gov.cn","service_area_id":1,"gkml_data":{"id":4304756,"identifier":"006939908\/2023-00638","identifier_f":"006939908","identifier_b":"2023-00638","title":"\u5173\u4e8e2023\u5e74\u7701\u7ea7\u73b0\u4ee3\u519c\u4e1a\u4ea7\u4e1a\u56ed\u63a8\u8350\u540d\u5355\u7684\u516c\u793a","description":"","date":1703088000,"validity":0,"document_number":"","publisher":"\u5e7f\u4e1c\u7701\u519c\u4e1a\u519c\u6751\u5385","keywords":"","category":"","online":"","format":"HTML","language":"zh","is_expired":0,"expired_time":0,"metadata_date":0,"relation":"[]","classify_main":1603,"classify_genre":2803,"classify_theme":0,"classify_main_name":"\u901a\u77e5\u516c\u544a","classify_genre_name":"\u516c\u544a","classify_theme_name":"","site":182,"migrate_id":0,"product_id":0,"is_abolished":0,"abolished_time":0,"gkml_top":0},"cover":false,"cover_thumb":false,"covers":[],"date":"2023-12-22","related_posts":[],"related_error":"JustEmpty","updated":"2025-12-29 11:31:39"},
+        TREE: [{"id":2709,"name":"\u653f\u5e9c\u4fe1\u606f\u516c\u5f00\u6307\u5357","parent":0,"jump_url":"","children":[]},{"id":1598,"name":"\u7ec4\u7ec7\u673a\u6784","parent":0,"jump_url":"","children":[{"id":1599,"name":"\u9886\u5bfc\u5206\u5de5","parent":1598,"jump_url":"","children":[]},{"id":1600,"name":"\u673a\u6784\u804c\u80fd","parent":1598,"jump_url":"","children":[]}]},{"id":3879,"name":"\u653f\u5e9c\u4fe1\u606f\u516c\u5f00","parent":0,"jump_url":"","children":[{"id":1612,"name":"\u516c\u5f00\u5e74\u62a5","parent":3879,"jump_url":"","children":[]},{"id":3892,"name":"\u516c\u5f00\u5236\u5ea6","parent":3879,"jump_url":"http:\/\/www.gd.gov.cn\/zwgk\/zfxxgkzdwj\/","children":[]},{"id":3891,"name":"\u4f9d\u7533\u8bf7\u516c\u5f00","parent":3879,"jump_url":"https:\/\/ysqgk.gd.gov.cn\/61\/choice","children":[]}]},{"id":1601,"name":"\u653f\u7b56","parent":0,"jump_url":"","children":[{"id":1602,"name":"\u89c4\u8303\u6027\u6587\u4ef6","parent":1601,"jump_url":"","children":[]},{"id":1603,"name":"\u901a\u77e5\u516c\u544a","parent":1601,"jump_url":"","children":[]},{"id":1604,"name":"\u5176\u4ed6\u6587\u4ef6","parent":1601,"jump_url":"","children":[]}]},{"id":1610,"name":"\u5de5\u4f5c\u52a8\u6001","parent":0,"jump_url":"","children":[]},{"id":3046,"name":"\u65b0\u95fb\u53d1\u5e03\u4f1a","parent":0,"jump_url":"","children":[]},{"id":1609,"name":"\u884c\u653f\u8bb8\u53ef","parent":0,"jump_url":"http:\/\/www.gdzwfw.gov.cn\/portal\/v2\/branch-hall?orgCode=006939908\u0026tab=3","children":[]},{"id":3045,"name":"\u89c4\u5212\u7edf\u8ba1","parent":0,"jump_url":"","children":[]},{"id":1611,"name":"\u8d22\u653f\u9884\u51b3\u7b97","parent":0,"jump_url":"","children":[]},{"id":1606,"name":"\u884c\u653f\u5904\u7f5a","parent":0,"jump_url":"","children":[]},{"id":3047,"name":"\u56de\u5e94\u4e92\u52a8","parent":0,"jump_url":"https:\/\/dara.gd.gov.cn\/hdjlpt","children":[]},{"id":2815,"name":"\u5176\u4ed6","parent":0,"jump_url":"","children":[]},{"id":2710,"name":"\u653f\u5e9c\u4fe1\u606f\u4f9d\u7533\u8bf7\u516c\u5f00","parent":0,"jump_url":"http:\/\/ysq.gd.gov.cn\/step1.php?u=19","children":[]}],
+        SERVICE_AREA_ID: '',
+        SITE_JSONP_URL: 'https://cloud.gd.gov.cn'.replace('https:','').replace('http:',''),
+        SEARCH_JSONP_URL: '//search.gd.gov.cn/jsonp',
+        RELATED_POST_JSONP_URL: '' || 'https://api.cloud.gd.gov.cn/cms/relatedlist',
+        SX_URL: '' || '//cloud.gd.gov.cn/sxauth',
+        STATISTICS_JSONP_URL: '' || '//statistics.gd.gov.cn',
+        MY_FAV_URL: '' || '//service.gd.gov.cn/collection'
+    };
+
+    window._CONFIG.RELATED_POST_JSONP_URL = window._CONFIG.RELATED_POST_JSONP_URL.replace('https:', '').replace('http:', '');
+
+    function handleHash() {
+        window._CONFIG.isFav = 0;
+        var hash = window.location.hash;
+        if (hash) {
+            window._CONFIG.isFav = hash.indexOf('?fav=1') > -1;
+            hash = hash.replace('?fav=1', '');
+            window.location.hash = hash;
+        }
+    }
+
+    handleHash();
+    </script>
+
+
+    
+    <link rel="stylesheet" href="/gkmlpt/gkml/public/audiojs/audiojs.css">
+    <link rel="stylesheet" href="/gkmlpt/gkml/public/plugins/share.css">
+    <link rel="stylesheet" href="//g.alicdn.com/de/prismplayer/2.7.4/skins/default/aliplayer-min.css"/>
+    <script src="/gkmlpt/gkml/public/plugins/jquery.share.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/gkmlpt/gkml/public/audiojs/audio.min.js"></script>
+    <script charset="utf-8" type="text/javascript" src="//g.alicdn.com/de/prismplayer/2.7.4/aliplayer-min.js"></script>
+
+<link href="/gkmlpt/gkml/pc/css/content.0c51eb50.css" rel="stylesheet"></head>
+<body style='visibility: hidden'>
+<div class="header" style="background-image: url(/gkmlpt/gkml/pc/images/topbg.fed0cbd5.png);background-size:100% 365px;">
+    <div class="header__content">
+        <div class="header__top">
+            <div class="header__limit-box">
+                <div class="header__top-left">
+                    <img class="header__guohui" src="/gkmlpt/gkml/pc/images/gtrs_logo_lt.081aca90.png" alt="">
+                    <a href="https://dara.gd.gov.cn" class="header__org-name  ">
+                        广东省农业农村厅
+                    </a>
+                </div>
+                <div class="header__btns">
+                    <span id="my-wza" class="header__btns-item">&#xe7e3; 无障碍</span>&nbsp;&nbsp;
+                    <span id="my-slh" class="header__btns-item">&#xe806; 长者助手</span>
+                    <a href="" id="my-fav" class="header__btns-item">我的收藏</a>&nbsp;&nbsp;<a id="add-fav" class="header__btns-item">&#xe705; 收藏</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__title">
+            <span class='header__title--search'>政府信息公开</span>
+            <span class='header__title--policy'>规章库</span>
+        </div>
+        <div class="header__split"></div>
+    </div>
+</div>
+<script>
+// 处理锚点跳转 后退按钮无效的问题
+window.addEventListener("popstate", function (e) {
+    if (window.location.href.includes('/content/')) {
+        return;
+    }
+    let url = window.location.href; // 即将前往的
+    let id = $(".side-bar #tree li.active").attr("data-id"); // 当前tree定位到的
+    if (id && id == url.split('#')[1]) {
+        return;
+    }
+    let goid = window.location.href.split("#")[1];
+    if(!goid) {
+        this.location.reload();
+        return;
+    }
+    $('.side-bar #tree li[data-id=' + goid + ']>p').trigger('click');
+    $('.side-bar #tree li[data-id=' + goid + ']').addClass('active');
+    let temp = $('.side-bar #tree li[data-id=' + goid + ']').parents('li.hasChild.render');
+    if (!temp) {
+        return;
+    }
+    // 自动展开父分类
+    for (let i = 0; i < temp.length; i++) {
+        temp.eq(i).find('>.icon').text() === '+' && temp.eq(i).find('>.icon').trigger('click');
+    }
+}, true);
+</script>
+
+
+<div class="content-container">
+    <div class="search" wzades="信息公开内容搜索工具">
+    <div class='policy-search-tip'>
+        <span></span>
+    </div>
+    <div class="search__split with-left"></div>
+    <div id="search-form"
+         class="search__form">
+        <input type="text" autocomplete="off"
+               class="search__form-input"
+               name="keywords" id="input-keywords">
+        <button type="button" class="search__form-button"
+                id="search-button-gkml">&#xe6ea;
+        </button>
+        <button type="button" class="search__form-button"
+                id="standard-search__form-button">&#xe6ea;
+        </button>
+        <button type="button" class='search__form-button' id="policy-search__form-button">&#xe6ea;
+        </button>
+        <div type="button" class='policy-search__detail-button' id="policy-search__detail-button">
+            高级搜索
+        </div>
+        <!--信息公开的搜索-->
+        <div class='search-radioGroup'>
+            <span>搜索位置</span>
+            <input type='radio' name='position0' value='title' id='search-title0'><i>&nbsp;&nbsp;标题</i>
+            <input type='radio' name='position0' value='all' id='search-all0'><i>&nbsp;&nbsp;全文</i>
+            <span>排序方式</span>
+            <input type='radio' name='sort0' value='time' id='sort-time0'><i>&nbsp;&nbsp;按时间</i>
+            <input type='radio' name='sort0' value='relative' id='sort-relative0'><i>&nbsp;&nbsp;按相关度</i>
+        </div>
+        <!--规范性文件库、规章库的搜索 <input type='radio' name='status2' value='2' class='status-2'><i>&nbsp;&nbsp;已废止</i>-->
+        <div class='radioGroup'>
+            <span class='title'>搜索位置</span>
+            <input type='radio' name='position2' value='title' class='search-title' checked='true'><i>&nbsp;&nbsp;标题</i>
+            <input type='radio' name='position2' value='all' class='search-all'><i>&nbsp;&nbsp;全文</i>
+            <span class='file-status'>
+                <span class='title'>文件状态</span>
+                <input type='radio' name='status2' value='all' class='status-all' checked='true'><i>&nbsp;&nbsp;不限</i>
+                <input type='radio' name='status2' value='0' class='status-0'><i>&nbsp;&nbsp;现行有效</i>
+                <input type='radio' name='status2' value='1' class='status-1'><i>&nbsp;&nbsp;已失效</i>
+            </span>
+        </div>
+    </div>
+    <div class="search__split with-right"></div>
+    <div class='mask'></div>
+    <div class='detail-search-box'>
+        <div class='detail-search-title'>高级搜索
+            <span class='cloud-btn'>收起<i></i></span>
+        </div>
+        <div class='search-policy-radio'>
+            <div class='keyword'>
+                <span>搜索以下关键词</span>
+                <input type='text' class='detail-keyword' placeholder='请输入关键词'>
+            </div>
+            <div>
+                <span>搜索位置</span>
+                <input type='radio' name='position' value='title' id='search-title' checked='true'><i>&nbsp;&nbsp;标题</i>
+                <input type='radio' name='position' value='all' id='search-all'><i>&nbsp;&nbsp;全文</i>
+            </div>
+            <div>
+                <span>排序方式</span>
+                <input type='radio' name='sort' value='time' id='sort-time'><i>&nbsp;&nbsp;按时间</i>
+                <input type='radio' name='sort' value='relative' id='sort-relative' checked='true'><i>&nbsp;&nbsp;按相关度</i>
+            </div>
+            <div class='status'>
+                <span>文件状态</span>
+                <input type='radio' name='status' value='all' id='status-all' checked='true'><i>&nbsp;&nbsp;不限</i>
+                <input type='radio' name='status' value='0' id='status-0'><i>&nbsp;&nbsp;现行有效</i>
+                <input type='radio' name='status' value='1' id='status-1'><i>&nbsp;&nbsp;已失效</i>
+                <!--<input type='radio' name='status' value='2' id='status-2'><i>&nbsp;&nbsp;已废止</i>-->
+            </div>
+        </div>
+        <div type="button" class='detail-search-btn'>
+            搜索
+        </div>
+    </div>
+</div>
+
+    <div class="nav__slot"></div>
+    <script>
+    (function () {
+        var hash = '#' + "1603";
+        if (hash !== window.location.hash) {
+            window.location.hash = '1603';
+        }
+    })();
+</script>
+
+<h1 class="print-title">广东省农业农村厅政府信息公开</h1>
+<div class="slide__slot">
+
+</div>
+<div class="content-wrapper">
+    <div class="content-wrapper__router"></div>
+    <div class='policy-content-header'>
+        <div class='policy-content-org'>
+            <img class="header__guohui" src="/gkmlpt/gkml/pc/images/gtrs_logo_lt.081aca90.png" alt="">
+            <span>规章</span>
+        </div>
+        <div class='policy-content-download'>
+            <div class='download-text'>
+                <a>下载文字版</a>
+            </div>
+            <div class='download-image'>
+                <a>下载图片版</a>
+            </div>
+        </div>
+    </div>
+    <div class="content-box" wzades="信息公开内容索引信息" style="padding: 0 20px">
+        <div class="classify">
+            <table>
+                <tr>
+                    <td class="first">
+                        索引号：
+                    </td>
+                    <td class="td-value-xl">
+                        <span title="006939908/2023-00638">006939908/2023-00638</span>
+                    </td>
+                    <td class="second">
+                        分类：
+                    </td>
+                    <td class="td-value">
+                        <span>公告</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first">
+                        发布机构：
+                    </td>
+                    <td class="td-value-xl"><span>广东省农业农村厅</span></td>
+                    <td class="second">
+                        成文日期：<i></i>
+                    </td>
+                    <td class="td-value">
+                        <span>2023-12-21</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="all" style="vertical-align: top">
+                        名称：
+                    </td>
+                    <td class="td-value" colspan="3"><span class="document-number"
+                                                           title="关于2023年省级现代农业产业园推荐名单的公示">关于2023年省级现代农业产业园推荐名单的公示</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first">
+                        文号：
+                    </td>
+                    <td class="td-value-xl"><span class="document-number"></span></td>
+                    <td class="second">
+                        发布日期：
+                    </td>
+                    <td class="td-value"><span>2023-12-22</span></td>
+                </tr>
+                <tr class='last-tr'>
+                    <td class="all">
+                        主题词：
+                    </td>
+                    <!-- colspan="3" -->
+                    <td class="td-value first-value"
+                        colspan='3'>
+                        <span></span>
+                    </td>
+                    <!--
+                                        -->
+                    <!--
+                    <td class="second">
+                        文件状态：
+                    </td>
+                                        <td class="td-value second-value">
+                        <span>现行有效</span>
+                    </td>
+                    -->
+                </tr>
+            </table>
+                    </div>
+        <div class="op-row">
+            <div class="left">
+                <span class="print">【打印】</span>
+                <span>【字体：<span class="font-size active" data-val="16px">大</span>&nbsp;&nbsp;<span class="font-size"
+                                                                                                   data-val="14px">中</span>&nbsp;&nbsp;<span
+                            class="font-size" data-val="12px">小</span>】</span>
+            </div>
+            <div class="right">
+                <div class="shareIcon" style="width:170px;">
+                    <span class="text">分享到</span>：
+                    <div id="share-1" style="display: inline-block;" data-sites="wechat ,weibo, qq"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content" style="margin-top: 30px" wzades="信息公开内容正文详情" >
+            <h1 class="title document-number">关于2023年省级现代农业产业园推荐名单的公示</h1>
+            <div class="date-row">
+                发布日期：2023-12-22&nbsp;&nbsp;浏览次数：<span id="post-visit">-</span>
+            </div>
+                        <div class='policy-abstract'>
+                (为持续推进省级现代农业产业园建设，推动提升我省现代农业全产业链发展水平，根据《广东省人民政府办公厅关于转发省农业农村厅 省乡村振兴局2021-2023年全省现代农业产业园建设工作方案》（粤办函〔2021〕207号）和《广东省人民政府办公厅关于印发部分财政资金试行“补改投”改革工作方案的通知》（粤办函〔2023〕274号）精神，省农业农村厅组织开展了2023年珠三角地区省级现代农业产业园推荐入库工作，并联合省财政厅开展2023年省级财政资金“补改投”现代农业产业园试点项目遴选工作。)
+            </div>
+                        <div class="article-content">
+                <p indenttext="　　" noextractcontent="true" style="text-align: justify;">　　为持续推进省级现代农业产业园建设，推动提升我省现代农业全产业链发展水平，根据《广东省人民政府办公厅关于转发省农业农村厅 省乡村振兴局2021-2023年全省现代农业产业园建设工作方案》（粤办函〔2021〕207号）和《广东省人民政府办公厅关于印发部分财政资金试行“补改投”改革工作方案的通知》（粤办函〔2023〕274号）精神，省农业农村厅组织开展了2023年珠三角地区省级现代农业产业园推荐入库工作，并联合省财政厅开展2023年省级财政资金“补改投”现代农业产业园试点项目遴选工作。在评审遴选的基础上，经省农业农村厅党组会议审议通过，现将2023年省级现代农业产业园推荐名单予以公示。</p><p indenttext="　　" noextractcontent="true" style="text-align: justify;">　　公示期为12月22日至12月26日，若对上述公示如有异议，请实名（单位主要负责人签字并加盖公章、个人名义要用实名）书面向省农业农村厅发展规划处反映。</p><p indenttext="　　" noextractcontent="true" style="text-align: justify;">　　附件：2023年省级现代农业产业园推荐名单</p><p indenttext="　　" noextractcontent="true" style="text-align: justify;">　　联系电话：省农业农村厅发展规划处020—37288750，传真电话：020—37288489。</p><p indenttext="　　" noextractcontent="true" style="text-align: right;">　　广东省农业农村厅</p><p indenttext="　　" noextractcontent="true" style="text-align: right;">　　2023年12月21日</p><p indenttext="　　" noextractcontent="true" style="text-align: justify;">　　附件:</p><p indenttext="" noextractcontent="true" style="text-align: center;"><strong>2023年省级现代农业产业园推荐名单</strong></p><p indenttext="　　" noextractcontent="true" style="text-align: justify;">　　<strong>一、2023年省级财政资金“补改投”现代农业产业园试点项目</strong></p><p indenttext="　　" noextractcontent="true" style="text-align: justify;">　　1.梅江区客家预制菜“补改投”现代农业产业园；</p><p indenttext="　　" noextractcontent="true" style="text-align: justify;">　　2.英德市西牛麻竹笋“补改投”现代农业产业园；</p><p indenttext="　　" noextractcontent="true" style="text-align: justify;">　　3.怀集县畜禽加工“补改投”现代农业产业园。</p><p indenttext="　　" noextractcontent="true" style="text-align: justify;">　　<strong>二、2023年珠三角地区省级现代农业产业园</strong></p><p indenttext="　　" noextractcontent="true" style="text-align: justify;">　　1.珠海市万山海洋开发试验区海洋渔业产业园；</p><p indenttext="　　" noextractcontent="true" style="text-align: justify;">　　2.佛山市三水区预制菜产业园；</p><p indenttext="　　" noextractcontent="true" style="text-align: justify;">　　3.东莞市预制菜产业园；</p><p indenttext="　　" noextractcontent="true" style="text-align: justify;">　　4.中山市美食预制菜产业园。</p>
+                <br>
+                            </div>
+            <div class="article-content policy-article-content" style="width: 700px">
+                
+            </div>
+            <div class="tab__slot">
+
+            </div>
+            <script>
+                $('#share-1').share();
+                $('#share-2').share({sites: ['qzone', 'qq', 'weibo', 'wechat']});
+                $('#share-3').share();
+                $('#share-4').share();
+            </script>
+        </div>
+    </div>
+    <div class='policy-content-footer'>
+        <span>发布</span>
+    </div>
+</div>
+
+</div>
+
+    <link type="text/css" rel="stylesheet" href="https://cloud.gd.gov.cn/static/footer/less/site_footer.css">
+    <div class="footer-warp">
+    <div class="footer-warp-warp">
+      <div class="footer">
+              <div class="footer-left ">
+                  <div class="info-itm zficon" id="footer-tpl"
+                       style="display: inline-block">
+                      <div class="jiucuo" style="display: inline-block">
+                          <script id="_jiucuo_" sitecode='4400000028'
+                                  src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+                      </div>
+                      <div class="ideConac" style="display: inline-block">
+                        <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='//dcs.conac.cn/js/20/000/0000/45004372/CA200000000450043720011.js' type='text/javascript'%3E%3C/script%3E"));</script><span id="_ideConac"></span>
+                      </div>
+                     
+                  </div>
+              </div>
+              <div class="footer-right">
+                  <div>
+                      <p class="top">
+                          主办单位：广东省农业农村厅&nbsp;&nbsp;&nbsp;&nbsp;联系方式：020-37289320</p>
+                      <p class="bottom"
+                         style="display: table-cell"
+                      >
+                          <img src="https://cloud.gd.gov.cn/static/footer/img/icon_ga.png" alt=""
+                               style="display: inline-block">
+                          <a style="color: #666;" target="_blank" href="https://beian.mps.gov.cn/#/query/webSearch?code=44010602004828">粤公网安备44010602004828号</a>
+                          <span><a style="color: #666;" href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021045362号</a>   网站标识码：4400000028</span><span style="display: inline;" class="ipv6-wrap">网络支持 <span class="ipv6-content">IPv6</span> 网络</span>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div><script src="//app.gd.gov.cn/asset/js/common_pc.js" type="text/javascript"></script><link href="//app.gd.gov.cn/asset/css/common_pc.css" type="text/css" rel="stylesheet">
+
+<script src="/gkmlpt/gkml/pc/js/chunk-vendors.a93822f8.js"></script><script src="/gkmlpt/gkml/pc/js/chunk-common.31a3b150.js"></script><script src="/gkmlpt/gkml/pc/js/content.0c51eb50.js"></script></body>
+</html>

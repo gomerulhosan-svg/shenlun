@@ -48,7 +48,7 @@ def mother_sections(text):
 
 def trace_sources(text):
     """溯源结果：每段 → [(来源标题, 贴的原文)]。"""
-    blocks = re.split(r'\n### (材料[一二三四五六七八九十]+〔\d+〕)\n', text)
+    blocks = re.split(r'\n#{2,3} *(材料[一二三四五六七八九十]+〔\d+〕)[^\n]*\n', text)
     out = {}
     for k in range(1, len(blocks), 2):
         srcs = re.split(r'\n- 来源\d*：', '\n' + blocks[k + 1])
