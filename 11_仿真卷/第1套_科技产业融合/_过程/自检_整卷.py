@@ -159,7 +159,7 @@ def main():
 
     # 对象词位置与密度
     print('  问题一对象词（每千字）：')
-    for w in ('人工智能+', '公共服务场景'):
+    for w in ('人工智能+', '公共服务领域'):   # 问题一题干「在公共服务领域深化拓展“人工智能+”」的两个对象词（定稿核查时题干改用 R26 原话）
         dens = {k: 1000 * ''.join(M[k].values()).count(w) / per[k] for k in order}
         first3 = [n for n in (1, 2, 3) if w in M[k1].get(n, '')]
         top = max(dens, key=dens.get)
@@ -307,7 +307,8 @@ def main():
             if not all(x in M[k].get(int(n), '') for x in parts):
                 notin.append((rid, k, n, frag[:20]))
             cover.setdefault((k, int(n)), []).extend(parts)
-        print(f'  登记 {len(rows)} 条，按类别 {cnt}；原文不在登记段里的 {len(notin)} 条', notin)
+        dual = re.findall(r'^\| (M[35]-\d+) \|[^|]*\|[^|]*\| [^|]*；示意', note, re.M)   # 双标注（合成；示意），上面按第一个标注计
+        print(f'  登记 {len(rows)} 条，按类别 {cnt}（按第一个标注计；另有双标注 {dual}）；原文不在登记段里的 {len(notin)} 条', notin)
         # 覆盖检查：数字、数量词、时间词按段查（登记在同一段才算）；字母化名、姓＋称谓按则查（同一则登记过一次即可）
         num_pat = re.compile(r'[0-9]+(?:\.[0-9]+)?%?|[几上两三十百千万]+(?:多|余)?(?:个|家|批|张|秒钟|分钟|小时|天|成|架次|岁|部门|件|栋)|'
                              r'超过千万|大半天|一个多月|今年以来|今年汛期|今年\d+月|一年前|这两年|去年|近日|年初')
@@ -328,7 +329,7 @@ def main():
                         uncovered.append(f'材料{k}〔{n}〕{tok}')
         print(f'  小题材料里抽出的数字、数量词、时间词、化名、人物 {ntok} 处；没有被登记覆盖的 {len(uncovered)} 处', uncovered)
         if notin or uncovered: fails.append('合成登记不全或原文对不上')
-        R['登记'] = (len(rows), cnt, len(notin), ntok, len(uncovered))
+        R['登记'] = (len(rows), cnt, len(notin), ntok, len(uncovered), dual)
     else:
         print('  命题说明.md 还没有，跳过')
 
@@ -350,7 +351,7 @@ def main():
                  re.search(r'引语 (\d+) 处', out2).group(1), re.search(r'段号、句号引用 (\d+) 处；带引文 (\d+) 条；对不上 (\d+) 条', out3).groups(),
                  re.search(r'「来源：」行里的引文片段 (\d+) 个；贴不回材料的 (\d+) 个', out3).groups())
 
-    print('\n结论：', '全部通过（时效一项不达标，按已知缺口单列，不计入）' if not fails else f'有 {len(fails)} 项不通过：{fails}；另时效一项不达标，按已知缺口单列')
+    print('\n结论：', '除时效一项外均通过（时效不达标，是出卷日所限，按已知缺口单列）' if not fails else f'有 {len(fails)} 项不通过：{fails}；另时效一项不达标，按已知缺口单列')
     if md:
         print_md(R)
     return 1 if fails else 0
@@ -382,8 +383,9 @@ def print_md(R):
     r = R['段号']
     print(f'| 答案引用的段号在试卷里都存在 | — | 引到不同的段 {r[0]} 个，不存在 {r[1]} 个，认不出则号 {r[2]} 个；`核对_答案引文.py` 段号句号引用 {s[3][0]} 处、带引文 {s[3][1]} 条、对不上 {s[3][2]} 条，「来源」片段 {s[4][0]} 个、贴不回 {s[4][1]} 个 |')
     if R['登记']:
-        n, cnt, bad, ntok, unc = R['登记']
-        print(f'| 小题材料合成／示意逐条登记 | 规范第二节 | 登记 {n} 条（' + '、'.join(f'{k} {v}' for k, v in cnt.items()) + f'）；原文对不上 {bad} 条；材料里抽出的数字、时间词、化名、人物 {ntok} 处，未登记 {unc} 处 |')
+        n, cnt, bad, ntok, unc, dual = R['登记']
+        dn = f'；{"、".join(dual)} 双标注"合成；示意"，按第一个标注计入合成，按标注计示意共 {cnt.get("示意", 0) + len(dual)} 条' if dual else ''
+        print(f'| 小题材料合成／示意逐条登记 | 规范第二节 | 登记 {n} 条（' + '、'.join(f'{k} {v}' for k, v in cnt.items()) + f'{dn}）；原文对不上 {bad} 条；材料里抽出的数字、时间词、化名、人物 {ntok} 处，未登记 {unc} 处 |')
 
 
 if __name__ == '__main__':
