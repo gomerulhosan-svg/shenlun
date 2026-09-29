@@ -132,6 +132,44 @@ def load(d):
 
 
 # ---------------------------------------------------------------- 去重
+def para_dups(d):
+    """段层面的重复（只作说明，分析单位仍是例子）：按卷序、文章号、段号过全部底表段，
+    一段的文字（去标点）有 ≥80% 的 8 字串已出现在前面别的文章（别卷或同卷另一快照）里，就算重复段。
+    返回 (各标的段数, 重复段 Counter((标, 跨卷/同卷)), 跨卷卷对 Counter, 与先出现副本标不同的段数)"""
+    pool = defaultdict(dict)   # 8 字串 -> {(卷, 文章): 标}
+    tot, dup, pairs = Counter(), Counter(), Counter()
+    conflict = 0
+    for p in PAPERS:
+        blind = json.load(open(os.path.join(d, 'blind', p + '.json'), encoding='utf-8'))
+        key = json.load(open(os.path.join(d, 'key', p + '.json'), encoding='utf-8'))['段']
+        for a in blind['文章']:
+            unit = (p, a['编号'])
+            for sg in a['段']:
+                t = norm(sg['文'])
+                tag = key[sg['id']]['标']
+                tot[tag] += 1
+                mark = [False] * len(t)
+                owner = Counter()
+                for i in range(len(t) - NG + 1):
+                    us = [u for u in pool.get(t[i:i + NG], {}) if u != unit]
+                    if us:
+                        for u in us:
+                            owner[u] += 1
+                        for j in range(i, i + NG):
+                            mark[j] = True
+                if t and sum(mark) / len(t) >= DUP_TH:
+                    o = owner.most_common(1)[0][0]
+                    dup[(tag, '跨卷' if o[0] != p else '同卷')] += 1
+                    if o[0] != p:
+                        pairs[(o[0], p)] += 1
+                    otag = Counter(pool[t[i:i + NG]].get(o) for i in range(len(t) - NG + 1)
+                                   if o in pool.get(t[i:i + NG], {})).most_common(1)[0][0]
+                    conflict += {otag, tag} == {'选用', '未选'}
+                for g in grams(t):
+                    pool[g].setdefault(unit, tag)
+    return tot, dup, pairs, conflict
+
+
 def dedup(cases, prefer_selected=False):
     """返回 (保留的例子, 去掉的例子[(例子, 覆盖率, 覆盖它的例子)], 部分重叠数)"""
     rank = {'选用': 0, '未选': 1}
@@ -195,9 +233,14 @@ def wkappa(xs, ys, cats=(0, 1, 2)):
     return None if pe >= 1 else (po - pe) / (1 - pe)
 
 
-def perm_test(items, fns, nperm, seed):
+NBOOT = 2000
+
+
+def perm_test(items, fns, nperm, seed, nboot=NBOOT):
     """items: [(层, 是否选用, 标注字典)]；fns: [(名字, 取值函数, 方向)]。
-    返回 {名字: 结果}，并附 '_meta'。只有同时含选用和未选的层参加置换。"""
+    返回 {名字: 结果}，并附 '_meta'。只有同时含选用和未选的层参加置换。
+    in_sel / in_un 是按 w = n选·n未/n 加权的文章内比例，两者之差就是 mh；
+    ci 是按文章整群重抽（nboot 次）的 mh 的 95% 百分位区间。"""
     F = len(fns)
     allsel = [[] for _ in range(F)]
     allun = [[] for _ in range(F)]
@@ -216,6 +259,7 @@ def perm_test(items, fns, nperm, seed):
     s0 = [0.0] * F
     n1t = n0t = 0
     prep = []
+    bw = []     # 每层 (w, [S - n1·T/n], [w·p选], [w·p未])
     for u, rows in part:
         n = len(rows)
         n1 = sum(1 for s, _ in rows if s)
@@ -224,13 +268,17 @@ def perm_test(items, fns, nperm, seed):
         n1t += n1
         n0t += n0
         X = [v for _, v in rows]
+        w = n1 * n0 / n
+        dv, a1, a0 = [], [], []
         for f in range(F):
             T = sum(x[f] for x in X)
             S = sum(v[f] for s, v in rows if s)
             obs[f] += S
             exp_[f] += n1 * T / n
-            s1[f] += S
-            s0[f] += T - S
+            s1[f] += w * S / n1
+            s0[f] += w * (T - S) / n0
+            dv.append(S - n1 * T / n)
+        bw.append((w, dv))
         prep.append((n, n1, X))
     res = {'_meta': {'层数': len(part), '选用': n1t, '未选': n0t,
                      '全_选用': len(allsel[0]) if F else 0, '全_未选': len(allun[0]) if F else 0}}
@@ -259,8 +307,20 @@ def perm_test(items, fns, nperm, seed):
                 le[f] += 1
             if abs(a - exp_[f]) >= dev[f]:
                 ab[f] += 1
+    brng = random.Random(seed + 1)
+    boots = [[] for _ in range(F)]
+    K = len(bw)
+    for _ in range(nboot):
+        pick = [bw[brng.randrange(K)] for _ in range(K)]
+        sw = sum(w for w, _ in pick)
+        for f in range(F):
+            boots[f].append(sum(dv[f] for _, dv in pick) / sw)
     for f, (name, fn, d, *_r) in enumerate(fns):
         mh = (obs[f] - exp_[f]) / W
+        ci = None
+        if nboot:
+            b = sorted(boots[f])
+            ci = (b[int(0.025 * nboot)], b[min(nboot - 1, int(0.975 * nboot))])
         p1 = None
         if d > 0:
             p1 = (1 + ge[f]) / (1 + nperm)
@@ -269,7 +329,7 @@ def perm_test(items, fns, nperm, seed):
         res[name] = {
             'all_sel': statistics.mean(allsel[f]) if allsel[f] else None,
             'all_un': statistics.mean(allun[f]) if allun[f] else None,
-            'in_sel': s1[f] / n1t, 'in_un': s0[f] / n0t, 'mh': mh,
+            'in_sel': s1[f] / W, 'in_un': s0[f] / W, 'mh': mh, 'ci': ci,
             'p2': (1 + ab[f]) / (1 + nperm), 'p1': p1, 'dir': d,
         }
     return res
@@ -399,6 +459,14 @@ def pv(x):
     return '<0.001' if x < 0.001 else '%.3f' % x
 
 
+def cip(ci):
+    return '—' if ci is None else '[%+.1f, %+.1f]' % (100 * ci[0], 100 * ci[1])
+
+
+def cim(ci):
+    return '—' if ci is None else '[%+.2f, %+.2f]' % ci
+
+
 def num(x, k=2):
     return '—' if x is None else ('%.' + str(k) + 'f') % x
 
@@ -412,20 +480,20 @@ def table(head, rows):
 def feat_table(res, names, mean_names=()):
     m = res['_meta']
     head = ['特征', '预期', '全部·选用组', '全部·未选组', '全部·差(pp)',
-            '文章内·选用组', '文章内·未选组', '文章内差值(MH, pp)', 'p 双侧', 'p 单侧(预期方向)']
+            '文章内·选用组', '文章内·未选组', '文章内差值(pp)', '95% 区间', 'p 双侧', 'p 单侧(预期方向)']
     rows = []
     for n in names:
         r = res.get(n)
         d = {1: '↑', -1: '↓', 0: '对照'}[FDIR.get(n, dict((s[0], s[2]) for s in SUPP).get(n, 0))]
         if r is None:
-            rows.append([n, d] + ['—'] * 8)
+            rows.append([n, d] + ['—'] * 9)
             continue
         if n in mean_names:
             rows.append([n, d, num(r['all_sel']), num(r['all_un']), '%+.2f' % (r['all_sel'] - r['all_un']),
-                         num(r['in_sel']), num(r['in_un']), '%+.2f' % r['mh'], pv(r['p2']), pv(r['p1'])])
+                         num(r['in_sel']), num(r['in_un']), '%+.2f' % r['mh'], cim(r['ci']), pv(r['p2']), pv(r['p1'])])
         else:
             rows.append([n, d, pc(r['all_sel']), pc(r['all_un']), pp(r['all_sel'] - r['all_un']),
-                         pc(r['in_sel']), pc(r['in_un']), pp(r['mh']), pv(r['p2']), pv(r['p1'])])
+                         pc(r['in_sel']), pc(r['in_un']), pp(r['mh']), cip(r['ci']), pv(r['p2']), pv(r['p1'])])
     cap = ('全部：选用 %d 个、未选 %d 个例子；文章内：%d 篇文章参加置换，其中选用 %d 个、未选 %d 个。'
            % (m['全_选用'], m['全_未选'], m['层数'], m['选用'], m['未选']))
     return cap + '\n\n' + table(head, rows)
@@ -471,23 +539,33 @@ def main():
     W('')
     W('- **例子的选用状态**：例子覆盖的段里有任一段"选用"（用率 ≥30%）算选用；全部"未选"（<10%）算未选；其余剔除。')
     W('- **去重**：只在选用/未选例子里做。按卷序（2022县级→2026县镇）、文章号、例子号依次过，'
-      '一个例子的文字（逐段取 8 字连续串，去标点）有 ≥80%% 已出现在别的文章（别卷或同卷的另一个转载快照）里'
+      '一个例子的文字（逐段取 8 字连续串，去标点）有 ≥80% 已出现在别的文章（别卷或同卷的另一个转载快照）里'
       '已保留的例子中，就算重复，去掉；保留的是先出现的那份。敏感性分析改成"选用的副本优先保留"。'
       '一段里挤着几个例子、两卷的标注员切法不同时，按文字去重会把后一卷多切出来的例子一并去掉，这是按段文字去重的代价。')
     W('- **文章内置换检验**：层 = (卷, 文章)，只有同时含选用和未选例子的文章参加；每次只在文章内打乱选用标签'
       '（每篇的选用数不变），统计量 = 选用例子的特征和，%d 次。这个检验和"文章内差值"'
       '（Mantel-Haenszel 加权的层内差 Σw·(p选−p未)/Σw，w = n选·n未/n）一一对应，所以判"≥10 个百分点"用的就是这个加权差值。'
       'p 值 = (1+至少一样极端的次数)/(1+%d)。双侧 p 用于判定；有预期方向的特征另报单侧 p。' % (nperm, nperm))
+    W('- **"文章内·选用组/未选组"列**：按同一个权重 w 加权的文章内比例，两列之差就是文章内差值。'
+      '**95%% 区间**：把参加置换的文章整篇有放回重抽 %d 次，取文章内差值的 2.5%%/97.5%% 分位。' % NBOOT)
     W('- **"全部"列**：所有选用/未选例子的原始比例，不控制文章，只作描述。')
     W('- **判定规则**（把预登记的文字落成可执行的规则，在看结果前写进脚本）：')
     W('  - 主判定用甲的标（甲切例子并先标，乙独立复标用来算一致率）。')
     W('  - 单项特征"达标" = 文章内差值方向符合预期、绝对值 ≥10 个百分点、双侧 p < 0.05。')
     W('  - 单项特征判"支持" = 甲的标达标，且在贴合度=2（按甲）的例子里也达标，且乙的标和两人一致子集的文章内差值方向相同。')
     W('  - kappa < 0.4 → 该项"证据不足"（预登记：不下结论）。')
-    W('  - 全样本达标但贴合度=2 子集只是方向相同、差值 ≥10pp 而 p ≥ 0.05，或乙/一致子集方向相反 → "证据不足"；'
-      '全样本不达标（差值不到 10pp、p ≥ 0.05 或方向相反）→ "不支持"；全样本达标但贴合度=2 子集差值不到 10pp 或方向相反 → "不支持"（被贴合度解释）。')
+    W('  - 甲的全样本：方向不符或差值不到 10pp → "不支持"；方向相符、差值 ≥10pp 但 p ≥ 0.05 → "证据不足"（效应够大但不显著）。')
+    W('  - 甲的全样本达标后看贴合度=2 子集：差值不到 10pp 或方向相反 → "不支持"（被贴合度解释）；方向相符、≥10pp 但 p ≥ 0.05 → "证据不足"；'
+      '都达标但乙的标或一致子集的文章内差值方向相反 → "证据不足"。')
+    W('  - 建议分级（预登记只列了五级、没写对应关系，这里定死）：单项"支持"且乙的全样本、一致子集也都达标 →【实证】；'
+      '其余"支持" →【较强推断】；"证据不足"且贴合度=2 子集差值也 ≥10pp →【弱推断】，否则 →【假说】；kappa < 0.4 →【假说】；'
+      '"不支持"且不成立的那项比较（全样本或贴合度=2 子集）95% 区间够不到 10pp →【已否定】，够得到 →【假说】'
+      '（按预登记不当规则用，但也没排除有实际意义的效应）。假设层面："任一"取最高级、"都要"取最低级；'
+      '"任一"支持而支持的指标都过不了 Bonferroni 时，最高给【较强推断】。')
     W('  - H1、H4 任一指标支持即支持（另报 Bonferroni 校正后是否仍显著）；H2 要可复制和独特禀赋两项都支持；'
       '一项支持一项不支持判"不支持"并写明分项。')
+    W('  - 说明：支持/不支持/证据不足的规则在看结果前定好，没改过；上面的分级规则在试跑（200 次置换）看过结果后收紧了两处，'
+      '都往保守方向："已否定"加了"95% 区间够不到 10pp"的条件；"证据不足"而贴合度=2 子集差值不到 10pp 的，从【弱推断】降为【假说】。')
     W('')
 
     # ------------------------------------------------ 1. 样本
@@ -528,6 +606,15 @@ def main():
       '其中 %d 个的保留副本选用状态和它不同（保留的是先出现的那份）。另有 %d 个例子和别处部分重叠（30%%–80%%），保留。'
       % (len(dropped), sum(1 for c, _, _ in dropped if c['st'] == '选用'), sum(1 for c, _, _ in dropped if c['st'] == '未选'),
          xp['跨卷'], xp['同卷另一快照'], conflict, partial))
+    ptot, pdup, ppairs, pconf = para_dups(d)
+    W('- 段层面（只作说明）：底表共 %d 段（选用 %d、未选 %d、部分 %d）。按同样的 8 字串 ≥80%% 口径，'
+      '有 %d 个选用段、%d 个未选段是别处已出现过的重复段（跨卷 %d、同卷另一快照 %d），其中 %d 段和先出现的副本一个是选用、一个是未选'
+      '（同一段文字在一张卷里被选、在另一张卷里没被选）。跨卷重复段最多的卷对：%s。例子层面的去重见上一条，按例子文字做，同一段只算一次。'
+      % (sum(ptot.values()), ptot['选用'], ptot['未选'], ptot['部分'],
+         pdup[('选用', '跨卷')] + pdup[('选用', '同卷')], pdup[('未选', '跨卷')] + pdup[('未选', '同卷')],
+         sum(v for (t, k), v in pdup.items() if k == '跨卷' and t != '部分'),
+         sum(v for (t, k), v in pdup.items() if k == '同卷' and t != '部分'), pconf,
+         '；'.join('%s→%s %d 段' % (a, b, n) for (a, b), n in ppairs.most_common(5))))
     W('- 跨卷去重最多的卷对：' + '；'.join('%s→%s %d 个' % (a, b, n) for (a, b), n in pairs.most_common(8)) + '。')
     W('- 分析样本：%d 个例子（选用 %d、未选 %d），分布在 %d 篇文章；参加文章内置换的文章 %d 篇，含选用 %d 个、未选 %d 个。'
       % (len(kept), sum(1 for c in kept if c['st'] == '选用'), sum(1 for c in kept if c['st'] == '未选'),
@@ -590,12 +677,12 @@ def main():
         x = r[name]
         m = r['_meta']
         if x is None:
-            rows.append([name, len(sub), m['层数'], '—', '—', '—', '—', '—', '—', '—'])
+            rows.append([name, len(sub), m['层数'], '—', '—', '—', '—', '—', '—', '—', '—'])
             continue
         rows.append([name, len(sub), '%d（%d/%d）' % (m['层数'], m['选用'], m['未选']), pc(x['all_sel']), pc(x['all_un']),
-                     pc(x['in_sel']), pc(x['in_un']), pp(x['mh']), pv(x['p2']), pv(x['p1'])])
+                     pc(x['in_sel']), pc(x['in_un']), pp(x['mh']), cip(x['ci']), pv(x['p2']), pv(x['p1'])])
     W(table(['特征', '一致例子数', '参加文章（选用/未选）', '全部·选用组', '全部·未选组', '文章内·选用组', '文章内·未选组',
-             '文章内差值(pp)', 'p 双侧', 'p 单侧'], rows))
+             '文章内差值(pp)', '95% 区间', 'p 双侧', 'p 单侧'], rows))
     W('')
     W('### 3.4 补充：0–2 分、收益类数的均值和 ≥1 阈值（甲 / 乙）')
     W('')
@@ -634,12 +721,12 @@ def main():
     sel = [c for c in kept if c['st'] == '选用']
     un = [c for c in kept if c['st'] == '未选']
 
-    def q(xs):
+    def q(xs, fmt):
         xs = sorted(xs)
         if not xs:
             return '—'
         qs = statistics.quantiles(xs, n=4) if len(xs) > 1 else [xs[0]] * 3
-        return '%.0f [%.0f, %.0f]' % (qs[1], qs[0], qs[2]) if max(xs) > 2 else '%.2f [%.2f, %.2f]' % (qs[1], qs[0], qs[2])
+        return (fmt + ' [' + fmt + ', ' + fmt + ']') % (qs[1], qs[0], qs[2])
 
     cont = [('字数', lambda c: c['len'], 0), ('log 字数', lambda c: math.log(c['len']), 0),
             ('覆盖段数', lambda c: c['nseg'], 0), ('位置（0=篇首，1=篇尾）', lambda c: c['pos'], 0)]
@@ -647,16 +734,21 @@ def main():
     rows = []
     for name, fn, _ in cont:
         r = rC[name]
-        rows.append([name, q([fn(c) for c in sel]), q([fn(c) for c in un]), num(r['in_sel']), num(r['in_un']),
-                     '%+.2f' % r['mh'], pv(r['p2'])])
-    W(table(['变量', '选用组 中位数 [四分位]', '未选组 中位数 [四分位]', '文章内·选用组均值', '文章内·未选组均值',
-             '文章内差值(MH)', 'p 双侧'], rows))
+        fmt = '%.0f' if name in ('字数', '覆盖段数') else '%.2f'
+        rows.append([name, q([fn(c) for c in sel], fmt), q([fn(c) for c in un], fmt), num(r['in_sel']), num(r['in_un']),
+                     '%+.2f' % r['mh'], cim(r['ci']), pv(r['p2'])])
+    W(table(['变量', '选用组 中位数 [四分位]', '未选组 中位数 [四分位]', '文章内·选用组均值(加权)', '文章内·未选组均值(加权)',
+             '文章内差值', '95% 区间', 'p 双侧'], rows))
+    W('')
+    W('注意一个机械效应：例子的选用状态是"覆盖的段里有任一段选用"，覆盖段越多、字数越长，碰上选用段的机会越大；'
+      '而"出彩_显式""量化成效"这类看文中有没有某种字眼的特征，也随字数变长更容易为 1。所以字数必须控制，见 4.3 和下面的分层。')
     W('')
     med = statistics.median(c['len'] for c in kept)
     W('字数中位数（分析样本）= %.0f 字；位置用例子所覆盖各段的平均相对位置，"前半" = 位置 < 0.5。' % med)
     W('')
     strat = [('字数 > 中位数', lambda c: c['len'] > med), ('字数 ≤ 中位数', lambda c: c['len'] <= med),
-             ('位置前半', lambda c: c['pos'] < 0.5), ('位置后半', lambda c: c['pos'] >= 0.5)]
+             ('位置前半', lambda c: c['pos'] < 0.5), ('位置后半', lambda c: c['pos'] >= 0.5),
+             ('量化成效=1（甲）', lambda c: c['A']['量化成效'] == 1), ('量化成效=0（甲）', lambda c: c['A']['量化成效'] == 0)]
     head = ['特征']
     rs = []
     for sname, sf in strat:
@@ -679,7 +771,8 @@ def main():
     W('### 4.3 条件逻辑回归（按文章分层）')
     W('')
     W('本机没有 statsmodels / numpy，脚本用纯 Python 写了精确条件似然（每篇文章的分母是所有同样大小子集的和，递推求）'
-      '加牛顿法，等价于带文章固定效应的条件 logit；只有同时含选用和未选例子的文章进入似然。系数的 p 值用 Wald 检验。')
+      '加牛顿法，等价于带文章固定效应的条件 logit；只有同时含选用和未选例子的文章进入似然。系数的 p 值用 Wald 检验。'
+      '这段实现用合成数据和逐个子集穷举的似然核对过（对数似然、梯度、标准误一致）。')
     W('')
     W('模型：选用 ~ 出彩_实质 + 可复制_实质 + 独特禀赋 + 收益类数 + 资源转化 + 约束突破 + 量化成效 + 人物引语 + 贴合度 + log字数 + 位置')
     W('')
@@ -709,7 +802,31 @@ def main():
                          '%.2f' % z if z == z else '—', pv(p)])
         W(table(['变量', '系数', '标准误', '优势比 OR', 'z', 'p'], rows))
         W('')
-    # 模型外的置换版：只控制文章的单变量对照已在第 3 节
+    W('#### 单特征模型：选用 ~ 该特征 + 贴合度 + log字数 + 位置（按文章分层的条件 logit）')
+    W('')
+    W('全模型里特征彼此相关（比如出彩和收益类数），单个系数不好读；这里每次只放一个特征，再加三个混杂变量。')
+    W('')
+    conf = [lambda c, w: c[w]['贴合度'], lambda c, w: math.log(c['len']), lambda c, w: c['pos']]
+    dd = {f[0]: f for f in FEATS}
+    rows = []
+    for name in FNAMES[:-1]:
+        row = [name]
+        for who in ('A', 'B'):
+            st = defaultdict(list)
+            for c in kept:
+                st[c['unit']].append((1 if c['st'] == '选用' else 0,
+                                      [float(dd[name][1](c[who]))] + [float(f(c, who)) for f in conf]))
+            beta, se, ll, ll0, conv, it, ns = clogit(list(st.values()), 4)
+            b_, s_ = beta[0], se[0]
+            z = b_ / s_ if s_ and s_ == s_ and s_ > 0 else float('nan')
+            row.append('%.2f [%.2f, %.2f]' % (math.exp(b_), math.exp(b_ - 1.96 * s_), math.exp(b_ + 1.96 * s_))
+                       if z == z else '—')
+            row.append(pv(math.erfc(abs(z) / math.sqrt(2))) if z == z else '—')
+            if not conv:
+                row[-1] += '（未收敛）'
+        rows.append(row)
+    W(table(['特征', '甲 OR [95% 区间]', '甲 p', '乙 OR [95% 区间]', '乙 p'], rows))
+    W('')
     W('### 4.4 来源文章误判的敏感性')
     W('')
     W('只保留"来源证据强"的文章：文章里被选段的匹配字数（用率×字数，求和）≥ 150 字，且至少一段用率 ≥ 0.5。'
@@ -761,7 +878,7 @@ def main():
                               if cs else '—' for g, cs in groups])
     W(table(head, rows))
     W('')
-    W('各卷的角色分布：' + '；'.join('%s %s' % (p, '、'.join('%s %d' % (r[:3], n) for r, n in
+    W('各卷的角色分布：' + '；'.join('%s %s' % (p, '、'.join('%s %d' % (r, n) for r, n in
                                                          sorted(Counter(c['role'] for c in sel if c['paper'] == p).items())))
                                   for p in PAPERS if any(c['paper'] == p for c in sel)) + '。')
     W('')
@@ -770,52 +887,86 @@ def main():
     W('## 6. H1–H4 判定')
     W('')
 
-    def passes(x, d):
+    def passes(x, d, pk='p2'):
         if x is None:
             return None
-        ok_dir = x['mh'] * d > 0
-        return ok_dir and abs(x['mh']) >= 0.10 and x['p2'] < 0.05
+        return x['mh'] * d > 0 and abs(x['mh']) >= 0.10 and x[pk] < 0.05
 
-    def verdict(n):
+    def verdict(n, pk='p2', prim='A'):
         d = FDIR[n]
-        x, xf, xb, xg = rA[n], rF.get(n), rB[n], rAg[n][n]
+        x, xf, xb, xg = (rA[n], rF.get(n), rB[n], rAg[n][n]) if prim == 'A' else (rB[n], rFB.get(n), rA[n], rAg[n][n])
         k = kap[n]
-        note = []
         if k is None or k < 0.4:
             return '证据不足', 'kappa=%s < 0.4，按预登记不下结论' % num(k)
-        if not passes(x, d):
-            why = []
+        if not passes(x, d, pk):
             if x['mh'] * d <= 0:
-                why.append('方向相反或为 0')
-            elif abs(x['mh']) < 0.10:
-                why.append('差值不到 10pp')
-            if x['p2'] >= 0.05:
-                why.append('p≥0.05')
-            return '不支持', '全样本不达标（%s）' % '，'.join(why)
+                return '不支持', '全样本文章内差值方向相反或为 0'
+            if abs(x['mh']) < 0.10:
+                return '不支持', '全样本文章内差值不到 10pp%s' % ('' if x[pk] < 0.05 else '，p≥0.05')
+            return '证据不足', '全样本方向相符、差值 ≥10pp，但 p=%s' % pv(x[pk])
         if xf is None:
             return '证据不足', '贴合度=2 子集没有可比文章'
-        if not passes(xf, d):
+        if not passes(xf, d, pk):
             if xf['mh'] * d > 0 and abs(xf['mh']) >= 0.10:
-                return '证据不足', '贴合度=2 子集方向相同、差值够大，但 p=%s' % pv(xf['p2'])
+                return '证据不足', '贴合度=2 子集方向相同、差值够大，但 p=%s' % pv(xf[pk])
             return '不支持', '贴合度=2 子集里差值 %s pp，不成立（被贴合度解释）' % pp(xf['mh'])
         if xb['mh'] * d <= 0 or (xg is not None and xg['mh'] * d <= 0):
             return '证据不足', '乙的标或一致子集方向不同'
         return '支持', ''
 
-    vs = {}
+    GR = ['【已否定】', '【假说】', '【弱推断】', '【较强推断】', '【实证】']
+
+    def reach10(x, d):
+        """95% 区间在预期方向上能不能够到 10pp"""
+        if x is None or x['ci'] is None:
+            return True
+        return (x['ci'][1] if d > 0 else -x['ci'][0]) >= 0.10
+
+    def grade(n, v, why):
+        d = FDIR[n]
+        if v == '支持':
+            ok = passes(rB[n], d) and rAg[n][n] is not None and passes(rAg[n][n], d)
+            return '【实证】' if ok else '【较强推断】'
+        if v == '证据不足':
+            if why.startswith('kappa'):
+                return '【假说】'
+            xf = rF.get(n)
+            return '【弱推断】' if (xf is not None and xf['mh'] * d >= 0.10) else '【假说】'
+        x = rF[n] if why.startswith('贴合度') else rA[n]
+        return '【假说】' if reach10(x, d) else '【已否定】'
+
+    def cell(x):
+        return '—' if x is None else '%s pp %s, p=%s' % (pp(x['mh']), cip(x['ci']), pv(x['p2']))
+
+    vs, gs, whys = {}, {}, {}
     rows = []
     for n in sorted({f for h in HYP for f in h[2]}, key=FNAMES.index):
         v, why = verdict(n)
-        vs[n] = v
-        x, xf, xb, xg = rA[n], rF[n], rB[n], rAg[n][n]
-        rows.append([n, {1: '↑', -1: '↓'}[FDIR[n]], num(kap[n]),
-                     '%s pp, p=%s' % (pp(x['mh']), pv(x['p2'])),
-                     '—' if xf is None else '%s pp, p=%s' % (pp(xf['mh']), pv(xf['p2'])),
-                     '%s pp, p=%s' % (pp(xb['mh']), pv(xb['p2'])),
-                     '—' if xg is None else '%s pp, p=%s' % (pp(xg['mh']), pv(xg['p2'])),
-                     '**%s**' % v + ('：' + why if why else '')])
-    W(table(['指标', '预期', 'kappa', '甲·全样本', '甲·贴合度=2', '乙·全样本', '一致子集', '单项判定'], rows))
+        vs[n], whys[n] = v, why
+        gs[n] = grade(n, v, why)
+        rows.append([n, {1: '↑', -1: '↓'}[FDIR[n]], num(kap[n]), cell(rA[n]), cell(rF[n]), cell(rB[n]), cell(rAg[n][n]),
+                     '**%s**' % v + ('：' + why if why else ''), gs[n]])
+    W('格子里是文章内差值（pp）、按文章重抽的 95% 区间、双侧置换 p。')
     W('')
+    W(table(['指标', '预期', 'kappa', '甲·全样本', '甲·贴合度=2', '乙·全样本', '一致子集', '单项判定', '建议分级'], rows))
+    W('')
+    # 敏感性：单侧 p；更严的读法（贴合度=2 子集效应量不够也算不支持）
+    side = [n for n in vs if verdict(n, 'p1')[0] != vs[n]]
+    W('- 单侧 p 的敏感性：%s。' % ('改用预期方向的单侧 p，单项判定都不变' if not side else '改用单侧 p 会变的：' + '；'.join(
+        '%s %s→%s' % (n, vs[n], verdict(n, 'p1')[0]) for n in side)))
+    bprim = [n for n in vs if verdict(n, prim='B')[0] != vs[n]]
+    W('- 换成乙的标做主判定（乙的全样本 + 乙在贴合度=2（按甲）子集里的结果，甲的标当复核）：%s。'
+      % ('单项判定都不变' if not bprim else '会变的：' + '；'.join(
+          '%s %s→%s（%s）' % (n, vs[n], verdict(n, prim='B')[0], verdict(n, prim='B')[1] or '全部达标') for n in bprim)))
+    strict = [n for n in vs if vs[n] == '证据不足' and not whys[n].startswith('kappa') and rF[n] is not None
+              and rF[n]['mh'] * FDIR[n] < 0.10]
+    W('- 更严的读法（预登记要求"在贴合度=2 的例子里仍然成立"，把"该子集差值不到 10pp"也算不成立，不管全样本 p 够不够）：%s。'
+      % ('单项判定都不变' if not strict else '、'.join(strict) + ' 会从"证据不足"变成"不支持"（贴合度=2 子集差值分别为 ' +
+         '、'.join('%s pp' % pp(rF[n]['mh']) for n in strict) + '）'))
+    W('')
+    HCOV = {'H1': ['出彩_实质(0–2)'], 'H2': ['可复制_实质(0–2)', '独特禀赋'], 'H3': ['收益类数'],
+            'H4': ['资源转化', '约束突破']}
+    hv = {}
     for h, desc, fs, mode in HYP:
         vv = [vs[f] for f in fs]
         if mode == 'any':
@@ -832,23 +983,36 @@ def main():
                 v = '不支持'
             else:
                 v = '证据不足'
-        det = '；'.join('%s 文章内 %s pp（p=%s；贴合度=2：%s pp，p=%s；kappa %s）→ %s' % (
-            f, pp(rA[f]['mh']), pv(rA[f]['p2']), pp(rF[f]['mh']) if rF[f] else '—', pv(rF[f]['p2']) if rF[f] else '—',
-            num(kap[f]), vs[f]) for f in fs)
+        det = '；'.join('%s 文章内 %s pp %s（p=%s；贴合度=2：%s pp，p=%s；乙 %s pp；kappa %s）→ %s' % (
+            f, pp(rA[f]['mh']), cip(rA[f]['ci']), pv(rA[f]['p2']), pp(rF[f]['mh']) if rF[f] else '—',
+            pv(rF[f]['p2']) if rF[f] else '—', pp(rB[f]['mh']), num(kap[f]), vs[f]) for f in fs)
         bon = ''
+        gl = [GR.index(gs[f]) for f in fs]
+        g = GR[max(gl) if mode == 'any' else min(gl)]
         if len(fs) > 1 and v == '支持':
             a = 0.05 / len(fs)
+            surv = [f for f in fs if vs[f] == '支持' and rA[f]['p2'] < a]
             bon = '（Bonferroni 校正后阈值 %.4f：%s）' % (a, '、'.join(
-                '%s %s' % (f, '仍显著' if rA[f]['p2'] < a else '不再显著') for f in fs if vs[f] == '支持'))
-        W('- **%s %s：%s**%s。%s。' % (h, desc, v, bon, det))
+                '%s %s' % (f, '仍显著' if f in surv else '不再显著') for f in fs if vs[f] == '支持'))
+            if mode == 'any' and not surv and g == '【实证】':
+                g = '【较强推断】'
+        rg = []
+        for cv in HCOV[h]:
+            k = [c[0] for c in covs].index(cv)
+            for who in ('A', 'B'):
+                b_, s_ = reg[who][0][k], reg[who][1][k]
+                z = b_ / s_ if s_ and s_ == s_ and s_ > 0 else float('nan')
+                rg.append('%s·%s OR=%.2f（p=%s）' % (cv, '甲' if who == 'A' else '乙', math.exp(max(min(b_, 50), -50)),
+                                                    pv(math.erfc(abs(z) / math.sqrt(2)) if z == z else None)))
+        hv[h] = (v, g)
+        W('- **%s %s：%s %s**%s。%s。条件 logit（全模型，控制其余变量）：%s。' % (h, desc, v, g, bon, det, '；'.join(rg)))
     W('')
     open(outp, 'w', encoding='utf-8').write('\n'.join(out) + '\n')
     print('写到', outp)
-    summary = {h: None for h, *_ in HYP}
     print(json.dumps({'样本': {'例子': len(cases), '分析例子': len(kept), '去重去掉': len(dropped),
                               '参加置换文章': res_meta['层数'], '选用(参加)': res_meta['选用'],
                               '未选(参加)': res_meta['未选']},
-                      '单项': vs, 'kappa': {k: (None if v is None else round(v, 3)) for k, v in kap.items()}},
+                      '假设': hv, '单项': {n: (vs[n], gs[n]) for n in vs}, 'kappa': {k: (None if v is None else round(v, 3)) for k, v in kap.items()}},
                      ensure_ascii=False))
 
 
