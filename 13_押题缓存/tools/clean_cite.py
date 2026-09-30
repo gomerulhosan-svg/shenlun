@@ -1,4 +1,6 @@
-"""把源稿里的〔相对路径｜日期〕换成读者看的短出处：python3 13_押题缓存/tools/clean_cite.py <源稿.md> <输出.md>
+"""把源稿里的〔相对路径｜日期〕换成读者看的短出处：python3 13_押题缓存/tools/clean_cite.py [--strip] <源稿.md> <输出.md>
+
+--strip：出处整个去掉，覆盖标记（HTML 注释）也去掉，出纯阅读版。
 
 源稿先用 check_quotes.py 核过原句，再用本脚本出阅读版。规则按"路径里含什么"匹配，匹配不上的保留原样并报出来。
 """
@@ -24,9 +26,15 @@ def label(path, date):
     return None
 
 
-def main(src, dst):
+def main(src, dst, strip=False):
     t = open(src, encoding='utf-8').read()
     miss = []
+    if strip:
+        t = re.sub(r'\s*<!--.*?-->', '', t, flags=re.S)
+        t = re.sub(r'〔[^｜〕]+｜[^〕]*〕', '', t)
+        open(dst, 'w', encoding='utf-8').write(t)
+        print('纯阅读版完成')
+        return
 
     def rep(m):
         lab = label(m.group(1), m.group(2).strip())
@@ -40,4 +48,8 @@ def main(src, dst):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1], sys.argv[2])
+    a = sys.argv[1:]
+    if a and a[0] == '--strip':
+        main(a[1], a[2], strip=True)
+    else:
+        main(a[0], a[1])
