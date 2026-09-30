@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""仿真卷出 PDF：python3 11_仿真卷/tools/to_pdf.py <文件.md> [...]
+"""仿真卷出 PDF：python3 11_仿真卷/tools/to_pdf.py [--no-break] <文件.md> [...]
+
+--no-break：二级标题不另起一页（讲解、速记卡这类短文档用）。
 
 沿用 09_按年汇编/tools/to_pdf.py 的排版和 Chromium 打印，另外支持 markdown 表格。
 每个 .md 在同目录写出同名 .pdf。
@@ -56,13 +58,17 @@ def convert(md):
 
 
 def main(paths):
+    css = CSS
+    if paths and paths[0] == '--no-break':
+        paths = paths[1:]
+        css = CSS + "\nh2 { break-before: auto; margin-top: 18pt; }\n"
     tmp, jobs = tempfile.mkdtemp(), []
     for p in paths:
         p = os.path.abspath(p)
         md = open(p, encoding='utf-8').read()
         title = md.split('\n', 1)[0].lstrip('# ').strip()
         doc = ('<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>%s</title>'
-               '<style>%s</style></head><body>%s</body></html>') % (html.escape(title), CSS, convert(md))
+               '<style>%s</style></head><body>%s</body></html>') % (html.escape(title), css, convert(md))
         hp = os.path.join(tmp, os.path.basename(p)[:-3] + '.html')
         open(hp, 'w', encoding='utf-8').write(doc)
         jobs.append([hp, p[:-3] + '.pdf', html.escape(title)])
