@@ -1,0 +1,6388 @@
+{
+ "2020县级|问题一": {
+  "治理": {
+   "nat": "角",
+   "nd": 5,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.55,
+   "base1": 0.34,
+   "exp": 2.92,
+   "det": [
+    [
+     "要点一　智慧城市：出方案、用",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　信用体系：建库、开网",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　党组织建设：建堡垒、",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　法治保障：编指引、供",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　社会参与：志愿服务队",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "现代化": {
+   "nat": "角",
+   "nd": 5,
+   "s": 1,
+   "w": 1,
+   "p": 1,
+   "base": 0.21,
+   "base1": 0.1,
+   "exp": 1.05,
+   "det": [
+    [
+     "要点一　智慧城市：出方案、用",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　信用体系：建库、开网",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　党组织建设：建堡垒、",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　法治保障：编指引、供",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　社会参与：志愿服务队",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "角∪": {
+   "nat": "U",
+   "nd": 5,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.62,
+   "base1": 0.38,
+   "exp": 3.13,
+   "det": [
+    [
+     "要点一　智慧城市：出方案、用",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　信用体系：建库、开网",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　党组织建设：建堡垒、",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　法治保障：编指引、供",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　社会参与：志愿服务队",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.62,
+   "base1": 0.38,
+   "exp": 3.13,
+   "det": [
+    [
+     "要点一　智慧城市：出方案、用",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　信用体系：建库、开网",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　党组织建设：建堡垒、",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　法治保障：编指引、供",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　社会参与：志愿服务队",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2020县级|问题二": {
+  "市场主体": {
+   "nat": "角",
+   "nd": 6,
+   "s": 2,
+   "w": 2,
+   "p": 4,
+   "base": 0.27,
+   "base1": 0.18,
+   "exp": 3.1,
+   "det": [
+    [
+     "要点一　经济快速复苏：市场主",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　外贸回稳：线上广交会",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点三　复工复产：接人返岗加",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点四　企业负担减轻：社保费",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　商事登记秒批：智能审",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　知识产权保护：建站维",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "活力": {
+   "nat": "角",
+   "nd": 6,
+   "s": 0,
+   "w": 0,
+   "p": 0,
+   "base": 0.02,
+   "base1": 0.02,
+   "exp": 0.49,
+   "det": [
+    [
+     "要点一　经济快速复苏：市场主",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　外贸回稳：线上广交会",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　复工复产：接人返岗加",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　企业负担减轻：社保费",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　商事登记秒批：智能审",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　知识产权保护：建站维",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "疫情": {
+   "nat": "话",
+   "nd": 6,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.36,
+   "base1": 0.18,
+   "exp": 3.1,
+   "det": [
+    [
+     "要点一　经济快速复苏：市场主",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　外贸回稳：线上广交会",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　复工复产：接人返岗加",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　企业负担减轻：社保费",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　商事登记秒批：智能审",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　知识产权保护：建站维",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "角∪": {
+   "nat": "U",
+   "nd": 6,
+   "s": 2,
+   "w": 2,
+   "p": 4,
+   "base": 0.27,
+   "base1": 0.18,
+   "exp": 3.1,
+   "det": [
+    [
+     "要点一　经济快速复苏：市场主",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　外贸回稳：线上广交会",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点三　复工复产：接人返岗加",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点四　企业负担减轻：社保费",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　商事登记秒批：智能审",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　知识产权保护：建站维",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.51,
+   "base1": 0.33,
+   "exp": 4.6,
+   "det": [
+    [
+     "要点一　经济快速复苏：市场主",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　外贸回稳：线上广交会",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　复工复产：接人返岗加",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　企业负担减轻：社保费",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　商事登记秒批：智能审",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　知识产权保护：建站维",
+     false,
+     false,
+     false
+    ]
+   ]
+  }
+ },
+ "2021县级|问题一": {
+  "数字政府": {
+   "nat": "话",
+   "nd": 6,
+   "s": 3,
+   "w": 3,
+   "p": 3,
+   "base": 0.27,
+   "base1": 0.17,
+   "exp": 1.88,
+   "det": [
+    [
+     "总起　高频服务事项指尖办理",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点一　便利老年人（服务，对",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　优化涉企服务、营造良",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　提高工作效率（管理，",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　加强城市管理（管理，",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　疫情精准防控（管理，",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "管理/服务": {
+   "nat": "角",
+   "nd": 6,
+   "s": 4,
+   "w": 5,
+   "p": 5,
+   "base": 0.47,
+   "base1": 0.3,
+   "exp": 3.04,
+   "det": [
+    [
+     "总起　高频服务事项指尖办理",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点一　便利老年人（服务，对",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　优化涉企服务、营造良",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　提高工作效率（管理，",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　加强城市管理（管理，",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　疫情精准防控（管理，",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.6,
+   "base1": 0.37,
+   "exp": 3.52,
+   "det": [
+    [
+     "总起　高频服务事项指尖办理",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点一　便利老年人（服务，对",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　优化涉企服务、营造良",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　提高工作效率（管理，",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　加强城市管理（管理，",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　疫情精准防控（管理，",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2021县级|问题二": {
+  "密码": {
+   "nat": "角",
+   "nd": 8,
+   "s": 1,
+   "w": 1,
+   "p": 1,
+   "base": 0.05,
+   "base1": 0.03,
+   "exp": 0.4,
+   "det": [
+    [
+     "总起　“密码”指什么",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点一　科技体制创新",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　建设重点创新平台",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　加大科研投入",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　打造创新人才高地",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　政府推着企业自己建研",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　企业自己用科技改生产",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点七　强化关键核心技术攻关",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "创新": {
+   "nat": "角",
+   "nd": 8,
+   "s": 7,
+   "w": 7,
+   "p": 7,
+   "base": 0.64,
+   "base1": 0.44,
+   "exp": 5.07,
+   "det": [
+    [
+     "总起　“密码”指什么",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点一　科技体制创新",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　建设重点创新平台",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　加大科研投入",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　打造创新人才高地",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　政府推着企业自己建研",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　企业自己用科技改生产",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点七　强化关键核心技术攻关",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "变革": {
+   "nat": "角",
+   "nd": 8,
+   "s": 1,
+   "w": 1,
+   "p": 1,
+   "base": 0.05,
+   "base1": 0.03,
+   "exp": 0.4,
+   "det": [
+    [
+     "总起　“密码”指什么",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点一　科技体制创新",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　建设重点创新平台",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　加大科研投入",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　打造创新人才高地",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　政府推着企业自己建研",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　企业自己用科技改生产",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点七　强化关键核心技术攻关",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "角∪": {
+   "nat": "U",
+   "nd": 8,
+   "s": 7,
+   "w": 7,
+   "p": 7,
+   "base": 0.64,
+   "base1": 0.44,
+   "exp": 5.07,
+   "det": [
+    [
+     "总起　“密码”指什么",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点一　科技体制创新",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　建设重点创新平台",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　加大科研投入",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　打造创新人才高地",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　政府推着企业自己建研",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　企业自己用科技改生产",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点七　强化关键核心技术攻关",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 8,
+   "s": 7,
+   "w": 7,
+   "p": 7,
+   "base": 0.64,
+   "base1": 0.44,
+   "exp": 5.07,
+   "det": [
+    [
+     "总起　“密码”指什么",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点一　科技体制创新",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　建设重点创新平台",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　加大科研投入",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　打造创新人才高地",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　政府推着企业自己建研",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　企业自己用科技改生产",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点七　强化关键核心技术攻关",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2022县级|问题一": {
+  "软联通": {
+   "nat": "角",
+   "nd": 5,
+   "s": 0,
+   "w": 0,
+   "p": 0,
+   "base": 0.03,
+   "base1": 0.03,
+   "exp": 0.45,
+   "det": [
+    [
+     "要点一　职业资格互认",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　一站式服务平台",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　湾区通办",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　法治合作",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　放宽市场准入",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "互认/衔接/规则": {
+   "nat": "推",
+   "nd": 5,
+   "s": 2,
+   "w": 2,
+   "p": 2,
+   "base": 0.21,
+   "base1": 0.15,
+   "exp": 1.94,
+   "det": [
+    [
+     "要点一　职业资格互认",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　一站式服务平台",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　湾区通办",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　法治合作",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　放宽市场准入",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 2,
+   "w": 2,
+   "p": 2,
+   "base": 0.21,
+   "base1": 0.15,
+   "exp": 1.94,
+   "det": [
+    [
+     "要点一　职业资格互认",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　一站式服务平台",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　湾区通办",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　法治合作",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　放宽市场准入",
+     false,
+     false,
+     false
+    ]
+   ]
+  }
+ },
+ "2022县级|问题二": {
+  "人文": {
+   "nat": "话",
+   "nd": 6,
+   "s": 1,
+   "w": 2,
+   "p": 2,
+   "base": 0.14,
+   "base1": 0.11,
+   "exp": 1.53,
+   "det": [
+    [
+     "要点一　文化同源、血脉相通",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　地域相近、山水相连",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　三地历史文化遗产可串",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　孙中山足迹是共同财富",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　文化传承交流密切",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点六　文化产业成绩不俗",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "交流/合作": {
+   "nat": "角",
+   "nd": 6,
+   "s": 3,
+   "w": 4,
+   "p": 4,
+   "base": 0.25,
+   "base1": 0.18,
+   "exp": 2.3,
+   "det": [
+    [
+     "要点一　文化同源、血脉相通",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　地域相近、山水相连",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　三地历史文化遗产可串",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点四　孙中山足迹是共同财富",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　文化传承交流密切",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　文化产业成绩不俗",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "优势/基础": {
+   "nat": "角",
+   "nd": 6,
+   "s": 2,
+   "w": 3,
+   "p": 3,
+   "base": 0.11,
+   "base1": 0.07,
+   "exp": 1.08,
+   "det": [
+    [
+     "要点一　文化同源、血脉相通",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　地域相近、山水相连",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　三地历史文化遗产可串",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点四　孙中山足迹是共同财富",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　文化传承交流密切",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　文化产业成绩不俗",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "角∪": {
+   "nat": "U",
+   "nd": 6,
+   "s": 4,
+   "w": 5,
+   "p": 5,
+   "base": 0.29,
+   "base1": 0.21,
+   "exp": 2.63,
+   "det": [
+    [
+     "要点一　文化同源、血脉相通",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　地域相近、山水相连",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　三地历史文化遗产可串",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点四　孙中山足迹是共同财富",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　文化传承交流密切",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　文化产业成绩不俗",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 4,
+   "w": 5,
+   "p": 5,
+   "base": 0.36,
+   "base1": 0.29,
+   "exp": 3.2,
+   "det": [
+    [
+     "要点一　文化同源、血脉相通",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　地域相近、山水相连",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　三地历史文化遗产可串",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点四　孙中山足迹是共同财富",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　文化传承交流密切",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　文化产业成绩不俗",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2023县级|问题一": {
+  "质量": {
+   "nat": "角",
+   "nd": 5,
+   "s": 2,
+   "w": 2,
+   "p": 2,
+   "base": 0.57,
+   "base1": 0.32,
+   "exp": 2.26,
+   "det": [
+    [
+     "要点一　强化品牌建设，用质量",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　龙头企业联合同行成立",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　设指导站，一站式服务",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　社会服务平台发起工程",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　办高端会议，宣传广东",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "品牌": {
+   "nat": "角",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.96,
+   "base1": 0.68,
+   "exp": 4.05,
+   "det": [
+    [
+     "要点一　强化品牌建设，用质量",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　龙头企业联合同行成立",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　设指导站，一站式服务",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　社会服务平台发起工程",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　办高端会议，宣传广东",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "金字招牌/广东制造": {
+   "nat": "话",
+   "nd": 5,
+   "s": 1,
+   "w": 2,
+   "p": 2,
+   "base": 0.29,
+   "base1": 0.18,
+   "exp": 1.33,
+   "det": [
+    [
+     "要点一　强化品牌建设，用质量",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　龙头企业联合同行成立",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　设指导站，一站式服务",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　社会服务平台发起工程",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点五　办高端会议，宣传广东",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "角∪": {
+   "nat": "U",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.96,
+   "base1": 0.75,
+   "exp": 4.31,
+   "det": [
+    [
+     "要点一　强化品牌建设，用质量",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　龙头企业联合同行成立",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　设指导站，一站式服务",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　社会服务平台发起工程",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　办高端会议，宣传广东",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 1.0,
+   "base1": 0.82,
+   "exp": 4.55,
+   "det": [
+    [
+     "要点一　强化品牌建设，用质量",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　龙头企业联合同行成立",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　设指导站，一站式服务",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　社会服务平台发起工程",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　办高端会议，宣传广东",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2023县级|问题二": {
+  "青年/年轻": {
+   "nat": "角",
+   "nd": 6,
+   "s": 6,
+   "w": 6,
+   "p": 6,
+   "base": 0.45,
+   "base1": 0.25,
+   "exp": 2.39,
+   "det": [
+    [
+     "总观点　青年人才队伍有力助推",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点一　青年企业家：引领作用",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　青年职业经理人：推动",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　青年技能人才：占了大",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　青年研发人才：推动技",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　青年专业服务人才：提",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "人才": {
+   "nat": "话",
+   "nd": 6,
+   "s": 3,
+   "w": 3,
+   "p": 3,
+   "base": 0.3,
+   "base1": 0.17,
+   "exp": 1.75,
+   "det": [
+    [
+     "总观点　青年人才队伍有力助推",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点一　青年企业家：引领作用",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　青年职业经理人：推动",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　青年技能人才：占了大",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　青年研发人才：推动技",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　青年专业服务人才：提",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "制造业/高质量": {
+   "nat": "角",
+   "nd": 6,
+   "s": 4,
+   "w": 5,
+   "p": 5,
+   "base": 0.38,
+   "base1": 0.2,
+   "exp": 1.97,
+   "det": [
+    [
+     "总观点　青年人才队伍有力助推",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点一　青年企业家：引领作用",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点二　青年职业经理人：推动",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　青年技能人才：占了大",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　青年研发人才：推动技",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　青年专业服务人才：提",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "角∪": {
+   "nat": "U",
+   "nd": 6,
+   "s": 6,
+   "w": 6,
+   "p": 6,
+   "base": 0.57,
+   "base1": 0.3,
+   "exp": 2.79,
+   "det": [
+    [
+     "总观点　青年人才队伍有力助推",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点一　青年企业家：引领作用",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　青年职业经理人：推动",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　青年技能人才：占了大",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　青年研发人才：推动技",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　青年专业服务人才：提",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 6,
+   "w": 6,
+   "p": 6,
+   "base": 0.6,
+   "base1": 0.33,
+   "exp": 2.98,
+   "det": [
+    [
+     "总观点　青年人才队伍有力助推",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点一　青年企业家：引领作用",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　青年职业经理人：推动",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　青年技能人才：占了大",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　青年研发人才：推动技",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　青年专业服务人才：提",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2020乡镇|问题一": {
+  "乡镇干部": {
+   "nat": "角",
+   "nd": 6,
+   "s": 4,
+   "w": 5,
+   "p": 5,
+   "base": 0.43,
+   "base1": 0.2,
+   "exp": 1.97,
+   "det": [
+    [
+     "要点一　内容繁杂、涉及面广",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点二　群众贴心人、主心骨",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　任务急、责任重",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　承上启下",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　挑战多、风险高",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　党建引领、党员带头",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "工作": {
+   "nat": "角",
+   "nd": 6,
+   "s": 2,
+   "w": 4,
+   "p": 6,
+   "base": 0.29,
+   "base1": 0.14,
+   "exp": 1.49,
+   "det": [
+    [
+     "要点一　内容繁杂、涉及面广",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　群众贴心人、主心骨",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点三　任务急、责任重",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　承上启下",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点五　挑战多、风险高",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点六　党建引领、党员带头",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "角∪": {
+   "nat": "U",
+   "nd": 6,
+   "s": 5,
+   "w": 6,
+   "p": 6,
+   "base": 0.6,
+   "base1": 0.31,
+   "exp": 2.76,
+   "det": [
+    [
+     "要点一　内容繁杂、涉及面广",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　群众贴心人、主心骨",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　任务急、责任重",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　承上启下",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点五　挑战多、风险高",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　党建引领、党员带头",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 5,
+   "w": 6,
+   "p": 6,
+   "base": 0.6,
+   "base1": 0.31,
+   "exp": 2.76,
+   "det": [
+    [
+     "要点一　内容繁杂、涉及面广",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　群众贴心人、主心骨",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　任务急、责任重",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　承上启下",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点五　挑战多、风险高",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　党建引领、党员带头",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2020乡镇|问题二": {
+  "粤菜师傅": {
+   "nat": "话",
+   "nd": 5,
+   "s": 3,
+   "w": 4,
+   "p": 4,
+   "base": 0.12,
+   "base1": 0.06,
+   "exp": 1.02,
+   "det": [
+    [
+     "要点一　吃透县里文件",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　宣传发动，组织报名",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　落实师资、场地",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　确保安全、做好后勤",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点五　对接宣传和就业",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "培训": {
+   "nat": "话",
+   "nd": 5,
+   "s": 4,
+   "w": 5,
+   "p": 5,
+   "base": 0.35,
+   "base1": 0.21,
+   "exp": 2.89,
+   "det": [
+    [
+     "要点一　吃透县里文件",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　宣传发动，组织报名",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　落实师资、场地",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点四　确保安全、做好后勤",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　对接宣传和就业",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "准备/安排": {
+   "nat": "角",
+   "nd": 5,
+   "s": 2,
+   "w": 3,
+   "p": 3,
+   "base": 0.21,
+   "base1": 0.09,
+   "exp": 1.47,
+   "det": [
+    [
+     "要点一　吃透县里文件",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　宣传发动，组织报名",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　落实师资、场地",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　确保安全、做好后勤",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　对接宣传和就业",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.5,
+   "base1": 0.29,
+   "exp": 3.62,
+   "det": [
+    [
+     "要点一　吃透县里文件",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　宣传发动，组织报名",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　落实师资、场地",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　确保安全、做好后勤",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　对接宣传和就业",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2020乡镇|问题三": {
+  "柚子": {
+   "nat": "话",
+   "nd": 6,
+   "s": 5,
+   "w": 6,
+   "p": 6,
+   "base": 0.43,
+   "base1": 0.35,
+   "exp": 3.62,
+   "det": [
+    [
+     "要点一　市场销售",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　品牌保护",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　网络",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　物流",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　电商人才",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点六　产业结构",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "产业": {
+   "nat": "话",
+   "nd": 6,
+   "s": 2,
+   "w": 3,
+   "p": 5,
+   "base": 0.3,
+   "base1": 0.22,
+   "exp": 2.67,
+   "det": [
+    [
+     "要点一　市场销售",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　品牌保护",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　网络",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点四　物流",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点五　电商人才",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点六　产业结构",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "短板/问题": {
+   "nat": "角",
+   "nd": 6,
+   "s": 2,
+   "w": 4,
+   "p": 5,
+   "base": 0.08,
+   "base1": 0.05,
+   "exp": 0.79,
+   "det": [
+    [
+     "要点一　市场销售",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　品牌保护",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　网络",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点四　物流",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点五　电商人才",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　产业结构",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 6,
+   "w": 6,
+   "p": 6,
+   "base": 0.58,
+   "base1": 0.5,
+   "exp": 4.36,
+   "det": [
+    [
+     "要点一　市场销售",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　品牌保护",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　网络",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　物流",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　电商人才",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　产业结构",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2020乡镇|问题四": {
+  "返贫/致贫/脱贫": {
+   "nat": "角",
+   "nd": 6,
+   "s": 3,
+   "w": 4,
+   "p": 4,
+   "base": 0.11,
+   "base1": 0.08,
+   "exp": 1.69,
+   "det": [
+    [
+     "要点一　防因学返贫（波叔家）",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　防失去劳动力致贫（老",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　防志气不足返贫（辉哥",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　防疫情失业致贫（小张",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　动态监测",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　产业帮扶",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 3,
+   "w": 4,
+   "p": 4,
+   "base": 0.11,
+   "base1": 0.08,
+   "exp": 1.69,
+   "det": [
+    [
+     "要点一　防因学返贫（波叔家）",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　防失去劳动力致贫（老",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　防志气不足返贫（辉哥",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　防疫情失业致贫（小张",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　动态监测",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　产业帮扶",
+     false,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2020乡镇|问题五": {
+  "乡村振兴": {
+   "nat": "角",
+   "nd": 6,
+   "s": 2,
+   "w": 3,
+   "p": 5,
+   "base": 0.2,
+   "base1": 0.1,
+   "exp": 1.75,
+   "det": [
+    [
+     "要点一　产业兴旺",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点二　拓展销售渠道",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　生活富裕",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　治理有效",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　乡风文明",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点六　生态宜居",
+     false,
+     false,
+     true
+    ]
+   ]
+  },
+  "脱贫/摘帽": {
+   "nat": "角",
+   "nd": 6,
+   "s": 1,
+   "w": 3,
+   "p": 5,
+   "base": 0.18,
+   "base1": 0.12,
+   "exp": 1.97,
+   "det": [
+    [
+     "要点一　产业兴旺",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点二　拓展销售渠道",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　生活富裕",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　治理有效",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点五　乡风文明",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点六　生态宜居",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "角∪": {
+   "nat": "U",
+   "nd": 6,
+   "s": 2,
+   "w": 4,
+   "p": 5,
+   "base": 0.28,
+   "base1": 0.2,
+   "exp": 2.85,
+   "det": [
+    [
+     "要点一　产业兴旺",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点二　拓展销售渠道",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　生活富裕",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　治理有效",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　乡风文明",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点六　生态宜居",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 2,
+   "w": 4,
+   "p": 5,
+   "base": 0.28,
+   "base1": 0.2,
+   "exp": 2.85,
+   "det": [
+    [
+     "要点一　产业兴旺",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点二　拓展销售渠道",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　生活富裕",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　治理有效",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　乡风文明",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点六　生态宜居",
+     false,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2021乡镇|问题一": {
+  "新闻官": {
+   "nat": "话",
+   "nd": 5,
+   "s": 0,
+   "w": 0,
+   "p": 1,
+   "base": 0.21,
+   "base1": 0.16,
+   "exp": 1.17,
+   "det": [
+    [
+     "要点一　推动人居环境整治",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　促进农产品销售",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　推广农业技术",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　推介乡村旅游",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　引导乡风文明",
+     false,
+     false,
+     true
+    ]
+   ]
+  },
+  "农业农村": {
+   "nat": "角",
+   "nd": 5,
+   "s": 2,
+   "w": 3,
+   "p": 4,
+   "base": 0.42,
+   "base1": 0.21,
+   "exp": 1.52,
+   "det": [
+    [
+     "要点一　推动人居环境整治",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　促进农产品销售",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　推广农业技术",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　推介乡村旅游",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点五　引导乡风文明",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 2,
+   "w": 3,
+   "p": 4,
+   "base": 0.53,
+   "base1": 0.37,
+   "exp": 2.45,
+   "det": [
+    [
+     "要点一　推动人居环境整治",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　促进农产品销售",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　推广农业技术",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　推介乡村旅游",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点五　引导乡风文明",
+     false,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2021乡镇|问题二": {
+  "火": {
+   "nat": "话",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.94,
+   "base1": 0.76,
+   "exp": 4.59,
+   "det": [
+    [
+     "要点一　隐患排查不漏点",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　新护林员先培训再上岗",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　灭火工具及时修",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　护林员日常巡查",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　向村民宣传、管住火源",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "问题/隐患": {
+   "nat": "角",
+   "nd": 5,
+   "s": 2,
+   "w": 2,
+   "p": 4,
+   "base": 0.47,
+   "base1": 0.24,
+   "exp": 2.03,
+   "det": [
+    [
+     "要点一　隐患排查不漏点",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　新护林员先培训再上岗",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点三　灭火工具及时修",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点四　护林员日常巡查",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　向村民宣传、管住火源",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.94,
+   "base1": 0.76,
+   "exp": 4.59,
+   "det": [
+    [
+     "要点一　隐患排查不漏点",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　新护林员先培训再上岗",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　灭火工具及时修",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　护林员日常巡查",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　向村民宣传、管住火源",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2021乡镇|问题三": {
+  "旅游/片区": {
+   "nat": "话",
+   "nd": 8,
+   "s": 4,
+   "w": 6,
+   "p": 6,
+   "base": 0.22,
+   "base1": 0.17,
+   "exp": 2.14,
+   "det": [
+    [
+     "要点一　区位交通便利",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点二　自然生态好",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点三　历史文化有特色",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　农特产品丰富",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　建设基础好",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　镇里重视",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点七　规划设计好",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点八　群众支持",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "有利条件": {
+   "nat": "角",
+   "nd": 8,
+   "s": 0,
+   "w": 1,
+   "p": 1,
+   "base": 0.11,
+   "base1": 0.06,
+   "exp": 0.76,
+   "det": [
+    [
+     "要点一　区位交通便利",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　自然生态好",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　历史文化有特色",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　农特产品丰富",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　建设基础好",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　镇里重视",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点七　规划设计好",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点八　群众支持",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 8,
+   "s": 4,
+   "w": 6,
+   "p": 6,
+   "base": 0.33,
+   "base1": 0.22,
+   "exp": 2.78,
+   "det": [
+    [
+     "要点一　区位交通便利",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点二　自然生态好",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点三　历史文化有特色",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　农特产品丰富",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　建设基础好",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　镇里重视",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点七　规划设计好",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点八　群众支持",
+     false,
+     false,
+     false
+    ]
+   ]
+  }
+ },
+ "2021乡镇|问题四": {
+  "就地过年": {
+   "nat": "角",
+   "nd": 6,
+   "s": 3,
+   "w": 4,
+   "p": 4,
+   "base": 0.38,
+   "base1": 0.2,
+   "exp": 2.9,
+   "det": [
+    [
+     "要点一　引导就地过年",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　落实疫情防控",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　走访慰问",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点四　服务留厂员工",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　保障市场供应",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　留住年味",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "服务保障": {
+   "nat": "角",
+   "nd": 6,
+   "s": 3,
+   "w": 3,
+   "p": 3,
+   "base": 0.15,
+   "base1": 0.07,
+   "exp": 1.32,
+   "det": [
+    [
+     "要点一　引导就地过年",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　落实疫情防控",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　走访慰问",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　服务留厂员工",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　保障市场供应",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　留住年味",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "角∪": {
+   "nat": "U",
+   "nd": 6,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.45,
+   "base1": 0.25,
+   "exp": 3.38,
+   "det": [
+    [
+     "要点一　引导就地过年",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　落实疫情防控",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　走访慰问",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　服务留厂员工",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　保障市场供应",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　留住年味",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.45,
+   "base1": 0.25,
+   "exp": 3.38,
+   "det": [
+    [
+     "要点一　引导就地过年",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　落实疫情防控",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　走访慰问",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　服务留厂员工",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　保障市场供应",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　留住年味",
+     false,
+     false,
+     false
+    ]
+   ]
+  }
+ },
+ "2021乡镇|问题五": {
+  "优秀干部": {
+   "nat": "角",
+   "nd": 5,
+   "s": 1,
+   "w": 2,
+   "p": 2,
+   "base": 0.29,
+   "base1": 0.14,
+   "exp": 1.69,
+   "det": [
+    [
+     "要点一　迅速转变思想，扎根基",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　深入群众，了解村情民",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点三　勤学善思，钻研业务",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　以民为先，敢于担当，",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　抓好落实，结合实际",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "方法/经验": {
+   "nat": "推",
+   "nd": 5,
+   "s": 2,
+   "w": 3,
+   "p": 3,
+   "base": 0.33,
+   "base1": 0.14,
+   "exp": 1.69,
+   "det": [
+    [
+     "要点一　迅速转变思想，扎根基",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　深入群众，了解村情民",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点三　勤学善思，钻研业务",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　以民为先，敢于担当，",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　抓好落实，结合实际",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 3,
+   "w": 4,
+   "p": 4,
+   "base": 0.48,
+   "base1": 0.24,
+   "exp": 2.52,
+   "det": [
+    [
+     "要点一　迅速转变思想，扎根基",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　深入群众，了解村情民",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点三　勤学善思，钻研业务",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　以民为先，敢于担当，",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　抓好落实，结合实际",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2022乡镇|问题一": {
+  "文明实践所": {
+   "nat": "话",
+   "nd": 5,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.5,
+   "base1": 0.32,
+   "exp": 3.12,
+   "det": [
+    [
+     "要点一　理论宣讲",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　文化活动",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　宣传服务",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　非遗传承",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　志愿服务",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "作用": {
+   "nat": "角",
+   "nd": 5,
+   "s": 0,
+   "w": 0,
+   "p": 0,
+   "base": 0.0,
+   "base1": 0.0,
+   "exp": 0.0,
+   "det": [
+    [
+     "要点一　理论宣讲",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　文化活动",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　宣传服务",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　非遗传承",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　志愿服务",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "宣讲/宣传/服务": {
+   "nat": "推",
+   "nd": 5,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.5,
+   "base1": 0.27,
+   "exp": 2.79,
+   "det": [
+    [
+     "要点一　理论宣讲",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　文化活动",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　宣传服务",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　非遗传承",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　志愿服务",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.68,
+   "base1": 0.41,
+   "exp": 3.68,
+   "det": [
+    [
+     "要点一　理论宣讲",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　文化活动",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　宣传服务",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　非遗传承",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　志愿服务",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2022乡镇|问题二": {
+  "美": {
+   "nat": "角",
+   "nd": 5,
+   "s": 1,
+   "w": 1,
+   "p": 1,
+   "base": 0.29,
+   "base1": 0.21,
+   "exp": 1.54,
+   "det": [
+    [
+     "要点一　规划齐整有序",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　风景优美",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　条件越来越好",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　乡风文明",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　基层治理",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 1,
+   "w": 1,
+   "p": 1,
+   "base": 0.29,
+   "base1": 0.21,
+   "exp": 1.54,
+   "det": [
+    [
+     "要点一　规划齐整有序",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　风景优美",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　条件越来越好",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　乡风文明",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　基层治理",
+     false,
+     false,
+     false
+    ]
+   ]
+  }
+ },
+ "2022乡镇|问题三": {
+  "寒潮": {
+   "nat": "话",
+   "nd": 5,
+   "s": 2,
+   "w": 2,
+   "p": 2,
+   "base": 0.25,
+   "base1": 0.12,
+   "exp": 1.58,
+   "det": [
+    [
+     "要点一　了解受灾情况",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　专家救治",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　保险定损",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　临时救助",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　持续关注天气",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "百香果": {
+   "nat": "话",
+   "nd": 5,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.62,
+   "base1": 0.33,
+   "exp": 3.03,
+   "det": [
+    [
+     "要点一　了解受灾情况",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　专家救治",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　保险定损",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　临时救助",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　持续关注天气",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "受灾": {
+   "nat": "角",
+   "nd": 5,
+   "s": 4,
+   "w": 4,
+   "p": 5,
+   "base": 0.62,
+   "base1": 0.33,
+   "exp": 3.03,
+   "det": [
+    [
+     "要点一　了解受灾情况",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　专家救治",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　保险定损",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　临时救助",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点五　持续关注天气",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.88,
+   "base1": 0.54,
+   "exp": 3.85,
+   "det": [
+    [
+     "要点一　了解受灾情况",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　专家救治",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　保险定损",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　临时救助",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　持续关注天气",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2022乡镇|问题四": {
+  "撂荒": {
+   "nat": "话",
+   "nd": 5,
+   "s": 3,
+   "w": 5,
+   "p": 5,
+   "base": 0.65,
+   "base1": 0.35,
+   "exp": 3.33,
+   "det": [
+    [
+     "要点一　吃透政策",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点二　协调部门，定期研判",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　耐心沟通，讲究方法",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　深入一线，不怕吃苦",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　主动作为，善借外力",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "复耕复种": {
+   "nat": "话",
+   "nd": 5,
+   "s": 1,
+   "w": 4,
+   "p": 4,
+   "base": 0.5,
+   "base1": 0.25,
+   "exp": 2.61,
+   "det": [
+    [
+     "要点一　吃透政策",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点二　协调部门，定期研判",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　耐心沟通，讲究方法",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点四　深入一线，不怕吃苦",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　主动作为，善借外力",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "顺利完成": {
+   "nat": "角",
+   "nd": 5,
+   "s": 2,
+   "w": 2,
+   "p": 2,
+   "base": 0.3,
+   "base1": 0.15,
+   "exp": 1.71,
+   "det": [
+    [
+     "要点一　吃透政策",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　协调部门，定期研判",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　耐心沟通，讲究方法",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　深入一线，不怕吃苦",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　主动作为，善借外力",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 4,
+   "w": 5,
+   "p": 5,
+   "base": 0.9,
+   "base1": 0.55,
+   "exp": 4.32,
+   "det": [
+    [
+     "要点一　吃透政策",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点二　协调部门，定期研判",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　耐心沟通，讲究方法",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　深入一线，不怕吃苦",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　主动作为，善借外力",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2022乡镇|问题五": {
+  "现代化": {
+   "nat": "角",
+   "nd": 6,
+   "s": 2,
+   "w": 2,
+   "p": 3,
+   "base": 0.17,
+   "base1": 0.09,
+   "exp": 1.2,
+   "det": [
+    [
+     "要点一　推广改良品种",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　拓宽销路",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点三　建食品加工厂",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　开展实用技术培训",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　推广企业带动农户",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　推广智能系统",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "农业": {
+   "nat": "话",
+   "nd": 6,
+   "s": 2,
+   "w": 2,
+   "p": 3,
+   "base": 0.23,
+   "base1": 0.11,
+   "exp": 1.56,
+   "det": [
+    [
+     "要点一　推广改良品种",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　拓宽销路",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　建食品加工厂",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点四　开展实用技术培训",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　推广企业带动农户",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　推广智能系统",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 3,
+   "w": 3,
+   "p": 3,
+   "base": 0.26,
+   "base1": 0.14,
+   "exp": 1.91,
+   "det": [
+    [
+     "要点一　推广改良品种",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　拓宽销路",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　建食品加工厂",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　开展实用技术培训",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　推广企业带动农户",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　推广智能系统",
+     false,
+     false,
+     false
+    ]
+   ]
+  }
+ },
+ "2023乡镇|问题一": {
+  "人才": {
+   "nat": "话",
+   "nd": 5,
+   "s": 2,
+   "w": 2,
+   "p": 2,
+   "base": 0.5,
+   "base1": 0.3,
+   "exp": 2.63,
+   "det": [
+    [
+     "要点一　推进基层治理",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　带动产业发展",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　传承非遗文化",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　带动村民增收",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　治理生态",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "乡村振兴": {
+   "nat": "角",
+   "nd": 5,
+   "s": 1,
+   "w": 2,
+   "p": 3,
+   "base": 0.4,
+   "base1": 0.25,
+   "exp": 2.28,
+   "det": [
+    [
+     "要点一　推进基层治理",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点二　带动产业发展",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点三　传承非遗文化",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　带动村民增收",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　治理生态",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 3,
+   "w": 3,
+   "p": 3,
+   "base": 0.65,
+   "base1": 0.4,
+   "exp": 3.25,
+   "det": [
+    [
+     "要点一　推进基层治理",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　带动产业发展",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　传承非遗文化",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　带动村民增收",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　治理生态",
+     false,
+     false,
+     false
+    ]
+   ]
+  }
+ },
+ "2023乡镇|问题二": {
+  "文化": {
+   "nat": "角",
+   "nd": 7,
+   "s": 2,
+   "w": 3,
+   "p": 4,
+   "base": 0.27,
+   "base1": 0.12,
+   "exp": 1.47,
+   "det": [
+    [
+     "要点一　打造主题游览线路",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　修缮改造古村落",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　设计民族风情体验项目",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　把稻田鱼做成体验和节",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　用本地吃法做特色美食",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点六　发展康养留住游客",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点七　开发文创产品线上线下",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "民族": {
+   "nat": "推",
+   "nd": 7,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.36,
+   "base1": 0.21,
+   "exp": 2.45,
+   "det": [
+    [
+     "要点一　打造主题游览线路",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　修缮改造古村落",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　设计民族风情体验项目",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　把稻田鱼做成体验和节",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　用本地吃法做特色美食",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　发展康养留住游客",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点七　开发文创产品线上线下",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "游客": {
+   "nat": "角",
+   "nd": 7,
+   "s": 4,
+   "w": 5,
+   "p": 6,
+   "base": 0.45,
+   "base1": 0.27,
+   "exp": 3.05,
+   "det": [
+    [
+     "要点一　打造主题游览线路",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　修缮改造古村落",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点三　设计民族风情体验项目",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　把稻田鱼做成体验和节",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　用本地吃法做特色美食",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　发展康养留住游客",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点七　开发文创产品线上线下",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "角∪": {
+   "nat": "U",
+   "nd": 7,
+   "s": 4,
+   "w": 5,
+   "p": 7,
+   "base": 0.55,
+   "base1": 0.33,
+   "exp": 3.59,
+   "det": [
+    [
+     "要点一　打造主题游览线路",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　修缮改造古村落",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点三　设计民族风情体验项目",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　把稻田鱼做成体验和节",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　用本地吃法做特色美食",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点六　发展康养留住游客",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点七　开发文创产品线上线下",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 7,
+   "s": 6,
+   "w": 6,
+   "p": 7,
+   "base": 0.64,
+   "base1": 0.42,
+   "exp": 4.33,
+   "det": [
+    [
+     "要点一　打造主题游览线路",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　修缮改造古村落",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　设计民族风情体验项目",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　把稻田鱼做成体验和节",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　用本地吃法做特色美食",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点六　发展康养留住游客",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点七　开发文创产品线上线下",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2023乡镇|问题三": {
+  "积分": {
+   "nat": "话",
+   "nd": 6,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.82,
+   "base1": 0.53,
+   "exp": 5.13,
+   "det": [
+    [
+     "要点一　提高认识",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　民主制定标准",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　程序规范",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　保障资金",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　丰富奖励",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　党员带动、兑现奖励",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "推广/经验": {
+   "nat": "角",
+   "nd": 6,
+   "s": 0,
+   "w": 0,
+   "p": 0,
+   "base": 0.12,
+   "base1": 0.09,
+   "exp": 1.37,
+   "det": [
+    [
+     "要点一　提高认识",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　民主制定标准",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　程序规范",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　保障资金",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　丰富奖励",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　党员带动、兑现奖励",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.82,
+   "base1": 0.56,
+   "exp": 5.25,
+   "det": [
+    [
+     "要点一　提高认识",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　民主制定标准",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　程序规范",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　保障资金",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　丰富奖励",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　党员带动、兑现奖励",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2023乡镇|问题四": {
+  "应急管理": {
+   "nat": "角",
+   "nd": 6,
+   "s": 3,
+   "w": 3,
+   "p": 3,
+   "base": 0.32,
+   "base1": 0.18,
+   "exp": 2.05,
+   "det": [
+    [
+     "要点一　提高思想觉悟",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　完善应急预案",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　预防为主",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　快速处置",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　依法处理",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　发动群众参与",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "突发/处置": {
+   "nat": "推",
+   "nd": 6,
+   "s": 3,
+   "w": 3,
+   "p": 3,
+   "base": 0.29,
+   "base1": 0.18,
+   "exp": 2.05,
+   "det": [
+    [
+     "要点一　提高思想觉悟",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　完善应急预案",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　预防为主",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　快速处置",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　依法处理",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　发动群众参与",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.46,
+   "base1": 0.29,
+   "exp": 3.03,
+   "det": [
+    [
+     "要点一　提高思想觉悟",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　完善应急预案",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　预防为主",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　快速处置",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　依法处理",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　发动群众参与",
+     false,
+     false,
+     false
+    ]
+   ]
+  }
+ },
+ "2023乡镇|问题五": {
+  "村集体": {
+   "nat": "话",
+   "nd": 4,
+   "s": 2,
+   "w": 2,
+   "p": 2,
+   "base": 0.26,
+   "base1": 0.15,
+   "exp": 1.94,
+   "det": [
+    [
+     "要点一　标题和总起",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　百岭村：盘活闲置资产",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　塘头村：抱团养殖、自",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　羊角村：提供劳务服务",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "增收": {
+   "nat": "角",
+   "nd": 4,
+   "s": 1,
+   "w": 3,
+   "p": 3,
+   "base": 0.32,
+   "base1": 0.15,
+   "exp": 1.94,
+   "det": [
+    [
+     "要点一　标题和总起",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　百岭村：盘活闲置资产",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点三　塘头村：抱团养殖、自",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　羊角村：提供劳务服务",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 4,
+   "s": 3,
+   "w": 3,
+   "p": 3,
+   "base": 0.43,
+   "base1": 0.23,
+   "exp": 2.55,
+   "det": [
+    [
+     "要点一　标题和总起",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　百岭村：盘活闲置资产",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　塘头村：抱团养殖、自",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　羊角村：提供劳务服务",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2024一卷|问题一": {
+  "产业科技创新": {
+   "nat": "角",
+   "nd": 4,
+   "s": 3,
+   "w": 4,
+   "p": 4,
+   "base": 0.66,
+   "base1": 0.38,
+   "exp": 3.21,
+   "det": [
+    [
+     "要点一　视人才为珍宝",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　支持企业做创新的主角",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点三　转化超大市场优势",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　科技体制改革",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "新质生产力": {
+   "nat": "角",
+   "nd": 4,
+   "s": 1,
+   "w": 1,
+   "p": 1,
+   "base": 0.16,
+   "base1": 0.06,
+   "exp": 0.81,
+   "det": [
+    [
+     "要点一　视人才为珍宝",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　支持企业做创新的主角",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　转化超大市场优势",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　科技体制改革",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "角∪": {
+   "nat": "U",
+   "nd": 4,
+   "s": 3,
+   "w": 4,
+   "p": 4,
+   "base": 0.66,
+   "base1": 0.38,
+   "exp": 3.21,
+   "det": [
+    [
+     "要点一　视人才为珍宝",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　支持企业做创新的主角",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点三　转化超大市场优势",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　科技体制改革",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 4,
+   "s": 3,
+   "w": 4,
+   "p": 4,
+   "base": 0.66,
+   "base1": 0.38,
+   "exp": 3.21,
+   "det": [
+    [
+     "要点一　视人才为珍宝",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　支持企业做创新的主角",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点三　转化超大市场优势",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　科技体制改革",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2024一卷|问题二": {
+  "高质量发展": {
+   "nat": "角",
+   "nd": 6,
+   "s": 2,
+   "w": 2,
+   "p": 2,
+   "base": 0.32,
+   "base1": 0.2,
+   "exp": 2.52,
+   "det": [
+    [
+     "要点一　产业聚集",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　人才",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　数据",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　高校成果转化",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　研发资金",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　科研方向",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 2,
+   "w": 2,
+   "p": 2,
+   "base": 0.32,
+   "base1": 0.2,
+   "exp": 2.52,
+   "det": [
+    [
+     "要点一　产业聚集",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　人才",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　数据",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　高校成果转化",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　研发资金",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　科研方向",
+     false,
+     false,
+     false
+    ]
+   ]
+  }
+ },
+ "2024二卷|问题一": {
+  "产业科技创新": {
+   "nat": "角",
+   "nd": 4,
+   "s": 3,
+   "w": 4,
+   "p": 4,
+   "base": 0.68,
+   "base1": 0.39,
+   "exp": 3.26,
+   "det": [
+    [
+     "要点一　视人才为珍宝",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　支持企业做创新的主角",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点三　转化超大市场优势",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　科技体制改革",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "新质生产力": {
+   "nat": "角",
+   "nd": 4,
+   "s": 1,
+   "w": 1,
+   "p": 1,
+   "base": 0.16,
+   "base1": 0.06,
+   "exp": 0.83,
+   "det": [
+    [
+     "要点一　视人才为珍宝",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　支持企业做创新的主角",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　转化超大市场优势",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　科技体制改革",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "角∪": {
+   "nat": "U",
+   "nd": 4,
+   "s": 3,
+   "w": 4,
+   "p": 4,
+   "base": 0.68,
+   "base1": 0.39,
+   "exp": 3.26,
+   "det": [
+    [
+     "要点一　视人才为珍宝",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　支持企业做创新的主角",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点三　转化超大市场优势",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　科技体制改革",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 4,
+   "s": 3,
+   "w": 4,
+   "p": 4,
+   "base": 0.68,
+   "base1": 0.39,
+   "exp": 3.26,
+   "det": [
+    [
+     "要点一　视人才为珍宝",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　支持企业做创新的主角",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点三　转化超大市场优势",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　科技体制改革",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2024二卷|问题二": {
+  "百千万工程": {
+   "nat": "话",
+   "nd": 6,
+   "s": 1,
+   "w": 3,
+   "p": 3,
+   "base": 0.28,
+   "base1": 0.2,
+   "exp": 2.1,
+   "det": [
+    [
+     "要点一　圩镇秩序（问题 1 ",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　镇级公共服务（问题 ",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　产业园经营（问题 3",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　村庄规划（问题 4 ",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　文化资源（问题 5 ",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点六　建设资金（问题 6 ",
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  "高质量发展": {
+   "nat": "角",
+   "nd": 6,
+   "s": 0,
+   "w": 1,
+   "p": 1,
+   "base": 0.12,
+   "base1": 0.04,
+   "exp": 0.47,
+   "det": [
+    [
+     "要点一　圩镇秩序（问题 1 ",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　镇级公共服务（问题 ",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　产业园经营（问题 3",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　村庄规划（问题 4 ",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点五　文化资源（问题 5 ",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点六　建设资金（问题 6 ",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 1,
+   "w": 3,
+   "p": 3,
+   "base": 0.4,
+   "base1": 0.24,
+   "exp": 2.45,
+   "det": [
+    [
+     "要点一　圩镇秩序（问题 1 ",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点二　镇级公共服务（问题 ",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　产业园经营（问题 3",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　村庄规划（问题 4 ",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　文化资源（问题 5 ",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点六　建设资金（问题 6 ",
+     false,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2025省市|问题一": {
+  "主体": {
+   "nat": "角",
+   "nd": 5,
+   "s": 3,
+   "w": 4,
+   "p": 5,
+   "base": 0.46,
+   "base1": 0.19,
+   "exp": 1.78,
+   "det": [
+    [
+     "要点一　让企业有话语权",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点二　多元投入体系",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　银行的全生命周期金融",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点四　以企业为主体的科研组",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　以企业为主体的产学研",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "企业": {
+   "nat": "话",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.92,
+   "base1": 0.65,
+   "exp": 4.13,
+   "det": [
+    [
+     "要点一　让企业有话语权",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　多元投入体系",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　银行的全生命周期金融",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　以企业为主体的科研组",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　以企业为主体的产学研",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.92,
+   "base1": 0.65,
+   "exp": 4.13,
+   "det": [
+    [
+     "要点一　让企业有话语权",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　多元投入体系",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　银行的全生命周期金融",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　以企业为主体的科研组",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　以企业为主体的产学研",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2025省市|问题二": {
+  "成果转化": {
+   "nat": "角",
+   "nd": 6,
+   "s": 6,
+   "w": 6,
+   "p": 6,
+   "base": 1.0,
+   "base1": 0.65,
+   "exp": 5.45,
+   "det": [
+    [
+     "问题一　科研与产业脱节（对策",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题二　论文导向（对策二）",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题三　收益激励不足（对策三",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题四　转化失败风险顾虑（对",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题五　技术经理人短板（对策",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题六　政策落地（对策六）",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "科研成果": {
+   "nat": "话",
+   "nd": 6,
+   "s": 6,
+   "w": 6,
+   "p": 6,
+   "base": 1.0,
+   "base1": 0.58,
+   "exp": 5.21,
+   "det": [
+    [
+     "问题一　科研与产业脱节（对策",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题二　论文导向（对策二）",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题三　收益激励不足（对策三",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题四　转化失败风险顾虑（对",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题五　技术经理人短板（对策",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题六　政策落地（对策六）",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 6,
+   "w": 6,
+   "p": 6,
+   "base": 1.0,
+   "base1": 0.65,
+   "exp": 5.45,
+   "det": [
+    [
+     "问题一　科研与产业脱节（对策",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题二　论文导向（对策二）",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题三　收益激励不足（对策三",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题四　转化失败风险顾虑（对",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题五　技术经理人短板（对策",
+     true,
+     true,
+     true
+    ],
+    [
+     "问题六　政策落地（对策六）",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2025县镇|问题一": {
+  "荔枝": {
+   "nat": "话",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 1.0,
+   "base1": 0.79,
+   "exp": 4.92,
+   "det": [
+    [
+     "要点一　品种改良",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　增添科技含量",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　荔枝保鲜",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　提升附加值",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　农业与文旅融合",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "土特产": {
+   "nat": "角",
+   "nd": 5,
+   "s": 2,
+   "w": 2,
+   "p": 3,
+   "base": 0.26,
+   "base1": 0.16,
+   "exp": 1.9,
+   "det": [
+    [
+     "要点一　品种改良",
+     false,
+     false,
+     true
+    ],
+    [
+     "要点二　增添科技含量",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　荔枝保鲜",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　提升附加值",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　农业与文旅融合",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 1.0,
+   "base1": 0.84,
+   "exp": 4.96,
+   "det": [
+    [
+     "要点一　品种改良",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　增添科技含量",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　荔枝保鲜",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　提升附加值",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　农业与文旅融合",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2025县镇|问题二": {
+  "科技赋能": {
+   "nat": "角",
+   "nd": 5,
+   "s": 3,
+   "w": 3,
+   "p": 3,
+   "base": 0.31,
+   "base1": 0.23,
+   "exp": 3.35,
+   "det": [
+    [
+     "要点一　关键装备缺乏（问题一",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　企业被申报规定挡在门",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　农民不愿用新技术（问",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　南药缺乏标准化（问题",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　人才稀缺（问题五配对",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "农业产业": {
+   "nat": "话",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.62,
+   "base1": 0.38,
+   "exp": 4.28,
+   "det": [
+    [
+     "要点一　关键装备缺乏（问题一",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　企业被申报规定挡在门",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　农民不愿用新技术（问",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　南药缺乏标准化（问题",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　人才稀缺（问题五配对",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.64,
+   "base1": 0.46,
+   "exp": 4.55,
+   "det": [
+    [
+     "要点一　关键装备缺乏（问题一",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　企业被申报规定挡在门",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　农民不愿用新技术（问",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　南药缺乏标准化（问题",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　人才稀缺（问题五配对",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2026省市|问题一": {
+  "绿色工厂": {
+   "nat": "话",
+   "nd": 5,
+   "s": 1,
+   "w": 1,
+   "p": 1,
+   "base": 0.2,
+   "base1": 0.1,
+   "exp": 1.11,
+   "det": [
+    [
+     "要点一　绿色景观",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　绿色能源",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　绿色产品",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　绿色办公",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　绿色原材料",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "绿": {
+   "nat": "角",
+   "nd": 5,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.67,
+   "base1": 0.47,
+   "exp": 3.84,
+   "det": [
+    [
+     "要点一　绿色景观",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　绿色能源",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　绿色产品",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　绿色办公",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　绿色原材料",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.67,
+   "base1": 0.47,
+   "exp": 3.84,
+   "det": [
+    [
+     "要点一　绿色景观",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　绿色能源",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　绿色产品",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　绿色办公",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　绿色原材料",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2026省市|问题二": {
+  "零碳园区": {
+   "nat": "话",
+   "nd": 6,
+   "s": 6,
+   "w": 6,
+   "p": 6,
+   "base": 1.0,
+   "base1": 0.94,
+   "exp": 5.94,
+   "det": [
+    [
+     "要点一　人才（问题一 / 对",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　考核与跟踪（问题二 ",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　绿电直连与配套（问题",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　资金（问题四 / 对",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　专业服务（问题五 /",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　规划与政策（问题六 ",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 6,
+   "s": 6,
+   "w": 6,
+   "p": 6,
+   "base": 1.0,
+   "base1": 0.94,
+   "exp": 5.94,
+   "det": [
+    [
+     "要点一　人才（问题一 / 对",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　考核与跟踪（问题二 ",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　绿电直连与配套（问题",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　资金（问题四 / 对",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　专业服务（问题五 /",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点六　规划与政策（问题六 ",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2026县镇|问题一": {
+  "绿色工厂": {
+   "nat": "话",
+   "nd": 5,
+   "s": 1,
+   "w": 1,
+   "p": 1,
+   "base": 0.2,
+   "base1": 0.1,
+   "exp": 1.11,
+   "det": [
+    [
+     "要点一　绿色景观",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　绿色能源",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点三　绿色产品",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　绿色办公",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点五　绿色原材料",
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  "绿": {
+   "nat": "角",
+   "nd": 5,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.67,
+   "base1": 0.47,
+   "exp": 3.84,
+   "det": [
+    [
+     "要点一　绿色景观",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　绿色能源",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　绿色产品",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　绿色办公",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　绿色原材料",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 4,
+   "w": 4,
+   "p": 4,
+   "base": 0.67,
+   "base1": 0.47,
+   "exp": 3.84,
+   "det": [
+    [
+     "要点一　绿色景观",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　绿色能源",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　绿色产品",
+     false,
+     false,
+     false
+    ],
+    [
+     "要点四　绿色办公",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　绿色原材料",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ },
+ "2026县镇|问题二": {
+  "古树名木": {
+   "nat": "话",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 0.97,
+   "base1": 0.76,
+   "exp": 4.96,
+   "det": [
+    [
+     "要点一　保护性破坏（问题一 ",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　抢救资金（问题二 /",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　村民不知法（问题三 ",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　积极性不高（问题四 ",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　深山保护难（问题五 ",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "保护": {
+   "nat": "角",
+   "nd": 5,
+   "s": 4,
+   "w": 5,
+   "p": 5,
+   "base": 0.68,
+   "base1": 0.47,
+   "exp": 4.48,
+   "det": [
+    [
+     "要点一　保护性破坏（问题一 ",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　抢救资金（问题二 /",
+     false,
+     true,
+     true
+    ],
+    [
+     "要点三　村民不知法（问题三 ",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　积极性不高（问题四 ",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　深山保护难（问题五 ",
+     true,
+     true,
+     true
+    ]
+   ]
+  },
+  "ANY": {
+   "nat": "",
+   "nd": 5,
+   "s": 5,
+   "w": 5,
+   "p": 5,
+   "base": 1.0,
+   "base1": 0.82,
+   "exp": 4.98,
+   "det": [
+    [
+     "要点一　保护性破坏（问题一 ",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点二　抢救资金（问题二 /",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点三　村民不知法（问题三 ",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点四　积极性不高（问题四 ",
+     true,
+     true,
+     true
+    ],
+    [
+     "要点五　深山保护难（问题五 ",
+     true,
+     true,
+     true
+    ]
+   ]
+  }
+ }
+}

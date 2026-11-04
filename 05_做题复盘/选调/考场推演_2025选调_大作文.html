@@ -1,0 +1,1013 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>25选调作文推演</title>
+<style>
+/* base reset: the artifact viewer supplies this itself; a local file needs it here */
+:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Long+Cang&family=Noto+Serif+SC:wght@400;700&family=ZCOOL+XiaoWei&display=swap">
+<style>
+:root{
+  /* Layout: an exam desk. Pick a paper; its booklet with red-pen marks and a judgment card side by side; then the 格子, the pile, the build, the 方格稿纸 and the answer check. */
+  --bg:#F1F3EE;
+  --paper:#FFFFFF;
+  --ink:#1C1F1B;
+  --ink-2:#596056;
+  --rule:#D8DDD3;
+  --off:#848B7F;
+  --pen:#C4372C;
+  --pen-bg:#FBE8E5;
+  --ex:#6A46B4;
+  --ex-bg:#F0EAFB;
+  --role:#2963C0;
+  --role-bg:#E8EFFB;
+  --grid:#9DC09A;
+  --hl:#FFEC9E;
+  --hl-soft:#FFF6D2;
+  --gold:#B7791F;
+  --shadow:rgba(28,31,27,.08);
+  --f-display:"ZCOOL XiaoWei","Songti SC","STSong",serif;
+  --f-print:"Noto Serif SC","Songti SC","STSong","SimSun",serif;
+  --f-hand:"Long Cang","Kaiti SC","STKaiti","KaiTi",cursive;
+  --f-ui:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+  --nav-h:49px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121411;--paper:#1B1E19;--ink:#E4E8DF;--ink-2:#A8AFA3;--rule:#30362D;--off:#7F8678;
+    --pen:#FF7B6C;--pen-bg:#3B211D;--ex:#BBA4F8;--ex-bg:#2B2442;--role:#86B4FF;--role-bg:#1C2B44;
+    --grid:#46684A;--hl:#5A4C1A;--hl-soft:#2F2B18;--gold:#E8B54D;--shadow:rgba(0,0,0,.4);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121411;--paper:#1B1E19;--ink:#E4E8DF;--ink-2:#A8AFA3;--rule:#30362D;--off:#7F8678;
+  --pen:#FF7B6C;--pen-bg:#3B211D;--ex:#BBA4F8;--ex-bg:#2B2442;--role:#86B4FF;--role-bg:#1C2B44;
+  --grid:#46684A;--hl:#5A4C1A;--hl-soft:#2F2B18;--gold:#E8B54D;--shadow:rgba(0,0,0,.4);
+  color-scheme:dark;
+}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.7}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:40;background:var(--bg)}
+.wrap{max-width:1120px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{text-wrap:balance}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.92em;word-break:break-all}
+.muted{color:var(--ink-2)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+[hidden]{display:none !important}
+
+/* header + paper chooser + steps */
+.top .wrap{padding-block:30px 20px}
+.kicker{font-family:var(--f-hand);color:var(--pen);font-size:21px;line-height:1.2;margin:0}
+.top h1{font-family:var(--f-display);font-weight:400;font-size:clamp(30px,5.2vw,42px);line-height:1.2;margin:6px 0 10px;letter-spacing:.02em}
+.sub{color:var(--ink-2);max-width:46em;margin:0}
+.papers{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-top:20px}
+.pcard{display:flex;flex-direction:column;gap:1px;padding:9px 12px 10px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);text-decoration:none;border-radius:4px;min-width:0}
+.pcard:hover{border-color:var(--ink-2)}
+.pcard:focus-visible{outline:2px solid var(--role);outline-offset:1px}
+.pcard[aria-current="page"]{border-color:var(--pen);box-shadow:inset 0 0 0 1px var(--pen)}
+.pcard .py{font-family:var(--f-hand);color:var(--pen);font-size:19px;line-height:1.15}
+.pcard .pn{font-weight:700;font-size:14px}
+.pcard .pt{font-family:var(--f-print);font-size:12.5px;color:var(--ink-2);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pcard .pb{font-size:11.5px;color:var(--role);margin-top:2px}
+.pcard.ovc .py{color:var(--role)}
+.steps{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:var(--bg);border-block:1px solid var(--rule)}
+.navrow{display:flex;align-items:center;gap:8px}
+.psel{flex:none;display:flex;align-items:center}
+.psel select{font:inherit;font-size:13.5px;line-height:1.3;padding:5px 8px;border:1px solid var(--rule);border-radius:4px;background:var(--paper);color:var(--ink);max-width:9em}
+.psel select:focus-visible{outline:2px solid var(--role);outline-offset:1px}
+.steps ol{list-style:none;margin:0;padding:0;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0}
+.steps ol::-webkit-scrollbar{display:none}
+.steps a{display:flex;align-items:baseline;gap:6px;padding:11px 10px 10px;color:var(--ink-2);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent}
+.steps a .n{font-family:var(--f-hand);color:var(--pen);font-size:19px;line-height:1}
+.steps a:hover{color:var(--ink)}
+.steps a[aria-current="true"]{color:var(--ink);border-bottom-color:var(--pen)}
+.steps a:focus-visible{outline:2px solid var(--role);outline-offset:-2px}
+
+/* sections */
+.pbanner{scroll-margin-top:calc(var(--nav-h) + env(safe-area-inset-top,0px))}
+.pbanner .wrap{padding-block:28px 0}
+.pbanner h2{font-family:var(--f-display);font-weight:400;font-size:clamp(25px,4vw,33px);line-height:1.25;margin:4px 0 6px}
+.pbanner .by{color:var(--ink-2);margin:0;font-size:14px}
+.sec{scroll-margin-top:calc(var(--nav-h) + env(safe-area-inset-top,0px))}
+.sec > .wrap{padding-block:40px 30px}
+.sec + .sec{border-top:1px solid var(--rule)}
+.sec-h{display:flex;align-items:baseline;gap:12px;margin:0 0 6px}
+.sec-h .n{font-family:var(--f-hand);color:var(--pen);font-size:36px;line-height:1}
+.sec-h h2{font-family:var(--f-display);font-weight:400;font-size:29px;line-height:1.25;margin:0}
+.lead{max-width:46em;color:var(--ink-2);margin:0 0 20px}
+.paper{background:var(--paper);border:1px solid var(--rule);box-shadow:0 1px 2px var(--shadow)}
+.box-h{font-family:var(--f-display);font-weight:400;font-size:21px;line-height:1.3;margin:0 0 6px}
+
+/* marks */
+.mk{font-family:var(--f-hand);font-weight:400;color:var(--pen);font-size:1.3em;line-height:0;margin:0 .06em}
+.mk.ex{color:var(--ex)}
+.mk.num{font-family:var(--f-ui);font-size:1em;font-weight:700}
+.mk.star{font-family:var(--f-ui);font-size:.82em;line-height:0;color:var(--gold);margin:0 .08em 0 0}
+.tag{font-family:var(--f-hand);color:var(--pen);font-size:.78em;line-height:0;position:relative;top:.3em;margin-right:.14em}
+.tag.ex{color:var(--ex)}
+.g{display:inline-flex;align-items:baseline;white-space:nowrap}
+.g .mk{font-size:1.2em;line-height:1}
+.g .tag{top:.15em;line-height:1}
+.g.off{color:var(--off)}
+.g.ex{color:var(--ex)}
+.o{display:inline-block;padding:0 .5em;border:1px solid currentColor;border-radius:3px;line-height:1.65;font-size:.94em;white-space:nowrap}
+.o-shi{color:var(--ex)}
+.o-li{color:var(--pen)}
+.o-ting{color:var(--pen);background:var(--pen-bg);border-color:transparent}
+.o-wu{color:var(--off)}
+
+/* buttons */
+.btn{font:inherit;font-size:13.5px;line-height:1.4;padding:6px 12px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);border-radius:4px;cursor:pointer}
+.btn:hover{border-color:var(--ink-2)}
+.btn:disabled{opacity:.45;cursor:default}
+.btn:focus-visible{outline:2px solid var(--role);outline-offset:1px}
+.btn.primary{border-color:var(--pen);color:var(--pen)}
+
+/* step 1 */
+.read-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:18px}
+.prompt{padding:18px 20px;font-family:var(--f-print);line-height:1.95}
+.prompt .q{margin:0}
+.prompt .q b{font-family:var(--f-ui)}
+.prompt ol{padding-left:1.6em;margin:8px 0 0;font-size:14.5px;color:var(--ink-2)}
+.three{padding:18px 20px}
+.three dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px 16px;margin:0;align-items:baseline}
+.three dt{font-family:var(--f-hand);color:var(--role);font-size:22px;line-height:1.2;white-space:nowrap}
+.three dd{margin:0}
+.legend{margin-top:18px;padding:16px 20px}
+.legend > p{margin:0 0 10px;color:var(--ink-2);max-width:46em}
+.tbl{overflow-x:auto}
+.legend table{width:100%;border-collapse:collapse;font-size:14.5px}
+.legend th,.legend td{text-align:left;padding:9px 12px 9px 0;border-top:1px solid var(--rule);vertical-align:baseline}
+.legend th{font-weight:400;color:var(--ink-2);font-size:13px}
+.legend td:first-child{white-space:nowrap;width:4.5em}
+.legend td:last-child{color:var(--ink-2)}
+.legend ul{margin:12px 0 0;padding-left:1.2em;color:var(--ink-2);font-size:14px}
+
+/* step 2 */
+.mark-top{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin:0 0 16px}
+.switch{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--ink-2);cursor:pointer}
+.switch input{width:16px;height:16px;accent-color:var(--pen);margin:0}
+.hint{font-size:14px;color:var(--ink-2)}
+.mark-layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:24px;align-items:start}
+.mats{display:flex;flex-direction:column;gap:18px;min-width:0}
+.mat{padding:16px 20px 8px;min-width:0}
+.mat-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 14px;margin-bottom:6px}
+.mat-h h3{font-family:var(--f-print);font-weight:700;font-size:16px;margin:0}
+.gist{font-family:var(--f-hand);color:var(--pen);font-size:20px;line-height:1.25}
+.mtext{font-family:var(--f-print);font-size:16px;line-height:2.15;max-width:40em}
+.para{margin:0 0 .45em;text-indent:2em}
+.s{cursor:pointer;border-radius:2px;-webkit-box-decoration-break:clone;box-decoration-break:clone;transition:background-color .15s}
+.s:hover{background:var(--hl-soft)}
+.s.sel{background:var(--hl)}
+.s:focus-visible{outline:2px solid var(--role);outline-offset:1px}
+.dim .s.off{color:var(--off)}
+.pc.follow{text-decoration:underline wavy var(--ex);text-decoration-thickness:1px;text-underline-offset:6px}
+details.xt summary{cursor:pointer;color:var(--ink-2);font-family:var(--f-ui);font-size:14px;padding:2px 0 8px}
+details.xt summary:focus-visible{outline:2px solid var(--role);outline-offset:2px}
+#card{position:sticky;top:calc(var(--nav-h) + env(safe-area-inset-top,0px) + 16px);max-height:calc(100vh - var(--nav-h) - 48px);overflow:auto;padding:16px 18px}
+.card-intro p{margin:0 0 12px;color:var(--ink-2);font-size:14px}
+.outs{list-style:none;margin:0 0 14px;padding:0;display:flex;flex-direction:column;gap:8px}
+.outs li{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.card-h{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px}
+.where{font-size:13px;color:var(--ink-2)}
+.where .sid{color:var(--ink);font-variant-numeric:tabular-nums}
+.navb{display:flex;gap:6px}
+.btn.close{display:none}
+.jd{padding:10px 0 4px;border-top:1px dashed var(--rule)}
+.jd .q{font-family:var(--f-print);font-size:14px;margin:0 0 6px;color:var(--ink-2)}
+.jd dl{display:grid;grid-template-columns:3.4em minmax(0,1fr);gap:7px 10px;margin:0;font-size:14px;line-height:1.6}
+.jd dt{color:var(--ink-2)}
+.jd dd{margin:0;min-width:0}
+.arrow{color:var(--ink-2);margin:0 .4em}
+.use{color:var(--role)}
+.rest,.xi-note{font-size:13.5px;color:var(--ink-2);margin:8px 0 0}
+
+/* step 3 */
+.gridbox{padding:16px 20px 12px;margin-bottom:22px}
+.kind{display:inline-block;font-family:var(--f-ui);font-size:12.5px;line-height:1.6;padding:0 8px;border:1px solid var(--role);color:var(--role);border-radius:3px;margin-left:10px;vertical-align:.2em;white-space:nowrap}
+.gsent{font-family:var(--f-print);font-size:15.5px;line-height:2.05;margin:6px 0 4px}
+.gtext{margin:4px 0 12px;font-size:14px;color:var(--ink-2)}
+.gtext b{color:var(--ink);font-weight:700}
+.embed{list-style:none;margin:0;padding:0}
+.embed li{display:grid;grid-template-columns:2.2em minmax(6em,auto) minmax(0,1fr);gap:4px 12px;align-items:baseline;padding:8px 0;border-top:1px solid var(--rule);font-size:14px}
+.embed .big{font-family:var(--f-hand);color:var(--pen);font-size:26px;line-height:1}
+.embed .fn{font-weight:700}
+.embed .fn small{display:block;font-weight:400;color:var(--ink-2);font-size:12.5px}
+.embed .ex{font-family:var(--f-print);color:var(--ink-2)}
+.rej{list-style:none;margin:10px 0 0;padding:0}
+.rej li{padding:9px 0 3px;border-top:1px dashed var(--rule);font-size:14px;color:var(--ink-2)}
+.rej .x{font-family:var(--f-hand);color:var(--pen);font-size:19px;line-height:1;margin-right:6px}
+.rej b{color:var(--ink);font-weight:400;font-family:var(--f-print)}
+.pile-row{display:grid;gap:16px;margin-bottom:16px}
+.pile-open{grid-template-columns:minmax(0,1fr)}
+.pile-faces{grid-template-columns:repeat(auto-fit,minmax(205px,1fr))}
+.pile-end{grid-template-columns:repeat(2,minmax(0,1fr))}
+.heap{padding:14px 16px 10px;min-width:0}
+.heap h3{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px;margin:0 0 2px;font-size:15px;font-weight:700}
+.heap h3 .big{font-family:var(--f-hand);color:var(--pen);font-size:32px;font-weight:400;line-height:1}
+.heap h3 .src{font-weight:400;font-size:12.5px;color:var(--ink-2)}
+.grp{margin-top:10px}
+.grp-h{font-size:13px;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline}
+.its{list-style:none;margin:4px 0 0;padding:0}
+.it{display:grid;grid-template-columns:3.4em minmax(0,1fr) 1.2em;gap:6px;align-items:baseline;padding:4px 0;border-top:1px dashed var(--rule);font-size:13.5px;line-height:1.55}
+.it .id{font-variant-numeric:tabular-nums;color:var(--ink-2);font-size:12px}
+.it .tx{font-family:var(--f-print);min-width:0}
+.it:not(.used) .tx{color:var(--ink-2)}
+.use-dot{font-family:var(--f-hand);color:var(--role);font-size:17px;line-height:1;text-align:right}
+.pile-open .its{columns:2 22em;column-gap:28px}
+.pile-open .it{break-inside:avoid}
+
+/* step 4 */
+.lun{padding:16px 20px 8px;margin-bottom:18px}
+.combo{margin:0 0 10px;color:var(--ink-2);font-size:14px;max-width:48em}
+.lun ol{list-style:none;margin:0;padding:0}
+.lun li{display:grid;grid-template-columns:2em minmax(0,1fr);gap:10px;padding:10px 0;border-top:1px solid var(--rule);align-items:baseline}
+.lun .big{font-family:var(--f-hand);color:var(--pen);font-size:26px;line-height:1}
+.lun .tx{font-family:var(--f-print);font-size:16px;line-height:2.1}
+.h1{text-decoration:underline 2px var(--pen);text-underline-offset:7px;text-decoration-skip-ink:none}
+.h2{text-decoration:underline 2px var(--role);text-underline-offset:7px;text-decoration-skip-ink:none}
+.lab{font-family:var(--f-ui);font-size:11.5px;line-height:1.5;margin:0 3px;padding:0 5px;border-radius:3px;white-space:nowrap;vertical-align:.15em}
+.lab.l1{color:var(--pen);background:var(--pen-bg)}
+.lab.l2{color:var(--role);background:var(--role-bg)}
+.parts{display:flex;flex-direction:column;gap:18px}
+.part{padding:16px 20px 6px}
+.part-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px;margin-bottom:6px}
+.part-h h3{font-family:var(--f-display);font-weight:400;font-size:23px;margin:0}
+.formula{font-size:13.5px;color:var(--ink-2);margin:0}
+.rows{list-style:none;margin:0;padding:0}
+.row{display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:4px 18px;padding:14px 0;border-top:1px solid var(--rule)}
+.role{font-family:var(--f-hand);color:var(--role);font-size:22px;line-height:1.35}
+.row-b{min-width:0}
+.out{font-family:var(--f-print);font-size:16.5px;line-height:1.95;margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{display:inline-flex;align-items:baseline;gap:6px;padding:2px 9px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);border-radius:3px;font:inherit;font-size:13px;line-height:1.65;cursor:pointer;text-align:left;max-width:100%}
+.chip:hover{border-color:var(--ink-2)}
+.chip:focus-visible{outline:2px solid var(--role);outline-offset:1px}
+.chip .cid{font-variant-numeric:tabular-nums;color:var(--ink-2);font-size:12px}
+.chip .cf{font-family:var(--f-print);min-width:0}
+.chip.self{border-style:dashed;border-color:var(--role);cursor:default;background:transparent}
+.chip.self .lbl{color:var(--role);font-family:var(--f-hand);font-size:16px;line-height:1}
+.how{font-size:13.5px;color:var(--ink-2);margin:8px 0 0}
+.how .lbl,.note .lbl{font-family:var(--f-hand);font-size:17px;margin-right:8px}
+.how .lbl{color:var(--ink-2)}
+.note{margin:8px 0 0;padding:8px 11px;border:1px dashed var(--role);background:var(--role-bg);font-size:13.5px}
+.note .lbl{color:var(--role)}
+.full{margin-top:10px;padding-top:8px;border-top:1px dashed var(--rule);font-family:var(--f-print);font-size:14.5px;line-height:2.05}
+.full p{margin:0 0 4px}
+.fid{font-family:var(--f-ui);font-size:12px;color:var(--ink-2);margin-right:8px;font-variant-numeric:tabular-nums}
+
+/* step 5 */
+.sheet-wrap{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:20px;align-items:start}
+.gridpaper{padding:20px 14px 12px;min-width:0}
+.cells{display:grid;grid-template-columns:repeat(var(--cols,20),var(--cell,24px));row-gap:6px;justify-content:center}
+.c{position:relative;height:var(--cell,24px);display:flex;align-items:center;justify-content:center;border-block:1px solid var(--grid);border-right:1px solid var(--grid);font-family:var(--f-print);font-size:calc(var(--cell,24px) * .6);line-height:1;color:var(--ink);white-space:nowrap;letter-spacing:-.02em}
+.c.c0{border-left:1px solid var(--grid)}
+.c.tt{font-weight:700}
+.c[data-e]{cursor:pointer}
+.c.hv{background:var(--hl-soft)}
+.c.on{background:var(--hl)}
+.c[data-n]::after{content:attr(data-n);position:absolute;right:1px;bottom:0;font:8px/1 var(--f-ui);color:var(--ink-2);letter-spacing:0}
+.c:focus-visible{outline:2px solid var(--role);outline-offset:1px;z-index:1}
+.count{font-size:13px;color:var(--ink-2);margin:14px 4px 0}
+#sheetInfo{position:sticky;top:calc(var(--nav-h) + env(safe-area-inset-top,0px) + 16px);padding:14px 16px}
+#sheetInfo > p.muted{margin:0;font-size:14px}
+.si-h{display:flex;align-items:baseline;gap:10px;margin:0 0 4px}
+.si-part{font-size:13px;color:var(--ink-2)}
+
+/* step 6 + overview */
+.cmp{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-bottom:16px}
+.cmp > div{padding:14px 18px 10px;min-width:0}
+.cmp h3{font-size:13px;color:var(--ink-2);font-weight:400;margin:0}
+.cmp .t{font-family:var(--f-display);font-size:20px;line-height:1.4;margin:2px 0 8px}
+.cmp ol{margin:0;padding-left:1.5em;font-family:var(--f-print);font-size:15px;line-height:1.95}
+.cmp li{padding:2px 0}
+.verdict{margin:0 0 18px;padding:10px 14px;border:1px dashed var(--role);background:var(--role-bg);font-size:14px;max-width:52em}
+.verdict .lbl{font-family:var(--f-hand);color:var(--role);font-size:18px;margin-right:8px}
+.block{padding:14px 18px 8px;margin-bottom:16px}
+.block > p{margin:0 0 8px;color:var(--ink-2);font-size:14px;max-width:48em}
+.uses{list-style:none;margin:0;padding:0}
+.uses li{padding:8px 0;border-top:1px solid var(--rule);font-size:14px}
+.uses .u-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;font-size:13px;color:var(--ink-2)}
+.uses .u-r{color:var(--role);font-family:var(--f-hand);font-size:18px;line-height:1}
+.uses .u-id{font-variant-numeric:tabular-nums;color:var(--ink)}
+.uses .u-t{font-family:var(--f-print);margin:2px 0 0}
+.uses li.odd{background:var(--hl-soft);margin-inline:-8px;padding-inline:8px}
+.flag{font-size:12px;color:var(--pen);border:1px solid currentColor;border-radius:3px;padding:0 6px;line-height:1.6;white-space:nowrap}
+.conf{list-style:none;margin:0;padding:0}
+.conf li{padding:10px 0;border-top:1px solid var(--rule);font-size:14.5px}
+.conf .c-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin-bottom:2px}
+.conf .c-t{font-family:var(--f-hand);color:var(--pen);font-size:19px;line-height:1.2}
+.conf .c-id{font-size:12.5px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.conf .c-p{font-size:12.5px;color:var(--role)}
+.conf p{margin:0;max-width:48em}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.prow{padding:14px 16px 10px;min-width:0}
+.prow h3{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin:0 0 6px;font-size:15px}
+.prow h3 a{color:var(--ink);text-decoration:none}
+.prow h3 a:hover{text-decoration:underline}
+.prow dl{display:grid;grid-template-columns:3.6em minmax(0,1fr);gap:5px 10px;margin:0;font-size:13.5px;line-height:1.6}
+.prow dt{color:var(--ink-2)}
+.prow dd{margin:0;min-width:0}
+.ok{color:var(--role)}
+.bad{color:var(--pen)}
+.ggrp{padding:16px 20px 8px;margin-bottom:16px}
+.ggrp > p{margin:0 0 8px;max-width:48em}
+.fix{margin:6px 0 10px;padding:8px 12px;border-left:3px solid var(--role);background:var(--role-bg);font-size:14px;max-width:48em}
+.fix .lbl{font-family:var(--f-hand);color:var(--role);font-size:17px;margin-right:8px}
+
+ul.rule{margin:0;padding-left:1.2em;font-size:14.5px;max-width:48em}
+ul.rule li{padding:3px 0}
+.ptitle{font-family:var(--f-display);font-size:18px;line-height:1.4;margin:0 0 8px}
+ul.plog{list-style:none;margin:10px 0 0;padding:8px 0 0;border-top:1px dashed var(--rule);font-size:13px;color:var(--ink-2)}
+ul.plog li{padding:2px 0}
+ul.plog b{font-weight:400;color:var(--pen);font-family:var(--f-hand);font-size:16px}
+.foot .wrap{padding-block:22px 44px;font-size:12.5px;color:var(--ink-2)}
+.foot p{margin:0 0 4px}
+
+@media (max-width:959px){
+  .mark-layout,.sheet-wrap{grid-template-columns:minmax(0,1fr)}
+  #card{position:fixed;left:0;right:0;bottom:0;top:auto;z-index:35;max-height:48vh;border-width:1px 0 0;box-shadow:0 -10px 30px var(--shadow);padding:12px max(16px,env(safe-area-inset-right,0px)) calc(14px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));display:none}
+  body.sheet-on:not(.away) #card{display:block}
+  .btn.close{display:inline-block}
+  #sheetInfo{position:static}
+}
+@media (max-width:820px){.read-grid{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:720px){.cmp{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:640px){
+  .row{grid-template-columns:minmax(0,1fr)}
+  .mat,.part,.gridbox,.lun,.ggrp{padding-inline:16px}
+  .embed li{grid-template-columns:2.2em minmax(0,1fr)}
+  .embed .ex{grid-column:2}
+}
+@media (max-width:560px){.pile-end{grid-template-columns:minmax(0,1fr)}.psel select{max-width:7.5em}}
+@media (prefers-reduced-motion: reduce){.s{transition:none}}
+</style>
+
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <p class="kicker" id="hKicker"></p>
+  <h1 id="hTitle"></h1>
+  <p class="sub" id="hSub"></p>
+  <nav class="papers" id="papers" aria-label="选卷"></nav>
+</div></header>
+
+<nav class="steps" aria-label="步骤"><div class="wrap navrow">
+  <label class="psel" id="pselWrap"><span class="sr">选卷</span><select id="paperSel"></select></label>
+  <ol id="stepList"></ol>
+</div></nav>
+
+<main>
+<div id="pv">
+  <div class="pbanner" id="pbanner"><div class="wrap"><p class="kicker" id="pbKicker"></p><h2 id="pbTitle"></h2><p class="by" id="pbBy"></p></div></div>
+
+  <section class="sec" id="s-read"><div class="wrap">
+    <div class="sec-h"><span class="n">1</span><h2>读题</h2></div>
+    <p class="lead" id="readLead"></p>
+    <div class="read-grid">
+      <div class="paper prompt" id="prompt"></div>
+      <div class="paper three" id="three"></div>
+    </div>
+    <div class="paper legend">
+      <h3 class="box-h">读的时候划什么</h3>
+      <p>一句读完问两件事：<strong>读完多了什么</strong>，<strong>好不好看</strong>。句式（是什么、做了什么、做成了什么、要什么）只帮你想它去哪。</p>
+      <div class="tbl"><table>
+        <thead><tr><th scope="col">记号</th><th scope="col">什么时候划</th><th scope="col">先往哪放</th></tr></thead>
+        <tbody>
+          <tr><td><span class="g"><b class="mk">{ }</b><span class="tag">面</span></span></td><td><span class="o o-li">多了一个道理</span>；宽的「做了什么」（没有数字、地名、个案）也算</td><td>论点、道理</td></tr>
+          <tr><td><span class="g"><b class="mk ex">/</b><span class="tag ex">面</span></span></td><td><span class="o o-shi">多了一件具体的事</span>：带数、带地名、带项目</td><td>例子</td></tr>
+          <tr><td><span class="g"><b class="mk star">★</b></span></td><td>加在 { } 或 / 上：又好看又有料。/★ 只标数字亮眼的事</td><td>显眼的地方：标题、论点、开头、结尾；能架几面就当架子</td></tr>
+          <tr><td><span class="g"><b class="mk">( )</b><span class="tag">面</span></span></td><td><span class="o o-ting">没多什么，但好听</span>，说的是一面</td><td>段尾回扣</td></tr>
+          <tr><td><span class="g"><b class="mk">( )</b><span class="tag">尾</span></span></td><td><span class="o o-ting">没多什么，但好听</span>，说的是整个广东或更大</td><td>标题、开头、结尾</td></tr>
+          <tr><td><span class="g"><b class="mk num">③</b></span></td><td>广东干得好的、干得不好的、成效、要答的题</td><td>开头·对广东而言</td></tr>
+          <tr><td><span class="g"><b class="mk num">①</b><b class="mk num">④</b></span></td><td>总书记原话；材料给的一串做法</td><td>开头·引语；开头·做什么</td></tr>
+          <tr><td><span class="g off">不划</span></td><td><span class="o o-wu">没多什么，也不好听</span>；或者太碎</td><td>—</td></tr>
+        </tbody>
+      </table></div>
+      <ul>
+        <li id="faceWords"></li>
+        <li>好看认长相：对仗或同一句式重复、比喻、并非……而是……、不仅……更……、诗句俗语、画面。</li>
+        <li>按分句判：长句的尾巴上常挂着好用的半句。好听但只说一个个案的，不另划，跟着例子走。</li>
+        <li>拼的时候找句子：看到就用，记得就用；找不到看附近；附近也没有，翻开头（材料一、二）。</li>
+      </ul>
+    </div>
+  </div></section>
+
+  <section class="sec" id="s-mark"><div class="wrap">
+    <div class="sec-h"><span class="n">2</span><h2>划句子</h2></div>
+    <p class="lead">一句读完问自己：脑子里多了什么？多了一件具体的事，划 /；多了一个道理，或者一句宽的「做了什么」，划 { }；什么都没多但好听，打括号；又好看又有料的，再加个 ★；广东的事打序号。什么都没多也不好听，不划。</p>
+    <div class="mark-top">
+      <button class="btn primary" type="button" id="startRead">从头一句句读</button>
+      <label class="switch" for="dimToggle"><input type="checkbox" id="dimToggle" checked>不划的句子淡一点</label>
+      <span class="hint">或者点任意一句，看它为什么这么划。</span>
+    </div>
+    <div class="mark-layout dim" id="markLayout">
+      <div class="mats" id="mats"></div>
+      <aside class="paper" id="card" aria-live="polite">
+        <div class="card-intro">
+          <h3 class="box-h">判定卡</h3>
+          <p>点左边任意一句，这里写出：读完多了什么、好不好看、记号、为什么这么划，以及后来用在成稿哪里。</p>
+          <ul class="outs">
+            <li><span class="o o-shi">多了一件具体的事</span><span class="g"><b class="mk ex">/</b></span></li>
+            <li><span class="o o-li">多了一个道理</span><span class="g"><b class="mk">{ }</b></span></li>
+            <li><span class="o o-ting">没多什么，但好听</span><span class="g"><b class="mk">( )</b></span></li>
+            <li><span class="o o-wu">没多什么，也不好听</span><span class="g off">不划</span></li>
+          </ul>
+          <button class="btn primary" type="button" data-act="start">从头一句句读</button>
+        </div>
+      </aside>
+    </div>
+  </div></section>
+
+  <section class="sec" id="s-pile"><div class="wrap">
+    <div class="sec-h"><span class="n">3</span><h2>找格子 · 摆料</h2></div>
+    <p class="lead">划完先找格子：材料里一定给了，要么一句话列全，要么一块材料一格。拿例子去嵌，每组例子都有地方放、不用硬塞的那套就是。再扫一眼有没有能架几面的句式，有就用，没有就算。</p>
+    <div id="grid"></div>
+    <p class="lead" id="pileLead"></p>
+    <div id="pile"></div>
+  </div></section>
+
+  <section class="sec" id="s-build"><div class="wrap">
+    <div class="sec-h"><span class="n">4</span><h2>拼文章</h2></div>
+    <p class="lead" id="buildLead"></p>
+    <div id="lun"></div>
+    <div class="parts" id="parts"></div>
+  </div></section>
+
+  <section class="sec" id="s-sheet"><div class="wrap">
+    <div class="sec-h"><span class="n">5</span><h2>誊稿纸</h2></div>
+    <p class="lead">誊到方格稿纸上。一格一字，标点占一格，两个数字或字母挤一格，标点不落在行首。点任意一句，看它从哪来。</p>
+    <div class="sheet-wrap">
+      <div class="paper gridpaper" id="gridpaper"><div class="cells" id="cells"></div><p class="count" id="count"></p></div>
+      <aside class="paper" id="sheetInfo" aria-live="polite"><p class="muted">点稿纸上任意一句，这里显示它在文章里干什么、用了哪几块料、怎么改的。</p></aside>
+    </div>
+  </div></section>
+
+  <section class="sec" id="s-check"><div class="wrap">
+    <div class="sec-h"><span class="n">6</span><h2>对答案</h2></div>
+    <p class="lead">写完再翻参考范文（只用参考范文，不用高分卷）：格子、论点和它比怎么样；参考范文从材料里拿的句子，当时都划成了什么；最后是考场记录：哪里破了规矩、哪里卡住、哪里顺手。</p>
+    <div id="check"></div>
+  </div></section>
+</div>
+
+<div id="ov" hidden>
+  <section class="sec" id="o-rule"><div class="wrap">
+    <div class="sec-h"><span class="n">一</span><h2>人用版规则</h2></div>
+    <p class="lead" id="oRuleLead"></p>
+    <div id="oRule"></div>
+  </div></section>
+  <section class="sec" id="o-papers"><div class="wrap">
+    <div class="sec-h"><span class="n">二</span><h2>八篇一览</h2></div>
+    <p class="lead" id="oPapersLead"></p>
+    <div class="pgrid" id="oPapers"></div>
+  </div></section>
+  <section class="sec" id="o-ref"><div class="wrap">
+    <div class="sec-h"><span class="n">三</span><h2>参考范文用的料，当时划没划</h2></div>
+    <p class="lead" id="oRefLead"></p>
+    <div id="oRef"></div>
+  </div></section>
+</div>
+</main>
+
+<footer class="foot"><div class="wrap" id="foot"></div></footer>
+
+<script>
+(() => {
+  const PAPERS = [{"key":"2025选调","meta":{"key":"2025选调","year":"2025","label":"2025 选调卷","kicker":"2025 广东选调 · 问题三","essay_title":"凭海而立　因海而兴","essay_by":"模拟考生：按人用版规则写（Claude 模拟，不是本人作答）","question":"海洋是高质量发展战略要地，广东提出全面推进海洋强省建设，打造海上新广东，为广东改革发展注入源源不断的蓝色动力。结合给定材料，联系实际，围绕“广东全面推进海洋强省建设”进行深入思考，自拟标题，撰写一篇议论文。（50 分）","reqs":["文章主题与给定材料联系紧密，思想性强；","论点鲜明，论据确凿，论证严密，合乎逻辑；","结构完整，条理清晰，行文流畅；","篇幅在 800-1000 字。"],"A":"海洋强省建设（科技、产业、开放、生态、文化）","B":"海上新广东、蓝色动力（题干后半句）","rel":"主题题：题干是一件要做的事，不是“A 是 B 的……”。题干自己带了目的：打造海上新广东，为广东改革发展注入蓝色动力。","qtype":"主题题（做什么）","xiaoti":"材料三（问题一）、材料四（问题二）","faces":[["科","科技兴海","材料五"],["产","产业强海","材料二前半"],["开","开放活海","材料六的港口、材料七的海丝博览会"],["生","生态护海","材料二的三角岛、小题材料三的红树林"],["文","文化亲海","材料七的海丝文化、材料二的赶海"]],"pile_lead":"格子在材料六末句，一句列全五个面：科技兴海、产业强海、开放活海、生态护海、文化亲海。例子去嵌：材料五进科技，材料二前半进产业，港口和海丝博览会进开放，三角岛和问题一做过的红树林进生态，海丝文化和赶海进文化。","sources":"材料原文：03_真题/文本/2025_选调.txt　成稿：模拟考生按人用版规则写，不是本人作答","grid":{"kind":"一句列全","sid":"6-6-2","text":"科技兴海、产业强海、开放活海、生态护海、文化亲海","embed":[["科","材料五","南方海洋实验室、“深蓝探索”、“珠海琴”、“恒燚一号”"],["产","材料二前半、材料六第 4 段","海洋经济总量、湛江临港产业集群、海洋产业园、三条海洋产业带"],["开","材料六、材料七","三大港口集群“一核两极”、海丝博览会、“一带一路”进出口"],["生","材料二中段、小题材料三","三角岛生态修复；问题一做过的 Z 市红树林"],["文","材料七、材料二末两段","南海神庙“一庙两馆”、帆船赛、赶海、邮轮游艇"]],"rejected":[["1-3-1","陆海统筹、山海互济，港产城整体布局，海洋生态保护","总书记对广东说的，分量最重；可只有三样，材料五的科技、材料七的文化都没格子放"],["1-2-6","依海富国、以海强国、人海和谐、合作共赢","材料五的科技、材料七的文化都得硬塞进“以海强国”“合作共赢”"],["1-4-1","海洋牧场、海上能源、临港工业、海洋旅游；基础设施、海洋科技、海洋生态","列的是产业门类和支撑保障，材料七的海洋文化、材料六的开放都没格子"]]},"combo":{"name":"两半句（前半都是格子词，后半哪句好看用哪句）","labels":[["做什么","做什么"],["做什么","做什么"],["做什么","是什么"],["做什么","做什么"],["做什么","是什么"]],"why":"前半都是格子词（××海），本身就是做什么，五面一个架子；后半哪面有好看的句子就用哪句：深蓝高地、蓝色引擎、大通道、像爱护眼睛一样、精神底色，有的是做什么，有的是是什么，不硬凑成一样。"},"ref_note":"格子一样：参考范文也是科技兴海、产业强海、开放活海、生态护海、文化亲海五个面，它把产业放第一，这里照材料六的顺序。论点前半一样，都是格子词；后半它五句一个架子（“X，是海上新广东的 Y”，全是是什么，落在题干的“海上新广东”），这里没有统一句式，哪面有好看的句子就用哪句。后半的词对上三个：蓝色引擎、融入世界的大通道、精神底色；科技那面它用“核心要素”，这里用“抢占深蓝高地”；生态那面它用材料一的“支撑保障”，这里用问题一材料里总书记的“像爱护眼睛一样”。标题不同：它用材料一的“依海富国、以海强国”（强国改强省），正是这里划了 ★、最后没地方放的那一颗。参考范文从材料里拿了 34 处，这里划到 32 处；没划的两处：材料一全国的短板（它放开头当“未”，人用版只给广东的事打序号），小题材料三“红树林变‘金树林’”（它放生态段回扣）。说明：这一卷不是盲做的。模拟用的底稿里，旧的对照记录已经写过参考范文五句论点的词和它生态段用小题材料三的红树林；后半对上的三个词、生态段回问题一材料拿红树林，都不能算独立撞上。"},"mats":[{"k":"1","name":"材料一","gist":"中央：海洋强国；总书记对广东；省委的部署","kind":"essay","paras":[["1-1-1","1-1-2"],["1-2-1","1-2-2","1-2-3","1-2-4","1-2-5","1-2-6"],["1-3-1"],["1-4-1"]],"fold":""},{"k":"2","name":"材料二","gist":"海洋经济：产业、三角岛、海洋旅游","kind":"essay","paras":[["2-1-1"],["2-2-1","2-2-2","2-2-3"],["2-3-1"],["2-4-1","2-4-2"],["2-5-1","2-5-2"],["2-6-1"],["2-7-1","2-7-2"],["2-8-1","2-8-2","2-8-3"],["2-9-1"],["2-10-1","2-10-2"],["2-11-1","2-11-2"],["2-12-1"],["2-13-1"],["2-14-1","2-14-2"],["2-15-1"]],"fold":""},{"k":"3","name":"材料三","gist":"小题一：Z 市红树林","kind":"xiaoti","paras":[["3-1-1"],["3-2-1","3-2-2"],["3-3-1"],["3-4-1"],["3-5-1","3-5-2","3-5-3","3-5-4","3-5-5"],["3-6-1","3-6-2"],["3-7-1"],["3-8-1"],["3-9-1"],["3-10-1"],["3-11-1","3-11-2"],["3-12-1","3-12-2","3-12-3"],["3-13-1","3-13-2","3-13-3"],["3-14-1"],["3-15-1","3-15-2"],["3-16-1","3-16-2","3-16-3"],["3-17-1","3-17-2"],["3-18-1","3-18-2"]],"fold":"小题一的材料：Z 市红树林。做小题时读过；写作文时记得就用（展开原文）"},{"k":"4","name":"材料四","gist":"小题二：海洋牧场的问题","kind":"xiaoti","paras":[["4-1-1"],["4-2-1","4-2-2"],["4-3-1","4-3-2"],["4-4-1"],["4-5-1","4-5-2","4-5-3","4-5-4"]],"fold":"小题二的材料：海洋牧场的问题。做小题时读过，作文没用到（展开原文）"},{"k":"5","name":"材料五","gist":"海洋科技：新质生产力","kind":"essay","paras":[["5-1-1","5-1-2","5-1-3"],["5-2-1"],["5-3-1","5-3-2"],["5-4-1"],["5-5-1","5-5-2"],["5-6-1"],["5-7-1"],["5-8-1"],["5-9-1","5-9-2"]],"fold":""},{"k":"6","name":"材料六","gist":"开放：大通道、港口群、海洋产业带","kind":"essay","paras":[["6-1-1","6-1-2"],["6-2-1","6-2-2"],["6-3-1","6-3-2"],["6-4-1","6-4-2","6-4-3","6-4-4"],["6-5-1"],["6-6-1","6-6-2"]],"fold":""},{"k":"7","name":"材料七","gist":"海洋文化：海丝、开放的精神","kind":"essay","paras":[["7-1-1","7-1-2","7-1-3","7-1-4"],["7-2-1","7-2-2","7-2-3"],["7-3-1","7-3-2","7-3-3"],["7-4-1","7-4-2","7-4-3","7-4-4","7-4-5","7-4-6","7-4-7"],["7-5-1","7-5-2","7-5-3"],["7-6-1","7-6-2","7-6-3","7-6-4"],["7-7-1","7-7-2","7-7-3"],["7-8-1","7-8-2"]],"fold":""}],"sents":{"1-1-1":{"id":"1-1-1","m":"1","p":1,"xi":false,"pieces":[{"t":"习近平总书记多次为建设海洋强国吹响号角。","mk":null,"f":null,"o":"无","form":"引子","dest":"不划","why":"引出下面总书记的三句话，什么都没多","used":[]}]},"1-1-2":{"id":"1-1-2","m":"1","p":1,"xi":false,"pieces":[{"t":"在海南考察时，指出“一定要向海洋进军，加快建设海洋强国”；","mk":"①","f":null,"o":"理","form":"要什么（总书记原话）","dest":"开头·引语","why":"总书记的话，接得上题目的“海洋强省”——引语备用","used":[]},{"t":"全国两会时，强调“要更加注重经略海洋”；","mk":"{}","f":"总","o":"理","form":"要什么","dest":"道理料（管整篇）","why":"总书记的一条要求：更加注重经略海洋——引语备用","used":[]},{"t":"在党的二十大报告中，明确“发展海洋经济，保护海洋生态环境，加快建设海洋强国”。","mk":"{}","f":"产生","o":"理","form":"要什么","dest":"论点／道理料","why":"一条要求：发展海洋经济、保护海洋生态环境——生态那段的道理","used":["生态护海段·道理"]}]},"1-2-1":{"id":"1-2-1","m":"1","p":2,"xi":false,"pieces":[{"t":"建设海洋强国，对于推动我国高质量发展、全面建设社会主义现代化国家、实现中华民族伟大复兴，具有重大而深远的意义。","mk":"{}","f":"总","o":"理","form":"是什么","dest":"道理料（管整篇）","why":"一个道理：建设海洋强国意义重大——比题目高一层，开头或结尾备用","used":[]}]},"1-2-2":{"id":"1-2-2","m":"1","p":2,"xi":false,"pieces":[{"t":"21世纪，人类进入开发海洋资源和利用海洋战略空间的新阶段，海洋在保障国家总体安全、促进经济社会发展等方面的战略地位更加突出，以海洋为载体和纽带的市场、文化等合作日益紧密，世界各海洋大国和周边邻国纷纷制定新形势下的海洋战略和规划，加速向海洋布局。","mk":null,"f":null,"o":"事","form":"大势","dest":"不划","why":"世界各国都在向海洋布局，是大势；例子只要广东的事","used":[]}]},"1-2-3":{"id":"1-2-3","m":"1","p":2,"xi":false,"pieces":[{"t":"海洋已经成为全球合作与发展的重要领域。","mk":"{}","f":"开","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：海洋是全球合作与发展的重要领域——开放那面","used":["开放活海段·道理"]}]},"1-2-4":{"id":"1-2-4","m":"1","p":2,"xi":false,"pieces":[{"t":"我国既是陆地大国，也是海洋大国，拥有广泛的海洋战略利益。","mk":"{}","f":"总","o":"理","form":"是什么","dest":"道理料（管整篇）","why":"一个道理：我国既是陆地大国，也是海洋大国——“既是……也是……”对着说，好看；开头道理句","st":true,"used":["开头·道理句"]}]},"1-2-5":{"id":"1-2-5","m":"1","p":2,"xi":false,"pieces":[{"t":"虽然我国在建设海洋强国方面取得显著成绩，但也面临海洋开发利用层次总体不高、涉海科技创新自主能力不强等问题。","mk":null,"f":null,"o":"事","form":"全国面临什么","dest":"不划","why":"说的是全国的短板，不是广东；开头“未”那条线要广东自己的问题","used":[]}]},"1-2-6":{"id":"1-2-6","m":"1","p":2,"xi":false,"pieces":[{"t":"建设海洋强国，必须着眼于中国特色社会主义事业发展全局,统筹国内国际两个大局，坚持陆海统筹，坚持走依海富国、以海强国、人海和谐、合作共赢的发展道路，通过和平、发展、合作、共赢方式，扎实推进海洋强国建设。","mk":"{}","f":"总","o":"理","form":"要什么","dest":"论点／道理料（管整篇）","why":"一条要求：依海富国、以海强国、人海和谐、合作共赢——四字并列，好看；像格子，拿例子一嵌，科技、文化没地方放","st":true,"used":[]}]},"1-3-1":{"id":"1-3-1","m":"1","p":3,"xi":false,"pieces":[{"t":"2023年4月，习近平总书记在广东考察时指出：要加强陆海统筹、山海互济，强化港产城整体布局，加强海洋生态保护，全面建设海洋强省。","mk":"①","f":null,"o":"理","form":"要什么（总书记对广东）","dest":"开头·引语","why":"总书记在广东说的，句尾就是“全面建设海洋强省”——开头引语；列的三样像格子，但科技、文化放不进","used":["开头·引语"]}]},"1-4-1":{"id":"1-4-1","m":"1","p":4,"xi":false,"pieces":[{"t":"广东省委十三届三次全会强调，要全面推进海洋强省建设，在打造海上新广东上取得新突破，","mk":"③","f":null,"o":"事","form":"广东要答什么题（令）","dest":"开头·广东出场","why":"省委给广东出的题：在打造海上新广东上取得新突破——题干就从这句来","used":["结尾·唯有……才能……＋落"]},{"t":"构建科学高效的海洋经济发展格局，做大做强做优海洋牧场、海上能源、临港工业、海洋旅游等现代海洋产业，","mk":"{}","f":"产","o":"理","form":"要什么","dest":"论点／道理料","why":"一条要求：做大做强做优海洋牧场、海上能源、临港工业、海洋旅游等现代海洋产业——产业那面","used":[]},{"t":"强化涉海基础设施、海洋科技、海洋生态等支撑保障，","mk":"{}","f":"科生","o":"理","form":"要什么","dest":"论点／道理料","why":"一条要求：海洋科技、海洋生态是支撑保障——科技、生态两面备用","used":[]},{"t":"为广东改革发展注入源源不断的“蓝色动力”。","mk":"尾","f":null,"o":"听","form":"要什么（目标）","dest":"结尾","why":"没多什么，但好听，说的是整个广东（蓝色动力）——题干的落点，开头论点句用","used":["开头·论点句"]}]},"2-1-1":{"id":"2-1-1","m":"2","p":1,"xi":false,"pieces":[{"t":"海洋是高质量发展战略要地，发达的海洋经济是建设海洋强国的重要支撑。","mk":"{}","f":"产","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：发达的海洋经济是建设海洋强国的重要支撑——产业那段的道理","used":["产业强海段·道理"]}]},"2-2-1":{"id":"2-2-1","m":"2","p":2,"xi":false,"pieces":[{"t":"浩渺南海之滨，广东傲立潮头。","mk":"尾","f":null,"o":"听","form":"画面（对句）","dest":"结尾","why":"一联对句，读完没多什么，但好听，说的是整个广东——结尾起句","used":["结尾·起"]}]},"2-2-2":{"id":"2-2-2","m":"2","p":2,"xi":false,"pieces":[{"t":"2023年广东海洋经济总量1.88万亿元，约占全国海洋经济总量的1/5；目前，广东海洋经济总量已连续29年居全国首位。","mk":"③","f":null,"o":"事","form":"广东做成了什么（过·成效）","dest":"开头·对广东而言","why":"广东干得好的，带数：海洋经济总量连续 29 年全国首位——打序号，开头“对广东而言”用","used":["开头·对广东而言"]}]},"2-2-3":{"id":"2-2-3","m":"2","p":2,"xi":false,"pieces":[{"t":"广东呈现出蓝色引擎动能澎湃、潮头正劲的态势。","mk":"尾","f":null,"o":"听","form":"做成了什么（整个广东）","dest":"结尾","why":"没多什么，但好听：蓝色引擎动能澎湃、潮头正劲，说的是整个广东——结尾落点","used":["结尾·唯有……才能……＋落"]}]},"2-3-1":{"id":"2-3-1","m":"2","p":3,"xi":false,"pieces":[{"t":"广东创新使用海洋资源，不断激发海洋经济发展的潜能。","mk":"{}","f":"产","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"宽的“做了什么”：广东创新使用海洋资源，激发海洋经济潜能——没有数字和个案，算 { }","used":[]}]},"2-4-1":{"id":"2-4-1","m":"2","p":4,"xi":false,"pieces":[{"t":"作为海洋经济的“优等生”，广东通过培育海洋新兴产业，进一步挖掘海洋资源的潜力，形成产业集群优势，推动海洋经济向更高质量、更高效益的方向发展，","mk":"{}","f":"产","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"宽的“做了什么”：培育海洋新兴产业，形成产业集群优势——没有数字和个案，算 { }","used":[]},{"t":"广东海洋经济6大产业蓬勃发展。","mk":"()","f":"产","o":"听","form":"做成了什么","dest":"收尾","why":"没多什么，但好听：6 大产业蓬勃发展——产业那段回扣","used":["产业强海段·回扣"]}]},"2-4-2":{"id":"2-4-2","m":"2","p":4,"xi":false,"pieces":[{"t":"2024年，省海洋经济发展专项投入1.9亿元，支持项目37个，推动海洋电子信息、海洋生物医药、海工装备等新兴产业创新发展。","mk":"/","f":"产","o":"事","form":"广东做了什么","dest":"例子","why":"带数：专项投入 1.9 亿元，推动海洋电子信息、生物医药、海工装备","used":["产业强海段·例子"]}]},"2-5-1":{"id":"2-5-1","m":"2","p":5,"xi":false,"pieces":[{"t":"作为全国首批海洋经济创新发展示范城市、国家海洋经济发展示范区，湛江正加快推动海洋经济高质量发展，成为沿海经济带西部增长极。","mk":"/","f":"产","o":"事","form":"个案","dest":"例子","why":"具体：湛江成为沿海经济带西部增长极","used":[]}]},"2-5-2":{"id":"2-5-2","m":"2","p":5,"xi":false,"pieces":[{"t":"据湛江市副市长陈峻华介绍，依托湛江钢铁等4个投资均超过100亿美元的重大临港产业项目，湛江正在加快谋划构建湛江大型产业集聚区，打造绿色钢铁等13个现代临港产业集群。","mk":"/","f":"产","o":"事","form":"个案","dest":"例子","why":"带数：4 个超百亿美元临港项目，13 个现代临港产业集群","used":["产业强海段·例子"]}]},"2-6-1":{"id":"2-6-1","m":"2","p":6,"xi":false,"pieces":[{"t":"2024年5月和7月，省自然资源厅先后印发《广东省自然资源厅关于加快推进海洋产业园建设的通知》《广东省海洋产业园（海洋牧场类）用海选址及控制标准（试行）》，创新海洋产业园开发模式，指导沿海地市做好海洋产业园选址与设立工作，全面推行养殖用海整体论证，实施海洋牧场项目“标准海”供应。","mk":"/","f":"产","o":"事","form":"广东做了什么","dest":"例子","why":"具体：创新海洋产业园开发模式，海洋牧场“标准海”供应","used":[]}]},"2-7-1":{"id":"2-7-1","m":"2","p":7,"xi":false,"pieces":[{"t":"经统计，广东已有7个沿海地市组织完成17个海洋产业园（海洋牧场类）规划选址工作，全省养殖用海整体论证面积超过16万公顷。","mk":"/","f":"产","o":"事","form":"广东做成了什么","dest":"例子","why":"带数：17 个海洋产业园（海洋牧场类）完成规划选址","used":[]}]},"2-7-2":{"id":"2-7-2","m":"2","p":7,"xi":false,"pieces":[{"t":"2024年，全省共审批开方式养殖用海336宗，面积19207公顷，同比增加153%，有力保障海洋牧场项目用海需求。","mk":"/","f":"产","o":"事","form":"广东做成了什么","dest":"例子","why":"带数：审批养殖用海 336 宗，同比增加 153%","used":[]}]},"2-8-1":{"id":"2-8-1","m":"2","p":8,"xi":false,"pieces":[{"t":"在珠海市万山群岛西北部，有座面积不足1平方公里的无居民海岛。","mk":"跟","f":"生","o":"听","form":"画面（个案）","dest":"跟着例子走","why":"个案的铺垫，跟着例子走","used":["生态护海段·例子"]}]},"2-8-2":{"id":"2-8-2","m":"2","p":8,"xi":false,"pieces":[{"t":"岛上生机盎然，白鹭、牛背鹭、海鸥等多种鸟类悠闲漫步、自由飞舞，与碧海蓝天相映成趣……","mk":"跟","f":"生","o":"听","form":"画面（个案）","dest":"跟着例子走","why":"好听，只画了三角岛——跟着例子走","used":[]}]},"2-8-3":{"id":"2-8-3","m":"2","p":8,"xi":false,"pieces":[{"t":"这便是三角岛。","mk":null,"f":null,"o":"无","form":"过渡","dest":"不划","why":"点出岛名","used":[]}]},"2-9-1":{"id":"2-9-1","m":"2","p":9,"xi":false,"pieces":[{"t":"然而，6年前的三角岛，却是另一副模样：除了南侧山体有一些植被，其他地方基本是开山采石留下的痕迹，坑坑洼洼、边坡裸露，乱石堆满了海岸旁，岸线侵蚀严重……","mk":"跟","f":"生","o":"听","form":"画面（个案）","dest":"跟着例子走","why":"画面，只说三角岛以前的样子——跟着例子走","used":[]}]},"2-10-1":{"id":"2-10-1","m":"2","p":10,"xi":false,"pieces":[{"t":"作为全国首个挂牌出让的无居民海岛，2018年以来，三角岛探索以生态修复为引领，以“公益+旅游”模式进行保护性开发的创新路径。","mk":"/","f":"生","o":"事","form":"个案","dest":"例子","why":"具体：三角岛，全国首个挂牌出让的无居民海岛，以生态修复为引领——“全国首个”，亮眼","st":true,"used":["生态护海段·例子"]}]},"2-10-2":{"id":"2-10-2","m":"2","p":10,"xi":false,"pieces":[{"t":"2023年，三角岛成功入选国家级“和美海岛”，成为广东7个“和美海岛”中唯一的无居民海岛。","mk":"/","f":"生","o":"事","form":"个案","dest":"例子","why":"个案的结果：入选国家级“和美海岛”，7 个里唯一的无居民海岛——“唯一”，亮眼","st":true,"used":["生态护海段·例子"]}]},"2-11-1":{"id":"2-11-1","m":"2","p":11,"xi":false,"pieces":[{"t":"荒芜小岛变身“和美海岛”的背后，不仅是一场历时6年的海岛生态“修复术”，也是无居民海岛保护利用新路径的探索。","mk":"跟","f":"生","o":"听","form":"画面（个案）","dest":"跟着例子走","why":"好听，但只说三角岛——跟着例子走","used":[]}]},"2-11-2":{"id":"2-11-2","m":"2","p":11,"xi":false,"pieces":[{"t":"通过开发无居民海岛，海洋的资源使用效率日益提高。","mk":"()","f":"生","o":"听","form":"做成了什么","dest":"收尾","why":"主语是无居民海岛开发，说的是做成后的效果：资源使用效率日益提高——生态那段回扣备用","used":[]}]},"2-12-1":{"id":"2-12-1","m":"2","p":12,"xi":false,"pieces":[{"t":"如今，踏上三角岛，一栋4层高的白色浪花形建筑格外醒目，这便是岛上新建成的海岛监视监测中心。","mk":"跟","f":"生","o":"听","form":"画面（个案）","dest":"跟着例子走","why":"画面，只说三角岛上的新楼——跟着例子走","used":[]}]},"2-13-1":{"id":"2-13-1","m":"2","p":13,"xi":false,"pieces":[{"t":"据省自然资源厅统计，广东已梳理全省1906个无居民海岛的现状情况，建立地名信息数据库，全面掌握广东岛情；持续开展6个已取得无居民海岛使用权、合法开发利用的无居民海岛和7个领海基点海岛的现状调查和监管，建立无居民海岛开发利用档案；依托广东省海洋大数据中心，推进无居民海岛监管信息化、数字化建设，实现全省海岛保护和开发利用数据的标准化管理。","mk":"/","f":"生","o":"事","form":"广东做了什么","dest":"例子","why":"带数：梳理全省 1906 个无居民海岛，建档、数字化监管","used":[]}]},"2-14-1":{"id":"2-14-1","m":"2","p":14,"xi":false,"pieces":[{"t":"元旦假期，深圳市“新春杯”帆船赛在大鹏新区大亚湾海域扬帆起航；港珠澳大桥旅游项目推出丰富的线路产品，大桥旅游专线巴士全部约满；汕尾市组织“坐着高铁来赶海”，庆祝汕汕高铁开通系列活动……","mk":"/","f":"文","o":"事","form":"个案","dest":"例子","why":"具体：帆船赛、大桥游、“坐着高铁来赶海”——人往海边走，嵌进“文化亲海”","used":["文化亲海段·例子"]}]},"2-14-2":{"id":"2-14-2","m":"2","p":14,"xi":false,"pieces":[{"t":"广东各沿海城市纷纷“出招”，以海洋资源为载体,推动海洋旅游产品提质升级，进一步释放消费潜力。","mk":"{}","f":"文","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"宽的“做了什么”：沿海城市推动海洋旅游产品提质升级——没有数字和个案，算 { }","used":[]}]},"2-15-1":{"id":"2-15-1","m":"2","p":15,"xi":false,"pieces":[{"t":"如今，全省海洋旅游新业态“遍地开花”——邮轮、游艇旅游成为消费者的出游新选择，广州南沙国际邮轮母港、深圳蛇口邮轮母港等影响力不断扩大，广州、深圳、珠海等地的游艇消费新业态初步形成；珠海横琴岛、汕头南澳岛、江门上下川岛等多个代表性海岛旅游发展势头强劲，滨海主题的省级旅游精品线路也深受游客喜爱。","mk":"/","f":"文","o":"事","form":"广东做成了什么","dest":"例子","why":"具体：邮轮、游艇、海岛旅游新业态“遍地开花”","used":[]}]},"3-1-1":{"id":"3-1-1","m":"3","p":1,"xi":false,"pieces":[{"t":"2023年4月10日，习近平总书记来到金牛岛红树林片区，察看红树林长势和周边生态环境并强调，“这片红树林是‘国宝’，要像爱护眼睛一样守护好。”","mk":"{}","f":"生","o":"理","form":"要什么","dest":"论点／道理料","why":"问题一材料里总书记的话：红树林是“国宝”，要像爱护眼睛一样守护好——比喻，好看；生态那面记得就用","st":true,"used":["生态护海段·论点"]}]},"3-2-1":{"id":"3-2-1","m":"3","p":2,"xi":true,"pieces":[{"t":"Z市被誉为“红树林之城”，红树林不仅种类丰富，且分布面积居全国第一。","used":[]}]},"3-2-2":{"id":"3-2-2","m":"3","p":2,"xi":false,"pieces":[{"t":"在全世界红树林面积每年以年1.0%递减的背景下，Z市红树林面积却逐年增长，被国际湿地专家称为世界湿地恢复的成功范例。","mk":"/","f":"生","o":"事","form":"个案","dest":"例子","why":"问题一做过的：Z 市红树林面积逐年增长，世界湿地恢复的成功范例——生态那面记得就用","used":["生态护海段·例子"]}]},"3-3-1":{"id":"3-3-1","m":"3","p":3,"xi":true,"pieces":[{"t":"Z市委、市政府历来重视红树林保护工作，2017年12月，Z市政府常务会议审议通过了《广东Z市红树林国家级自然保护区管理办法》，为保护区建设提供了强有力的法律保障和支撑，有效保障了红树林生态资源，促进湛江红树林湿地生态系统的有效恢复和良性循环，对保护区的规范管理和长远发展起到了积极作用。","used":[]}]},"3-4-1":{"id":"3-4-1","m":"3","p":4,"xi":true,"pieces":[{"t":"Z市高标准编制实施《湛江市红树林保护修复规划（2021-2025年）》,依法逐步清退自然保护地内的养殖塘等开发性、生产性建设活动，因地制宜开展红树林营造修复，持续加强和改进红树林保护管理工作。","used":[]}]},"3-5-1":{"id":"3-5-1","m":"3","p":5,"xi":true,"pieces":[{"t":"“Z市红树林保护区面积大、分布广，有众多的保护小区，监管难度大。”","used":[]}]},"3-5-2":{"id":"3-5-2","m":"3","p":5,"xi":true,"pieces":[{"t":"陈粤超告诉记者，为加强日常监管，保护区根据资源分布特点，确定了以全面巡护为基础，实行重点管理、重点控制的管理策略。","used":[]}]},"3-5-3":{"id":"3-5-3","m":"3","p":5,"xi":true,"pieces":[{"t":"强化一线巡护力量，保护区护林员从36人增加到51人；强化保护区自然资源网格化管理能力，确保巡护工作落实到位。","used":[]}]},"3-5-4":{"id":"3-5-4","m":"3","p":5,"xi":true,"pieces":[{"t":"“护林员每次巡护的时候，发现有破坏红树林的行为，都会现场拍照说明情况，然后通过广东省林业综合巡护管理平台上传，方便管理部门及时跟进处理。”","used":[]}]},"3-5-5":{"id":"3-5-5","m":"3","p":5,"xi":true,"pieces":[{"t":"陈粤超介绍说，管理局每年也会对保护区进行一次无人机航拍，比对上一年图斑的变化情况，对发现的问题及时进行处理。","used":[]}]},"3-6-1":{"id":"3-6-1","m":"3","p":6,"xi":true,"pieces":[{"t":"由于历史的围海造田、围海养殖等行为，Z市红树林也一度遭到破坏。","used":[]}]},"3-6-2":{"id":"3-6-2","m":"3","p":6,"xi":true,"pieces":[{"t":"近年来，Z市坚持生态优先，积极推动红树林生态修复工作。","used":[]}]},"3-7-1":{"id":"3-7-1","m":"3","p":7,"xi":true,"pieces":[{"t":"为了更好地保护红树林，同时充分挖掘红树林的价值，2022年4月，湛江湾实验室成立粤西首家红树林保护研究中心，围绕红树林保护、修复与可持续利用，开展基础理论与应用研究、技术研发及示范应用工作。","used":[]}]},"3-8-1":{"id":"3-8-1","m":"3","p":8,"xi":true,"pieces":[{"t":"同年5月，湛江湾实验室选中了麻章区金牛岛作为红树林种养耦合模式研发的长期定位观测基地。","used":[]}]},"3-9-1":{"id":"3-9-1","m":"3","p":9,"xi":true,"pieces":[{"t":"目前，除了金牛岛，湛江湾实验室还遴选了2处红树林种养耦合潜在示范布局基地，包括坡头南三岛和雷州九龙山，现正积极推动九龙山某废弃养殖塘红树林种养耦合示范工程建设。","used":[]}]},"3-10-1":{"id":"3-10-1","m":"3","p":10,"xi":true,"pieces":[{"t":"湛江湾实验室红树林保护研究中心科研人员丁新原告诉记者，《国家红树林保护修复专项行动计划（2020—2025年）》明确，广东省营造、修复红树林任务分别为5500公顷、2500公顷，其中，Z市需营造2813公顷、修复1370公顷。","used":[]}]},"3-11-1":{"id":"3-11-1","m":"3","p":11,"xi":true,"pieces":[{"t":"根据最新调查结果，Z市现有养殖塘内红树林面积1054.4公顷。","used":[]}]},"3-11-2":{"id":"3-11-2","m":"3","p":11,"xi":true,"pieces":[{"t":"其中，通明海周边潜在的生态修复空间最大，仅在有红树林分布的养殖塘内实施生态修复，便可支撑湛江市完成近1/4（约700公顷）的红树林营造修复任务。","used":[]}]},"3-12-1":{"id":"3-12-1","m":"3","p":12,"xi":true,"pieces":[{"t":"“直接清退养殖塘，不仅成本太高，而且养殖户的生存出路也成问题。","used":[]}]},"3-12-2":{"id":"3-12-2","m":"3","p":12,"xi":true,"pieces":[{"t":"红树林种养耦合模式，既能满足养殖户的养殖需求又能够保护红树林，解决红树林修复难题。”","used":[]}]},"3-12-3":{"id":"3-12-3","m":"3","p":12,"xi":true,"pieces":[{"t":"丁新原告诉记者，红树林种养耦合，即在宜林塘基、堆岛等较高处种植红树林，在养殖塘、潮沟等较低处养殖水产品，形成红树林、水域（潮沟）、裸滩交错的种养耦合布局。","used":[]}]},"3-13-1":{"id":"3-13-1","m":"3","p":13,"xi":true,"pieces":[{"t":"丁新原介绍说，当红树林长起来了，水生生物种类多了，也会引来更多的鸟类，生态系统生物多样性会更加丰富。","used":[]}]},"3-13-2":{"id":"3-13-2","m":"3","p":13,"xi":true,"pieces":[{"t":"“我们将进行科学规划，通过简易的地形改造、水系疏通等措施，结合潮汐特征等，合理设计种养品种及其空间配置比例等，争取以最小的成本来实现效益的最大化。”","used":[]}]},"3-13-3":{"id":"3-13-3","m":"3","p":13,"xi":true,"pieces":[{"t":"此外，通过筛选出红树林果、红树林花蜜等林下经济作物，养殖户可以在种植红树林的过程中获得一定的经济回报，也提高了保护修复红树林的积极性。","used":[]}]},"3-14-1":{"id":"3-14-1","m":"3","p":14,"xi":true,"pieces":[{"t":"习近平总书记对红树林保护的重要讲话让丁新原倍感振奋，他表示一定运用所学，将红树林守护好，并努力挖掘红树林湿地生态系统的生态产品价值，科技助力红树林转变为“金树林”。","used":[]}]},"3-15-1":{"id":"3-15-1","m":"3","p":15,"xi":false,"pieces":[{"t":"事实上，Z市一直在努力探索这种转变，2021年6月，“Z市红树林造林项目”碳减排量转让协议签署，这标志着中国首个“蓝碳”项目交易完成。","mk":"/","f":"生","o":"事","form":"个案","dest":"例子","why":"问题一做过的：中国首个“蓝碳”项目交易完成——“中国首个”，亮眼；记得就用","st":true,"used":["生态护海段·例子"]}]},"3-15-2":{"id":"3-15-2","m":"3","p":15,"xi":true,"pieces":[{"t":"以《Z市红树林碳汇碳普惠方法学》为基础，Z市生态环境局推动出台了《广东省红树林碳普惠方法学》，解决了红树林碳增汇的量化和变现两大难题，推动了红树林碳增汇市场化、价值化。","used":[]}]},"3-16-1":{"id":"3-16-1","m":"3","p":16,"xi":true,"pieces":[{"t":"“为了与当地村民共建共治共享红树林生态，我们积极吸纳当地社区居民参与调查、巡护、监督、造林等工作。”","used":[]}]},"3-16-2":{"id":"3-16-2","m":"3","p":16,"xi":false,"pieces":[{"t":"陈粤超介绍说，保护红树林必须全社会共同努力，管理局积极开展社区共建共管工作，通过吸引周边群众参与到保护工作中，解决社区就业，带动社区发展。","mk":"{}","f":"生","o":"理","form":"要什么","dest":"论点／道理料","why":"小题材料里的判断句：保护红树林必须全社会共同努力——生态那面备用","used":[]}]},"3-16-3":{"id":"3-16-3","m":"3","p":16,"xi":true,"pieces":[{"t":"管理局积极通过加强科普宣传等方式，带动周边社区参与到红树林的保护管理中来。","used":[]}]},"3-17-1":{"id":"3-17-1","m":"3","p":17,"xi":true,"pieces":[{"t":"近年来，管理局与保护国际基金会合作“雷州半岛红树林生态系统保护与修复项目”，通过社区互助项目，在廉江高桥、雷州附城开展科普活动，让红树林保育知识走进村庄、走进农村校园，让社区群众认识红树林、了解红树林，提高红树林保护觉悟和意识。","used":[]}]},"3-17-2":{"id":"3-17-2","m":"3","p":17,"xi":false,"pieces":[{"t":"全社会保护、爱护和守护红树林氛围逐步形成。","mk":"()","f":"生","o":"听","form":"做成了什么","dest":"收尾","why":"问题一读过的：全社会守护红树林的氛围逐步形成——生态那段回扣，记得就用","used":["生态护海段·回扣"]}]},"3-18-1":{"id":"3-18-1","m":"3","p":18,"xi":true,"pieces":[{"t":"“现在大家生态环境意识都提高了，特别是红树林给人们提供了良好环境，谁也不舍得破坏。”","used":[]}]},"3-18-2":{"id":"3-18-2","m":"3","p":18,"xi":true,"pieces":[{"t":"在高桥红树林自然保护区，95后护林员黄磊向记者介绍说。","used":[]}]},"4-1-1":{"id":"4-1-1","m":"4","p":1,"xi":false,"pieces":[{"t":"2023年4月，习近平总书记在广东考察时指出，要树立大食物观，既向陆地要食物，也向海洋要食物，耕海牧渔，建设海上牧场、“蓝色粮仓”。","mk":"{}","f":"产","o":"理","form":"要什么","dest":"论点／道理料","why":"问题二材料里总书记的话：既向陆地要食物，也向海洋要食物，建设“蓝色粮仓”——对着说加比喻，好看","st":true,"used":[]}]},"4-2-1":{"id":"4-2-1","m":"4","p":2,"xi":true,"pieces":[{"t":"牢记总书记嘱托，广东将现代化海洋牧场建设作为落实粮食安全战略、践行大食物观的重要举措和实施“百县千镇万村高质量发展工程”促进城乡区域协调发展的主要抓手，陆续出台一系列政策措施，取得了初步成效。","used":[]}]},"4-2-2":{"id":"4-2-2","m":"4","p":2,"xi":true,"pieces":[{"t":"但是有关调研组在调研过程中，也发现了海洋牧场面临的一些突出问题。","used":[]}]},"4-3-1":{"id":"4-3-1","m":"4","p":3,"xi":true,"pieces":[{"t":"海洋牧场是一个系统工程，涉及海洋物理、海洋化学、海洋地质、海洋生态、海洋信息、海洋管理及建筑工程等多学科领域，而目前我国从事海洋牧场研究的机构、人才不足，尤其是缺乏复合型专业人才。","used":[]}]},"4-3-2":{"id":"4-3-2","m":"4","p":3,"xi":true,"pieces":[{"t":"与加拿大、挪威、美国和日本等发达国家的海洋牧场相比，X市在深远海建立海洋牧场的科技水平仍有很大差距，X市的海洋牧场在创建中照抄照搬的组合技术多，而关键技术和独自创新少，理论研究变成实践能力慢，规模化发展程度低，还没有系统的强大的科学技术支撑在深远海建立海洋牧场。","used":[]}]},"4-4-1":{"id":"4-4-1","m":"4","p":4,"xi":true,"pieces":[{"t":"在海洋牧场建设中，一产与二产的融合发展中存在加工企业规模小而不强，深加工比例低，同时缺少与休闲渔业等新兴三产的有效融合，使得产业整体处于低水平的重复化发展状态，产业链条延伸不够。","used":[]}]},"4-5-1":{"id":"4-5-1","m":"4","p":5,"xi":true,"pieces":[{"t":"近年来随着工业、农业和城市化的发展，很多近岸海域面临着一定的污染压力。","used":[]}]},"4-5-2":{"id":"4-5-2","m":"4","p":5,"xi":true,"pieces":[{"t":"一些海滩附近出现黑臭水体排入大海的现象，这些水体中夹杂着碎石、枯木、塑料垃圾等,给海洋生态环境带来了威胁。","used":[]}]},"4-5-3":{"id":"4-5-3","m":"4","p":5,"xi":true,"pieces":[{"t":"虽然当地政府已经采取了一系列措施来防治海洋污染，但问题仍然存在。","used":[]}]},"4-5-4":{"id":"4-5-4","m":"4","p":5,"xi":true,"pieces":[{"t":"尤其是因为水产养殖业发达，但部分养殖场的废水处理不当，可能直接流入海洋，导致海水污染和生态破坏。","used":[]}]},"5-1-1":{"id":"5-1-1","m":"5","p":1,"xi":false,"pieces":[{"t":"“要抢占深蓝高地，大力发展海洋新质生产力！”","mk":"{}","f":"科","o":"理","form":"要什么","dest":"论点／道理料","why":"代表的呼吁：抢占深蓝高地，大力发展海洋新质生产力——“深蓝高地”是比喻，好看；科技那面论点后半","st":true,"used":["科技兴海段·论点"]}]},"5-1-2":{"id":"5-1-2","m":"5","p":1,"xi":false,"pieces":[{"t":"作为一名长期从事海洋经济领域的社科研究人员，全国人大代表，广东海洋大学党委常委、副校长宁凌在全国两会上大力呼吁。","mk":null,"f":null,"o":"无","form":"出处","dest":"不划","why":"交代说话的人","used":[]}]},"5-1-3":{"id":"5-1-3","m":"5","p":1,"xi":false,"pieces":[{"t":"他指出，近年来，广东出台多项政策，坚持高位谋划、陆海联动、激发潜能、多点突破、绿色先行，推动全省海洋事业实现了跨越式发展，海洋经济总量连续29年居全国首位。","mk":"③","f":null,"o":"事","form":"广东做成了什么（过·成效）","dest":"开头·广东出场","why":"广东海洋事业跨越式发展，海洋经济总量连续 29 年全国第一——开头“成效”线备用","used":[]}]},"5-2-1":{"id":"5-2-1","m":"5","p":2,"xi":false,"pieces":[{"t":"相对于传统海洋生产力，广东海洋新质生产力的蜕变和能级跃迁的核心要义集中体现在“新”和“质”两个层面，推动海洋渔业向信息化、智能化、现代化转型升级，成为广东突破资源瓶颈、打开海洋经济增长新空间的重要思路。","mk":"{}","f":"科","o":"理","form":"是什么","dest":"论点／道理料","why":"拿不准：海洋新质生产力是打开增长新空间的重要思路，有一点道理——划 { }","used":[]}]},"5-3-1":{"id":"5-3-1","m":"5","p":3,"xi":false,"pieces":[{"t":"催化新质生产力，依靠的就是科技创新。","mk":"{}","f":"科","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：催化新质生产力靠科技创新——科技那段的道理","used":["科技兴海段·道理"]}]},"5-3-2":{"id":"5-3-2","m":"5","p":3,"xi":false,"pieces":[{"t":"近年来，广东聚焦“海洋科技创新引领”，科技应用亮点纷呈：在种苗繁育、海上风电、油气开采、无人船艇和药物研制等领域取得新突破。","mk":"{}","f":"科","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"宽的“做了什么”：广东聚焦海洋科技创新引领，多个领域取得新突破——没有数字和个案，算 { }","used":[]}]},"5-4-1":{"id":"5-4-1","m":"5","p":4,"xi":false,"pieces":[{"t":"位于珠海的南方海洋科学与工程广东省实验室（珠海），围绕海洋环境与资源、海洋工程与技术、海洋人文与考古三大研究领域，现已布局建设多个创新研究团队，在科学前沿、关键核心技术和重大工程实际应用上取得系列创新性成果，服务国家海洋强国建设和区域社会经济发展。","mk":"/","f":"科","o":"事","form":"个案","dest":"例子","why":"具体：南方海洋实验室（珠海）取得系列创新成果","used":[]}]},"5-5-1":{"id":"5-5-1","m":"5","p":5,"xi":false,"pieces":[{"t":"《广东海洋经济发展报告（2023）》显示，广东正加快构建全省“实验室+科普基地+协同创新中心+企业联盟”四位一体的自然资源科技协同创新体系。","mk":"/","f":"科","o":"事","form":"广东做了什么","dest":"例子","why":"具体：“实验室+科普基地+协同创新中心+企业联盟”四位一体","used":[]}]},"5-5-2":{"id":"5-5-2","m":"5","p":5,"xi":false,"pieces":[{"t":"截至2022年底，省级以上涉海科技创新平台包括省实验室1个(含广州、珠海、湛江3家实体)、省重点实验室11个(含省企业重点实验室2个)、省级工程技术研究中心41个、省海洋科技协同创新中心1个。","mk":"/","f":"科","o":"事","form":"广东做成了什么","dest":"例子","why":"带数：省级以上涉海科技创新平台","used":[]}]},"5-6-1":{"id":"5-6-1","m":"5","p":6,"xi":false,"pieces":[{"t":"投产南海珠江口盆地的“深蓝探索”，是全球首艘智能深水钻井平台，承担着我国海上中深水海区、高温高压地层、超深埋藏地层的油气勘探开发重任，为培育新质生产力、推进高质量发展奠定了坚实能源基础。","mk":"/","f":"科","o":"事","form":"个案","dest":"例子","why":"具体：“深蓝探索”，全球首艘智能深水钻井平台——“全球首艘”，亮眼","st":true,"used":["科技兴海段·例子"]}]},"5-7-1":{"id":"5-7-1","m":"5","p":7,"xi":false,"pieces":[{"t":"由南方海洋实验室和中山大学联合研发设计的“珠海琴”，是国内首台配备可自主升降折叠网箱的新型数字智能化深海养殖平台，建成后可有效解决现阶段养殖平台存在的渔业功能弱、出鱼方式机械化程度低等一系列问题，实现数字智能化养殖新的突破。","mk":"/","f":"科","o":"事","form":"个案","dest":"例子","why":"具体：“珠海琴”，国内首台可自主升降折叠网箱的深海养殖平台——“国内首台”，亮眼","st":true,"used":["科技兴海段·例子"]}]},"5-8-1":{"id":"5-8-1","m":"5","p":8,"xi":false,"pieces":[{"t":"湛江海域交付使用的“恒燚一号”养殖水体，配备了饲料智能精准投喂系统、养殖鱼群监控识别系统、养殖环境感知系统等一系列智能化养殖系统，建成后将成为粤西地区养殖水体规模最大、智能化程度最高的深海养殖平台。","mk":"/","f":"科","o":"事","form":"个案","dest":"例子","why":"具体：“恒燚一号”，粤西智能化程度最高的深海养殖平台","used":[]}]},"5-9-1":{"id":"5-9-1","m":"5","p":9,"xi":false,"pieces":[{"t":"科技赋能，为深海养殖插上了智能双翼；广东智慧，为培育新质生产力写下了生动注脚。","mk":"()","f":"科","o":"听","form":"做成了什么","dest":"收尾","why":"没多什么，但好听：插上智能双翼，写下生动注脚——科技那段收尾","used":["科技兴海段·回扣"]}]},"5-9-2":{"id":"5-9-2","m":"5","p":9,"xi":false,"pieces":[{"t":"科技创新是发展新质生产力的核心要素，","mk":"{}","f":"科","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：科技创新是发展新质生产力的核心要素——科技那面备用","used":[]},{"t":"广东将一系列先进科技创新成果应用到深海开发、深海养殖的方方面面，不断完善现代化产业体系，打通了从科技创新、产业创新到发展新质生产力的链条。","mk":"{}","f":"科","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"宽的“做了什么”：广东把科技成果用到深海开发、深海养殖，打通从科技创新到新质生产力的链条——算 { }","used":[]}]},"6-1-1":{"id":"6-1-1","m":"6","p":1,"xi":false,"pieces":[{"t":"海洋是高质量发展战略要地。","mk":"{}","f":"总","o":"理","form":"是什么","dest":"道理料（管整篇）","why":"一个道理：海洋是高质量发展战略要地——就是题干第一句，开头的道理句","used":["开头·道理句"]}]},"6-1-2":{"id":"6-1-2","m":"6","p":1,"xi":false,"pieces":[{"t":"海洋也是融入世界的大通道，","mk":"{}","f":"开","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：海洋是融入世界的大通道——“大通道”是比喻，好看；开放那面论点后半","st":true,"used":["开放活海段·论点"]},{"t":"是支撑广东发挥改革开放优势、打造外向型经济的重要载体。","mk":"{}","f":"开","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：海洋是打造外向型经济的重要载体——开放那面备用","used":[]}]},"6-2-1":{"id":"6-2-1","m":"6","p":2,"xi":false,"pieces":[{"t":"2023年6月，省委十三届三次全会作出“1310”具体部署，将“全面推进海洋强省建设，在打造海上新广东上取得新突破”作为“十大新突破”之一，","mk":"③","f":null,"o":"事","form":"广东要答什么题（令）","dest":"开头·广东出场","why":"省委把“在打造海上新广东上取得新突破”列为“十大新突破”之一——开头“令”那条线","used":["开头·做什么"]},{"t":"并明确支持珠海、汕头、湛江等市建设特色型现代海洋城市。","mk":null,"f":null,"o":"事","form":"广东要什么（部署）","dest":"不划","why":"支持几个市建海洋城市，例子用不上","used":[]}]},"6-2-2":{"id":"6-2-2","m":"6","p":2,"xi":false,"pieces":[{"t":"2024年省政府工作报告提出，强化港产城整体布局，支持珠海、汕头、湛江、阳江、汕尾等市建设特色型现代海洋城市。","mk":"{}","f":"开","o":"理","form":"要什么","dest":"论点／道理料","why":"拿不准：一条要求，强化港产城整体布局——划 { }","used":[]}]},"6-3-1":{"id":"6-3-1","m":"6","p":3,"xi":false,"pieces":[{"t":"《广东省港口布局规划（2021—2035年）》提出，布局珠三角、粤东、粤西三大港口集群，构建以珠三角港口集群为核心，粤东、粤西港口集群为发展极的“一核两极”发展格局，推动港口群与产业群城市群深度融合。","mk":"/","f":"开","o":"事","form":"广东做了什么","dest":"例子","why":"具体：三大港口集群，“一核两极”格局","used":["开放活海段·例子"]}]},"6-3-2":{"id":"6-3-2","m":"6","p":3,"xi":false,"pieces":[{"t":"到2025年，珠三角港口国际竞争力明显提升，携手港澳基本建成粤港澳大湾区世界级港口群，汕头港、湛江港基本建成粤东、粤西地区枢纽港。","mk":"/","f":"开","o":"事","form":"要什么（目标）","dest":"例子","why":"具体：携手港澳建成世界级港口群","used":[]}]},"6-4-1":{"id":"6-4-1","m":"6","p":4,"xi":false,"pieces":[{"t":"区域分工协作、优势互补的海洋发展格局趋于完善。","mk":"()","f":"产","o":"听","form":"做成了什么","dest":"收尾","why":"没多什么，但好听：分工协作、优势互补的海洋发展格局——产业那段收尾备用","used":[]}]},"6-4-2":{"id":"6-4-2","m":"6","p":4,"xi":false,"pieces":[{"t":"珠三角以海洋交通运输业、海洋油气业、海工装备、海洋船舶工业和海洋服务业为主，已形成以广州、中山、珠海、江门为核心的西岸先进装备制造带，和以深圳、东莞、惠州为主的东岸研发服务带。","mk":"/","f":"产","o":"事","form":"广东做成了什么","dest":"例子","why":"具体：珠三角西岸装备制造带、东岸研发服务带","used":[]}]},"6-4-3":{"id":"6-4-3","m":"6","p":4,"xi":false,"pieces":[{"t":"粤东以临海工业、海洋渔业和滨海旅游为主，已形成以揭阳大南海石化区、潮州港经济开发区为核心的临海工业产业集群。","mk":"/","f":"产","o":"事","form":"广东做成了什么","dest":"例子","why":"具体：粤东临海工业产业集群","used":[]}]},"6-4-4":{"id":"6-4-4","m":"6","p":4,"xi":false,"pieces":[{"t":"粤西以临海工业、海洋油气业、海洋渔业和滨海旅游为主，已形成以宝钢湛江基地为核心的临海钢铁产业集群，以茂名石化工业区、东海岛石化产业园区为核心的临海石化产业集群和以阳江高新区为核心的海上风电装备制造产业集群。","mk":"/","f":"产","o":"事","form":"广东做成了什么","dest":"例子","why":"具体：粤西临海钢铁、石化、海上风电装备产业集群","used":[]}]},"6-5-1":{"id":"6-5-1","m":"6","p":5,"xi":false,"pieces":[{"t":"坐拥千年大港的广州，是享誉国际的全球领先海事之都，一直是国家经略海洋的战略重地，海洋科技创新的前沿阵地，全球重要的航运枢纽，海洋经济综合实力居全国前列，在海洋强国建设中一直发挥着排头兵的作用。","mk":"/","f":"开","o":"事","form":"个案（是什么）","dest":"例子","why":"具体：广州是全球领先海事之都、全球重要航运枢纽","used":[]}]},"6-6-1":{"id":"6-6-1","m":"6","p":6,"xi":false,"pieces":[{"t":"《广州市国土空间总体规划（2021-2035年）》首次赋予广州“彰显海洋特色的现代化城市”的城市性质。","mk":null,"f":null,"o":"事","form":"广州是什么（规划）","dest":"不划","why":"规划给广州的定位，作文用不上","used":[]}]},"6-6-2":{"id":"6-6-2","m":"6","p":6,"xi":false,"pieces":[{"t":"面向2035年，广州将以向海发展为契机，以创新发展为动力，在科技兴海、产业强海、开放活海、生态护海、文化亲海等方面彰显特色，","mk":"④","f":null,"o":"理","form":"要什么（一句列全五样）","dest":"开头·做什么","why":"格子就在这句：科技兴海、产业强海、开放活海、生态护海、文化亲海，拿例子去嵌，五块料都有地方放。主语是广州，借来说全省","used":["开头·做什么","科技兴海段·论点","产业强海段·论点","开放活海段·论点","生态护海段·论点","文化亲海段·论点","结尾·唯有……才能……＋落"]},{"t":"全力打造高质量发展的蓝色引擎，积极探索海洋领域中国式现代化的广州方案。","mk":"{}","f":"产","o":"理","form":"要什么（目标）","dest":"论点／道理料","why":"一个目标：全力打造高质量发展的蓝色引擎——“蓝色引擎”是比喻，好看；产业那面论点后半","st":true,"used":["产业强海段·论点"]}]},"7-1-1":{"id":"7-1-1","m":"7","p":1,"xi":false,"pieces":[{"t":"湾区，陆地与海洋的交汇处，带来文明与文明的碰撞、文化与文化的交流。","mk":"{}","f":"文","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：湾区带来文明与文明的碰撞、文化与文化的交流——同一句式重复，好看","st":true,"used":[]}]},"7-1-2":{"id":"7-1-2","m":"7","p":1,"xi":false,"pieces":[{"t":"粤港澳大湾区最不能忽略、最大有可为的秘诀便蕴藏在深海之中。","mk":"{}","f":"总","o":"理","form":"是什么","dest":"道理料（管整篇）","why":"拿不准：大湾区的秘诀在深海，好听，也有一点道理——划 { }","used":[]}]},"7-1-3":{"id":"7-1-3","m":"7","p":1,"xi":false,"pieces":[{"t":"粤港澳大湾区文化高质量发展，已清晰地指向海洋。","mk":"{}","f":"文","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：大湾区文化高质量发展指向海洋","used":[]}]},"7-1-4":{"id":"7-1-4","m":"7","p":1,"xi":false,"pieces":[{"t":"海洋，在湾区形成的历史中留下了宝贵的遗存，也开拓了发展的空间。","mk":"{}","f":"文","o":"理","form":"是什么","dest":"论点／道理料","why":"拿不准：海洋留下遗存，也开拓空间——划 { }","used":[]}]},"7-2-1":{"id":"7-2-1","m":"7","p":2,"xi":false,"pieces":[{"t":"海上丝绸之路，开辟于秦汉，繁荣于唐宋，鼎盛于明清，是广州极为响亮的一张名片。","mk":"/","f":"文","o":"事","form":"是什么（历史）","dest":"例子","why":"具体：海上丝绸之路是广州的名片","used":[]}]},"7-2-2":{"id":"7-2-2","m":"7","p":2,"xi":false,"pieces":[{"t":"作为海上丝绸之路的发祥地之一，广州的历史正是浓缩的海丝史和广东海洋史。","mk":null,"f":null,"o":"事","form":"广州是什么","dest":"不划","why":"和上一句一个意思","used":[]}]},"7-2-3":{"id":"7-2-3","m":"7","p":2,"xi":false,"pieces":[{"t":"广州是海上丝绸之路沿线极为罕见的跨板块节点，伴随两千年的演进历程，在以海上丝绸之路为依托的国际商贸活动和文化交流中扮演着不可替代的角色。","mk":null,"f":null,"o":"事","form":"广州是什么","dest":"不划","why":"还是广州在海丝里的地位，上一句够了","used":[]}]},"7-3-1":{"id":"7-3-1","m":"7","p":3,"xi":false,"pieces":[{"t":"广东数千年的海洋文化历史，可划分为三个时期：第一，百越族时期，广东先民尚处在以海为生的自然生态，是海洋文化在广东的萌生期。","mk":null,"f":null,"o":"事","form":"历史","dest":"不划","why":"海洋文化分期，作文用不上","used":[]}]},"7-3-2":{"id":"7-3-2","m":"7","p":3,"xi":false,"pieces":[{"t":"第二，古代时期，海上丝绸之路时期，广东成为海洋文化大省。","mk":null,"f":null,"o":"事","form":"历史","dest":"不划","why":"同上","used":[]}]},"7-3-3":{"id":"7-3-3","m":"7","p":3,"xi":false,"pieces":[{"t":"第三，近代时期，是东西学互渐时期，亦称“海洋文明”时期。","mk":null,"f":null,"o":"事","form":"历史","dest":"不划","why":"同上","used":[]}]},"7-4-1":{"id":"7-4-1","m":"7","p":4,"xi":false,"pieces":[{"t":"而今，广州依然发挥着海丝城的重要作用。","mk":"/","f":"文","o":"事","form":"广东做了什么","dest":"例子","why":"例子的入口：广州依然发挥海丝城的作用","used":[]}]},"7-4-2":{"id":"7-4-2","m":"7","p":4,"xi":false,"pieces":[{"t":"以黄埔区为例，其目前正积极推进南海神庙历史文化综合发展区的建设，以打造“一庙两馆”（南海神庙、广州海事博物馆、外贸博物馆）国家级旅游景区为契机，全面激活海上丝绸之路文化的巨大潜力。","mk":"/","f":"文","o":"事","form":"个案","dest":"例子","why":"具体：黄埔区南海神庙“一庙两馆”","used":["文化亲海段·例子"]}]},"7-4-3":{"id":"7-4-3","m":"7","p":4,"xi":false,"pieces":[{"t":"以现代国际贸易角度看，海丝的内核在广州从未中断，直到今天也在国际上发挥着链接、交流、合作的作用。","mk":"()","f":"开","o":"听","form":"做成了什么","dest":"收尾","why":"没多什么，但好听：海丝的内核从未中断，链接、交流、合作——开放那段收尾","used":["开放活海段·回扣"]}]},"7-4-4":{"id":"7-4-4","m":"7","p":4,"xi":false,"pieces":[{"t":"优质进口品牌荟萃、展现制造实力的外贸基地……","mk":null,"f":null,"o":"事","form":"个案（碎）","dest":"不划","why":"半句画面，太碎","used":[]}]},"7-4-5":{"id":"7-4-5","m":"7","p":4,"xi":false,"pieces":[{"t":"海丝博览会自2014年创办以来一直秉承“和平合作、开放包容、互学互鉴、互利共赢”的丝路精神，已逐渐发展成为广东与“一带一路”沿线国家和地区密切合作的重要平台，成为广东贸易高质量发展“十大工程”中展会提升工程的重要组成部分，有力促进了广东与“一带一路”沿线国家和地区的人文交流和经贸合作。","mk":"/","f":"开","o":"事","form":"个案","dest":"例子","why":"具体：海丝博览会成为广东与“一带一路”合作的重要平台","used":["开放活海段·例子"]}]},"7-4-6":{"id":"7-4-6","m":"7","p":4,"xi":false,"pieces":[{"t":"2022年，全省与“一带一路”沿线国家和地区进出口总额高达2.25万亿元，同比增长10.3%。","mk":"/","f":"开","o":"事","form":"广东做成了什么","dest":"例子","why":"带数：与“一带一路”进出口 2.25 万亿元","used":["开放活海段·例子"]}]},"7-4-7":{"id":"7-4-7","m":"7","p":4,"xi":false,"pieces":[{"t":"“与‘一带一路’沿线地区紧密的合作关系，是海丝博览会不断发展的基础和支撑。”广东省贸促会副会长崔爽表示。","mk":"跟","f":"开","o":"听","form":"画面（个案）","dest":"跟着例子走","why":"负责人的话，跟着例子走","used":[]}]},"7-5-1":{"id":"7-5-1","m":"7","p":5,"xi":false,"pieces":[{"t":"回望全球发展史，离不开辉煌的海洋文明史。","mk":"{}","f":"文","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：全球发展史离不开海洋文明史——比题目高一层，结尾也能用","used":[]}]},"7-5-2":{"id":"7-5-2","m":"7","p":5,"xi":false,"pieces":[{"t":"深圳这座日新月异的创新之城，正可以视为长期被理解为以农耕文明为主的中国重拾海洋文明、链接世界的举措。","mk":"{}","f":"文","o":"理","form":"是什么（个案）","dest":"论点／道理料","why":"拿不准：说深圳是重拾海洋文明的举措，有一点道理——划 { }","used":[]}]},"7-5-3":{"id":"7-5-3","m":"7","p":5,"xi":false,"pieces":[{"t":"这是新中国尝试在海洋文化带建设市场经济的城市，更是中国海洋文化向海洋文明跃升的开始。","mk":"()","f":"文","o":"听","form":"做成了什么","dest":"收尾","why":"没多什么，但好听：海洋文化向海洋文明跃升——文化那段收尾备用","used":[]}]},"7-6-1":{"id":"7-6-1","m":"7","p":6,"xi":false,"pieces":[{"t":"回顾40多年的改革开放史，改革开放初期体现出的“敢为天下先”“杀出一条血路来”和“摸着石头过河”的思想，正是海洋文化意识和精神的典型体现。","mk":"{}","f":"文","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：“敢为天下先”“杀出一条血路来”“摸着石头过河”正是海洋文化精神——三句口号，好看；文化那段的道理","st":true,"used":["文化亲海段·道理"]}]},"7-6-2":{"id":"7-6-2","m":"7","p":6,"xi":false,"pieces":[{"t":"大胆引进外资和市场经济，也是在思维方式和行为方式上接受了海洋文化和海洋经济。","mk":"{}","f":"文","o":"理","form":"是什么","dest":"论点／道理料","why":"拿不准：引进外资和市场经济就是接受海洋文化——划 { }","used":[]}]},"7-6-3":{"id":"7-6-3","m":"7","p":6,"xi":false,"pieces":[{"t":"当下，广东提出建设文化强省、科技强省、海洋强省，也是以自觉的海洋文化意识为决策指导。","mk":"{}","f":"文","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：建设海洋强省以海洋文化意识为指导——文化那面能用","used":[]}]},"7-6-4":{"id":"7-6-4","m":"7","p":6,"xi":false,"pieces":[{"t":"究其内里，海洋文化不断凸显的开放、包容、坚韧、大胆的精神底色，给广东经济社会发展带来了巨大影响力。","mk":"{}","f":"文","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：海洋文化开放、包容、坚韧、大胆的精神底色——四个词并列，好看；文化那面论点后半","st":true,"used":["文化亲海段·论点"]}]},"7-7-1":{"id":"7-7-1","m":"7","p":7,"xi":false,"pieces":[{"t":"纵观地理空间和历史维度，粤港澳大湾区凭海而立、因海而兴，三地文化以海洋文化为底色，以海洋文化共融发展为深层动力，具有推进海洋经济高质量发展的区位优势和创新粤港澳大湾区协同发展新路径的深厚底蕴。","mk":"{}","f":"文","o":"理","form":"是什么","dest":"标题／道理料","why":"一个道理：大湾区凭海而立、因海而兴，以海洋文化为底色——对仗，好看；短，标题用","st":true,"used":[]}]},"7-7-2":{"id":"7-7-2","m":"7","p":7,"xi":false,"pieces":[{"t":"当下，活跃丰富的游径、引人注目的剧作、产值惊人的产业链条……","mk":null,"f":null,"o":"事","form":"个案（碎）","dest":"不划","why":"半句列举，太碎","used":[]}]},"7-7-3":{"id":"7-7-3","m":"7","p":7,"xi":false,"pieces":[{"t":"粤港澳大湾区的文化产业、文艺创作等已凸显出鲜明、亮丽又富有岭南气韵的海洋风范。","mk":"()","f":"文","o":"听","form":"做成了什么","dest":"收尾","why":"没多什么，但好听：富有岭南气韵的海洋风范——文化那段收尾","used":["文化亲海段·回扣"]}]},"7-8-1":{"id":"7-8-1","m":"7","p":8,"xi":false,"pieces":[{"t":"海洋文化是开放的世界文化，蕴含着丰富的科学发展理念和人类文明成果，将为广东进一步解放思想、深化改革提供重要的思想源泉。","mk":"{}","f":"文","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：海洋文化为广东解放思想、深化改革提供思想源泉——文化那面备用","used":[]}]},"7-8-2":{"id":"7-8-2","m":"7","p":8,"xi":false,"pieces":[{"t":"人们期待着海洋的宽阔带来经济的进一步腾飞，而海洋也必将以辽远深邃的胸怀回馈人类以最宝贵迷人的精神财富、文明宝藏。","mk":"尾","f":null,"o":"听","form":"画面","dest":"结尾","why":"没多什么，但好听，说的比广东更大（海洋回馈人类）——结尾备用","used":[]}]}},"seq":["1-1-1","1-1-2","1-2-1","1-2-2","1-2-3","1-2-4","1-2-5","1-2-6","1-3-1","1-4-1","2-1-1","2-2-1","2-2-2","2-2-3","2-3-1","2-4-1","2-4-2","2-5-1","2-5-2","2-6-1","2-7-1","2-7-2","2-8-1","2-8-2","2-8-3","2-9-1","2-10-1","2-10-2","2-11-1","2-11-2","2-12-1","2-13-1","2-14-1","2-14-2","2-15-1","3-1-1","3-2-2","3-15-1","3-16-2","3-17-2","4-1-1","5-1-1","5-1-2","5-1-3","5-2-1","5-3-1","5-3-2","5-4-1","5-5-1","5-5-2","5-6-1","5-7-1","5-8-1","5-9-1","5-9-2","6-1-1","6-1-2","6-2-1","6-2-2","6-3-1","6-3-2","6-4-1","6-4-2","6-4-3","6-4-4","6-5-1","6-6-1","6-6-2","7-1-1","7-1-2","7-1-3","7-1-4","7-2-1","7-2-2","7-2-3","7-3-1","7-3-2","7-3-3","7-4-1","7-4-2","7-4-3","7-4-4","7-4-5","7-4-6","7-4-7","7-5-1","7-5-2","7-5-3","7-6-1","7-6-2","7-6-3","7-6-4","7-7-1","7-7-2","7-7-3","7-8-1","7-8-2"],"xiNote":{"3":"小题一的材料，做小题时读过。生态那面料薄，记得就用：总书记“像爱护眼睛一样”、红树林面积逐年增长、首个“蓝碳”交易。","4":"小题二的材料，做小题时读过。作文没有用到这一则。"},"essay":{"title":"凭海而立　因海而兴","parts":[{"name":"开头","formula":"引语 → 道理句（有就用）→ 对广东而言 → 做什么 → 论点句","rows":[{"e":"e1","role":"引语","text":"习近平总书记在广东考察时指出，要加强陆海统筹、山海互济，全面建设海洋强省。","src":[{"sid":"1-3-1","frag":"习近平总书记在广东考察时指出","mk":"①","f":null,"st":false},{"sid":"1-3-1","frag":"要加强陆海统筹、山海互济","mk":"①","f":null,"st":false},{"sid":"1-3-1","frag":"全面建设海洋强省","mk":"①","f":null,"st":false}],"how":"① 总书记在广东说的话，句尾就是“海洋强省”；中间两样删掉，留头尾","note":null},{"e":"e2","role":"道理句","text":"我国既是陆地大国，也是海洋大国，海洋是高质量发展战略要地。","src":[{"sid":"1-2-4","frag":"我国既是陆地大国，也是海洋大国","mk":"{}","f":"总","st":true},{"sid":"6-1-1","frag":"海洋是高质量发展战略要地","mk":"{}","f":"总","st":false}],"how":"材料一的 {★} 去掉后半，接上题干第一句（材料六首句也是这句）","note":null},{"e":"e3","role":"对广东而言","text":"对广东而言，海洋经济总量已连续29年居全国首位。","src":[{"sid":"2-2-2","frag":"广东海洋经济总量已连续29年居全国首位","mk":"③","f":null,"st":false}],"how":"③ 广东干得好的，留一个数","note":null},{"e":"e4","role":"做什么","text":"要在打造海上新广东上取得新突破，广东必须坚持科技兴海、产业强海、开放活海、生态护海、文化亲海。","src":[{"sid":"6-2-1","frag":"在打造海上新广东上取得新突破","mk":"③","f":null,"st":false},{"sid":"6-6-2","frag":"科技兴海、产业强海、开放活海、生态护海、文化亲海","mk":"④","f":null,"st":false}],"how":"③ 省委出的题当目的，④ 格子那句的五样当做法","note":null},{"e":"e5","role":"论点句","text":"全面推进海洋强省建设，正是为广东改革发展注入源源不断的“蓝色动力”。","src":[{"sid":"1-4-1","frag":"为广东改革发展注入源源不断的“蓝色动力”","mk":"尾","f":null,"st":false},{"sid":"@题干","frag":"全面推进海洋强省建设 → ……正是为……注入……“蓝色动力”"}],"how":"主题题加不上“正”：前半题干原话，后半拿题干自己带的目的（材料一末句的 (尾)），中间加“正是”","note":null}]},{"name":"科技兴海段","formula":"论点（两半句）→ 道理（有就用）→ 例子（两个）→ 回扣","rows":[{"e":"e6","role":"论点","text":"科技兴海，就要抢占深蓝高地，大力发展海洋新质生产力。","src":[{"sid":"6-6-2","frag":"科技兴海","mk":"④","f":null,"st":false},{"sid":"5-1-1","frag":"要抢占深蓝高地，大力发展海洋新质生产力","mk":"{}","f":"科","st":true}],"how":"前半格子词；后半材料五开头代表那句 {★}，去掉感叹号，加“就”","note":null},{"e":"e7","role":"道理","text":"催化新质生产力，依靠的就是科技创新。","src":[{"sid":"5-3-1","frag":"催化新质生产力，依靠的就是科技创新","mk":"{}","f":"科","st":false}],"how":"同块的 { }，照抄","note":null},{"e":"e8","role":"例子","text":"“深蓝探索”是全球首艘智能深水钻井平台；“珠海琴”是国内首台配备可自主升降折叠网箱的深海养殖平台。","src":[{"sid":"5-6-1","frag":"是全球首艘智能深水钻井平台","mk":"/","f":"科","st":true},{"sid":"5-7-1","frag":"是国内首台配备可自主升降折叠网箱的新型数字智能化深海养殖平台","mk":"/","f":"科","st":true}],"how":"两颗 /★，各留名字和“首”，后面的长尾巴不要","note":null},{"e":"e9","role":"回扣","text":"科技赋能，为深海养殖插上了智能双翼；广东智慧，为培育新质生产力写下了生动注脚。","src":[{"sid":"5-9-1","frag":"科技赋能，为深海养殖插上了智能双翼；广东智慧，为培育新质生产力写下了生动注脚","mk":"()","f":"科","st":false}],"how":"附近的 ( )，照抄","note":null}]},{"name":"产业强海段","formula":"论点（两半句）→ 道理（有就用）→ 例子（两个）→ 回扣","rows":[{"e":"e10","role":"论点","text":"产业强海，全力打造高质量发展的蓝色引擎。","src":[{"sid":"6-6-2","frag":"产业强海","mk":"④","f":null,"st":false},{"sid":"6-6-2","frag":"全力打造高质量发展的蓝色引擎","mk":"{}","f":"产","st":true}],"how":"前半格子词；后半就在格子那句里，看到就用","note":null},{"e":"e11","role":"道理","text":"发达的海洋经济，是建设海洋强国的重要支撑。","src":[{"sid":"2-1-1","frag":"发达的海洋经济是建设海洋强国的重要支撑","mk":"{}","f":"产","st":false}],"how":"材料二首句的 { }，照抄","note":null},{"e":"e12","role":"例子","text":"2024年，全省海洋经济发展专项投入1.9亿元，推动海洋电子信息、海工装备等新兴产业发展；湛江依托湛江钢铁等重大临港产业项目，打造绿色钢铁等13个现代临港产业集群。","src":[{"sid":"2-4-2","frag":"2024年，省海洋经济发展专项投入1.9亿元","mk":"/","f":"产","st":false},{"sid":"2-4-2","frag":"推动海洋电子信息、海洋生物医药、海工装备等新兴产业创新发展","mk":"/","f":"产","st":false},{"sid":"2-5-2","frag":"依托湛江钢铁等4个投资均超过100亿美元的重大临港产业项目","mk":"/","f":"产","st":false},{"sid":"2-5-2","frag":"打造绿色钢铁等13个现代临港产业集群","mk":"/","f":"产","st":false}],"how":"全省一个、湛江一个，各留一个数","note":null},{"e":"e13","role":"回扣","text":"广东海洋经济6大产业蓬勃发展，正成为高质量发展的蓝色引擎。","src":[{"sid":"2-4-1","frag":"广东海洋经济6大产业蓬勃发展","mk":"()","f":"产","st":false},{"sid":"@回扣","frag":"论点后半 → 正成为……蓝色引擎"}],"how":"附近的 ( )，后面接论点后半，加“正”","note":null}]},{"name":"开放活海段","formula":"论点（两半句）→ 道理（记得材料一那句）→ 例子（两个）→ 回扣","rows":[{"e":"e14","role":"论点","text":"开放活海，海洋是广东融入世界的大通道。","src":[{"sid":"6-6-2","frag":"开放活海","mk":"④","f":null,"st":false},{"sid":"6-1-2","frag":"海洋也是融入世界的大通道","mk":"{}","f":"开","st":true}],"how":"前半格子词；后半材料六首句的 {★}，“也”换成“广东”","note":null},{"e":"e15","role":"道理","text":"海洋已经成为全球合作与发展的重要领域。","src":[{"sid":"1-2-3","frag":"海洋已经成为全球合作与发展的重要领域","mk":"{}","f":"开","st":false}],"how":"记得材料一有一句讲全球合作的 { }，照抄","note":null},{"e":"e16","role":"例子","text":"广东构建港口群“一核两极”发展格局；海丝博览会成为广东与“一带一路”沿线合作的重要平台，2022年全省与沿线进出口总额达2.25万亿元。","src":[{"sid":"6-3-1","frag":"“一核两极”发展格局","mk":"/","f":"开","st":false},{"sid":"7-4-5","frag":"已逐渐发展成为广东与“一带一路”沿线国家和地区密切合作的重要平台","mk":"/","f":"开","st":false},{"sid":"7-4-6","frag":"2022年，全省与“一带一路”沿线国家和地区进出口总额高达2.25万亿元","mk":"/","f":"开","st":false}],"how":"港口格局一个，海丝博览会一个，跟一个数","note":null},{"e":"e17","role":"回扣","text":"海丝的内核在广州从未中断，这条大通道今天依然发挥着链接、交流、合作的作用。","src":[{"sid":"7-4-3","frag":"海丝的内核在广州从未中断","mk":"()","f":"开","st":false},{"sid":"7-4-3","frag":"发挥着链接、交流、合作的作用","mk":"()","f":"开","st":false},{"sid":"@回扣","frag":"论点的“大通道”"}],"how":"附近的 ( )，中间插回论点的“大通道”","note":null}]},{"name":"生态护海段","formula":"论点（两半句）→ 道理（翻开头拿）→ 例子（两个）→ 回扣","rows":[{"e":"e18","role":"论点","text":"生态护海，要像爱护眼睛一样守护海洋生态。","src":[{"sid":"6-6-2","frag":"生态护海","mk":"④","f":null,"st":false},{"sid":"3-1-1","frag":"要像爱护眼睛一样守护好","mk":"{}","f":"生","st":true}],"how":"前半格子词；后半是问题一材料里总书记的话，记得就用，宾语换成“海洋生态”","note":null},{"e":"e19","role":"道理","text":"发展海洋经济，必须保护海洋生态环境。","src":[{"sid":"1-1-2","frag":"发展海洋经济，保护海洋生态环境","mk":"{}","f":"产生","st":false}],"how":"本块没有道理句，翻开头：材料一二十大报告那句，加“必须”","note":null},{"e":"e20","role":"例子","text":"珠海三角岛作为全国首个挂牌出让的无居民海岛，以生态修复为引领，2023年入选国家级“和美海岛”；Z市红树林面积逐年增长，完成了中国首个“蓝碳”项目交易。","src":[{"sid":"2-8-1","frag":"在珠海市万山群岛西北部","mk":"跟","f":"生","st":false},{"sid":"2-10-1","frag":"作为全国首个挂牌出让的无居民海岛","mk":"/","f":"生","st":true},{"sid":"2-10-1","frag":"三角岛探索以生态修复为引领","mk":"/","f":"生","st":true},{"sid":"2-10-2","frag":"2023年，三角岛成功入选国家级“和美海岛”","mk":"/","f":"生","st":true},{"sid":"3-2-2","frag":"Z市红树林面积却逐年增长","mk":"/","f":"生","st":false},{"sid":"3-15-1","frag":"中国首个“蓝碳”项目交易完成","mk":"/","f":"生","st":true}],"how":"三角岛一个；红树林是问题一做过的，记得就用","note":null},{"e":"e21","role":"回扣","text":"全社会守护红树林的氛围逐步形成，广东正像爱护眼睛一样守护着这片海。","src":[{"sid":"3-17-2","frag":"全社会保护、爱护和守护红树林氛围逐步形成","mk":"()","f":"生","st":false},{"sid":"@回扣","frag":"论点 → 正像爱护眼睛一样守护着"}],"how":"问题一读过的 ( )，后面接论点，加“正”","note":null}]},{"name":"文化亲海段","formula":"论点（两半句）→ 道理（有就用）→ 例子（两个）→ 回扣","rows":[{"e":"e22","role":"论点","text":"文化亲海，海洋文化是广东开放、包容、坚韧、大胆的精神底色。","src":[{"sid":"6-6-2","frag":"文化亲海","mk":"④","f":null,"st":false},{"sid":"7-6-4","frag":"海洋文化不断凸显的开放、包容、坚韧、大胆的精神底色","mk":"{}","f":"文","st":true}],"how":"前半格子词；后半材料七的 {★}，去壳缩成“海洋文化是……精神底色”","note":null},{"e":"e23","role":"道理","text":"改革开放初期“敢为天下先”的思想，正是海洋文化精神的典型体现。","src":[{"sid":"7-6-1","frag":"改革开放初期体现出的","mk":"{}","f":"文","st":true},{"sid":"7-6-1","frag":"“敢为天下先”","mk":"{}","f":"文","st":true},{"sid":"7-6-1","frag":"正是海洋文化意识和精神的典型体现","mk":"{}","f":"文","st":true}],"how":"同段的 {★}，三句口号留一句","note":null},{"e":"e24","role":"例子","text":"黄埔区打造“一庙两馆”，全面激活海上丝绸之路文化；深圳“新春杯”帆船赛扬帆起航，汕尾组织“坐着高铁来赶海”。","src":[{"sid":"7-4-2","frag":"以打造“一庙两馆”","mk":"/","f":"文","st":false},{"sid":"7-4-2","frag":"全面激活海上丝绸之路文化的巨大潜力","mk":"/","f":"文","st":false},{"sid":"2-14-1","frag":"深圳市“新春杯”帆船赛在大鹏新区大亚湾海域扬帆起航","mk":"/","f":"文","st":false},{"sid":"2-14-1","frag":"汕尾市组织“坐着高铁来赶海”","mk":"/","f":"文","st":false}],"how":"海丝文化一个；人往海边走一个，材料二末段的帆船赛和赶海并成一句","note":null},{"e":"e25","role":"回扣","text":"粤港澳大湾区的文化产业、文艺创作已凸显出富有岭南气韵的海洋风范。","src":[{"sid":"7-7-3","frag":"粤港澳大湾区的文化产业、文艺创作等已凸显出","mk":"()","f":"文","st":false},{"sid":"7-7-3","frag":"富有岭南气韵的海洋风范","mk":"()","f":"文","st":false}],"how":"附近的 ( )，删掉中间的形容词","note":null}]},{"name":"结尾","formula":"起 → 唯有……才能…… → 落","rows":[{"e":"e26","role":"起","text":"浩渺南海之滨，广东傲立潮头。","src":[{"sid":"2-2-1","frag":"浩渺南海之滨，广东傲立潮头","mk":"尾","f":null,"st":false}],"how":"材料二的 (尾)，照抄","note":null},{"e":"e27","role":"唯有……才能……＋落","text":"唯有坚持科技兴海、产业强海、开放活海、生态护海、文化亲海，才能在打造海上新广东上取得新突破，让蓝色引擎动能澎湃、潮头正劲。","src":[{"sid":"6-6-2","frag":"科技兴海、产业强海、开放活海、生态护海、文化亲海","mk":"④","f":null,"st":false},{"sid":"1-4-1","frag":"在打造海上新广东上取得新突破","mk":"③","f":null,"st":false},{"sid":"2-2-3","frag":"蓝色引擎动能澎湃、潮头正劲","mk":"尾","f":null,"st":false}],"how":"“唯有”后面放格子五样，“才能”后面放省委出的题，落在材料二的 (尾)，和起句的“潮头”接上","note":null}]}]},"conflicts":[["6-6-2","顺手","格子在材料六末句，一句列全五样；主语是广州，直接借来说全省。五个格子词本身就是一个架子（××海），五句论点前半都用它；产业那面的后半“全力打造高质量发展的蓝色引擎”就在同一句里，看到就用。"],["题干","卡住","主题题，“题干＋正”造不出来。题干自己带了目的（为广东改革发展注入蓝色动力），就拿它当后半句：“全面推进海洋强省建设，正是为……注入……‘蓝色动力’”。"],["3-1-1 / 3-2-2 / 3-15-1 / 3-17-2","顺手","生态那面本块只有三角岛一个个案。问题一刚做过红树林，记得就用：论点后半借总书记“像爱护眼睛一样”，第二个例子和回扣也从那篇拿。"],["3-1-1","破例","总书记原话说的是红树林，论点把宾语换成“海洋生态”，比原话说得宽。考场上图它好看又扣面，冒了一点险。"],["1-2-6 / 4-1-1 / 7-1-1","卡住","还剩三颗 ★ 没用上：依海富国那一串、“蓝色粮仓”、文明与文明的碰撞。开头道理句已经放了“陆地大国、海洋大国”，结尾起句用了更顺的“傲立潮头”，就不硬塞了。"],["篇幅","卡住","五个面挤在 1000 字以内：每段只放一句道理、两个例子，回扣多半直接用材料原句。"]],"ref":{"title":"依海富国　以海强省 ——全面推进海洋强省建设，打造海上新广东","points":["产业强海，是海上新广东的蓝色引擎。","科技兴海，是海上新广东的核心要素。","开放活海，是海上新广东融入世界的大通道。","生态护海，是海上新广东的支撑保障。","文化亲海，是海上新广东的精神底色。"],"note":"格子一样：参考范文也是科技兴海、产业强海、开放活海、生态护海、文化亲海五个面，它把产业放第一，这里照材料六的顺序。论点前半一样，都是格子词；后半它五句一个架子（“X，是海上新广东的 Y”，全是是什么，落在题干的“海上新广东”），这里没有统一句式，哪面有好看的句子就用哪句。后半的词对上三个：蓝色引擎、融入世界的大通道、精神底色；科技那面它用“核心要素”，这里用“抢占深蓝高地”；生态那面它用材料一的“支撑保障”，这里用问题一材料里总书记的“像爱护眼睛一样”。标题不同：它用材料一的“依海富国、以海强国”（强国改强省），正是这里划了 ★、最后没地方放的那一颗。参考范文从材料里拿了 34 处，这里划到 32 处；没划的两处：材料一全国的短板（它放开头当“未”，人用版只给广东的事打序号），小题材料三“红树林变‘金树林’”（它放生态段回扣）。说明：这一卷不是盲做的。模拟用的底稿里，旧的对照记录已经写过参考范文五句论点的词和它生态段用小题材料三的红树林；后半对上的三个词、生态段回问题一材料拿红树林，都不能算独立撞上。"},"refuse":[{"sid":"1-1-2","pos":"第1段第2句","role":"开头","text":"习近平总书记指出，\"一定要向海洋进军，加快建设海洋强国\"。","xi":false,"marks":[{"mk":"①","f":null,"dest":"开头·引语","st":false},{"mk":"{}","f":"总","dest":"道理料（管整篇）","st":false},{"mk":"{}","f":"产生","dest":"论点／道理料","st":false}]},{"sid":"2-2-2","pos":"第1段第3句","role":"开头","text":"广东海洋经济总量1.88万亿元，连续29年居全国首位。","xi":false,"marks":[{"mk":"③","f":null,"dest":"开头·对广东而言","st":false}]},{"sid":"1-2-5","pos":"第1段第4句","role":"开头","text":"但海洋开发利用层次总体不高、涉海科技创新自主能力不强。","xi":false,"marks":[]},{"sid":"6-6-2","pos":"第1段第5句","role":"开头","text":"全面推进海洋强省建设、打造海上新广东，就要产业强海、科技兴海、开放活海、生态护海、文化亲海。","xi":false,"marks":[{"mk":"④","f":null,"dest":"开头·做什么","st":false},{"mk":"{}","f":"产","dest":"论点／道理料","st":true}]},{"sid":"6-6-2","pos":"第2段第1句","role":"论点","text":"产业强海，是海上新广东的蓝色引擎。","xi":false,"marks":[{"mk":"④","f":null,"dest":"开头·做什么","st":false},{"mk":"{}","f":"产","dest":"论点／道理料","st":true}]},{"sid":"2-4-1","pos":"第2段第2句","role":"总括","text":"广东海洋经济6大产业蓬勃发展","xi":false,"marks":[{"mk":"{}","f":"产","dest":"论点／道理料","st":false},{"mk":"()","f":"产","dest":"收尾","st":false}]},{"sid":"2-4-2","pos":"第2段第3句","role":"例子","text":"省海洋经济发展专项投入1.9亿元，推动海洋电子信息、生物医药等新兴产业；","xi":false,"marks":[{"mk":"/","f":"产","dest":"例子","st":false}]},{"sid":"2-5-2","pos":"第2段第4句","role":"例子","text":"湛江打造绿色钢铁等13个现代临港产业集群；","xi":false,"marks":[{"mk":"/","f":"产","dest":"例子","st":false}]},{"sid":"2-6-1","pos":"第2段第5句","role":"例子","text":"实施海洋牧场项目\"标准海\"供应；","xi":false,"marks":[{"mk":"/","f":"产","dest":"例子","st":false}]},{"sid":"2-15-1","pos":"第2段第6句","role":"例子","text":"邮轮、游艇旅游成为出游新选择，海岛旅游发展势头强劲。","xi":false,"marks":[{"mk":"/","f":"文","dest":"例子","st":false}]},{"sid":"2-2-3","pos":"第2段第7句","role":"收尾","text":"蓝色引擎动能澎湃、潮头正劲。","xi":false,"marks":[{"mk":"尾","f":null,"dest":"结尾","st":false}]},{"sid":"5-3-1","pos":"第3段第2句","role":"道理","text":"催化新质生产力，依靠的就是科技创新。","xi":false,"marks":[{"mk":"{}","f":"科","dest":"论点／道理料","st":false}]},{"sid":"5-5-2","pos":"第3段第3句","role":"例子","text":"广东聚焦\"海洋科技创新引领\"：省重点实验室11个、工程技术研究中心41个；","xi":false,"marks":[{"mk":"/","f":"科","dest":"例子","st":false}]},{"sid":"5-6-1","pos":"第3段第4句","role":"例子","text":"\"深蓝探索\"是全球首艘智能深水钻井平台；","xi":false,"marks":[{"mk":"/","f":"科","dest":"例子","st":true}]},{"sid":"5-7-1","pos":"第3段第5句","role":"例子","text":"\"珠海琴\"是国内首台数字智能化深海养殖平台。","xi":false,"marks":[{"mk":"/","f":"科","dest":"例子","st":true}]},{"sid":"5-9-2","pos":"第3段第6句","role":"收尾","text":"打通了从科技创新、产业创新到发展新质生产力的链条。","xi":false,"marks":[{"mk":"{}","f":"科","dest":"论点／道理料","st":false},{"mk":"{}","f":"科","dest":"论点／道理料","st":false}]},{"sid":"6-1-2","pos":"第4段第1句","role":"论点","text":"开放活海，是海上新广东融入世界的大通道。","xi":false,"marks":[{"mk":"{}","f":"开","dest":"论点／道理料","st":true},{"mk":"{}","f":"开","dest":"论点／道理料","st":false}]},{"sid":"6-3-1","pos":"第4段第2句","role":"总括","text":"广东强化港产城整体布局，推动港口群与产业群城市群深度融合","xi":false,"marks":[{"mk":"/","f":"开","dest":"例子","st":false}]},{"sid":"6-3-2","pos":"第4段第3句","role":"例子","text":"建成粤港澳大湾区世界级港口群，汕头港、湛江港建成粤东、粤西枢纽港；","xi":false,"marks":[{"mk":"/","f":"开","dest":"例子","st":false}]},{"sid":"6-4-4","pos":"第4段第4句","role":"例子","text":"珠三角形成先进装备制造带和研发服务带，粤西形成海上风电装备产业集群。","xi":false,"marks":[{"mk":"/","f":"产","dest":"例子","st":false}]},{"sid":"6-4-1","pos":"第4段第5句","role":"收尾","text":"区域分工协作、优势互补的海洋发展格局趋于完善。","xi":false,"marks":[{"mk":"()","f":"产","dest":"收尾","st":false}]},{"sid":"1-4-1","pos":"第5段第1句","role":"论点","text":"生态护海，是海上新广东的支撑保障。","xi":false,"marks":[{"mk":"③","f":null,"dest":"开头·广东出场","st":false},{"mk":"{}","f":"产","dest":"论点／道理料","st":false},{"mk":"{}","f":"科生","dest":"论点／道理料","st":false},{"mk":"尾","f":null,"dest":"结尾","st":false}]},{"sid":"3-1-1","pos":"第5段第2句","role":"道理","text":"习近平总书记强调，红树林是\"国宝\"，要像爱护眼睛一样守护好。","xi":false,"marks":[{"mk":"{}","f":"生","dest":"论点／道理料","st":true}]},{"sid":"1-3-1","pos":"第5段第3句","role":"总括","text":"广东加强海洋生态保护","xi":false,"marks":[{"mk":"①","f":null,"dest":"开头·引语","st":false}]},{"sid":"3-2-2","pos":"第5段第4句","role":"例子","text":"Z市红树林面积逐年增长，被称为世界湿地恢复的成功范例；","xi":false,"marks":[{"mk":"/","f":"生","dest":"例子","st":false}]},{"sid":"3-15-1","pos":"第5段第5句","role":"例子","text":"中国首个\"蓝碳\"项目交易在Z市完成；","xi":false,"marks":[{"mk":"/","f":"生","dest":"例子","st":true}]},{"sid":"2-10-1","pos":"第5段第6句","role":"例子","text":"三角岛以生态修复为引领，以\"公益+旅游\"模式保护性开发，变身\"和美海岛\"。","xi":false,"marks":[{"mk":"/","f":"生","dest":"例子","st":true}]},{"sid":"3-14-1","pos":"第5段第7句","role":"收尾","text":"科技助力红树林转变为\"金树林\"。","xi":true,"marks":[]},{"sid":"7-4-2","pos":"第6段第3句","role":"例子","text":"黄埔区打造\"一庙两馆\"国家级旅游景区，激活海上丝绸之路文化的潜力。","xi":false,"marks":[{"mk":"/","f":"文","dest":"例子","st":false}]},{"sid":"7-6-1","pos":"第6段第4句","role":"道理","text":"改革开放初期\"敢为天下先\"的思想，正是海洋文化意识和精神的典型体现。","xi":false,"marks":[{"mk":"{}","f":"文","dest":"论点／道理料","st":true}]},{"sid":"7-8-1","pos":"第6段第5句","role":"收尾","text":"海洋文化将为广东解放思想、深化改革提供重要的思想源泉。","xi":false,"marks":[{"mk":"{}","f":"文","dest":"论点／道理料","st":false}]},{"sid":"2-2-1","pos":"第7段第1句","role":"结尾","text":"浩渺南海之滨，广东傲立潮头。","xi":false,"marks":[{"mk":"尾","f":null,"dest":"结尾","st":false}]},{"sid":"1-2-6","pos":"第7段第2句","role":"结尾","text":"坚持走依海富国、以海强国、人海和谐、合作共赢的发展道路。","xi":false,"marks":[{"mk":"{}","f":"总","dest":"论点／道理料（管整篇）","st":true}]},{"sid":"1-4-1","pos":"第7段第3句","role":"结尾","text":"产业强海、科技兴海、开放活海、生态护海、文化亲海，全面推进海洋强省建设，在打造海上新广东上取得新突破，为广东改革发展注入源源不断的\"蓝色动力\"！","xi":false,"marks":[{"mk":"③","f":null,"dest":"开头·广东出场","st":false},{"mk":"{}","f":"产","dest":"论点／道理料","st":false},{"mk":"{}","f":"科生","dest":"论点／道理料","st":false},{"mk":"尾","f":null,"dest":"结尾","st":false}]}],"id":"25xd","topic":"广东全面推进海洋强省建设","own":false,"chars":966,"pageTitle":"25选调作文推演"}];
+  const SUM = null;
+  const ID = {};
+  PAPERS.forEach(p => { ID[p.key] = p.id; });
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const trimP = s => String(s).replace(/^[，、。；：！？]+|[，、。；：！？]+$/g, '');
+  const short = (s, n) => { const t = trimP(s); return t.length > n ? t.slice(0, n) + '……' : t; };
+  const OUT = { '事': ['shi', '多了一件具体的事'], '理': ['li', '多了一个道理'], '听': ['ting', '没多什么，但好听'], '无': ['wu', '没多什么，也不好听'] };
+  const NUMS = '①②③④⑤';
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const narrow = window.matchMedia('(max-width: 959px)');
+  const SINGLE = PAPERS.length === 1;
+  let P = null, VIEW = '', matName = {}, cur = null, cur2 = null;
+
+  const nav = $('.steps');
+  const setNavH = () => document.documentElement.style.setProperty('--nav-h', nav.offsetHeight + 'px');
+  window.addEventListener('resize', setNavH);
+  function scrollToEl(el, frac) {
+    const y = el.getBoundingClientRect().top + window.scrollY - (frac == null ? window.innerHeight * (narrow.matches ? 0.16 : 0.28) : nav.offsetHeight);
+    window.scrollTo({ top: Math.max(0, y), behavior: reduce ? 'auto' : 'smooth' });
+  }
+
+  /* ---------- marks ---------- */
+  const tag = (f, c) => f ? `<span class="tag${c ? ' ' + c : ''}">${esc(f)}</span>` : '';
+  const LP = /^[，、。；：！？]+/, RP = /[，、。；：！？]+$/;
+  const STAR = '<b class="mk star">★</b>';
+  function pieceHTML(pc) {
+    if (!pc.mk) return `<span class="pc">${esc(pc.t)}</span>`;
+    if (pc.mk === '跟') return `<span class="pc follow">${esc(pc.t)}</span>`;
+    let t = pc.t, a = '', z = '', m;
+    if ((m = t.match(LP))) { a = m[0]; t = t.slice(a.length); }
+    if ((m = t.match(RP))) { z = m[0]; t = t.slice(0, t.length - z.length); }
+    let pre = '', post = '';
+    if (pc.mk === '{}') { pre = '<b class="mk">{</b>'; post = '<b class="mk">}</b>' + (pc.st ? STAR : '') + tag(pc.f); }
+    else if (pc.mk === '()') { pre = '<b class="mk">(</b>'; post = '<b class="mk">)</b>' + tag(pc.f); }
+    else if (pc.mk === '尾') { pre = '<b class="mk">(</b>'; post = '<b class="mk">)</b>' + tag('尾'); }
+    else if (pc.mk === '/') { pre = '<b class="mk ex">/</b>' + (pc.st ? STAR : '') + tag(pc.f, 'ex'); }
+    else { pre = `<b class="mk num">${esc(pc.mk)}</b>`; }
+    return `${esc(a)}<span class="pc on">${pre}${esc(t)}${post}</span>${esc(z)}`;
+  }
+  const sentHTML = id => P.sents[id].pieces.map(pieceHTML).join('');
+  const isMarked = id => P.sents[id].pieces.some(p => p.mk);
+  function glyph(mk, f, st) {
+    if (!mk) return '<span class="g off">不划</span>';
+    if (mk === '跟') return '<span class="g ex">跟着例子走</span>';
+    if (mk === '{}') return `<span class="g"><b class="mk">{ }</b>${st ? STAR : ''}${tag(f)}</span>`;
+    if (mk === '()') return `<span class="g"><b class="mk">( )</b>${tag(f)}</span>`;
+    if (mk === '尾') return `<span class="g"><b class="mk">( )</b>${tag('尾')}</span>`;
+    if (mk === '/') return `<span class="g"><b class="mk ex">/</b>${st ? STAR : ''}${tag(f, 'ex')}</span>`;
+    return `<span class="g"><b class="mk num">${esc(mk)}</b></span>`;
+  }
+
+  /* ---------- header, chooser, steps ---------- */
+  const STEPS_P = [['s-read', '1', '读题'], ['s-mark', '2', '划句子'], ['s-pile', '3', '找格子'], ['s-build', '4', '拼文章'], ['s-sheet', '5', '誊稿纸'], ['s-check', '6', '对答案']];
+  const STEPS_O = [['o-rule', '一', '人用版规则'], ['o-papers', '二', '八篇一览'], ['o-ref', '三', '参考范文的料']];
+  const shortName = p => p.meta.year.slice(2) + ' ' + p.meta.label.replace(/^\d{4}\s*/, '');
+  function renderChooser() {
+    if (SINGLE) { $('#papers').hidden = true; $('#pselWrap').hidden = true; return; }
+    let cards = SUM ? `<a class="pcard ovc" href="#overview"><span class="py">总览</span><span class="pn">规则和八篇</span><span class="pt">人用版规则；八篇一览；参考范文的料</span></a>` : '';
+    let opts = SUM ? '<option value="overview">总览</option>' : '';
+    PAPERS.forEach(p => {
+      cards += `<a class="pcard" href="#${p.id}"><span class="py">${esc(p.meta.year)}</span><span class="pn">${esc(p.meta.label.replace(/^\d{4}\s*/, ''))}</span>` +
+        `<span class="pt">${esc(p.topic)}</span><span class="pb">${p.own ? '本人作答' : '模拟考生'} · ${p.chars} 字</span></a>`;
+      opts += `<option value="${p.id}">${esc(shortName(p))}</option>`;
+    });
+    $('#papers').innerHTML = cards;
+    $('#paperSel').innerHTML = opts;
+  }
+  function setSteps(list) {
+    $('#stepList').innerHTML = list.map(([id, n, t]) => `<li><a href="#${id}" data-step="${id}"><span class="n">${n}</span>${t}</a></li>`).join('');
+    setNavH();
+  }
+  $('#stepList').addEventListener('click', e => {
+    const a = e.target.closest('a[data-step]');
+    if (!a) return;
+    e.preventDefault();
+    const el = document.getElementById(a.dataset.step);
+    if (el) scrollToEl(el, 0);
+  });
+  $('#paperSel').addEventListener('change', e => { location.hash = e.target.value; });
+
+  /* ---------- step 1 ---------- */
+  function renderRead() {
+    const m = P.meta;
+    $('#readLead').textContent = `小题先做完，${m.xiaoti}已经读过。翻到问题三，题干只抓三样。`;
+    $('#prompt').innerHTML = `<p class="q"><b>问题三</b>　${esc(m.question)}</p><ol>${m.reqs.map(r => `<li>${esc(r)}</li>`).join('')}</ol>`;
+    $('#three').innerHTML = `<dl><dt>A</dt><dd>${esc(m.A)}</dd><dt>B</dt><dd>${esc(m.B)}</dd><dt>关系</dt><dd>${esc(m.rel)}</dd><dt>题型</dt><dd>${esc(m.qtype)}</dd></dl>`;
+    $('#faceWords').textContent = `面字：${m.faces.map(f => f[0]).join('、')}；管整篇的写“总”。`;
+  }
+
+  /* ---------- step 2: materials ---------- */
+  const sentSpan = id => `<span class="s${isMarked(id) ? '' : ' off'}" data-id="${id}" role="button" tabindex="0">${sentHTML(id)}</span>`;
+  const paraHTML = p => `<p class="para">${p.map(sentSpan).join('')}</p>`;
+  function renderMats() {
+    let h = '';
+    P.mats.forEach(m => {
+      h += `<article class="paper mat" id="mat-${m.k}"><header class="mat-h"><h3>${esc(m.name)}</h3><span class="gist">${esc(m.gist)}</span></header>`;
+      if (m.kind === 'xiaoti') {
+        const keep = m.paras.filter(p => p.some(isMarked));
+        const fold = m.paras.filter(p => !p.some(isMarked));
+        h += `<details class="xt"><summary>${esc(m.fold)}</summary><div class="mtext">${fold.map(paraHTML).join('')}</div></details>`;
+        if (keep.length) h += `<div class="mtext">${keep.map(paraHTML).join('')}</div>`;
+      } else {
+        h += `<div class="mtext">${m.paras.map(paraHTML).join('')}</div>`;
+      }
+      h += '</article>';
+    });
+    $('#mats').innerHTML = h;
+  }
+
+  const card = $('#card');
+  const INTRO = card.innerHTML;
+  function cardHTML(id) {
+    const s = P.sents[id];
+    const i = P.seq.indexOf(id);
+    let h = `<div class="card-h"><div class="where">${esc(matName[s.m])} · 第 ${s.p} 段 · <span class="sid">${id}</span></div>` +
+      `<div class="navb"><button type="button" class="btn" data-act="prev"${i <= 0 ? ' disabled' : ''}>上一句</button>` +
+      `<button type="button" class="btn" data-act="next"${i < 0 || i >= P.seq.length - 1 ? ' disabled' : ''}>下一句</button>` +
+      `<button type="button" class="btn close" data-act="close">收起</button></div></div>`;
+    const judged = s.pieces.filter(p => p.o);
+    if (!judged.length) return h + `<p class="xi-note">${esc(P.xiNote[s.m] || '')}</p>`;
+    const multi = judged.length > 1;
+    judged.forEach(p => {
+      const [oc, ot] = OUT[p.o];
+      h += `<div class="jd">${multi ? `<p class="q">「${esc(short(p.t, 30))}」</p>` : ''}<dl>` +
+        `<dt>读完</dt><dd><span class="o o-${oc}">${ot}</span></dd>` +
+        `<dt>句式</dt><dd>${esc(p.form)}</dd>` +
+        `<dt>记号</dt><dd>${glyph(p.mk, p.f, p.st)}<span class="arrow">→</span>${esc(p.dest)}</dd>` +
+        `<dt>为什么</dt><dd>${esc(p.why)}</dd>` +
+        `<dt>后来</dt><dd>${p.used && p.used.length ? `<span class="use">${esc(p.used.join('；'))}</span>` : '<span class="muted">没用上</span>'}</dd></dl></div>`;
+    });
+    if (s.pieces.some(p => !p.o)) h += '<p class="rest">其余部分：不划</p>';
+    return h;
+  }
+  function select(id, scroll) {
+    $$('.s.sel').forEach(e => e.classList.remove('sel'));
+    cur = id;
+    const el = $(`.s[data-id="${id}"]`);
+    if (el) {
+      const det = el.closest('details');
+      if (det && !det.open) det.open = true;
+      el.classList.add('sel');
+      if (scroll) scrollToEl(el);
+      else if (narrow.matches && el.getBoundingClientRect().bottom > window.innerHeight * 0.5) scrollToEl(el);
+    }
+    card.innerHTML = cardHTML(id);
+    card.scrollTop = 0;
+    document.body.classList.add('sheet-on');
+  }
+  function closeCard() {
+    $$('.s.sel').forEach(e => e.classList.remove('sel'));
+    cur = null;
+    card.innerHTML = INTRO;
+    document.body.classList.remove('sheet-on');
+  }
+  card.addEventListener('click', e => {
+    const b = e.target.closest('[data-act]');
+    if (!b) return;
+    const act = b.dataset.act;
+    if (act === 'start') { select(P.seq[0], true); return; }
+    if (act === 'close') { closeCard(); return; }
+    const i = P.seq.indexOf(cur);
+    if (act === 'next' && i < P.seq.length - 1) select(P.seq[i + 1], true);
+    if (act === 'prev' && i > 0) select(P.seq[i - 1], true);
+    const again = card.querySelector(`[data-act="${act}"]:not([disabled])`);
+    if (again) again.focus({ preventScroll: true });
+  });
+  $('#startRead').addEventListener('click', () => select(P.seq[0], true));
+  $('#mats').addEventListener('click', e => {
+    if (e.target.closest('summary')) return;
+    const s = e.target.closest('.s');
+    if (s) select(s.dataset.id, false);
+  });
+  $('#mats').addEventListener('keydown', e => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const s = e.target.closest('.s');
+    if (s) { e.preventDefault(); select(s.dataset.id, false); }
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && cur) closeCard(); });
+  $('#dimToggle').addEventListener('change', e => $('#markLayout').classList.toggle('dim', e.target.checked));
+
+  /* ---------- step 3: grid + pile ---------- */
+  function renderGrid() {
+    const g = P.meta.grid, faces = P.meta.faces;
+    let h = `<div class="paper gridbox"><h3 class="box-h">格子在哪<span class="kind">${esc(g.kind)}</span></h3>`;
+    if (g.sid) h += `<p class="gsent"><span class="fid">${g.sid}</span>${sentHTML(g.sid)}</p>`;
+    h += `<p class="gtext">格子：<b>${esc(g.text)}</b></p>`;
+    h += '<ul class="embed">' + g.embed.map(([f, where, what], i) => {
+      const fc = faces[i] || [f, ''];
+      return `<li><span class="big">${esc(f)}</span><span class="fn">${esc(fc[1])}<small>${esc(where)}</small></span><span class="ex">${esc(what)}</span></li>`;
+    }).join('') + '</ul>';
+    if (g.rejected && g.rejected.length) {
+      h += '<ul class="rej">' + g.rejected.map(([sid, text, why]) =>
+        `<li><span class="x">试过</span><b>${esc(text)}</b>（${esc(sid)}）——${esc(why)}</li>`).join('') + '</ul>';
+    }
+    $('#grid').innerHTML = h + '</div>';
+  }
+  function renderPile() {
+    $('#pileLead').textContent = `格子定了，料按记号和面字归堆。${P.meta.pile_lead} 标“用”的，是成稿里用上的。`;
+    const items = [];
+    P.mats.forEach(m => m.paras.forEach(p => p.forEach(id => P.sents[id].pieces.forEach(pc => {
+      if (pc.mk && pc.mk !== '跟') items.push({ id, pc });
+    }))));
+    const li = x => {
+      const used = x.pc.used && x.pc.used.length;
+      return `<li class="it${used ? ' used' : ''}"><span class="id">${x.id}</span><span class="tx">${x.pc.st ? '<b class="mk star">★</b>' : ''}${esc(short(x.pc.t, 24))}</span>` +
+        (used ? `<span class="use-dot" title="${esc(x.pc.used.join('；'))}">用</span>` : '<span></span>') + '</li>';
+    };
+    const grp = (head, list) => list.length ? `<div class="grp"><div class="grp-h">${head}</div><ul class="its">${list.map(li).join('')}</ul></div>` : '';
+    const open = items.filter(x => NUMS.includes(x.pc.mk));
+    const total = items.filter(x => x.pc.mk === '{}' && x.pc.f === '总');
+    const totalEx = items.filter(x => (x.pc.mk === '/' || x.pc.mk === '()') && x.pc.f === '总');
+    const tail = items.filter(x => x.pc.mk === '尾');
+    const spare = items.filter(x => x.pc.mk === '{}' && !(x.pc.used && x.pc.used.length));
+    let h = `<div class="pile-row pile-open"><div class="paper heap"><h3><span class="big">开</span>开头料<span class="src">序号，加管整篇的 { }</span></h3>` +
+      grp(`${glyph('①')}引语　${glyph('③')}广东出场　${glyph('④')}做什么`, open) +
+      grp(`${glyph('{}', '总')}管整篇的道理，开头的道理句从这挑`, total) +
+      grp(`${glyph('/', '总')}全省的总账：哪个格子都嵌不进去`, totalEx) + '</div></div>';
+    h += '<div class="pile-row pile-faces">';
+    P.meta.faces.forEach(([f, name, src]) => {
+      const br = items.filter(x => x.pc.mk === '{}' && x.pc.f && x.pc.f !== '总' && x.pc.f.includes(f));
+      const sl = items.filter(x => x.pc.mk === '/' && x.pc.f === f);
+      const pa = items.filter(x => x.pc.mk === '()' && x.pc.f === f);
+      h += `<div class="paper heap"><h3><span class="big">${esc(f)}</span>${esc(name)}<span class="src">${esc(src)}</span></h3>` +
+        grp(`${glyph('{}', f)}论点、道理`, br) + grp(`${glyph('/', f)}例子`, sl) + grp(`${glyph('()', f)}收尾`, pa) + '</div>';
+    });
+    h += '</div><div class="pile-row pile-end">' +
+      `<div class="paper heap"><h3><span class="big">尾</span>结尾料<span class="src">好听，说整个广东或更大</span></h3>${grp(`${glyph('尾')}结尾的画面和落点`, tail)}</div>` +
+      `<div class="paper heap"><h3><span class="big">剩</span>没用上的 { }<span class="src">结尾起句还能用</span></h3>${grp(`${glyph('{}')}正文没挑中的道理`, spare)}</div></div>`;
+    $('#pile').innerHTML = h;
+  }
+
+  /* ---------- step 4: 论点句 + build ---------- */
+  const bodyParts = () => P.essay.parts.slice(1, -1);
+  const lunRows = () => bodyParts().map(pt => pt.rows.find(r => r.role === '论点')).filter(Boolean);
+  function halves(t) {
+    const k = t.indexOf('，');
+    return k < 0 ? [t, ''] : [t.slice(0, k), t.slice(k + 1)];
+  }
+  function labelsFor(i) {
+    const c = P.meta.combo;
+    if (c.labels && c.labels[i]) return c.labels[i];
+    const n = c.name.split('，');
+    return [n[0] || '', n[1] || ''];
+  }
+  function renderLun() {
+    const c = P.meta.combo;
+    $('#buildLead').textContent = `成稿：${P.meta.essay_by}。每一句都从料堆里拿：左边是这句在文章里干什么，下面是用了哪几块料、怎么改的；点料可以看原句。显眼的位置先放 ★。`;
+    const rows = lunRows();
+    let h = `<div class="paper lun"><h3 class="box-h">论点句：两半句</h3><p class="combo"><b>${esc(c.name)}</b>　${esc(c.why)}</p><ol>`;
+    rows.forEach((r, i) => {
+      const [a, b] = halves(r.text.replace(/[。！]$/, ''));
+      const [l1, l2] = labelsFor(i);
+      const f = (P.meta.faces[i] || [''])[0];
+      h += `<li><span class="big">${esc(f)}</span><span class="tx"><span class="h1">${esc(a)}</span><span class="lab l1">${esc(l1)}</span>` +
+        (b ? `，<span class="h2">${esc(b)}</span><span class="lab l2">${esc(l2)}</span>` : '') + '。</span></li>';
+    });
+    $('#lun').innerHTML = h + '</ol></div>';
+  }
+  function formulaHTML(f) {
+    return esc(f)
+      .replace(/\( \)尾/g, '<span class="g"><b class="mk">( )</b><span class="tag">尾</span></span>')
+      .replace(/\( \)/g, '<span class="g"><b class="mk">( )</b></span>')
+      .replace(/\{ \}/g, '<span class="g"><b class="mk">{ }</b></span>')
+      .replace(/例子 \//g, '例子 <span class="g"><b class="mk ex">/</b></span>');
+  }
+  function srcChips(r) {
+    return r.src.map(s => s.sid.charAt(0) === '@'
+      ? `<span class="chip self"><span class="lbl">${esc(s.sid.slice(1))}</span><span class="cf">${esc(s.frag)}</span></span>`
+      : `<button type="button" class="chip" data-full aria-expanded="false">${glyph(s.mk, s.f, s.st)}<span class="cid">${s.sid}</span><span class="cf">${esc(short(s.frag, 26))}</span></button>`).join('');
+  }
+  function rowInner(r) {
+    const ids = [...new Set(r.src.filter(s => s.sid.charAt(0) !== '@').map(s => s.sid))];
+    return `<p class="out">${esc(r.text)}</p><div class="chips">${srcChips(r)}</div>` +
+      `<p class="how"><span class="lbl">怎么改</span>${esc(r.how)}</p>` +
+      (r.note ? `<p class="note"><span class="lbl">按现在的方法</span>${esc(r.note)}</p>` : '') +
+      (ids.length ? `<div class="full" hidden>${ids.map(id => `<p><span class="fid">${id}</span>${sentHTML(id)}</p>`).join('')}</div>` : '');
+  }
+  function renderParts() {
+    $('#parts').innerHTML = P.essay.parts.map(pt =>
+      `<article class="paper part"><header class="part-h"><h3>${esc(pt.name)}</h3><p class="formula">${formulaHTML(pt.formula)}</p></header>` +
+      `<ol class="rows">${pt.rows.map(r => `<li class="row"><span class="role">${esc(r.role)}</span><div class="row-b">${rowInner(r)}</div></li>`).join('')}</ol></article>`
+    ).join('');
+  }
+  document.addEventListener('click', e => {
+    const b = e.target.closest('[data-full]');
+    if (!b) return;
+    const box = b.closest('.row-b, #sheetInfo');
+    const full = box && box.querySelector('.full');
+    if (!full) return;
+    full.hidden = !full.hidden;
+    $$('[data-full]', box).forEach(x => x.setAttribute('aria-expanded', String(!full.hidden)));
+  });
+
+  /* ---------- step 5: grid paper ---------- */
+  const CLOSERS = '，。、；：？！”）》';
+  function tokens(text) {
+    const out = [];
+    let i = 0;
+    while (i < text.length) {
+      if (/[0-9A-Za-z.%]/.test(text[i])) {
+        let j = i;
+        while (j < text.length && /[0-9A-Za-z.%]/.test(text[j])) j++;
+        const run = text.slice(i, j);
+        for (let k = 0; k < run.length; k += 2) out.push(run.slice(k, k + 2));
+        i = j;
+      } else { out.push(text[i]); i++; }
+    }
+    return out;
+  }
+  let ROWS = {}, textCells = 0;
+  function prepSheet() {
+    ROWS = {}; textCells = 0;
+    P.essay.parts.forEach(pt => pt.rows.forEach(r => { ROWS[r.e] = { r, part: pt.name }; textCells += tokens(r.text).length; }));
+    $('#count').textContent = `正文 ${textCells} 格（不算标题和段首空格）。每到第 200、400……格，格子右下角标一个小数字。`;
+    $('#sheetInfo').innerHTML = '<p class="muted">点稿纸上任意一句，这里显示它在文章里干什么、用了哪几块料、怎么改的。</p>';
+    lastKey = '';
+  }
+  function layout(cols) {
+    const cells = [];
+    const blank = () => cells.push({ t: '', e: null });
+    const fill = () => { while (cells.length % cols) blank(); };
+    const tt = tokens(P.essay.title);
+    for (let i = 0; i < Math.max(0, Math.floor((cols - tt.length) / 2)); i++) blank();
+    tt.forEach(t => cells.push({ t, e: 'title' }));
+    fill();
+    P.essay.parts.forEach(pt => {
+      blank(); blank();
+      pt.rows.forEach(r => tokens(r.text).forEach(t => {
+        if (CLOSERS.includes(t) && cells.length % cols === 0) { cells[cells.length - 1].t += t; return; }
+        cells.push({ t, e: r.e });
+      }));
+      fill();
+    });
+    return cells;
+  }
+  const gp = $('#gridpaper'), cellsBox = $('#cells');
+  let lastKey = '';
+  function renderSheet() {
+    if (VIEW !== 'paper') return;
+    const cs = getComputedStyle(gp);
+    const w = gp.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+    if (w <= 0) return;
+    const cols = Math.max(12, Math.min(25, Math.floor(w / 22)));
+    const cell = Math.floor(w / cols);
+    const key = P.key + ':' + cols + ':' + cell;
+    if (key === lastKey) return;
+    lastKey = key;
+    cellsBox.style.setProperty('--cols', cols);
+    cellsBox.style.setProperty('--cell', cell + 'px');
+    const seen = new Set();
+    let h = '';
+    layout(cols).forEach((c, i) => {
+      let attrs = '';
+      if (c.e && c.e !== 'title') {
+        attrs += ` data-e="${c.e}"`;
+        if (!seen.has(c.e)) { seen.add(c.e); attrs += ` role="button" tabindex="0" aria-label="${esc(ROWS[c.e].r.text)}"`; }
+      }
+      if ((i + 1) % 200 === 0) attrs += ` data-n="${i + 1}"`;
+      const cls = 'c' + (i % cols === 0 ? ' c0' : '') + (c.e === 'title' ? ' tt' : '') + (cur2 && c.e === cur2 ? ' on' : '');
+      h += `<span class="${cls}"${attrs}>${esc(c.t)}</span>`;
+    });
+    cellsBox.innerHTML = h;
+  }
+  function selectEssay(e) {
+    cur2 = e;
+    $$('.c.on', cellsBox).forEach(x => x.classList.remove('on'));
+    $$(`.c[data-e="${e}"]`, cellsBox).forEach(x => x.classList.add('on'));
+    const { r, part } = ROWS[e];
+    $('#sheetInfo').innerHTML = `<p class="si-h"><span class="role">${esc(r.role)}</span><span class="si-part">${esc(part)}</span></p>` + rowInner(r);
+  }
+  cellsBox.addEventListener('click', ev => { const c = ev.target.closest('.c[data-e]'); if (c) selectEssay(c.dataset.e); });
+  cellsBox.addEventListener('keydown', ev => {
+    if (ev.key !== 'Enter' && ev.key !== ' ') return;
+    const c = ev.target.closest('.c[data-e]');
+    if (c) { ev.preventDefault(); selectEssay(c.dataset.e); }
+  });
+  cellsBox.addEventListener('pointerover', ev => {
+    const c = ev.target.closest('.c[data-e]');
+    $$('.c.hv', cellsBox).forEach(x => x.classList.remove('hv'));
+    if (c) $$(`.c[data-e="${c.dataset.e}"]`, cellsBox).forEach(x => x.classList.add('hv'));
+  });
+  cellsBox.addEventListener('pointerleave', () => $$('.c.hv', cellsBox).forEach(x => x.classList.remove('hv')));
+
+  /* ---------- step 6: check ---------- */
+  const USUAL = { '开头': ['①', '③', '④', '{}', '尾'], '论点': ['{}'], '道理': ['{}'], '例子': ['/', '跟'], '总括': ['/', '{}', '跟'], '收尾': ['()', '尾'], '结尾': ['尾', '{}'], '标题': ['尾', '{}', '④'], '对策': ['{}', '/'] };
+  function useState(u) {
+    if (u.xi) return ['小题材料，当时没判', true];
+    if (!u.marks.length) return ['不划', true];
+    const mks = u.marks.map(m => m.mk);
+    const ok = (USUAL[u.role] || []).some(k => mks.includes(k));
+    return [null, !ok];
+  }
+  function renderCheck() {
+    const ref = P.ref, mine = lunRows().map(r => r.text);
+    let h = '<div class="cmp">' +
+      `<div class="paper"><h3>这里拼的</h3><p class="t">${esc(P.essay.title)}</p><ol>${mine.map(t => `<li>${esc(t)}</li>`).join('')}</ol></div>` +
+      `<div class="paper"><h3>参考范文</h3><p class="t">${esc(ref.title || '—')}</p><ol>${ref.points.map(t => `<li>${esc(t)}</li>`).join('')}</ol></div></div>`;
+    h += `<p class="verdict"><span class="lbl">对下来</span>${esc(ref.note)}</p>`;
+    const odd = P.refuse.filter(u => useState(u)[1]).length;
+    h += `<div class="paper block"><h3 class="box-h">参考范文从材料里拿的句子，当时划成了什么</h3>` +
+      `<p>按参考范文里的顺序。底色标黄的是对不上的：当时没划、小题材料里没判，或者记号和参考范文的用法不一样${odd ? '' : '（这卷没有）'}。</p><ul class="uses">`;
+    P.refuse.forEach(u => {
+      const [flag, bad] = useState(u);
+      const marks = u.marks.length ? u.marks.map(m => glyph(m.mk, m.f, m.st)).join(' ') : '';
+      h += `<li class="${bad ? 'odd' : ''}"><div class="u-h"><span class="u-r">${esc(u.role)}</span><span>${esc(u.pos)}</span><span>←</span><span class="u-id">${esc(u.sid)}</span>${marks}${flag ? `<span class="flag">${esc(flag)}</span>` : ''}</div>` +
+        `<p class="u-t">${esc(u.text)}</p></li>`;
+    });
+    h += '</ul></div>';
+    if (P.conflicts.length) {
+      h += `<div class="paper block"><h3 class="box-h">${P.own ? '这卷卡住的地方' : '考场记录'}</h3><ul class="conf">` +
+        P.conflicts.map(([sid, t, text]) => `<li><div class="c-h"><span class="c-t">${esc(t)}</span><span class="c-id">${esc(sid)}</span></div><p>${esc(text)}</p></li>`).join('') + '</ul></div>';
+    }
+    $('#check').innerHTML = h;
+  }
+
+  /* ---------- overview ---------- */
+  function groupHTML(g) {
+    return `<div class="paper ggrp"><h3 class="box-h">${esc(g.t)}</h3><p>${esc(g.what)}</p>` +
+      (g.fix ? `<p class="fix"><span class="lbl">怎么办</span>${esc(g.fix)}</p>` : '') + '<ul class="conf">' +
+      g.items.map(([key, sid, text]) => {
+        const p = PAPERS.find(x => x.key === key);
+        return `<li><div class="c-h"><a class="c-p" href="#${p.id}">${esc(p.meta.label)}</a><span class="c-id">${esc(sid)}</span></div><p>${esc(text)}</p></li>`;
+      }).join('') + '</ul></div>';
+  }
+  function renderOverview() {
+    $('#oRuleLead').textContent = SUM.ruleLead;
+    $('#oRule').innerHTML = SUM.rule.map(b =>
+      `<div class="paper ggrp"><h3 class="box-h">${esc(b.t)}</h3><ul class="rule">${b.items.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>`).join('');
+    $('#oPapersLead').textContent = SUM.papersLead;
+    $('#oPapers').innerHTML = PAPERS.filter(p => !p.own).map(p => {
+      const lun = (p.essay.parts.slice(1, -1).map(pt => (pt.rows.find(r => r.role === '论点') || {}).text).filter(Boolean));
+      const logs = p.conflicts.map(([, t, text]) => `<li><b>${esc(t)}</b>　${esc(text)}</li>`).join('');
+      return `<div class="paper prow"><h3><a href="#${p.id}">${esc(p.meta.label)}</a><span class="ok">${p.chars} 字</span></h3>` +
+        `<p class="ptitle">${esc(p.essay.title)}</p><dl><dt>格子</dt><dd>${esc(p.meta.grid.text)}</dd><dt>论点句</dt><dd>${lun.map(esc).join('<br>')}</dd></dl>` +
+        (logs ? `<ul class="plog">${logs}</ul>` : '') + '</div>';
+    }).join('');
+    $('#oRefLead').textContent = SUM.refLead;
+    $('#oRef').innerHTML = SUM.ref.map(groupHTML).join('');
+  }
+
+  /* ---------- views ---------- */
+  let navIO = null, awayIO = null;
+  function observe() {
+    if (!('IntersectionObserver' in window)) return;
+    if (navIO) navIO.disconnect();
+    if (awayIO) awayIO.disconnect();
+    const links = $$('#stepList a');
+    navIO = new IntersectionObserver(ents => ents.forEach(en => {
+      if (!en.isIntersecting) return;
+      links.forEach(a => a.setAttribute('aria-current', a.dataset.step === en.target.id ? 'true' : 'false'));
+    }), { rootMargin: '-40% 0px -55% 0px' });
+    $$(VIEW === 'paper' ? '#pv > section' : '#ov > section').forEach(s => navIO.observe(s));
+    if (VIEW === 'paper') {
+      // the top margin skips the strip under the sticky nav, so jumping to the next step hides the card
+      awayIO = new IntersectionObserver(ents => ents.forEach(en => document.body.classList.toggle('away', !en.isIntersecting)), { rootMargin: `-${nav.offsetHeight + 8}px 0px -30% 0px` });
+      awayIO.observe($('#s-mark'));
+    }
+  }
+  function setHeader() {
+    if (SINGLE) {
+      const m = PAPERS[0].meta;
+      $('#hKicker').textContent = m.kicker;
+      $('#hTitle').textContent = PAPERS[0].pageTitle;
+      $('#hSub').textContent = `把《${PAPERS[0].essay.title}》按考场顺序重走一遍：读题，一句句读材料、划记号，找格子、把料归堆，拼出开头、各段和结尾，誊上稿纸，最后对参考范文。划句子只用两把尺子：读完多了什么，句子是什么句式。`;
+      $('#pbanner').hidden = true;
+    } else {
+      $('#hKicker').textContent = "2024–2026 广东省考、选调 · 问题三大作文";
+      $('#hTitle').textContent = "大作文考场推演";
+      $('#hSub').textContent = "八套卷子，模拟一个普通考生按人用版规则重写：尽力而为，量力而行，不套模板，只做基本改写。每卷按考场顺序走一遍：读题、划句子、找格子、拼文章、誊稿纸、对答案。2026 省市另附本人作答。";
+    }
+  }
+  function markCards(id) {
+    $$('#papers .pcard').forEach(a => a.setAttribute('aria-current', a.getAttribute('href') === '#' + id ? 'page' : 'false'));
+    const sel = $('#paperSel');
+    if (sel.value !== id) sel.value = id;
+  }
+  function showPaper(p, jump) {
+    P = p; VIEW = 'paper';
+    matName = {};
+    P.mats.forEach(m => { matName[m.k] = m.name; });
+    cur = null; cur2 = null;
+    $('#ov').hidden = true; $('#pv').hidden = false;
+    $('#pbKicker').textContent = P.meta.kicker;
+    $('#pbTitle').textContent = P.essay.title;
+    $('#pbBy').textContent = `题目：${P.topic}　成稿：${P.meta.essay_by}`;
+    renderRead(); renderMats(); closeCard(); renderGrid(); renderPile(); renderLun(); renderParts(); prepSheet(); renderCheck();
+    setSteps(STEPS_P);
+    renderSheet();
+    $('#foot').innerHTML = `<p>${esc(P.meta.sources)}</p><p>记号按“读完多了什么＋句式”判；对答案只用参考范文，不用高分卷。</p>`;
+    markCards(P.id);
+    observe();
+    if (jump) scrollToEl($('#pbanner'), 0);
+  }
+  function showOverview(jump) {
+    VIEW = 'ov'; P = null;
+    closeCardSafe();
+    $('#pv').hidden = true; $('#ov').hidden = false;
+    renderOverview();
+    setSteps(STEPS_O);
+    $('#foot').innerHTML = '<p>八套卷子：2024 一卷、二卷、选调，2025 省市、县镇、选调，2026 省市、县镇。八篇都是模拟考生按人用版规则写的（Claude 模拟）；2026 省市另附本人作答。对答案只用参考范文，不用高分卷。</p>';
+    markCards('overview');
+    observe();
+    if (jump) scrollToEl($('#o-rule'), 0);
+  }
+  function closeCardSafe() { cur = null; card.innerHTML = INTRO; document.body.classList.remove('sheet-on'); }
+  function route(jump) {
+    const h = decodeURIComponent(location.hash.slice(1));
+    const p = PAPERS.find(x => x.id === h);
+    if (p) showPaper(p, jump);
+    else if (SUM && (h === 'overview' || !h)) showOverview(jump && h === 'overview');
+    else if (!SUM) showPaper(PAPERS[0], false);
+    else showOverview(false);
+  }
+  window.addEventListener('hashchange', () => route(true));
+
+  setHeader();
+  renderChooser();
+  route(false);
+  setNavH();
+  if ('ResizeObserver' in window) new ResizeObserver(() => renderSheet()).observe(gp);
+  else window.addEventListener('resize', renderSheet);
+})();
+</script>
+</body>
+</html>

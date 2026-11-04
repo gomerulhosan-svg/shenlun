@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+	<meta name="googlebot" content="index, follow" />
+	
+    <title>绿美广东入画来！广东以“艺”笔强化生态文化建设_广州日报大洋网</title>
+    <meta name="keywords" content="生态,广东,文化,建设,艺术" />
+    <meta name="description" content="在广东新丰云髻山省级自然保护区的层峦叠翠间，一条30米自然风光艺术长廊如山水画卷徐徐展开，吸引无数游客驻足流连。" />
+    <meta name="contentid" content="54864311" />
+    <meta name="publishdate" content="2025/08/21" />
+    <meta name="author" content="佘湘娥" />
+    <meta name="catalogs" content="" />
+    <meta name="filetype" content="1" />
+    <meta name="publishedtype" content="1" />
+    <meta name="pagetype" content="2" />
+
+	<link rel="stylesheet" href="https://moban.dayoo.com/templateRes/202003/10/51652/51652/globle.css">
+	<link rel="stylesheet" href="https://moban.dayoo.com/templateRes/202003/10/51652/slick.css">
+	<link rel="stylesheet" href="https://moban.dayoo.com/templateRes/202003/10/51652/article.css">
+	<link rel="stylesheet" media="screen and (max-width:768px)"
+		href="https://moban.dayoo.com/public/c/2017/static/css/article.responsive.css?v2016070230742">
+        <link rel="stylesheet" href="https://moban.dayoo.com/templateRes/202003/10/51652/51652/pc-share-css/share.min.css">
+	<script src="https://s2.dayoo.com/jq/1.7.2/jquery-1.7.2.min.js"></script>
+        <script src="https://moban.dayoo.com/templateRes/202003/10/51652/pc-share-js/jquery.share.min.js"></script>
+</head>
+<div style="margin:0 auto;width:0px;height:0px;overflow:hidden;" class="wzaSkip"><img
+		src="https://moban.dayoo.com/public/c/2016/static/images/share-icon2.jpg"></div>
+
+<body>
+	<!-- top-nav -->
+	<!-- top-nav -->
+<link rel="stylesheet" type="text/css" href="https://moban.dayoo.com/public/c/2019/statics/css/top-nav.css" />
+<link rel="stylesheet" href="https://moban.dayoo.com/templateRes/202205/16/53197/53197/css/zzzs.style.css">
+<div id="dayoo_top_nav" class="top-nav ">
+    <div class="w1200">
+        <ul class="top-nav-links sidenavHid">
+            <li><a href="https://www.dayoo.com/">广州日报大洋网</a><i></i></li>
+            <li><a href="https://news.dayoo.com/guangzhou/139995.shtml">广州</a></li>
+            <li><a href="https://news.dayoo.com/guangdong/139996.shtml">广东</a></li>
+            <li><a href="https://news.dayoo.com/society/140000.shtml">社会</a></li>
+            <li><a href="https://news.dayoo.com/finance/139999.shtml">财经</a></li>
+            <li><a href="https://news.dayoo.com/world/139998.shtml">国际</a></li>
+            <li><a href="https://news.dayoo.com/sports/140001.shtml">体育</a></li>
+            <li><a href="https://news.dayoo.com/china/139997.shtml">中国</a></li>
+            <li><a href="https://news.dayoo.com/guangzhou/153828.shtml">热评</a></li>
+        </ul>
+        <div class="top-nav-media">
+            <a class="guide" target="_blank" href="https://news.dayoo.com/guangzhou/159170.shtml">
+                <i class="icon icon1"></i>
+                <p>新媒体端口</p>
+            </a>
+            <a class="guide" target="_blank" href="https://news.dayoo.com/epaper.html">
+                <i class="icon icon2"></i>
+                <p>数字报</p>
+            </a>
+
+            <!-- wza import -->
+            <div id='zzzs-assist-open' class="guide">
+                <i class="icon icon3"></i>
+                <p>无障碍</p>    
+            </div>
+            <!-- wza import end -->
+        </div>
+    </div>
+</div>
+<!-- top-nav end-->
+
+	<!-- top-nav end-->
+
+	<div class="toolbar wzaSkip">
+		<div class="to-top" id="to-top" ></div>
+		<div class="to-index" id="to-index"><a   href="https://dayoo.com/" target="_blank" ></a></div>
+	</div>
+	<!--1.0.0-->
+	<div class="dy-layout">
+		<!-- dy-hd -->
+		<div class="dy-hd">
+			<div class="dy-i-nav">
+				<div class="wzaSkip">
+                <a href="https://www.dayoo.com" id="i_home" class="fdn">首页</a>
+				<a href="javascript:void(0);" id="i_menu" class="fdn">菜单</a>
+                </div>
+				<div class="dy-logo">
+					<a href="https://www.dayoo.com" target="_blank"><img
+							src="https://moban.dayoo.com/templateRes/202001/02/51600/images/index-logo.png" alt="广州日报大洋网"></a>
+					<a class="column-name" href="https://news.dayoo.com/" target="_blank">
+						<span>新闻</span>
+						<span>news.dayoo.com</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- dy-hd end-->
+
+		<!-- dy-bd -->
+		<div class="dy-bd">
+			<!-- dy-content -->
+			<div class="dy-content">
+				<!-- crumbs -->
+				<div class="crumbs">
+					<span>您的位置：</span>
+                    
+                                        <a href="https://news.dayoo.com/index.shtml" target="_self" >新闻频道</a>>
+                    <a href="https://news.dayoo.com/guangdong/139996.shtml" target="_self" >广东</a>>
+ 
+                    <span>正文</span>
+				</div>
+				<!-- crumbs end-->
+
+				<!-- dy-article -->
+				<div class="dy-article">
+					<div class="article-hd">
+
+						
+                        <h1 id="wza_hd">绿美广东入画来！广东以“艺”笔强化生态文化建设</h1>
+
+
+
+						<div class="article-hd-info">
+							<div class="article-time-source">
+                                
+                                <span class="time">2025-08-21 19:07</span>
+                                <span class="source">来源:大洋网</span>
+
+							</div>
+							<!-- article-tool -->
+                            <style>
+.dy-article{
+	overflow: inherit;
+	display: inline-block;
+	width: 100%;
+}
+.article-hd .article-hd-info {
+	margin-top: 15px;
+	overflow: inherit;
+	display: inline-block;
+	width: 100%;
+}
+</style>
+<div class="pc wzaSkip">
+    <div class="share-fixed wzaSkip">
+        <span class="share-txt">分享到：</span>
+        <ol>
+            <li class="row">
+                <div class="social-share" data-sites="wechat,weibo,qzone"></div>
+            </li>
+        </ol>
+    </div>
+</div>
+                            <!-- article-tool end-->
+						</div>
+					</div>
+					<div class="content">
+
+						<div id="text_content">
+							
+                            <div id="wza_content"><!--enpcontent--><p style="text-indent: 2em; text-align: left; margin-bottom: 0px;">在广东新丰云髻山省级自然保护区的层峦叠翠间，一条30米自然风光艺术长廊如山水画卷徐徐展开，吸引无数游客驻足流连。这里展示着著名画家段大刚60米巨作《古邑神韵》的精华版，以水墨为媒，将绿美新丰生态建设成果凝于尺素，让青山绿水跃然眼前。这条长廊不仅是旅游打卡地，更是广东森林文化建设的缩影，彰显了生态资源与人文创意的交响共鸣。</p><p style="text-align: center; margin-bottom: 0px;"><img src="https://dayooimg.dayoo.com/Guangdong/202508/21/54864311_ee35d0e3-0514-4e50-b012-95f2e59f5e10_zsize.jpg" style="" title="" data_ue_src="https://dayooimg.dayoo.com/Guangdong/202508/21/54864311_ee35d0e3-0514-4e50-b012-95f2e59f5e10_zsize.jpg"/></p><p style="text-align: center; margin-bottom: 0px; text-indent: 0em;"><span style="color: rgb(0, 112, 192);">绿美广东——岭南美术名家调研采风活动</span></p><p style="text-indent: 2em; text-align: left; margin-bottom: 0px;">2019年以来，广东省林业系统积极实施《广东省林业生态文化建设规划》，推动林业生态文化载体体系、产业体系、传播体系、传承与创新体系和支撑体系全面建设，着力构建主题突出、内容丰富、贴近生活、富有感染力的广东林业生态文化体系，取得了突出成效。特别是绿美广东生态建设实施以来，广东深度挖掘绿美广东的文化价值，以文化创作与书画艺术为载体，深度融合生态保护与人文表达，打造推出森林音乐会、森林诗歌节、童眼绘森林等生态文化品牌活动，组织艺术家以书法、绘画、楹联等形式记录生态之美，形成“生态保护—艺术表达—全民共享”的可持续发展路径。</p><p style="text-indent: 2em; text-align: left; margin-bottom: 0px;">在今年，汕尾市50多名美术家协会会员走进陆河红锥林生态公园和位于螺溪镇淘金坑、南和村交界处的白水寨写生创作；茂名高州根子镇贡园、电白南海半岛“中国第一滩”、晏镜岭等地迎来十余名艺术名家；东莞市谢岗镇开展“绿美银瓶・艺绘新城”美术采风创作活动……放眼南粤，一股以艺术采风为引擎、生态文化创作为输出的热潮在全省涌动。从粤北的层峦叠嶂到滨海的湿地滩涂，从千年荔园到现代乡村，艺术家们深入绿美广东建设一线，用脚步丈量生态变迁，用画笔、镜头、音符和文字捕捉自然生机与人文温度，将绿美广东的生动实践源源不断地转化为多元生态文艺作品，讲好广东故事和湾区故事。</p><p style="text-align: center; margin-bottom: 0px;"><img src="https://dayooimg.dayoo.com/Guangdong/202508/21/54864311_531ab162-7577-4d48-ad89-7158cd3804f3_zsize.jpg" style="" title="" data_ue_src="https://dayooimg.dayoo.com/Guangdong/202508/21/54864311_531ab162-7577-4d48-ad89-7158cd3804f3_zsize.jpg"/></p><p style="text-align: center; margin-bottom: 0px;"><span style="color: rgb(0, 112, 192);">绿美广东岭南古树书画展采风活动</span></p><p style="text-indent: 2em; text-align: left; margin-bottom: 0px;">据广东省林业局介绍，自绿美广东深入推进以来，广东全力加快构建林业生态文化体系，先后组织举办“绿美广东——岭南美术名家作品展”“全国名家共绘‘绿美广东’主题美术作品展”和“唱响绿美广东”原创音乐征集活动和绿美广东岭南古树书画展采风活动等，通过征集创作、采风写生、主题创作、学术研讨、展览展示、体验互动等方式，带动全省各地就绿美广东生态建设、时代价值、文化内涵、艺术表现等方面开展多角度探索，以生动笔墨、动人音符讲述绿美广东故事。</p><p style="text-indent: 2em; text-align: left; margin-bottom: 0px;">如今，广东开展建设210个森林城镇、297个森林乡村、115个绿美古树乡村、123个绿美红色乡村及210个古树公园，建成省级自然教育基地134家、特色自然教育径141条……这些蜿蜒于山水间的绿色脉络，不仅是民众乐游的生态廊道，更成为艺术家采风写生的天然画廊和灵感源泉。据不完全统计，近三年来，广东各地累计开展各类文化创作征集、写生采风等超百次，举办森林文化活动近千场，累计惠及受众达数百万人次。</p><p style="text-align: center; margin-bottom: 0px;"><img src="https://dayooimg.dayoo.com/Guangdong/202508/21/54864311_afa112bb-2359-4b7e-89e7-d2760fca4f92_zsize.jpg" style="" title="" data_ue_src="https://dayooimg.dayoo.com/Guangdong/202508/21/54864311_afa112bb-2359-4b7e-89e7-d2760fca4f92_zsize.jpg"/></p><p style="text-align: center; margin-bottom: 0px; text-indent: 0em;"><span style="color: rgb(0, 112, 192);">绿美广东——岭南美术名家作品展</span></p><p style="text-indent: 2em; text-align: left; margin-bottom: 0px;">广东省林业局表示，将以深入推进绿美广东为契机，赓续“岳山造林”光荣传统，加快林业生态文化传承与创新体系建设，持续推动艺术名家和文艺工作者常态化深入自然保护地、国有林场、古树群落等生态保护修复一线，敏锐捕捉林业生态的点滴变迁与建设硕果，打造一批生态文化阵地，创作出更多承载绿美成就、展现岭南生态特质的精品力作。</p><p style="text-indent: 2em; text-align: left; margin-bottom: 0px;">文/广州日报新花城记者：叶卡斯 通讯员：林荫</p><!--/enpcontent--><!--enpproperty <articleid>54864311</articleid><date>2025-08-21 19:07:55:0</date><author></author><title>绿美广东入画来！广东以“艺”笔强化生态文化建设</title><keyword>生态,广东,文化,建设,艺术</keyword><subtitle></subtitle><introtitle></introtitle><siteid>1</siteid><nodeid>139996</nodeid><nodename>广东</nodename><nodesearchname>广东</nodesearchname><picurl>https://dayooimg.dayoo.com/Guangdong/202508/21/54864311_t1_17X115X581X432_8510a6b5-d2d9-4bfe-87b4-cff5f3bb1622.jpg</picurl><picbig>https://dayooimg.dayoo.com/Guangdong/202508/21/54864311_t1_17X115X581X432_8510a6b5-d2d9-4bfe-87b4-cff5f3bb1622.jpg</picbig><picmiddle></picmiddle><picsmall></picsmall><url>https://news.dayoo.com/guangdong/202508/21/139996_54864311.htm</url><urlpad>null</urlpad><sourcename>大洋网</sourcename><abstract>在广东新丰云髻山省级自然保护区的层峦叠翠间，一条30米自然风光艺术长廊如山水画卷徐徐展开，吸引无数游客驻足流连。</abstract><channel>1</channel><journalist></journalist><type>0</type><countPic>3</countPic><liability></liability><tag></tag>/enpproperty--></div>
+
+						</div>
+						 
+                           <div class="editor">[ 编辑： 佘湘娥 ]</div>
+
+						<div style="margin:0 auto;width:0px;height:0px;overflow:hidden;" class="wzaSkip"><img
+								src="https://moban.dayoo.com/public/c/2016/static/images/share-icon.jpg"></div>
+
+					</div>
+				</div>
+				<!-- dy-article end-->
+
+				<!-- dy-article-share -->
+				<!-- 免责 -->
+<style>
+.mz{height: 39px;line-height: 39px;background: #f2f2f2;border-bottom: 1px solid #eaeaea;font-size: 12px;text-align: center;color: #808080;margin-top: 20px;}
+.dy-article-share{margin-top: 0;}
+</style>
+<div class="mz">免责声明：文中图片如有版权问题请联系网站处理，谢谢。</div>
+<!-- 免责 end-->
+<div class="dy-article-share wzaSkip">
+	<div class="share-fixed">
+        <span class="share-txt">分享到：</span>
+        <ol>
+            <li class="row">
+                <div class="social-share" data-sites="wechat,weibo,qzone"></div>
+            </li>
+        </ol>
+    </div>
+</div>
+				<!-- dy-article-share end-->
+
+				<!-- 内容推荐 -->
+				<div class="dy-article-newspush">
+    <div class="tab-hd" id="articletabhd">
+        <div class="current">广州</div>
+        <div>广东</div>
+        <div>社会</div>
+        <div>财经</div>
+        <div>国际</div>
+        <div>体育</div>
+        <div>热评</div>
+    </div>
+
+    <div class="tab-bd" id="articletabbd">
+        <!-- 广州 -->
+        <div>
+            
+                        <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008093.htm" target="_blank">省政府正式批复!广州3个历史文化名村保护规划来了</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>记者今日从广州市规划和自然资源局获悉，《中国历史文化名村广州市番禺区石楼镇大岭村保护规划（2021—2035年）》《广东省历史文化名村广州市番禺区化龙镇潭山村保护规划（2021—2035年）》《广东省历史文化名村广州市黄埔区九佛街道莲塘村保护规划（2021—2035年）》近日获广东省人民政府批复。</p></div>
+            <div class="news-time">2026-09-27 18:38</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008092.htm" target="_blank">@广州交通：辟谣｜地铁嘉禾望岗站现场如常</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>据广州市交通运输局官方微博消息，网传地铁嘉禾望岗站有“砍人”事件，广州地铁微博9月27日辟谣：中秋假期最后一天的地铁嘉禾望岗站，正迎来返程大客流，其间，现场一切如常，乘客安全有序进出车站。</p></div>
+            <div class="news-time">2026-09-27 18:30</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008091.htm" target="_blank">中秋假期广州文旅成绩单出炉！接待游客超660万人次，实现文旅消费46.3亿元</a></div>
+            <div class="news-item-c">
+            <div class="img-area">
+            <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008091.htm"><img class="news-list-pic" src="https://dayooimg.dayoo.com/www/202609/27/55008091_t1_0X22X600X360_6c03beb2-cb1d-49f3-8e07-d5f7256d9176.jpg" alt="中秋假期广州文旅成绩单出炉！接待游客超660万人次，实现文旅消费46.3亿元" /></a>
+            </div>
+            <div class="txt-area">
+            <div class="news-abst"><p>假日期间，全市累计接待游客超660万人次，实现文旅综合消费46.3亿元。携程、同程等OTA平台数据显示，广州入选中秋假期国内十大热门旅游目的地。</p></div>
+            <div class="news-time">2026-09-27 18:25</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008095.htm" target="_blank">国庆龙艇、龙舟赛在南沙横沥燃情开赛</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>龙舟竞渡，桨声激荡，9月27日，第三届大湾区美 “沥” 生活嘉年华暨 “横沥明珠” 杯国庆龙艇、龙舟邀请赛在广州南沙国际金融岛水上乐园燃情开幕。来自粤港澳大湾区的近百支龙舟队、龙艇队水上竞渡，欢呼声响彻两岸。</p></div>
+            <div class="news-time">2026-09-27 18:10</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008094.htm" target="_blank">明日开业！广州国际金融城再迎大型商业地标</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>记者获悉，9月28日，位于广州国际金融城的天河合生汇正式开启试营业。</p></div>
+            <div class="news-time">2026-09-27 18:10</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008098.htm" target="_blank">火花冲得高，日子过得旺！番禺樟边村中秋烧番塔传承半世纪</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>火花冲得高，日子过得旺。一年一度的中秋假期如期而至，广州市番禺区南村镇樟边村的传统民俗活动——烧番塔如期举行。</p></div>
+            <div class="news-time">2026-09-27 17:57</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008097.htm" target="_blank">月满沙湾，匠门有请！2026番禺沙湾古镇寻匠学艺活动全攻略</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>金秋双节将至，为传承弘扬广府非遗传统文化，丰富市民游客假期文旅生活，9月25日至10月7日，广州市番禺区沙湾古镇推出“2026沙湾古镇寻匠学艺系列活动”，把传统民俗仪式、非遗展演、手作体验、国潮市集融为一体，让广大游客沉浸式感受岭南文化的独特魅力。</p></div>
+            <div class="news-time">2026-09-27 17:57</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008096.htm" target="_blank">​白云站里“穿越”千年！2026广州汉服文化季启幕</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>9月26日下午，2026广州汉服文化季启动仪式在亚洲最大的TOD大型综合交通枢纽之一——广州白云站举行。</p></div>
+            <div class="news-time">2026-09-27 17:57</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008099.htm" target="_blank">广州海珠：算法向上，烟火向下</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>珠江穿城而过，潮水日夜不息。站在广州市海珠区唯品会总部大厦信义楼29楼的琶洲人工智能与数字经济体验推广赋能中心俯瞰，琶洲试验区的高楼如春笋般拔地而起，塔吊林立间，这片热土正开足马力，抢占未来数字经济产业链的制高点。</p></div>
+            <div class="news-time">2026-09-27 17:56</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008100.htm" target="_blank">焕新老城韵，筑强产业芯｜越秀奋进启新程</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>作为广州两千多年不变的城市中心，过去五年，越秀区以“老城市新活力”为总牵引，持续推动经济社会发展“出新出彩”；未来五年，越秀锚定新质生产力、高水平更新、高品质生活三大方向，擘画中心城区现代化建设新蓝图，让千年老城既守得住文脉底蕴，又迸发出时代活力。</p></div>
+            <div class="news-time">2026-09-27 17:55</div>
+            </div>
+            </div>
+            </div>
+
+        </div>
+        <!-- 广州 end-->
+
+        <!-- 广东 -->
+        <div>
+            
+                        <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangdong/202609/27/139996_55008090.htm" target="_blank">市场热度持续攀升！中秋假期广东接待游客2481.7万人次</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>据初步测算，2026年中秋假期（9月25日至9月27日），广东全省接待游客2481.7万人次，按可比口径较2025年增长28.9%；实现旅游花费125.5亿元，按可比口径较2025年增长27.6%。</p></div>
+            <div class="news-time">2026-09-27 18:24</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangdong/202609/27/139996_55008088.htm" target="_blank">“阿嬷”官宣：9月30日全网首播！“淑柔”发出第一条微博</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>今天（9月27日），电影《给阿嬷的情书》宣布，影片将在9月30日10时全网首播，当晚还有李思潼、王彦桐、王晓慧及导演蓝鸿春与观众在评论区互动。</p></div>
+            <div class="news-time">2026-09-27 17:14</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangdong/202609/27/139996_55008087.htm" target="_blank">惠州新发现先秦时期遗址170余处</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>近期，惠州市博罗县，东江流域博罗地区先秦时期聚落考古调查项目中期专家论证会及成果展举行。一年多来，考古团队累计完成500余平方公里系统调查，新发现先秦时期遗址170余处，对罗阳遗址石龙头地点实施抢救性发掘。</p></div>
+            <div class="news-time">2026-09-27 16:52</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangdong/202609/27/139996_55008084.htm" target="_blank">深圳市文化馆新馆9月28日试运营</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>据深视新闻消息，深圳市文化馆新馆将在9月28日开馆试运营。这是一座覆盖全年龄段、全场景的综合性公共文化服务综合体。</p></div>
+            <div class="news-time">2026-09-27 16:26</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangdong/202609/27/139996_55008083.htm" target="_blank">清远将建高山滑雪场</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>近日，户外高山滑雪场项目正式落户清远连州。项目计划2027年3月动工，2028年11月底竣工。该项目将填补广东标准化高山滑雪市场空白。</p></div>
+            <div class="news-time">2026-09-27 16:26</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangdong/202609/27/139996_55008085.htm" target="_blank">预计16时起迎来返程高峰！佛山、肇庆、江门、东莞这几个点段易缓行→</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>预计16时起迎来返程高峰！佛山、肇庆、江门、东莞这几个点段易缓行→</p></div>
+            <div class="news-time">2026-09-27 16:20</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangdong/202609/27/139996_55008086.htm" target="_blank">东莞64公里碧道即将全线贯通</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>东莞沿东江64.22公里碧道，北起桥头镇滨江公园，向西串联企石、石排、茶山、石龙、东城、莞城，直达万江街道，无缝对接“三江六岸”亲水体系的滨水长廊。</p></div>
+            <div class="news-time">2026-09-27 16:18</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangdong/202609/27/139996_55008034.htm" target="_blank">广东文艺赋能“百千万工程”优秀案例选编（五）</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>本期继续推出《广东文艺赋能“百千万工程”优秀案例选编》，刊发茂名市、肇庆市、清远市、清远市连南瑶族自治县牛路水村、潮州市文联5篇优秀案例。</p></div>
+            <div class="news-time">2026-09-27 14:24</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangdong/202609/27/139996_55008033.htm" target="_blank">广东文艺赋能“百千万工程”优秀案例选编（四）</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>本期继续推出《广东文艺赋能“百千万工程”优秀案例选编》，刊发东莞市、中山市、江门市、阳江市、湛江市文联5篇优秀案例。</p></div>
+            <div class="news-time">2026-09-27 14:23</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangdong/202609/27/139996_55008032.htm" target="_blank">广东文艺赋能“百千万工程”优秀案例选编（三）</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>本期继续推出《广东文艺赋能“百千万工程”优秀案例选编》，刊发河源市、梅州市、惠州市、惠州市博罗县、汕尾市文联5篇优秀案例。</p></div>
+            <div class="news-time">2026-09-27 14:23</div>
+            </div>
+            </div>
+            </div>
+
+        </div>
+        <!-- 广东 end-->
+        
+        <!-- 社会 -->
+        <div>
+            
+                        <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/society/202609/27/140000_55008067.htm" target="_blank">4条高铁新线9月28日集中开通运营</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>全国铁路9月28日将迎来通车节点，京港高铁雄安至商丘段、哈尔滨至伊春高铁、西渝高铁西安至安康段、宜昌至兴山高铁4条高铁新线集中开通运营。</p></div>
+            <div class="news-time">2026-09-27 15:54</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/society/202609/27/140000_55008073.htm" target="_blank">赏秋地图上线 解锁宝藏小城里的“追秋密码”</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>中秋假期里，追秋、观月、民俗游受到追捧，各地依托自身优势，持续丰富文旅产品供给。这份赏秋地图快收好。</p></div>
+            <div class="news-time">2026-09-27 15:08</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/society/202609/27/140000_55008027.htm" target="_blank">暴涨1450%！中秋爆款出现</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>这个中秋，餐桌上的“双向奔赴”如火如荼。进口生鲜迎来小高峰，出口节庆产品订单也屡创新高。其中，今年前8个月，盘锦河蟹出口量达482吨，同比增长14.5倍。</p></div>
+            <div class="news-time">2026-09-27 11:54</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/society/202609/27/140000_55008025.htm" target="_blank">“闪身步”爆火，艺人网友接力模仿，医生提醒</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>“现在上了网，谁来了都得闪两步”，近日，“闪身步”走红网络。单依纯、汪苏泷、杨迪等明星达人纷纷参与创作相关内容，相关视频播放量超7亿。</p></div>
+            <div class="news-time">2026-09-27 11:34</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/society/202609/27/140000_55008019.htm" target="_blank">怎样喝才卫生？这个喝饮料巨巨巨脏的习惯别再做了！</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>你的饮料、矿泉水打开之后，多久能喝完？很多人习惯：早上喝两口，下午还放在桌上，晚上继续喝。大家觉得这开盖喝了两口又盖上的水，应该、可能没啥大问题？事实真是如此吗？</p></div>
+            <div class="news-time">2026-09-27 11:06</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/society/202609/27/140000_55008018.htm" target="_blank">半夜醒来，为啥千万别看手机和时间？</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>明明睡得好好的，半夜却突然醒了。迷迷糊糊一摸手机，发现才凌晨3点，然后翻来覆去再也睡不着……心里开始盘算：“现在睡着，还能睡几个小时？”</p></div>
+            <div class="news-time">2026-09-27 11:06</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/society/202609/27/140000_55007988.htm" target="_blank">国庆限定！长安街沿线打卡点来了</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>9月25日，天安门广场的“祝福祖国”巨型花篮，已正式与游客见面。花篮里有月季、牡丹、向日葵、葡萄等花朵和水果，寓意“繁花似锦，硕果累累”。篮体两侧分别镶嵌着“祝福祖国”“欢度国庆”的字样。</p></div>
+            <div class="news-time">2026-09-27 08:57</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/society/202609/27/140000_55007986.htm" target="_blank">中国人民解放军南部战区位黄岩岛周边海空域组织海空联合演训</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>9月27日，中国人民解放军南部战区位黄岩岛周边海空域组织海空联合演训，这是针对当前个别国家破坏地区和平稳定的必要行动，旨在检验提升部队维护国家领土主权和海洋权益的实战能力。</p></div>
+            <div class="news-time">2026-09-27 08:27</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/society/202609/26/140000_55007886.htm" target="_blank">月底前华西至黄淮一带仍多雨 江南华南多地持续高温</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>今天（9月26日）至月底，华西到黄淮一带仍多降雨，四川、陕西、河南等地部分地区有大到暴雨，需警惕持续降雨可能引发的滑坡、泥石流等次生灾害。</p></div>
+            <div class="news-time">2026-09-26 10:33</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/society/202609/26/140000_55007888.htm" target="_blank">火车票预约购票试点服务可预约日期范围有调整</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>9月26日起，铁路部门对京沪高铁、京沪铁路试点的火车票预约购票服务的可预约日期范围从开车前第60天至第17天，逐步调整为开车前第30天至第17天。</p></div>
+            <div class="news-time">2026-09-26 10:28</div>
+            </div>
+            </div>
+            </div>
+
+        </div>
+        <!-- 社会 end-->
+
+        <!-- 财经 -->
+        <div>
+            
+                        <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/finance/202407/30/139999_54693993.htm" target="_blank">2024暑期档票房破75亿</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>据网络平台实时数据，截至7月30日18时35分 ，2024年暑期档（6月-8月）档期总票房（含预售）突破75亿！《抓娃娃》《默杀》《云边有个小卖部》暂列档期票房榜前三位。</p></div>
+            <div class="news-time">2024-07-30 18:56</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/finance/202407/26/139999_54692031.htm" target="_blank">俞敏洪：与辉同行的全部净利润奖励给董宇辉</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>7月25日，俞敏洪在微信公号发布《致东方甄选股东朋友的一封公开信》。</p></div>
+            <div class="news-time">2024-07-26 12:34</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/finance/202407/26/139999_54691950.htm" target="_blank">上半年我国跨区域人员流动量324.1亿人次</a></div>
+            <div class="news-item-c">
+            <div class="img-area">
+            <a href="https://news.dayoo.com/finance/202407/26/139999_54691950.htm"><img class="news-list-pic" src="https://dayooimg.dayoo.com/Finance/202407/26/54691950_t1_1X76X585X405_803357a3-81f2-4198-95a9-a1da1946d165.jpeg" alt="上半年我国跨区域人员流动量324.1亿人次" /></a>
+            </div>
+            <div class="txt-area">
+            <div class="news-abst"><p>上半年，交通运输经济运行持续向好、总体平稳，货运量、港口货物吞吐量、人员流动量等交通运输主要指标均实现较快增长。</p></div>
+            <div class="news-time">2024-07-26 10:03</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/finance/202407/26/139999_54691876.htm" target="_blank">低至五折！大理、拉萨等热门目的地机票便宜了</a></div>
+            <div class="news-item-c">
+            <div class="img-area">
+            <a href="https://news.dayoo.com/finance/202407/26/139999_54691876.htm"><img class="news-list-pic" src="https://dayooimg.dayoo.com/Finance/202407/26/54691876_t1_127X12X555X253_da1d23a4-3ac5-46ee-afb3-34f8ca727fa6.jpg" alt="低至五折！大理、拉萨等热门目的地机票便宜了" /></a>
+            </div>
+            <div class="txt-area">
+            <div class="news-abst"><p>​暑运期间，民航市场火热。记者了解到，这个暑期西北、西南等地区干支线增班最多。</p></div>
+            <div class="news-time">2024-07-26 06:51</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/finance/202407/26/139999_54691984.htm" target="_blank">理财档案丨增厚储蓄险收益浮动收益产品上位</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>近日有消息称，人身险产品预定利率将再度“降档”。其中，传统型人身险产品的预定利率或将从3%下调至2.5%，这距离预定利率3.5%下调至3.0%还不足1年。</p></div>
+            <div class="news-time">2024-07-26 04:20</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/finance/202407/26/139999_54691983.htm" target="_blank">“提前还房贷”再度升温，如何还款更划算？</a></div>
+            <div class="news-item-c">
+            <div class="img-area">
+            <a href="https://news.dayoo.com/finance/202407/26/139999_54691983.htm"><img class="news-list-pic" src="https://dayooimg.dayoo.com/Finance/202407/26/54691983_t1_21X7X595X330_7e02c96f-a654-4975-a2d7-f8c56de474cf.jpg" alt="“提前还房贷”再度升温，如何还款更划算？" /></a>
+            </div>
+            <div class="txt-area">
+            <div class="news-abst"><p>伴随着一系列降息和房贷新政落地，当前首套房和二套房贷款利率均降至“3时代”，新增房贷与存量房贷利率差距加大，部分差距已高达100BP，同样是200万元房贷，总利息相差27万元左右。</p></div>
+            <div class="news-time">2024-07-26 04:20</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/finance/202407/26/139999_54691982.htm" target="_blank">人民币盘中升破7.21 对美元汇率创下5月初以来新高</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>7月25日，在岸、离岸人民币对美元汇率上涨，且涨势盘中进一步扩大，均升破7.21关口，当日在岸人民币对美元涨超680个基点，离岸人民币对美元涨超580个基点，创下5月初以来的新高。</p></div>
+            <div class="news-time">2024-07-26 04:20</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/finance/202407/26/139999_54691979.htm" target="_blank">六大行下调人民币存款利率 中小银行梯次跟进</a></div>
+            <div class="news-item-c">
+            <div class="img-area">
+            <a href="https://news.dayoo.com/finance/202407/26/139999_54691979.htm"><img class="news-list-pic" src="https://dayooimg.dayoo.com/Finance/202407/26/54691979_t1_17X72X600X400_0a126c9e-e845-4cb2-a53b-bb9779a896db.jpg" alt="六大行下调人民币存款利率 中小银行梯次跟进" /></a>
+            </div>
+            <div class="txt-area">
+            <div class="news-abst"><p>今年首轮存款降息开启！昨日，工行、农行、中行、建行、交行、邮储六大国有银行集体宣布下调存款利率。</p></div>
+            <div class="news-time">2024-07-26 04:20</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/finance/202407/25/139999_54691741.htm" target="_blank">东方甄选：主播董宇辉离职</a></div>
+            <div class="news-item-c">
+            <div class="img-area">
+            <a href="https://news.dayoo.com/finance/202407/25/139999_54691741.htm"><img class="news-list-pic" src="https://dayooimg.dayoo.com/Finance/202407/25/54691741_t1_11X6X600X337_d918fe32-eceb-4b4d-9d9b-b0911a452cdc.jpg" alt="东方甄选：主播董宇辉离职" /></a>
+            </div>
+            <div class="txt-area">
+            <div class="news-abst"><p>7月25日，东方甄选在港交所公告，董宇辉已决定不再担任公司雇员及公司一个合并联属实体的高级管理层，该离任乃由于董宇辉的职业抱负、对彼其他事业的投入及个人时间安排，并于2024年7月25日生效。</p></div>
+            <div class="news-time">2024-07-25 18:54</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/finance/202407/25/139999_54691403.htm" target="_blank">2023年度中央部门决算陆续公开</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>今天（25日），财政部率先披露2023年度部门决算，随后各中央部门将陆续公开2023年度决算情况，这是中央部门连续第14年向社会公开部门决算。</p></div>
+            <div class="news-time">2024-07-25 13:15</div>
+            </div>
+            </div>
+            </div>
+
+        </div>
+        <!-- 财经 end-->
+        
+        <!-- 国际 -->
+        <div>
+            
+                        <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/world/202609/27/139998_55008102.htm" target="_blank">大熊猫“平平”“福双”抵达美国</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>美国东部时间27日晨，中国大熊猫“平平”“福双”搭乘包机抵达美国亚特兰大国际机场。根据中美双方安排，这对大熊猫将在亚特兰大动物园开启为期10年的旅居生活。</p></div>
+            <div class="news-time">2026-09-27 19:05</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/world/202609/27/139998_55008089.htm" target="_blank">尼泊尔发生雪崩致多人失联</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>据尼泊尔当地登山探险公司消息，位于尼泊尔北部默嫩县的希姆隆峰27日上午发生雪崩，数名尼泊尔登山向导及后勤人员失联。</p></div>
+            <div class="news-time">2026-09-27 17:58</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/world/202609/27/139998_55008068.htm" target="_blank">欧洲最大中华传统园林在英国开园</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>欧洲规模最大的中华传统园林——畔溪中国花园25日在位于英格兰西北部索尔福德市的英国皇家园艺学会桥水花园中正式开园。</p></div>
+            <div class="news-time">2026-09-27 15:51</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/world/202609/27/139998_55007977.htm" target="_blank">印尼客轮倾覆事故死亡人数升至64人</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>当地时间26日，印尼救援部门发布消息称，截至当天18时，失事客轮遇难者人数升至64人，失踪人数为71人。此前有108人获救。</p></div>
+            <div class="news-time">2026-09-27 07:41</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/world/202609/26/139998_55007930.htm" target="_blank">伊朗向美方提出七日内重开霍尔木兹海峡计划</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>伊朗外长阿拉格齐25日称，伊朗已通过卡塔尔向美国转达一个重新开放霍尔木兹海峡的计划，如果美方据此采取必要行动，霍尔木兹海峡可以在七日内重新开放，恢复正常海运。</p></div>
+            <div class="news-time">2026-09-26 16:10</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/world/202609/25/139998_55007826.htm" target="_blank">国际社会高度关注中美两国元首会晤</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>多国人士表示，习近平主席此次访问美国具有全球影响，期待在中美元首外交的战略引领下，为动荡世界注入更多正能量，惠及各国人民。</p></div>
+            <div class="news-time">2026-09-25 21:38</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/world/202609/25/139998_55007832.htm" target="_blank">美国各界人士：习近平主席此次访问是“历史性时刻”</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>美国各界人士表示，习近平主席此次访问美国是“历史性时刻”，期待在元首外交的战略引领下，美中两国继续沿着建设性战略稳定轨道前行。</p></div>
+            <div class="news-time">2026-09-25 21:27</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/world/202609/25/139998_55007821.htm" target="_blank">再续跨国友谊 美国友人“赛考斯”送上中秋祝福</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>中秋佳节，美国友人“赛考斯”再次感谢中国人民的善意，通过视频送上节日祝福，祝大家度过美好的中秋佳节。</p></div>
+            <div class="news-time">2026-09-25 21:03</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/world/202609/25/139998_55007820.htm" target="_blank">赛考斯说起中秋突然哽咽</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>习近平主席在美国讲起赛考斯的故事，称这段跨越20多年的往事“感动了许多中国民众”。</p></div>
+            <div class="news-time">2026-09-25 20:58</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/world/202609/25/139998_55007825.htm" target="_blank">从“避暑游”到“赏月游”，欧洲朋友们又想来中国了！</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>这个夏天，赴华避暑游格外火爆。不少欧洲朋友选择到中国纳凉览胜，在秀美山水与城市烟火中，留下了难忘的记忆。暑气渐消，秋意转浓，丹桂飘香之际，中秋与国庆双节联袂而至。值此佳节，总台欧洲总站在伦敦大本钟、巴黎埃菲尔铁塔、柏林勃兰登堡门、罗马斗兽场、布鲁塞尔大广场等12座欧洲城市的地标广场，同步发起“欢迎来中国赏月”街采活动，当地民众积极参与，热情互动。</p></div>
+            <div class="news-time">2026-09-25 20:49</div>
+            </div>
+            </div>
+            </div>
+
+        </div>
+        <!-- 国际 end-->
+
+        <!-- 体育 -->
+        <div>
+            
+                        <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/sports/202609/27/140001_55008101.htm" target="_blank">陈圆将夺得亚运会田径男子110米栏冠军</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>9月27日，名古屋亚运会田径男子110米栏决赛，中国选手陈圆将夺得金牌！</p></div>
+            <div class="news-time">2026-09-27 19:21</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/sports/202609/27/140001_55008104.htm" target="_blank">林诗栋/黄友政夺得名古屋亚运会乒乓球男双金牌</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>9月27日，第二十届亚运会乒乓球项目在丰田市丰田天空体育馆继续进行。在刚刚结束的男双决赛中，首次参加亚运会的中国队组合林诗栋/黄友政以4∶2战胜日本队组合张本智和/篠塚大登，夺得金牌。</p></div>
+            <div class="news-time">2026-09-27 19:08</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/sports/202609/27/140001_55008072.htm" target="_blank">亚运会丨孙颖莎王曼昱会师决赛，国乒提前锁定女单冠亚军</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>9月27日，在名古屋亚运会乒乓球女单半决赛中，孙颖莎4比1战胜日本选手早田希娜，晋级决赛。</p></div>
+            <div class="news-time">2026-09-27 15:29</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/sports/202609/27/140001_55008066.htm" target="_blank">【亚运会】陈艺文卫冕，广东跳水添金</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>9月27日，2026亚运会跳水比赛再决出两枚双人项目的金牌，“梦之队”中国跳水队继续包揽金牌。</p></div>
+            <div class="news-time">2026-09-27 14:28</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/sports/202609/27/140001_55008036.htm" target="_blank">【亚运会】广东第14金：15岁朱沅铃夺得滑板女子街式金牌</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>9月27日，爱知·名古屋亚运会滑板女子街式决赛举行。15岁的广东选手朱沅铃以166.57分夺得金牌，为中国代表团再添一金，这也是广东体育代表团的第14枚金牌。杭州亚运会该项目冠军崔宸曦以156.60分获得铜牌，两名中国选手携手登上领奖台。</p></div>
+            <div class="news-time">2026-09-27 13:24</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/sports/202609/27/140001_55008028.htm" target="_blank">杨昊/练俊杰夺得亚运会跳水男子双人10米跳台金牌</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>9月27日，名古屋亚运会跳水男子双人10米跳台决赛，中国组合杨昊/练俊杰夺得金牌！</p></div>
+            <div class="news-time">2026-09-27 12:48</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/sports/202609/27/140001_55008017.htm" target="_blank">陈艺文/陈佳夺得亚运会跳水女子双人3米跳板金牌</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>9月27日，名古屋亚运会跳水女子双人3米跳板决赛，中国组合陈艺文/陈佳夺得金牌！</p></div>
+            <div class="news-time">2026-09-27 09:41</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/sports/202609/27/140001_55007987.htm" target="_blank">亚运会今日看点！乒乓球女单、男双激烈角逐，跳水队冲击“十全十美”</a></div>
+            <div class="news-item-c">
+            <div class="img-area">
+            <a href="https://news.dayoo.com/sports/202609/27/140001_55007987.htm"><img class="news-list-pic" src="https://dayooimg.dayoo.com/Sports/202609/27/55007987_t1_0X2X110X64_67748e9b-a43e-4737-8822-097f274bc34c.jpg" alt="亚运会今日看点！乒乓球女单、男双激烈角逐，跳水队冲击“十全十美”" /></a>
+            </div>
+            <div class="txt-area">
+            <div class="news-abst"><p>亚运会今日看点！乒乓球女单、男双激烈角逐，跳水队冲击“十全十美”</p></div>
+            <div class="news-time">2026-09-27 09:09</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/sports/202609/27/140001_55007974.htm" target="_blank">“广深德比”握手言和</a></div>
+            <div class="news-item-c">
+            <div class="img-area">
+            <a href="https://news.dayoo.com/sports/202609/27/140001_55007974.htm"><img class="news-list-pic" src="https://dayooimg.dayoo.com/Sports/202609/27/55007974_t1_1X19X600X356_ae4d9485-5815-4029-b03e-b8960daf7e23.jpg" alt="“广深德比”握手言和" /></a>
+            </div>
+            <div class="txt-area">
+            <div class="news-abst"><p>昨晚，2026广东省城市足球超级联赛（粤超）半决赛首回合的焦点大战在越秀山体育场打响，广州队坐镇主场迎战劲旅深圳队。最终，广深两队以1比1握手言和，晋级决赛的悬念留到第二回合。</p></div>
+            <div class="news-time">2026-09-27 09:12</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/sports/202609/26/140001_55007919.htm" target="_blank">时隔28年，中国男足再进亚运会四强</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>当地时间9月26日，中国男足亚运队在丰田市丰田体育场迎来1/4决赛对手泰国队，经过90分钟较量，中国队以3比0击败对手，时隔28年，再次闯入亚运会男足比赛四强。</p></div>
+            <div class="news-time">2026-09-26 16:10</div>
+            </div>
+            </div>
+            </div>
+
+        </div>
+        <!-- 体育 end-->
+        
+        <!-- 热评 -->
+        <div>
+            
+                        <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/25/153828_55007670.htm" target="_blank">从一场顶级光影盛会读懂广州魅力</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>“本届大会国际嘉宾云集，规模在国内是第一次见！”在广州举办的第五届华语纪录电影大会，凭借超高规格、国际化水准收获业内大咖集体点赞。</p></div>
+            <div class="news-time">2026-09-25 11:15</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/24/153828_55007378.htm" target="_blank">给书香羊城装上“智慧引擎”</a></div>
+            <div class="news-item-c">
+            <div class="img-area">
+            <a href="https://news.dayoo.com/guangzhou/202609/24/153828_55007378.htm"><img class="news-list-pic" src="https://dayooimg.dayoo.com/www/202609/24/55007378_t1_0X59X600X397_63961d9e-cf4b-4736-9cfa-8908bcb404d2.jpg" alt="给书香羊城装上“智慧引擎”" /></a>
+            </div>
+            <div class="txt-area">
+            <div class="news-abst"><p>日前，国家新闻出版署印发《出版业发展“十五五”规划》，明确持续深化全民阅读工作，巩固“书香中国”阅读活动品牌，进一步营造爱读书、读好书、善读书的浓厚氛围。</p></div>
+            <div class="news-time">2026-09-24 10:54</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/24/153828_55007379.htm" target="_blank">托举更多“没有围墙的课堂”</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>教育部基础教育司司长田祖荫9月23日在“开局起步‘十五五’”系列主题新闻发布会上介绍，将在全国推行每周至少半天校外实践教学，指导各地各校因地制宜分学段合理安排，纳入学校教育教学计划。</p></div>
+            <div class="news-time">2026-09-24 10:55</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/24/153828_55007377.htm" target="_blank">让每一项食安国标都落地生根</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>22日，国家卫生健康委会同市场监管总局发布了共计50项食品安全国家标准和标准修改单。</p></div>
+            <div class="news-time">2026-09-24 10:53</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/24/153828_55007381.htm" target="_blank">转专业“松绑”莫一转了之</a></div>
+            <div class="news-item-c">
+            <div class="img-area">
+            <a href="https://news.dayoo.com/guangzhou/202609/24/153828_55007381.htm"><img class="news-list-pic" src="https://dayooimg.dayoo.com/www/202609/24/55007381_t1_0X13X586X343_4151a33d-26d2-4558-b8b4-3bbd7f8f0bd0.jpg" alt="转专业“松绑”莫一转了之" /></a>
+            </div>
+            <div class="txt-area">
+            <div class="news-abst"><p>近年来，不少高校为转专业政策“松绑”，打破以往转专业申请的名额、次数、成绩等限制，有的高校更推行“转出无门槛”政策。</p></div>
+            <div class="news-time">2026-09-24 10:55</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/24/153828_55007380.htm" target="_blank">管住平台规则，还酒店定价权</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>餐饮行业的经验表明，只有纠正了竞争规则，价格体系才会逐步修复；让商家有合理的利润空间，他们才有心思提升服务质量。</p></div>
+            <div class="news-time">2026-09-24 10:55</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/24/153828_55007376.htm" target="_blank">“网络黑嘴”需付出沉重代价</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>清理涉企侵权信息156万余条，处置违法违规账号2.6万余个，一批假借“舆论监督”之名、行敲诈勒索之实的“网络黑嘴”被集中清理……日前，国家网信办就“清朗·优化营商网络环境 整治恶意炒作涉企信息”专项行动通报了一批典型案例。</p></div>
+            <div class="news-time">2026-09-24 10:53</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/24/153828_55007375.htm" target="_blank">来广州感受“双节”消费的三重风味</a></div>
+            <div class="news-item-c">
+            <div class="img-area">
+            <a href="https://news.dayoo.com/guangzhou/202609/24/153828_55007375.htm"><img class="news-list-pic" src="https://dayooimg.dayoo.com/www/202609/24/55007375_t1_0X0X590X332_4f348f61-4702-4e82-b5cf-c75c3f3ef15b.jpg" alt="来广州感受“双节”消费的三重风味" /></a>
+            </div>
+            <div class="txt-area">
+            <div class="news-abst"><p>这个双节，广州将再度为市民游客奉上一桌丰盛的假日消费盛宴。</p></div>
+            <div class="news-time">2026-09-24 10:53</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/23/153828_55006861.htm" target="_blank">让早茶的岭南文化香，飘得更远</a></div>
+            <div class="news-item-c">
+            <div class="img-area">
+            <a href="https://news.dayoo.com/guangzhou/202609/23/153828_55006861.htm"><img class="news-list-pic" src="https://dayooimg.dayoo.com/www/202609/23/55006861_t1_0X21X600X359_8ee99a81-629b-4281-bec2-63c00a9feb84_zsize.jpg" alt="让早茶的岭南文化香，飘得更远" /></a>
+            </div>
+            <div class="txt-area">
+            <div class="news-abst"><p>​9月21日，广州首批“广州早茶传统店”名单在广州正式发布。</p></div>
+            <div class="news-time">2026-09-23 10:10</div>
+            </div>
+            </div>
+            </div>
+            <div class="news-item">
+            <div class="h2tit"><a href="https://news.dayoo.com/guangzhou/202609/23/153828_55006863.htm" target="_blank">“湾区升明月”，何以照进人心？</a></div>
+            <div class="news-item-c">
+            <div class="txt-area" style="width:100%;">
+            <div class="news-abst"><p>海上生明月，天涯共此时。一年一度的湾区之约，再度点亮濠江夜空。9月20日，“湾区升明月”2026大湾区电影音乐晚会在澳门举行。</p></div>
+            <div class="news-time">2026-09-23 10:11</div>
+            </div>
+            </div>
+            </div>
+
+        </div>
+        <!-- 热评 end-->
+    </div>
+
+</div>
+				<!-- 内容推荐 end-->
+			</div>
+			<!-- dy-content -->
+
+			<!-- dy-side -->
+			<div class="dy-side">
+				<!-- 广州24小时 -->
+				<div class="dy-side-box gz24h">
+                <div class="hd">
+                
+                                <h2><a href="https://news.dayoo.com/guangzhou/150956.shtml" target="_blank">广州24小时</a></h2>
+
+                </div>
+                <div class="bd">
+                
+                                <dl onmouseover="$(this).parent().find('dl').attr('class','');this.className='active';" class="active" >
+                <dt>
+                <span class="news-time">17:57</span>
+                <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008096.htm" target="_blank" class="toe" title="​白云站里“穿越”千年！2026广州汉服文化季启幕">​白云站里“穿越”千年！2026广州汉服文化季启幕</a>
+                </dt>
+                <dd>
+                <div class="txt-area" style="width: 100%;">
+                <p>9月26日下午，2026广州汉服文化季启动仪式在亚洲最大的TOD大型综合交通枢纽之一——广州白云站举行。</p>
+                <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008096.htm" target="_blank">[详细]</a>
+                </div>
+                </dd>
+                </dl>
+                <dl onmouseover="$(this).parent().find('dl').attr('class','');this.className='active';">
+                <dt>
+                <span class="news-time">18:10</span>
+                <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008095.htm" target="_blank" class="toe" title="国庆龙艇、龙舟赛在南沙横沥燃情开赛">国庆龙艇、龙舟赛在南沙横沥燃情开赛</a>
+                </dt>
+                <dd>
+                <div class="txt-area" style="width: 100%;">
+                <p>龙舟竞渡，桨声激荡，9月27日，第三届大湾区美 “沥” 生活嘉年华暨 “横沥明珠” 杯国庆龙艇、龙舟邀请赛在广州南沙国际金融岛水上乐园燃情开幕。来自粤港澳大湾区的近百支龙舟队、龙艇队水上竞渡，欢呼声响彻两岸。</p>
+                <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008095.htm" target="_blank">[详细]</a>
+                </div>
+                </dd>
+                </dl>
+                <dl onmouseover="$(this).parent().find('dl').attr('class','');this.className='active';">
+                <dt>
+                <span class="news-time">18:10</span>
+                <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008094.htm" target="_blank" class="toe" title="明日开业！广州国际金融城再迎大型商业地标">明日开业！广州国际金融城再迎大型商业地标</a>
+                </dt>
+                <dd>
+                <div class="txt-area" style="width: 100%;">
+                <p>记者获悉，9月28日，位于广州国际金融城的天河合生汇正式开启试营业。</p>
+                <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008094.htm" target="_blank">[详细]</a>
+                </div>
+                </dd>
+                </dl>
+                <dl onmouseover="$(this).parent().find('dl').attr('class','');this.className='active';">
+                <dt>
+                <span class="news-time">18:38</span>
+                <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008093.htm" target="_blank" class="toe" title="省政府正式批复!广州3个历史文化名村保护规划来了">省政府正式批复!广州3个历史文化名村保护规划来了</a>
+                </dt>
+                <dd>
+                <div class="txt-area" style="width: 100%;">
+                <p>记者今日从广州市规划和自然资源局获悉，《中国历史文化名村广州市番禺区石楼镇大岭村保护规划（2021—2035年）》《广东省历史文化名村广州市番禺区化龙镇潭山村保护规划（2021—2035年）》《广东省历史文化名村广州市黄埔区九佛街道莲塘村保护规划（2021—2035年）》近日获广东省人民政府批复。</p>
+                <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008093.htm" target="_blank">[详细]</a>
+                </div>
+                </dd>
+                </dl>
+                <dl onmouseover="$(this).parent().find('dl').attr('class','');this.className='active';">
+                <dt>
+                <span class="news-time">18:30</span>
+                <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008092.htm" target="_blank" class="toe" title="@广州交通：辟谣｜地铁嘉禾望岗站现场如常">@广州交通：辟谣｜地铁嘉禾望岗站现场如常</a>
+                </dt>
+                <dd>
+                <div class="txt-area" style="width: 100%;">
+                <p>据广州市交通运输局官方微博消息，网传地铁嘉禾望岗站有“砍人”事件，广州地铁微博9月27日辟谣：中秋假期最后一天的地铁嘉禾望岗站，正迎来返程大客流，其间，现场一切如常，乘客安全有序进出车站。</p>
+                <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008092.htm" target="_blank">[详细]</a>
+                </div>
+                </dd>
+                </dl>
+                <dl onmouseover="$(this).parent().find('dl').attr('class','');this.className='active';">
+                <dt>
+                <span class="news-time">15:38</span>
+                <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008070.htm" target="_blank" class="toe" title="返程必看！今晚广州地铁7条线延长运营服务1小时">返程必看！今晚广州地铁7条线延长运营服务1小时</a>
+                </dt>
+                <dd>
+                <div class="txt-area" style="width: 100%;">
+                <p>据@广州地铁消息，今晚（9月27日），一、二、三（含三北）、五、七、八号线及十二号线（浔峰岗～广州体育馆）共7条线延长运营服务1小时。返程的小伙伴记得留意末班车时间，别错过啦～</p>
+                <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008070.htm" target="_blank">[详细]</a>
+                </div>
+                </dd>
+                </dl>
+                <dl onmouseover="$(this).parent().find('dl').attr('class','');this.className='active';">
+                <dt>
+                <span class="news-time">13:06</span>
+                <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008029.htm" target="_blank" class="toe" title="中秋国庆假期，广州持续严查酒驾醉驾">中秋国庆假期，广州持续严查酒驾醉驾</a>
+                </dt>
+                <dd>
+                <div class="txt-area" style="width: 100%;">
+                <p>中秋国庆假期，不少市民与亲朋好友相聚饮酒，但可别忘了“开车不喝酒，喝酒不开车”。</p>
+                <a href="https://news.dayoo.com/guangzhou/202609/27/139995_55008029.htm" target="_blank">[详细]</a>
+                </div>
+                </dd>
+                </dl>
+
+                </div>
+                </div>
+				<!-- 广州24小时 end -->
+
+				<!-- 图片 -->
+				<div class="dy-side-box tupian">
+    <div class="hd">
+        <h2><a href="https://news.dayoo.com/photo/140003.shtml" target="_blank">图片</a></h2>
+    </div>
+    <div class="bd">
+        <div class="img-box-slider">
+            <div>
+                
+                                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/photo/202609/22/140003_55006332.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/Photo/202609/22/55006332_t1_0X31X600X369_2366a238-e3ab-4672-9b0d-07bc66281195_zsize.jpg" alt="铁翼破晓！歼-16夜训最新现场图" /></a>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/photo/202609/22/140003_55006332.htm" target="_blank">铁翼破晓！歼-16夜训最新现场图</a></p>
+                </div>
+                </div>
+                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/photo/202609/15/140003_55003789.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/Photo/202609/15/55003789_t1_0X57X587X387_912f3513-f12e-44ce-8b05-8d3eb9f2c96c.jpg" alt="多图 | 广州白鹅潭万象城亮灯" /></a>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/photo/202609/15/140003_55003789.htm" target="_blank">多图 | 广州白鹅潭万象城亮灯</a></p>
+                </div>
+                </div>
+                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/photo/202607/21/140003_54982047.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/Photo/202607/21/54982047_t1_0X12X600X350_f4e19a91-fee4-4917-8e0b-edd4603de9e1copy.jpg" alt="世界杯冠军西班牙队举行巡游庆祝活动" /></a>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/photo/202607/21/140003_54982047.htm" target="_blank">世界杯冠军西班牙队举行巡游庆祝活动</a></p>
+                </div>
+                </div>
+                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/photo/202604/19/140003_54949846.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/Photo/202604/19/54949846_t1_2X37X280X193_25585710-941c-429f-85fb-eb3778498562_zsize.jpg" alt="不负春光！2026春耕图鉴出炉" /></a>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/photo/202604/19/140003_54949846.htm" target="_blank">不负春光！2026春耕图鉴出炉</a></p>
+                </div>
+                </div>
+
+            </div>
+        
+            <div>
+                
+                                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/photo/202603/29/140003_54941703.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/Photo/202603/29/54941703_t1_9X180X249X315_b292f204-9b8d-4b2e-8ef0-7532e3a9d356_zsize.jpg" alt="故宫春日壁纸，上新了！" /></a>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/photo/202603/29/140003_54941703.htm" target="_blank">故宫春日壁纸，上新了！</a></p>
+                </div>
+                </div>
+                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/photo/202602/13/140003_54928978.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/Photo/202602/13/54928978_t1_0X0X600X338_f44d4d89-9cdc-4219-9fad-4e0570ae7882.jpg" alt="洲头咀隧道出口宫粉紫荆绽放" /></a>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/photo/202602/13/140003_54928978.htm" target="_blank">洲头咀隧道出口宫粉紫荆绽放</a></p>
+                </div>
+                </div>
+                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/photo/202602/06/140003_54925663.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/Photo/202602/06/54925663_t1_6X6X600X340_354fb9e4-1adb-4e3c-9bfb-ee2bf4cae066.png" alt="福州：第24届“两马同春闹元宵”灯会正式亮灯" /></a>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/photo/202602/06/140003_54925663.htm" target="_blank">福州：第24届“两马同春闹元宵”灯会正式亮灯</a></p>
+                </div>
+                </div>
+                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/photo/202602/06/140003_54925654.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/Photo/202602/06/54925654_t1_4X81X588X410_92222dd7-e120-4092-9bb5-51fcc35cdda9.png" alt="海口：英歌舞巡游表演" /></a>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/photo/202602/06/140003_54925654.htm" target="_blank">海口：英歌舞巡游表演</a></p>
+                </div>
+                </div>
+
+            </div>
+        
+        </div>
+    </div>
+</div>
+				<!-- 图片 end-->
+
+				<!-- 视频 -->
+				<div class="dy-side-box tupian shipin">
+    <div class="hd">
+        <h2><a href="https://news.dayoo.com/guangzhou/150952.shtml" target="_blank">视频</a></h2>
+    </div>
+    <div class="bd">
+        <div class="img-box-slider">
+            <div>
+                
+                                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/guangzhou/202609/22/150952_55006325.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/www/202609/22/55006325_1a49716c-968f-4461-b0db-70d6e674ff13.png" alt="一镜越百年，光影绘时代——第五届华语纪录电影大会开幕" /></a>
+                <i class="video-btn"></i>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/guangzhou/202609/22/150952_55006325.htm" target="_blank">一镜越百年，光影绘时代——第五届华语纪录电影大会开幕</a></p>
+                </div>
+                </div>
+                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/guangzhou/202609/14/150952_55003183.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/www/202609/14/55003183_d6e9bcb0-5416-46f6-9ffe-d90a45f98c98.png" alt="洗晒先等等，今明广州局部有大雨 | 天气倾下偈" /></a>
+                <i class="video-btn"></i>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/guangzhou/202609/14/150952_55003183.htm" target="_blank">洗晒先等等，今明广州局部有大雨 | 天气倾下偈</a></p>
+                </div>
+                </div>
+                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/guangzhou/202609/14/150952_55003184.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/www/202609/14/55003184_aea9325d-e3a5-4918-b201-2c39d8d256a9.png" alt="来广东，乐选未来｜百万英才汇南粤" /></a>
+                <i class="video-btn"></i>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/guangzhou/202609/14/150952_55003184.htm" target="_blank">来广东，乐选未来｜百万英才汇南粤</a></p>
+                </div>
+                </div>
+                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/guangzhou/202609/01/150952_54998759.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/www/202609/01/54998759_667f9d9b-8c3d-47e1-98e9-00b47577fc2e.png" alt="AI时代，这些网络安全知识要牢记｜2026广州中小学生网络安全开学第一课" /></a>
+                <i class="video-btn"></i>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/guangzhou/202609/01/150952_54998759.htm" target="_blank">AI时代，这些网络安全知识要牢记｜2026广州中小学生网络安全开学第一课</a></p>
+                </div>
+                </div>
+
+            </div>
+
+            <div>
+                
+                                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/gzrbrmt/202608/26/170615_54995462.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/gzrbrmt/img/202608/26/54995462_5c3c084f-b5fd-4992-839a-695c03b9fcce.jpg" alt="《沙湾往事》归乡溯源，番禺文商旅随舞而动" /></a>
+                <i class="video-btn"></i>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/gzrbrmt/202608/26/170615_54995462.htm" target="_blank">《沙湾往事》归乡溯源，番禺文商旅随舞而动</a></p>
+                </div>
+                </div>
+                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/guangzhou/202608/28/150952_54996725.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/www/202608/28/54996725_t1_0X119X256X263_71b9757a-a0b5-4aec-aed0-4d9503012a41.jpg" alt="广州花城的含金量拉满！超1万株向日葵开了" /></a>
+                <i class="video-btn"></i>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/guangzhou/202608/28/150952_54996725.htm" target="_blank">广州花城的含金量拉满！超1万株向日葵开了</a></p>
+                </div>
+                </div>
+                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/guangzhou/202608/23/150952_54993961.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/www/202608/23/54993961_8e18cf74-abce-4a69-ad90-b60874b69a04.png" alt="起猛了！广州这些文物在跳舞，广州人：这些隐藏款必须来打卡" /></a>
+                <i class="video-btn"></i>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/guangzhou/202608/23/150952_54993961.htm" target="_blank">起猛了！广州这些文物在跳舞，广州人：这些隐藏款必须来打卡</a></p>
+                </div>
+                </div>
+                <div class="img-box-b">
+                <div class="img-area">
+                <a href="https://news.dayoo.com/guangzhou/202608/23/150952_54993902.htm" target="_blank">
+                <img src="https://dayooimg.dayoo.com/www/202608/23/54993902_c72bafdc-e57d-4b28-bf60-bac616e476c2.png" alt="千年渔港开渔记丨有人乘风破浪，有人静候归航" /></a>
+                <i class="video-btn"></i>
+                </div>
+                <div class="text-area">
+                <p><a href="https://news.dayoo.com/guangzhou/202608/23/150952_54993902.htm" target="_blank">千年渔港开渔记丨有人乘风破浪，有人静候归航</a></p>
+                </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+				<!-- 视频 end-->
+
+				<!-- 热闻 -->
+				
+
+<div class="dy-side-box">
+<div class="hd">
+<h2><a href="https://news.dayoo.com/guangzhou/150955.shtml" target="_blank">热闻</a></h2>
+</div>
+<div class="bd">
+<ul class="news-list">
+<li><a href="https://news.dayoo.com/world/202609/27/139998_55008102.htm" target="_blank" >大熊猫“平平”“福双”抵达美国</a></li>
+<li><a href="https://news.dayoo.com/world/202609/27/139998_55008089.htm" target="_blank" >尼泊尔发生雪崩致多人失联</a></li>
+<li><a href="https://news.dayoo.com/society/202609/27/140000_55008067.htm" target="_blank" >4条高铁新线9月28日集中开通运营</a></li>
+<li><a href="https://news.dayoo.com/society/202609/27/140000_55008027.htm" target="_blank" >暴涨1450%！中秋爆款出现</a></li>
+<li><a href="https://news.dayoo.com/society/202609/27/140000_55008025.htm" target="_blank" >“闪身步”爆火，艺人网友接力模仿，医生提醒</a></li>
+<li><a href="https://news.dayoo.com/society/202609/27/140000_55007988.htm" target="_blank" >国庆限定！长安街沿线打卡点来了</a></li>
+<li><a href="https://news.dayoo.com/world/202609/27/139998_55007977.htm" target="_blank" >印尼客轮倾覆事故死亡人数升至64人</a></li>
+<li><a href="https://news.dayoo.com/world/202609/26/139998_55007930.htm" target="_blank" >伊朗向美方提出七日内重开霍尔木兹海峡计划</a></li>
+<li><a href="https://news.dayoo.com/sports/202609/26/140001_55007919.htm" target="_blank" >时隔28年，中国男足再进亚运会四强</a></li>
+<li><a href="https://news.dayoo.com/sports/202609/26/140001_55007887.htm" target="_blank" >亚运会第一百金！中国队女子50米步枪三姿团体夺冠</a></li>
+</ul>
+</div>
+</div>
+
+
+
+				<!-- 热闻 end-->
+			</div>
+			<!-- dy-side end-->
+		</div>
+		<!-- dy-bd end -->
+	</div>
+
+	<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<script src="https://moban.dayoo.com/templateRes/202003/10/51652/slick.min.js"></script>
+	<script src="https://moban.dayoo.com/templateRes/202003/10/51652/article.js"></script>
+
+	<!-- footer -->
+	
+
+<!--footer-->
+<!-- saved from url=(0050)https://www.dayoo.com/public/footer/copyright.html -->
+<style>
+    #dayoo_footer{clear:both;background-color:#f3f3f3;padding:50px 0;color:#666;font-size:14px;line-height:24px;font-family:Microsoft Yahei,PingFang SC,Lantinghei SC,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans;text-align:center;margin:10px 0 0 0;}#dayoo_footer .dayoo_footer_bd{width:1060px;margin:0 auto;overflow:hidden;}#dayoo_footer .menu{float:left;width:252px;padding:30px 10px;border-right:1px solid #ccc;}#dayoo_footer .menu img{margin:0 auto 10px;}#dayoo_footer .dayoo_copyright{float:right;width:768px;}#dayoo_footer p{margin-top:4px;color:#333;}.dayoo_copyright .web_info{margin-top:-10px;}.dayoo_copyright .web_info p{float:left;width:345px;text-align:left;}.dayoo_copyright .gzrb_info{clear:both;padding-top:15px;text-align:left;overflow:hidden;}.dayoo-footer-img{width:646px;height:47px;margin:10px 0 0 0;}.dayoo-footer-img div{width:112px;height:38px;float:left;border:1px solid #d0d0d0;padding:3px 5px 4px 5px;margin:0 3px;background-color:#fff;}.dayoo-footer-img div img{float:left;border:none;}.dayoo-footer-img div span{float:right;line-height:20px;margin-right:8px;}.dayoo-footer-knet.dayoo-footer-knet{float:left;margin-top:0 !important;}.daoo_footer_info{display:none;}.dayoo_copyright .gzrb_info img{width: 100%;height: 75px;padding: 7px 0;}@media screen and (max-width:1024px){#dayoo_footer{padding:5px 0;}.dayoo_footer{text-align:center;font-size:12px;line-height:20px;padding:10px 0;}#dayoo_footer p{margin:0;}.dayoo_footer_bd>*{display:none;}.daoo_footer_info{display:block;}}
+</style>
+<div id="dayoo_footer" class="dayoo_footer">
+    <!-- copyright -->
+    <div class="dayoo_footer_bd">
+        <div class="menu">
+            <img src="https://moban.dayoo.com/templateRes/202001/02/51600/images/index-logo.png" alt="广州日报大洋网"
+                class="logo">
+            <p>广州市交互式信息网络有限公司(大洋网)<br>版权所有(C)</p>
+            <p>粤传媒(002181)成员企业</p>
+            <p><a href="https://news.dayoo.com/china/202108/12/139997_54017108.htm" target="_blank"
+                    style="text-decoration: revert;">联系我们</a></p>
+        </div>
+        <div class="dayoo_copyright">
+            <div class="web_info">
+                <p><a href="https://www.dayoo.com/about/zhengshu/hlwxwxkz/xinxifuwu2019.html" target="_blank">互联网新闻信息服务许可证：44120180003</a></p>
+                <p><a href="https://www.dayoo.com/about/zhengshu/hlwxwxkz/xxwlcb2024.html" target="_blank">信息网络传播视听节目许可证：119330009</a></p>
+                <p><a href="https://www.dayoo.com/about/zhengshu/hlwxwxkz/chuban2019.html" target="_blank">网络出版服务许可证：网出证（粤）字第055号</a></p>
+                        
+		        <p><a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" target="_blank">ICP备案/许可证号：粤B2-20040381号</a></p>
+                <p><a href="https://www.dayoo.com/about/zhengshu/hlwxwxkz/gbdsjmzzjy2024.html" target="_blank">广播电视节目制作经营许可证：（粤）字第04941号</a></p>
+
+                <p><a href="https://www.dayoo.com/about/zhengshu/hlwxwxkz/zzdxywjy2024.html" target="_blank">增值电信业务经营许可证：粤B2-20240652</a></p>
+            </div>
+            <div class="gzrb_info">
+                <img src="https://moban.dayoo.com/templateRes/202001/02/51600/51600/images/footer-txt.jpg" alt="">
+            </div>
+            <div class="dayoo-footer-img">
+                <div>
+                    <a rel="nofollow" target="_blank" href="https://www.12377.cn/"><img width="40" height="40"
+                            border="0" src="https://moban.dayoo.com/public/dylc/ad/files/2014/tupianku/home_b_1.gif"
+                            alt="不良信息举报中心"></a>
+                    <span><a rel="nofollow" target="_blank" href="http://www.12377.cn/">不良信息<br>举报中心</a></span>
+                </div>
+               
+                <div>
+                    <span style="float:left;margin-left:8px;"><a rel="nofollow" target="_blank"
+                            href="https://www.12377.cn/node_548446.htm">网络举报<br>APP下载</a></span>
+
+                    <a rel="nofollow" target="_blank" href="https://www.12377.cn/node_548446.htm"><img width="40"
+                            height="40" border="0" align="right"
+                            src="https://moban.dayoo.com/public/dylc/ad/files/2014/tupianku/jbzq_img_1.gif"
+                            alt="网络敲诈有偿删稿"></a>
+                </div>
+                <div>
+                    <a rel="nofollow"
+                        href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602000346"
+                        target="_blank"><img height="40" width="40" border="0" alt="粤公网安备44010602000346号"
+                            src="https://moban.dayoo.com/templateRes/202001/02/51600/images/beianbgs.png"></a>
+                    <span style="float:right;margin-right:0px;line-height: 16px;"><a rel="nofollow"
+                            href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602000346"
+                            target="_blank">粤公网安备</a></span>
+                    <span style="float:right;margin-right:0px;line-height: 12px;"><a rel="nofollow"
+                            href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602000346"
+                            target="_blank">44010602</a></span>
+                    <span style="float:right;margin-right:0px;line-height: 12px;"><a rel="nofollow"
+                            href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602000346"
+                            target="_blank">000346号</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="daoo_footer_info">
+        <p>广州市交互式信息网络有限公司(大洋网)<br>版权所有(C)</p>
+        <p>粤传媒(002181)成员企业</p>
+    </div>
+     <!-- copyright end-->
+</div>
+
+<!-- wza test -->
+<script type="text/javascript" src="https://moban.dayoo.com/templateRes/202205/16/53197/53197/js/assist-entry.js"></script>
+<!-- wza test end -->
+
+<!--footer end-->
+
+	
+<!--<script type="text/javascript">
+document.write('<script type="text/javascript" src="ht'+'tps://www.dayoo.com/sta/da.js?2"><\/script>')
+</script>-->  
+
+<!-- yanfajk start 
+<script type="text/javascript" src="https://news.dayoo.com/public/dylc/ad/files/2012/contentVote/checkUp.js"></script>
+ yanfajk end   -->
+
+ <script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'https//push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+    <script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?7979cd8a8a169eae8a71aaf7a2360077";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+	<!-- footer end-->
+
+	<script>
+		//share
+		$.ajax({
+			url: "https://wx.dayoo.cn/activityinterface/wechat/share",
+			data:{ url: window.location.href },
+			dataType: 'jsonp',
+			jsonp: "callback",
+			jsonpCallback: "success_jsonpCallback",	
+			error: function () {},
+			success: function (data) {
+				if (typeof data.timestamp != 'undefined' && typeof data.nonceStr != 'undefined' &&
+					typeof data.signature != 'undefined') {
+					wx.config({
+						debug: false,
+						appId: data.appId,
+						timestamp: data.timestamp,
+						nonceStr: data.nonceStr,
+						signature: data.signature,
+						jsApiList: ['onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ',
+							'onMenuShareWeibo'
+						]
+					});
+					wx.ready(function () {
+						wx.onMenuShareTimeline({
+							title: $('title').text(),
+							link: window.location.href,
+							imgUrl: $("#text_content img").length > 0 ? $("#text_content img")
+								.attr("src") :
+								"https://moban.dayoo.com/public/c/2016/static/images/share-icon2.jpg"
+						});
+						wx.onMenuShareAppMessage({
+							title: $('title').text(),
+							desc: $("[name=description]").attr("content"),
+							link: window.location.href,
+							imgUrl: $("#text_content img").length > 0 ? $("#text_content img")
+								.attr("src") :
+								"https://moban.dayoo.com/public/c/2016/static/images/share-icon2.jpg",
+							type: '',
+							dataUrl: ''
+						});
+						wx.onMenuShareQQ({
+							title: $('title').text(),
+							desc: $("[name=description]").attr("content"),
+							link: window.location.href,
+							imgUrl: $("#text_content img").length > 0 ? $("#text_content img")
+								.attr("src") :
+								"https://moban.dayoo.com/public/c/2016/static/images/share-icon2.jpg"
+						});
+						wx.onMenuShareWeibo({
+							title: $('title').text(),
+							desc: $("[name=description]").attr("content"),
+							link: window.location.href,
+							imgUrl: $("#text_content img").length > 0 ? $("#text_content img")
+								.attr("src") :
+								"https://moban.dayoo.com/public/c/2016/static/images/share-icon2.jpg"
+						});
+					});
+				}
+			}
+		});
+		var t = "https://moban.dayoo.com/public/c/2016/static/images/share-icon2.jpg";
+		$("body").prepend('<div style="display:none;" class="wzaSkip"><img src="' + t + '"></div>');
+	</script>
+</body>
+</html>

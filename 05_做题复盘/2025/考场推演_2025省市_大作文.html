@@ -1,0 +1,1013 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>25省市作文推演</title>
+<style>
+/* base reset: the artifact viewer supplies this itself; a local file needs it here */
+:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Long+Cang&family=Noto+Serif+SC:wght@400;700&family=ZCOOL+XiaoWei&display=swap">
+<style>
+:root{
+  /* Layout: an exam desk. Pick a paper; its booklet with red-pen marks and a judgment card side by side; then the 格子, the pile, the build, the 方格稿纸 and the answer check. */
+  --bg:#F1F3EE;
+  --paper:#FFFFFF;
+  --ink:#1C1F1B;
+  --ink-2:#596056;
+  --rule:#D8DDD3;
+  --off:#848B7F;
+  --pen:#C4372C;
+  --pen-bg:#FBE8E5;
+  --ex:#6A46B4;
+  --ex-bg:#F0EAFB;
+  --role:#2963C0;
+  --role-bg:#E8EFFB;
+  --grid:#9DC09A;
+  --hl:#FFEC9E;
+  --hl-soft:#FFF6D2;
+  --gold:#B7791F;
+  --shadow:rgba(28,31,27,.08);
+  --f-display:"ZCOOL XiaoWei","Songti SC","STSong",serif;
+  --f-print:"Noto Serif SC","Songti SC","STSong","SimSun",serif;
+  --f-hand:"Long Cang","Kaiti SC","STKaiti","KaiTi",cursive;
+  --f-ui:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+  --nav-h:49px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121411;--paper:#1B1E19;--ink:#E4E8DF;--ink-2:#A8AFA3;--rule:#30362D;--off:#7F8678;
+    --pen:#FF7B6C;--pen-bg:#3B211D;--ex:#BBA4F8;--ex-bg:#2B2442;--role:#86B4FF;--role-bg:#1C2B44;
+    --grid:#46684A;--hl:#5A4C1A;--hl-soft:#2F2B18;--gold:#E8B54D;--shadow:rgba(0,0,0,.4);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121411;--paper:#1B1E19;--ink:#E4E8DF;--ink-2:#A8AFA3;--rule:#30362D;--off:#7F8678;
+  --pen:#FF7B6C;--pen-bg:#3B211D;--ex:#BBA4F8;--ex-bg:#2B2442;--role:#86B4FF;--role-bg:#1C2B44;
+  --grid:#46684A;--hl:#5A4C1A;--hl-soft:#2F2B18;--gold:#E8B54D;--shadow:rgba(0,0,0,.4);
+  color-scheme:dark;
+}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.7}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:40;background:var(--bg)}
+.wrap{max-width:1120px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{text-wrap:balance}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.92em;word-break:break-all}
+.muted{color:var(--ink-2)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+[hidden]{display:none !important}
+
+/* header + paper chooser + steps */
+.top .wrap{padding-block:30px 20px}
+.kicker{font-family:var(--f-hand);color:var(--pen);font-size:21px;line-height:1.2;margin:0}
+.top h1{font-family:var(--f-display);font-weight:400;font-size:clamp(30px,5.2vw,42px);line-height:1.2;margin:6px 0 10px;letter-spacing:.02em}
+.sub{color:var(--ink-2);max-width:46em;margin:0}
+.papers{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-top:20px}
+.pcard{display:flex;flex-direction:column;gap:1px;padding:9px 12px 10px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);text-decoration:none;border-radius:4px;min-width:0}
+.pcard:hover{border-color:var(--ink-2)}
+.pcard:focus-visible{outline:2px solid var(--role);outline-offset:1px}
+.pcard[aria-current="page"]{border-color:var(--pen);box-shadow:inset 0 0 0 1px var(--pen)}
+.pcard .py{font-family:var(--f-hand);color:var(--pen);font-size:19px;line-height:1.15}
+.pcard .pn{font-weight:700;font-size:14px}
+.pcard .pt{font-family:var(--f-print);font-size:12.5px;color:var(--ink-2);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pcard .pb{font-size:11.5px;color:var(--role);margin-top:2px}
+.pcard.ovc .py{color:var(--role)}
+.steps{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:var(--bg);border-block:1px solid var(--rule)}
+.navrow{display:flex;align-items:center;gap:8px}
+.psel{flex:none;display:flex;align-items:center}
+.psel select{font:inherit;font-size:13.5px;line-height:1.3;padding:5px 8px;border:1px solid var(--rule);border-radius:4px;background:var(--paper);color:var(--ink);max-width:9em}
+.psel select:focus-visible{outline:2px solid var(--role);outline-offset:1px}
+.steps ol{list-style:none;margin:0;padding:0;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0}
+.steps ol::-webkit-scrollbar{display:none}
+.steps a{display:flex;align-items:baseline;gap:6px;padding:11px 10px 10px;color:var(--ink-2);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent}
+.steps a .n{font-family:var(--f-hand);color:var(--pen);font-size:19px;line-height:1}
+.steps a:hover{color:var(--ink)}
+.steps a[aria-current="true"]{color:var(--ink);border-bottom-color:var(--pen)}
+.steps a:focus-visible{outline:2px solid var(--role);outline-offset:-2px}
+
+/* sections */
+.pbanner{scroll-margin-top:calc(var(--nav-h) + env(safe-area-inset-top,0px))}
+.pbanner .wrap{padding-block:28px 0}
+.pbanner h2{font-family:var(--f-display);font-weight:400;font-size:clamp(25px,4vw,33px);line-height:1.25;margin:4px 0 6px}
+.pbanner .by{color:var(--ink-2);margin:0;font-size:14px}
+.sec{scroll-margin-top:calc(var(--nav-h) + env(safe-area-inset-top,0px))}
+.sec > .wrap{padding-block:40px 30px}
+.sec + .sec{border-top:1px solid var(--rule)}
+.sec-h{display:flex;align-items:baseline;gap:12px;margin:0 0 6px}
+.sec-h .n{font-family:var(--f-hand);color:var(--pen);font-size:36px;line-height:1}
+.sec-h h2{font-family:var(--f-display);font-weight:400;font-size:29px;line-height:1.25;margin:0}
+.lead{max-width:46em;color:var(--ink-2);margin:0 0 20px}
+.paper{background:var(--paper);border:1px solid var(--rule);box-shadow:0 1px 2px var(--shadow)}
+.box-h{font-family:var(--f-display);font-weight:400;font-size:21px;line-height:1.3;margin:0 0 6px}
+
+/* marks */
+.mk{font-family:var(--f-hand);font-weight:400;color:var(--pen);font-size:1.3em;line-height:0;margin:0 .06em}
+.mk.ex{color:var(--ex)}
+.mk.num{font-family:var(--f-ui);font-size:1em;font-weight:700}
+.mk.star{font-family:var(--f-ui);font-size:.82em;line-height:0;color:var(--gold);margin:0 .08em 0 0}
+.tag{font-family:var(--f-hand);color:var(--pen);font-size:.78em;line-height:0;position:relative;top:.3em;margin-right:.14em}
+.tag.ex{color:var(--ex)}
+.g{display:inline-flex;align-items:baseline;white-space:nowrap}
+.g .mk{font-size:1.2em;line-height:1}
+.g .tag{top:.15em;line-height:1}
+.g.off{color:var(--off)}
+.g.ex{color:var(--ex)}
+.o{display:inline-block;padding:0 .5em;border:1px solid currentColor;border-radius:3px;line-height:1.65;font-size:.94em;white-space:nowrap}
+.o-shi{color:var(--ex)}
+.o-li{color:var(--pen)}
+.o-ting{color:var(--pen);background:var(--pen-bg);border-color:transparent}
+.o-wu{color:var(--off)}
+
+/* buttons */
+.btn{font:inherit;font-size:13.5px;line-height:1.4;padding:6px 12px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);border-radius:4px;cursor:pointer}
+.btn:hover{border-color:var(--ink-2)}
+.btn:disabled{opacity:.45;cursor:default}
+.btn:focus-visible{outline:2px solid var(--role);outline-offset:1px}
+.btn.primary{border-color:var(--pen);color:var(--pen)}
+
+/* step 1 */
+.read-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:18px}
+.prompt{padding:18px 20px;font-family:var(--f-print);line-height:1.95}
+.prompt .q{margin:0}
+.prompt .q b{font-family:var(--f-ui)}
+.prompt ol{padding-left:1.6em;margin:8px 0 0;font-size:14.5px;color:var(--ink-2)}
+.three{padding:18px 20px}
+.three dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px 16px;margin:0;align-items:baseline}
+.three dt{font-family:var(--f-hand);color:var(--role);font-size:22px;line-height:1.2;white-space:nowrap}
+.three dd{margin:0}
+.legend{margin-top:18px;padding:16px 20px}
+.legend > p{margin:0 0 10px;color:var(--ink-2);max-width:46em}
+.tbl{overflow-x:auto}
+.legend table{width:100%;border-collapse:collapse;font-size:14.5px}
+.legend th,.legend td{text-align:left;padding:9px 12px 9px 0;border-top:1px solid var(--rule);vertical-align:baseline}
+.legend th{font-weight:400;color:var(--ink-2);font-size:13px}
+.legend td:first-child{white-space:nowrap;width:4.5em}
+.legend td:last-child{color:var(--ink-2)}
+.legend ul{margin:12px 0 0;padding-left:1.2em;color:var(--ink-2);font-size:14px}
+
+/* step 2 */
+.mark-top{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin:0 0 16px}
+.switch{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--ink-2);cursor:pointer}
+.switch input{width:16px;height:16px;accent-color:var(--pen);margin:0}
+.hint{font-size:14px;color:var(--ink-2)}
+.mark-layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:24px;align-items:start}
+.mats{display:flex;flex-direction:column;gap:18px;min-width:0}
+.mat{padding:16px 20px 8px;min-width:0}
+.mat-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 14px;margin-bottom:6px}
+.mat-h h3{font-family:var(--f-print);font-weight:700;font-size:16px;margin:0}
+.gist{font-family:var(--f-hand);color:var(--pen);font-size:20px;line-height:1.25}
+.mtext{font-family:var(--f-print);font-size:16px;line-height:2.15;max-width:40em}
+.para{margin:0 0 .45em;text-indent:2em}
+.s{cursor:pointer;border-radius:2px;-webkit-box-decoration-break:clone;box-decoration-break:clone;transition:background-color .15s}
+.s:hover{background:var(--hl-soft)}
+.s.sel{background:var(--hl)}
+.s:focus-visible{outline:2px solid var(--role);outline-offset:1px}
+.dim .s.off{color:var(--off)}
+.pc.follow{text-decoration:underline wavy var(--ex);text-decoration-thickness:1px;text-underline-offset:6px}
+details.xt summary{cursor:pointer;color:var(--ink-2);font-family:var(--f-ui);font-size:14px;padding:2px 0 8px}
+details.xt summary:focus-visible{outline:2px solid var(--role);outline-offset:2px}
+#card{position:sticky;top:calc(var(--nav-h) + env(safe-area-inset-top,0px) + 16px);max-height:calc(100vh - var(--nav-h) - 48px);overflow:auto;padding:16px 18px}
+.card-intro p{margin:0 0 12px;color:var(--ink-2);font-size:14px}
+.outs{list-style:none;margin:0 0 14px;padding:0;display:flex;flex-direction:column;gap:8px}
+.outs li{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.card-h{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px}
+.where{font-size:13px;color:var(--ink-2)}
+.where .sid{color:var(--ink);font-variant-numeric:tabular-nums}
+.navb{display:flex;gap:6px}
+.btn.close{display:none}
+.jd{padding:10px 0 4px;border-top:1px dashed var(--rule)}
+.jd .q{font-family:var(--f-print);font-size:14px;margin:0 0 6px;color:var(--ink-2)}
+.jd dl{display:grid;grid-template-columns:3.4em minmax(0,1fr);gap:7px 10px;margin:0;font-size:14px;line-height:1.6}
+.jd dt{color:var(--ink-2)}
+.jd dd{margin:0;min-width:0}
+.arrow{color:var(--ink-2);margin:0 .4em}
+.use{color:var(--role)}
+.rest,.xi-note{font-size:13.5px;color:var(--ink-2);margin:8px 0 0}
+
+/* step 3 */
+.gridbox{padding:16px 20px 12px;margin-bottom:22px}
+.kind{display:inline-block;font-family:var(--f-ui);font-size:12.5px;line-height:1.6;padding:0 8px;border:1px solid var(--role);color:var(--role);border-radius:3px;margin-left:10px;vertical-align:.2em;white-space:nowrap}
+.gsent{font-family:var(--f-print);font-size:15.5px;line-height:2.05;margin:6px 0 4px}
+.gtext{margin:4px 0 12px;font-size:14px;color:var(--ink-2)}
+.gtext b{color:var(--ink);font-weight:700}
+.embed{list-style:none;margin:0;padding:0}
+.embed li{display:grid;grid-template-columns:2.2em minmax(6em,auto) minmax(0,1fr);gap:4px 12px;align-items:baseline;padding:8px 0;border-top:1px solid var(--rule);font-size:14px}
+.embed .big{font-family:var(--f-hand);color:var(--pen);font-size:26px;line-height:1}
+.embed .fn{font-weight:700}
+.embed .fn small{display:block;font-weight:400;color:var(--ink-2);font-size:12.5px}
+.embed .ex{font-family:var(--f-print);color:var(--ink-2)}
+.rej{list-style:none;margin:10px 0 0;padding:0}
+.rej li{padding:9px 0 3px;border-top:1px dashed var(--rule);font-size:14px;color:var(--ink-2)}
+.rej .x{font-family:var(--f-hand);color:var(--pen);font-size:19px;line-height:1;margin-right:6px}
+.rej b{color:var(--ink);font-weight:400;font-family:var(--f-print)}
+.pile-row{display:grid;gap:16px;margin-bottom:16px}
+.pile-open{grid-template-columns:minmax(0,1fr)}
+.pile-faces{grid-template-columns:repeat(auto-fit,minmax(205px,1fr))}
+.pile-end{grid-template-columns:repeat(2,minmax(0,1fr))}
+.heap{padding:14px 16px 10px;min-width:0}
+.heap h3{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px;margin:0 0 2px;font-size:15px;font-weight:700}
+.heap h3 .big{font-family:var(--f-hand);color:var(--pen);font-size:32px;font-weight:400;line-height:1}
+.heap h3 .src{font-weight:400;font-size:12.5px;color:var(--ink-2)}
+.grp{margin-top:10px}
+.grp-h{font-size:13px;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline}
+.its{list-style:none;margin:4px 0 0;padding:0}
+.it{display:grid;grid-template-columns:3.4em minmax(0,1fr) 1.2em;gap:6px;align-items:baseline;padding:4px 0;border-top:1px dashed var(--rule);font-size:13.5px;line-height:1.55}
+.it .id{font-variant-numeric:tabular-nums;color:var(--ink-2);font-size:12px}
+.it .tx{font-family:var(--f-print);min-width:0}
+.it:not(.used) .tx{color:var(--ink-2)}
+.use-dot{font-family:var(--f-hand);color:var(--role);font-size:17px;line-height:1;text-align:right}
+.pile-open .its{columns:2 22em;column-gap:28px}
+.pile-open .it{break-inside:avoid}
+
+/* step 4 */
+.lun{padding:16px 20px 8px;margin-bottom:18px}
+.combo{margin:0 0 10px;color:var(--ink-2);font-size:14px;max-width:48em}
+.lun ol{list-style:none;margin:0;padding:0}
+.lun li{display:grid;grid-template-columns:2em minmax(0,1fr);gap:10px;padding:10px 0;border-top:1px solid var(--rule);align-items:baseline}
+.lun .big{font-family:var(--f-hand);color:var(--pen);font-size:26px;line-height:1}
+.lun .tx{font-family:var(--f-print);font-size:16px;line-height:2.1}
+.h1{text-decoration:underline 2px var(--pen);text-underline-offset:7px;text-decoration-skip-ink:none}
+.h2{text-decoration:underline 2px var(--role);text-underline-offset:7px;text-decoration-skip-ink:none}
+.lab{font-family:var(--f-ui);font-size:11.5px;line-height:1.5;margin:0 3px;padding:0 5px;border-radius:3px;white-space:nowrap;vertical-align:.15em}
+.lab.l1{color:var(--pen);background:var(--pen-bg)}
+.lab.l2{color:var(--role);background:var(--role-bg)}
+.parts{display:flex;flex-direction:column;gap:18px}
+.part{padding:16px 20px 6px}
+.part-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px;margin-bottom:6px}
+.part-h h3{font-family:var(--f-display);font-weight:400;font-size:23px;margin:0}
+.formula{font-size:13.5px;color:var(--ink-2);margin:0}
+.rows{list-style:none;margin:0;padding:0}
+.row{display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:4px 18px;padding:14px 0;border-top:1px solid var(--rule)}
+.role{font-family:var(--f-hand);color:var(--role);font-size:22px;line-height:1.35}
+.row-b{min-width:0}
+.out{font-family:var(--f-print);font-size:16.5px;line-height:1.95;margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{display:inline-flex;align-items:baseline;gap:6px;padding:2px 9px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);border-radius:3px;font:inherit;font-size:13px;line-height:1.65;cursor:pointer;text-align:left;max-width:100%}
+.chip:hover{border-color:var(--ink-2)}
+.chip:focus-visible{outline:2px solid var(--role);outline-offset:1px}
+.chip .cid{font-variant-numeric:tabular-nums;color:var(--ink-2);font-size:12px}
+.chip .cf{font-family:var(--f-print);min-width:0}
+.chip.self{border-style:dashed;border-color:var(--role);cursor:default;background:transparent}
+.chip.self .lbl{color:var(--role);font-family:var(--f-hand);font-size:16px;line-height:1}
+.how{font-size:13.5px;color:var(--ink-2);margin:8px 0 0}
+.how .lbl,.note .lbl{font-family:var(--f-hand);font-size:17px;margin-right:8px}
+.how .lbl{color:var(--ink-2)}
+.note{margin:8px 0 0;padding:8px 11px;border:1px dashed var(--role);background:var(--role-bg);font-size:13.5px}
+.note .lbl{color:var(--role)}
+.full{margin-top:10px;padding-top:8px;border-top:1px dashed var(--rule);font-family:var(--f-print);font-size:14.5px;line-height:2.05}
+.full p{margin:0 0 4px}
+.fid{font-family:var(--f-ui);font-size:12px;color:var(--ink-2);margin-right:8px;font-variant-numeric:tabular-nums}
+
+/* step 5 */
+.sheet-wrap{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:20px;align-items:start}
+.gridpaper{padding:20px 14px 12px;min-width:0}
+.cells{display:grid;grid-template-columns:repeat(var(--cols,20),var(--cell,24px));row-gap:6px;justify-content:center}
+.c{position:relative;height:var(--cell,24px);display:flex;align-items:center;justify-content:center;border-block:1px solid var(--grid);border-right:1px solid var(--grid);font-family:var(--f-print);font-size:calc(var(--cell,24px) * .6);line-height:1;color:var(--ink);white-space:nowrap;letter-spacing:-.02em}
+.c.c0{border-left:1px solid var(--grid)}
+.c.tt{font-weight:700}
+.c[data-e]{cursor:pointer}
+.c.hv{background:var(--hl-soft)}
+.c.on{background:var(--hl)}
+.c[data-n]::after{content:attr(data-n);position:absolute;right:1px;bottom:0;font:8px/1 var(--f-ui);color:var(--ink-2);letter-spacing:0}
+.c:focus-visible{outline:2px solid var(--role);outline-offset:1px;z-index:1}
+.count{font-size:13px;color:var(--ink-2);margin:14px 4px 0}
+#sheetInfo{position:sticky;top:calc(var(--nav-h) + env(safe-area-inset-top,0px) + 16px);padding:14px 16px}
+#sheetInfo > p.muted{margin:0;font-size:14px}
+.si-h{display:flex;align-items:baseline;gap:10px;margin:0 0 4px}
+.si-part{font-size:13px;color:var(--ink-2)}
+
+/* step 6 + overview */
+.cmp{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-bottom:16px}
+.cmp > div{padding:14px 18px 10px;min-width:0}
+.cmp h3{font-size:13px;color:var(--ink-2);font-weight:400;margin:0}
+.cmp .t{font-family:var(--f-display);font-size:20px;line-height:1.4;margin:2px 0 8px}
+.cmp ol{margin:0;padding-left:1.5em;font-family:var(--f-print);font-size:15px;line-height:1.95}
+.cmp li{padding:2px 0}
+.verdict{margin:0 0 18px;padding:10px 14px;border:1px dashed var(--role);background:var(--role-bg);font-size:14px;max-width:52em}
+.verdict .lbl{font-family:var(--f-hand);color:var(--role);font-size:18px;margin-right:8px}
+.block{padding:14px 18px 8px;margin-bottom:16px}
+.block > p{margin:0 0 8px;color:var(--ink-2);font-size:14px;max-width:48em}
+.uses{list-style:none;margin:0;padding:0}
+.uses li{padding:8px 0;border-top:1px solid var(--rule);font-size:14px}
+.uses .u-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;font-size:13px;color:var(--ink-2)}
+.uses .u-r{color:var(--role);font-family:var(--f-hand);font-size:18px;line-height:1}
+.uses .u-id{font-variant-numeric:tabular-nums;color:var(--ink)}
+.uses .u-t{font-family:var(--f-print);margin:2px 0 0}
+.uses li.odd{background:var(--hl-soft);margin-inline:-8px;padding-inline:8px}
+.flag{font-size:12px;color:var(--pen);border:1px solid currentColor;border-radius:3px;padding:0 6px;line-height:1.6;white-space:nowrap}
+.conf{list-style:none;margin:0;padding:0}
+.conf li{padding:10px 0;border-top:1px solid var(--rule);font-size:14.5px}
+.conf .c-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin-bottom:2px}
+.conf .c-t{font-family:var(--f-hand);color:var(--pen);font-size:19px;line-height:1.2}
+.conf .c-id{font-size:12.5px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.conf .c-p{font-size:12.5px;color:var(--role)}
+.conf p{margin:0;max-width:48em}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.prow{padding:14px 16px 10px;min-width:0}
+.prow h3{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin:0 0 6px;font-size:15px}
+.prow h3 a{color:var(--ink);text-decoration:none}
+.prow h3 a:hover{text-decoration:underline}
+.prow dl{display:grid;grid-template-columns:3.6em minmax(0,1fr);gap:5px 10px;margin:0;font-size:13.5px;line-height:1.6}
+.prow dt{color:var(--ink-2)}
+.prow dd{margin:0;min-width:0}
+.ok{color:var(--role)}
+.bad{color:var(--pen)}
+.ggrp{padding:16px 20px 8px;margin-bottom:16px}
+.ggrp > p{margin:0 0 8px;max-width:48em}
+.fix{margin:6px 0 10px;padding:8px 12px;border-left:3px solid var(--role);background:var(--role-bg);font-size:14px;max-width:48em}
+.fix .lbl{font-family:var(--f-hand);color:var(--role);font-size:17px;margin-right:8px}
+
+ul.rule{margin:0;padding-left:1.2em;font-size:14.5px;max-width:48em}
+ul.rule li{padding:3px 0}
+.ptitle{font-family:var(--f-display);font-size:18px;line-height:1.4;margin:0 0 8px}
+ul.plog{list-style:none;margin:10px 0 0;padding:8px 0 0;border-top:1px dashed var(--rule);font-size:13px;color:var(--ink-2)}
+ul.plog li{padding:2px 0}
+ul.plog b{font-weight:400;color:var(--pen);font-family:var(--f-hand);font-size:16px}
+.foot .wrap{padding-block:22px 44px;font-size:12.5px;color:var(--ink-2)}
+.foot p{margin:0 0 4px}
+
+@media (max-width:959px){
+  .mark-layout,.sheet-wrap{grid-template-columns:minmax(0,1fr)}
+  #card{position:fixed;left:0;right:0;bottom:0;top:auto;z-index:35;max-height:48vh;border-width:1px 0 0;box-shadow:0 -10px 30px var(--shadow);padding:12px max(16px,env(safe-area-inset-right,0px)) calc(14px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));display:none}
+  body.sheet-on:not(.away) #card{display:block}
+  .btn.close{display:inline-block}
+  #sheetInfo{position:static}
+}
+@media (max-width:820px){.read-grid{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:720px){.cmp{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:640px){
+  .row{grid-template-columns:minmax(0,1fr)}
+  .mat,.part,.gridbox,.lun,.ggrp{padding-inline:16px}
+  .embed li{grid-template-columns:2.2em minmax(0,1fr)}
+  .embed .ex{grid-column:2}
+}
+@media (max-width:560px){.pile-end{grid-template-columns:minmax(0,1fr)}.psel select{max-width:7.5em}}
+@media (prefers-reduced-motion: reduce){.s{transition:none}}
+</style>
+
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <p class="kicker" id="hKicker"></p>
+  <h1 id="hTitle"></h1>
+  <p class="sub" id="hSub"></p>
+  <nav class="papers" id="papers" aria-label="选卷"></nav>
+</div></header>
+
+<nav class="steps" aria-label="步骤"><div class="wrap navrow">
+  <label class="psel" id="pselWrap"><span class="sr">选卷</span><select id="paperSel"></select></label>
+  <ol id="stepList"></ol>
+</div></nav>
+
+<main>
+<div id="pv">
+  <div class="pbanner" id="pbanner"><div class="wrap"><p class="kicker" id="pbKicker"></p><h2 id="pbTitle"></h2><p class="by" id="pbBy"></p></div></div>
+
+  <section class="sec" id="s-read"><div class="wrap">
+    <div class="sec-h"><span class="n">1</span><h2>读题</h2></div>
+    <p class="lead" id="readLead"></p>
+    <div class="read-grid">
+      <div class="paper prompt" id="prompt"></div>
+      <div class="paper three" id="three"></div>
+    </div>
+    <div class="paper legend">
+      <h3 class="box-h">读的时候划什么</h3>
+      <p>一句读完问两件事：<strong>读完多了什么</strong>，<strong>好不好看</strong>。句式（是什么、做了什么、做成了什么、要什么）只帮你想它去哪。</p>
+      <div class="tbl"><table>
+        <thead><tr><th scope="col">记号</th><th scope="col">什么时候划</th><th scope="col">先往哪放</th></tr></thead>
+        <tbody>
+          <tr><td><span class="g"><b class="mk">{ }</b><span class="tag">面</span></span></td><td><span class="o o-li">多了一个道理</span>；宽的「做了什么」（没有数字、地名、个案）也算</td><td>论点、道理</td></tr>
+          <tr><td><span class="g"><b class="mk ex">/</b><span class="tag ex">面</span></span></td><td><span class="o o-shi">多了一件具体的事</span>：带数、带地名、带项目</td><td>例子</td></tr>
+          <tr><td><span class="g"><b class="mk star">★</b></span></td><td>加在 { } 或 / 上：又好看又有料。/★ 只标数字亮眼的事</td><td>显眼的地方：标题、论点、开头、结尾；能架几面就当架子</td></tr>
+          <tr><td><span class="g"><b class="mk">( )</b><span class="tag">面</span></span></td><td><span class="o o-ting">没多什么，但好听</span>，说的是一面</td><td>段尾回扣</td></tr>
+          <tr><td><span class="g"><b class="mk">( )</b><span class="tag">尾</span></span></td><td><span class="o o-ting">没多什么，但好听</span>，说的是整个广东或更大</td><td>标题、开头、结尾</td></tr>
+          <tr><td><span class="g"><b class="mk num">③</b></span></td><td>广东干得好的、干得不好的、成效、要答的题</td><td>开头·对广东而言</td></tr>
+          <tr><td><span class="g"><b class="mk num">①</b><b class="mk num">④</b></span></td><td>总书记原话；材料给的一串做法</td><td>开头·引语；开头·做什么</td></tr>
+          <tr><td><span class="g off">不划</span></td><td><span class="o o-wu">没多什么，也不好听</span>；或者太碎</td><td>—</td></tr>
+        </tbody>
+      </table></div>
+      <ul>
+        <li id="faceWords"></li>
+        <li>好看认长相：对仗或同一句式重复、比喻、并非……而是……、不仅……更……、诗句俗语、画面。</li>
+        <li>按分句判：长句的尾巴上常挂着好用的半句。好听但只说一个个案的，不另划，跟着例子走。</li>
+        <li>拼的时候找句子：看到就用，记得就用；找不到看附近；附近也没有，翻开头（材料一、二）。</li>
+      </ul>
+    </div>
+  </div></section>
+
+  <section class="sec" id="s-mark"><div class="wrap">
+    <div class="sec-h"><span class="n">2</span><h2>划句子</h2></div>
+    <p class="lead">一句读完问自己：脑子里多了什么？多了一件具体的事，划 /；多了一个道理，或者一句宽的「做了什么」，划 { }；什么都没多但好听，打括号；又好看又有料的，再加个 ★；广东的事打序号。什么都没多也不好听，不划。</p>
+    <div class="mark-top">
+      <button class="btn primary" type="button" id="startRead">从头一句句读</button>
+      <label class="switch" for="dimToggle"><input type="checkbox" id="dimToggle" checked>不划的句子淡一点</label>
+      <span class="hint">或者点任意一句，看它为什么这么划。</span>
+    </div>
+    <div class="mark-layout dim" id="markLayout">
+      <div class="mats" id="mats"></div>
+      <aside class="paper" id="card" aria-live="polite">
+        <div class="card-intro">
+          <h3 class="box-h">判定卡</h3>
+          <p>点左边任意一句，这里写出：读完多了什么、好不好看、记号、为什么这么划，以及后来用在成稿哪里。</p>
+          <ul class="outs">
+            <li><span class="o o-shi">多了一件具体的事</span><span class="g"><b class="mk ex">/</b></span></li>
+            <li><span class="o o-li">多了一个道理</span><span class="g"><b class="mk">{ }</b></span></li>
+            <li><span class="o o-ting">没多什么，但好听</span><span class="g"><b class="mk">( )</b></span></li>
+            <li><span class="o o-wu">没多什么，也不好听</span><span class="g off">不划</span></li>
+          </ul>
+          <button class="btn primary" type="button" data-act="start">从头一句句读</button>
+        </div>
+      </aside>
+    </div>
+  </div></section>
+
+  <section class="sec" id="s-pile"><div class="wrap">
+    <div class="sec-h"><span class="n">3</span><h2>找格子 · 摆料</h2></div>
+    <p class="lead">划完先找格子：材料里一定给了，要么一句话列全，要么一块材料一格。拿例子去嵌，每组例子都有地方放、不用硬塞的那套就是。再扫一眼有没有能架几面的句式，有就用，没有就算。</p>
+    <div id="grid"></div>
+    <p class="lead" id="pileLead"></p>
+    <div id="pile"></div>
+  </div></section>
+
+  <section class="sec" id="s-build"><div class="wrap">
+    <div class="sec-h"><span class="n">4</span><h2>拼文章</h2></div>
+    <p class="lead" id="buildLead"></p>
+    <div id="lun"></div>
+    <div class="parts" id="parts"></div>
+  </div></section>
+
+  <section class="sec" id="s-sheet"><div class="wrap">
+    <div class="sec-h"><span class="n">5</span><h2>誊稿纸</h2></div>
+    <p class="lead">誊到方格稿纸上。一格一字，标点占一格，两个数字或字母挤一格，标点不落在行首。点任意一句，看它从哪来。</p>
+    <div class="sheet-wrap">
+      <div class="paper gridpaper" id="gridpaper"><div class="cells" id="cells"></div><p class="count" id="count"></p></div>
+      <aside class="paper" id="sheetInfo" aria-live="polite"><p class="muted">点稿纸上任意一句，这里显示它在文章里干什么、用了哪几块料、怎么改的。</p></aside>
+    </div>
+  </div></section>
+
+  <section class="sec" id="s-check"><div class="wrap">
+    <div class="sec-h"><span class="n">6</span><h2>对答案</h2></div>
+    <p class="lead">写完再翻参考范文（只用参考范文，不用高分卷）：格子、论点和它比怎么样；参考范文从材料里拿的句子，当时都划成了什么；最后是考场记录：哪里破了规矩、哪里卡住、哪里顺手。</p>
+    <div id="check"></div>
+  </div></section>
+</div>
+
+<div id="ov" hidden>
+  <section class="sec" id="o-rule"><div class="wrap">
+    <div class="sec-h"><span class="n">一</span><h2>人用版规则</h2></div>
+    <p class="lead" id="oRuleLead"></p>
+    <div id="oRule"></div>
+  </div></section>
+  <section class="sec" id="o-papers"><div class="wrap">
+    <div class="sec-h"><span class="n">二</span><h2>八篇一览</h2></div>
+    <p class="lead" id="oPapersLead"></p>
+    <div class="pgrid" id="oPapers"></div>
+  </div></section>
+  <section class="sec" id="o-ref"><div class="wrap">
+    <div class="sec-h"><span class="n">三</span><h2>参考范文用的料，当时划没划</h2></div>
+    <p class="lead" id="oRefLead"></p>
+    <div id="oRef"></div>
+  </div></section>
+</div>
+</main>
+
+<footer class="foot"><div class="wrap" id="foot"></div></footer>
+
+<script>
+(() => {
+  const PAPERS = [{"key":"2025省市","meta":{"key":"2025省市","year":"2025","label":"2025 省市卷","kicker":"2025 广东省考 · 省市卷 · 问题三","essay_title":"抓住创新“牛鼻子”　做好创新大文章","essay_by":"模拟考生：按人用版规则写（Claude 模拟，不是本人作答）","question":"习近平总书记指出，“新质生产力的显著特点是创新”，“必须继续做好创新这篇大文章，推动新质生产力加快发展”。请结合给定材料，联系实际，围绕广东“继续做好创新这篇大文章”进行深入思考，自拟题目，撰写一篇议论文。（50 分）","reqs":["文章主题与给定材料联系紧密，观点正确，思想性强；","论点鲜明，论据确凿，论证严密，逻辑性强；","结构完整，条理清晰，表述准确，行文流畅；","篇幅 1000 字左右。"],"A":"创新（科技、产业、绿色、制度）","B":"新质生产力（题干引语的后半句）","rel":"主题题：题干是一件要做的事，不是“A 是 B 的……”。关系藏在引语里：做好创新大文章，推动新质生产力加快发展。","qtype":"主题题（做什么）","xiaoti":"材料四（问题一）、材料五（问题二）","faces":[["科","科技创新","材料三"],["产","产业创新","材料六"],["绿","绿色创新","材料七"],["制","制度创新","材料八"]],"pile_lead":"四块材料各讲一种创新，一块一格：材料三科技、材料六产业、材料七绿色、材料八体制机制。材料三、六的开头句都是“向‘×’……”，科技、产业两段直接拿来当论点；绿色、制度两段套不上，用本块划了 ★ 的原句。","sources":"材料原文：03_真题/文本/2025_省市卷.txt　成稿：按这套方法拼的，不是本人作答","grid":{"kind":"一块材料一格","sid":null,"text":"材料三科技、材料六产业、材料七绿色、材料八体制机制","embed":[["科","材料三","大科学装置、人工智能和机器人、高端手术设备"],["产","材料六","传统产业“老树发新芽”、工业机器人、新能源汽车、人工智能产业"],["绿","材料七","垃圾发电、红树林碳汇、氢基竖炉"],["制","材料八","深圳科技创新条例、云浮现场办公会、东莞“哪吒2”订单"]],"rejected":[["1-3-1","技术、业态模式、管理和制度层面的创新","只有三格，材料七的绿色（垃圾发电、碳汇、氢冶金）没地方放"]]},"combo":{"name":"两半句（科技、产业一个架子，绿色、制度各用原句）","labels":[["做什么","做什么"],["做什么","做什么"],["是什么","是什么"],["是什么","是什么"]],"why":"材料三、六的开头句都是“向‘×’……”（向“高”攀登、向“实”聚焦、向“新”而行），科技、产业两面套上了；绿色、制度两面材料里没有这个句式，不硬推，各用本块的 ★ 句。"},"ref_note":"格子和参考范文一样（科技、产业、绿色、制度），标题只差一对引号，科技、产业两句论点也和参考范文同用材料里的“向‘×’”句式；参考范文把这个架子套满四面（向“绿”提质、向“活”发力），考生绿色、制度两面没硬套、用了材料原句，参考范文这两面的后半（“含绿量”、要素集聚）在考生段里落在道理位。参考范文的标题和论点在模拟之前已经在对话里出现过，标题和前两句撞上不能算盲测。"},"mats":[{"k":"1","name":"材料一","gist":"中央：创新、新质生产力；总书记对广东","kind":"essay","paras":[["1-1-1","1-1-2","1-1-3","1-1-4"],["1-2-1"],["1-3-1"],["1-4-1"],["1-5-1"],["1-6-1"],["1-7-1"],["1-8-1","1-8-2"],["1-9-1","1-9-2","1-9-3"],["1-10-1","1-10-2"]],"fold":""},{"k":"2","name":"材料二","gist":"广东的家底：成绩、产业、人才","kind":"essay","paras":[["2-1-1"],["2-2-1"],["2-3-1"],["2-4-1","2-4-2"],["2-5-1","2-5-2","2-5-3"],["2-6-1","2-6-2","2-6-3","2-6-4","2-6-5"],["2-7-1","2-7-2"],["2-8-1","2-8-2"]],"fold":""},{"k":"3","name":"材料三","gist":"科技创新：向高、向实、攻关","kind":"essay","paras":[["3-1-1","3-1-2","3-1-3"],["3-2-1"],["3-3-1","3-3-2","3-3-3"],["3-4-1","3-4-2","3-4-3","3-4-4"],["3-5-1","3-5-2","3-5-3","3-5-4","3-5-5"],["3-6-1","3-6-2"]],"fold":""},{"k":"4","name":"材料四","gist":"小题一：S 市企业是创新主体","kind":"xiaoti","paras":[["4-1-1"],["4-2-1","4-2-2","4-2-3","4-2-4"],["4-3-1","4-3-2"],["4-4-1","4-4-2","4-4-3"],["4-5-1","4-5-2","4-5-3","4-5-4"],["4-6-1","4-6-2","4-6-3","4-6-4","4-6-5"],["4-7-1","4-7-2","4-7-3"],["4-8-1","4-8-2"]],"fold":"小题一的材料：S 市企业创新主体。做小题时读过，作文没用到（展开原文）"},{"k":"5","name":"材料五","gist":"小题二：G 市科研成果转化","kind":"xiaoti","paras":[["5-1-1","5-1-2"],["5-2-1","5-2-2","5-2-3","5-2-4","5-2-5"],["5-3-1","5-3-2","5-3-3"],["5-4-1","5-4-2","5-4-3","5-4-4","5-4-5"],["5-5-1","5-5-2","5-5-3","5-5-4","5-5-5"],["5-6-1","5-6-2","5-6-3","5-6-4"],["5-7-1","5-7-2","5-7-3","5-7-4"]],"fold":"小题二的材料：G 市科研成果转化。做小题时读过，作文没用到（展开原文）"},{"k":"6","name":"材料六","gist":"产业创新：三类产业并举","kind":"essay","paras":[["6-1-1","6-1-2","6-1-3"],["6-2-1","6-2-2"],["6-3-1","6-3-2","6-3-3","6-3-4"],["6-4-1","6-4-2","6-4-3","6-4-4"],["6-5-1","6-5-2","6-5-3","6-5-4"],["6-6-1","6-6-2","6-6-3","6-6-4"],["6-7-1","6-7-2"]],"fold":""},{"k":"7","name":"材料七","gist":"绿色创新：新质生产力就是绿色生产力","kind":"essay","paras":[["7-1-1"],["7-2-1","7-2-2","7-2-3"],["7-3-1","7-3-2","7-3-3"],["7-4-1","7-4-2"],["7-5-1","7-5-2"],["7-6-1","7-6-2"],["7-7-1"],["7-8-1"]],"fold":""},{"k":"8","name":"材料八","gist":"制度创新：体制机制活、要素资源聚","kind":"essay","paras":[["8-1-1"],["8-2-1"],["8-3-1","8-3-2"],["8-4-1","8-4-2","8-4-3"],["8-5-1","8-5-2","8-5-3","8-5-4","8-5-5"],["8-6-1","8-6-2","8-6-3","8-6-4"],["8-7-1"]],"fold":""}],"sents":{"1-1-1":{"id":"1-1-1","m":"1","p":1,"xi":false,"pieces":[{"t":"创新是第一动力。","mk":"{}","f":"总","o":"理","form":"是什么","dest":"道理料（管整篇）","why":"一个道理：创新是第一动力","used":["开头·道理句"]}]},"1-1-2":{"id":"1-1-2","m":"1","p":1,"xi":false,"pieces":[{"t":"创新才能把握时代、引领时代。","mk":"{}","f":"总","o":"理","form":"是什么","dest":"道理料（管整篇）","why":"一个道理：创新才能把握时代、引领时代——“把握时代、引领时代”同一句式重复，好看","st":true,"used":["开头·道理句"]}]},"1-1-3":{"id":"1-1-3","m":"1","p":1,"xi":false,"pieces":[{"t":"习近平总书记指出：“必须继续做好创新这篇大文章，推动新质生产力加快发展。”","mk":"①","f":null,"o":"理","form":"要什么（题干里的总书记原话）","dest":"开头·引语","why":"题干给的总书记原话——开头引语","used":["开头·引语"]}]},"1-1-4":{"id":"1-1-4","m":"1","p":1,"xi":false,"pieces":[{"t":"（摘自习近平总书记在二十届中央政治局第十一次集体学习时的讲话）","mk":null,"f":null,"o":"无","form":"出处","dest":"不划","why":"注明出处","used":[]}]},"1-2-1":{"id":"1-2-1","m":"1","p":2,"xi":false,"pieces":[{"t":"2023年9月，习近平总书记在黑龙江视察时，首次提出“新质生产力”，强调“要整合科技创新资源，引领发展战略性新兴产业和未来产业，加快形成新质生产力”。","mk":null,"f":null,"o":"事","form":"中央做了什么（历程）","dest":"不划","why":"新质生产力的来历，作文用不上","used":[]}]},"1-3-1":{"id":"1-3-1","m":"1","p":3,"xi":false,"pieces":[{"t":"2024年1月，习近平总书记系统阐释新质生产力的概念和内涵：“新质生产力是创新起主导作用，摆脱传统经济增长方式、生产力发展路径，具有高科技、高效能、高质量特征，符合新发展理念的先进生产力质态”，“","used":[]},{"t":"新质生产力的显著特点是创新，既包括技术和业态模式层面的创新，也包括管理和制度层面的创新”。","mk":"{}","f":"总","o":"理","form":"是什么","dest":"道理料（管整篇）","why":"一个道理，还列了几种创新——“既包括……也包括……”同一句式重复","st":true,"used":["开头·引语"]}]},"1-4-1":{"id":"1-4-1","m":"1","p":4,"xi":false,"pieces":[{"t":"2024年4月，习近平总书记在重庆视察时强调：“加强重大科技攻关，强化科技创新和产业创新深度融合，积极培育新业态新模式新动能，因地制宜发展新质生产力。”","mk":"{}","f":"总","o":"理","form":"要什么","dest":"论点／道理料（管整篇）","why":"一条要求：科技创新和产业创新深度融合","used":[]}]},"1-5-1":{"id":"1-5-1","m":"1","p":5,"xi":false,"pieces":[{"t":"2024年7月，党的二十届三中全会召开，习近平总书记在会上强调：“注重构建支持全面创新体制机制”，“促进各类先进生产要素向发展新质生产力集聚”。","mk":"{}","f":"制","o":"理","form":"要什么","dest":"论点／道理料","why":"一条要求：构建支持全面创新的体制机制，促进要素集聚——制度那面","used":["制度创新段·道理"]}]},"1-6-1":{"id":"1-6-1","m":"1","p":6,"xi":false,"pieces":[{"t":"2024年12月31日，习近平总书记在新年贺词中指出：“我们因地制宜培育新质生产力，新产业新业态新模式竞相涌现，新能源汽车年产量首次突破1000万辆，集成电路、人工智能、量子通信等领域取得新成果。”","mk":null,"f":null,"o":"事","form":"全国做成了什么","dest":"不划","why":"全国的成绩，例子只要广东的事","used":[]}]},"1-7-1":{"id":"1-7-1","m":"1","p":7,"xi":false,"pieces":[{"t":"习近平总书记关于新质生产力的一系列重要论述，为我国经济社会创新发展指明了新方向、提出了新要求，各地迅速掀起发展新质生产力的热潮。","mk":null,"f":null,"o":"无","form":"评价（夸论述）","dest":"不划","why":"夸论述“指明了方向”，什么都没多","used":[]}]},"1-8-1":{"id":"1-8-1","m":"1","p":8,"xi":false,"pieces":[{"t":"2023年4月，习近平总书记视察广东时指出，“","used":[]},{"t":"广东是改革开放的排头兵、先行地、实验区，在中国式现代化建设的大局中地位重要、作用突出","mk":"③","f":null,"o":"事","form":"广东是什么（身份）","dest":"开头·广东出场","why":"总书记说的广东身份：排头兵、先行地、实验区——开头前缀备用","used":[]},{"t":"”，寄望广东“","used":[]},{"t":"在推进中国式现代化建设中走在前列”。","mk":"尾","f":null,"o":"听","form":"要什么（目标）","dest":"结尾","why":"总书记给广东的期望，比题目高一层——结尾落点","used":[]}]},"1-8-2":{"id":"1-8-2","m":"1","p":8,"xi":false,"pieces":[{"t":"作为领跑全国的经济大省、制造业大省，广东的新质生产力故事备受瞩目。","mk":"③","f":null,"o":"事","form":"广东是什么（身份）","dest":"开头·广东出场","why":"经济大省、制造业大省——身份前缀备用","used":[]}]},"1-9-1":{"id":"1-9-1","m":"1","p":9,"xi":false,"pieces":[{"t":"2023年以来，广东已连续三年在新春首个工作日召开全省高质量发展大会。","mk":null,"f":null,"o":"事","form":"广东做了什么（背景）","dest":"不划","why":"开会的背景","used":[]}]},"1-9-2":{"id":"1-9-2","m":"1","p":9,"xi":false,"pieces":[{"t":"中共广东省委书记黄坤明强调，推进产业科技创新、发展新质生产力是广东的战略之举、长远之策，也必将是一场艰苦的竞速赛、耐力赛、接力赛。","mk":"{}","f":"总","o":"理","form":"是什么","dest":"道理料（管整篇）","why":"一个道理：战略之举、长远之策；竞速赛、耐力赛、接力赛——重复加比喻","st":true,"used":[]}]},"1-9-3":{"id":"1-9-3","m":"1","p":9,"xi":false,"pieces":[{"t":"广东要以新的生产力理论为指导，坚持实体经济为本、制造业当家，推动产业科技互促双强，练好高质量发展的“看家本领”，挺起现代化建设的“产业脊梁”。","mk":"{}","f":"产","o":"理","form":"要什么","dest":"论点／道理料","why":"一条要求：练好“看家本领”，挺起“产业脊梁”——比喻","st":true,"used":[]}]},"1-10-1":{"id":"1-10-1","m":"1","p":10,"xi":false,"pieces":[{"t":"岭南春来早，人勤地生宝。","mk":"尾","f":null,"o":"听","form":"画面（诗）","dest":"结尾","why":"一联诗，读完没多什么，但好听——结尾起句","used":[]}]},"1-10-2":{"id":"1-10-2","m":"1","p":10,"xi":false,"pieces":[{"t":"抓住创新这个“牛鼻子”，因地制宜发展新质生产力","mk":"{}","f":"总","o":"理","form":"要什么","dest":"标题","why":"抓住创新这个“牛鼻子”——比喻，短，又扣题，标题用","st":true,"used":["结尾·回收＋落"]},{"t":"，广东高质量发展之路走得更有奔头、更有劲头，一幅百业兴旺、春色满园的美好画卷“粤”然纸上。","mk":"尾","f":null,"o":"听","form":"画面","dest":"结尾","why":"后半没多什么，但好听：画卷“粤”然纸上，说的是整个广东——结尾落点","used":["结尾·回收＋落"]}]},"2-1-1":{"id":"2-1-1","m":"2","p":1,"xi":false,"pieces":[{"t":"大潮起珠江，发展看南粤。","mk":"尾","f":null,"o":"听","form":"画面（诗）","dest":"结尾","why":"一联对句，读完没多什么，但好听——结尾或标题备用","used":[]}]},"2-2-1":{"id":"2-2-1","m":"2","p":2,"xi":false,"pieces":[{"t":"改革开放以来，广东从相对落后的农业省份发展到牵动全球的世界工厂，再到引领全球的智造基地和新兴产业重要策源地，这片革命的热土、改革的热土、发展的热土，依靠“闯”的精神、“创”的劲头、“干”的作风，在生生不息的传承中不断演绎精彩、书写传奇，在历久弥新的演进中始终充满魅力、绽放活力。","mk":"③","f":null,"o":"事","form":"广东做成了什么（过·转变）","dest":"开头·广东出场","why":"从农业省份到世界工厂再到智造基地——开头“转变”那条线备用","used":[]}]},"2-3-1":{"id":"2-3-1","m":"2","p":3,"xi":false,"pieces":[{"t":"2024年，广东地区生产总值迈上14万亿元新台阶，连续36年居全国首位，区域创新能力连续8年全国第一，“深圳-香港-广州”科技集群创新指数连续5年居全球第二，量子纠错新方案、天气预报人工智能大模型入选年度中国科学十大进展，高新技术企业数量、发明专利有效量、PCT国际专利申请量等主要科技指标均居全国首位。","mk":"③","f":null,"o":"事","form":"广东做成了什么（过·成效）","dest":"开头·广东出场","why":"整件事做成了，带数带排名：区域创新能力连续 8 年全国第一——开头“成效”线","used":["开头·对广东而言"]}]},"2-4-1":{"id":"2-4-1","m":"2","p":4,"xi":false,"pieces":[{"t":"观大势，粤港澳大湾区建设纵深推进。","mk":null,"f":null,"o":"事","form":"大势","dest":"不划","why":"大湾区的大势，这篇开头用不上","used":[]}]},"2-4-2":{"id":"2-4-2","m":"2","p":4,"xi":false,"pieces":[{"t":"大湾区向融而进、向新而行、向强而立，经济总量、创新能力、产业结构等优势显著，市场规模庞大，基础设施高度互联，推动粤港澳大湾区成为新发展格局的战略支点、高质量发展的示范地、中国式现代化的引领地。","mk":null,"f":null,"o":"理","form":"大湾区是什么","dest":"不划","why":"说大湾区的地位，离“创新”这篇远","used":[]}]},"2-5-1":{"id":"2-5-1","m":"2","p":5,"xi":false,"pieces":[{"t":"看产业，广东基础雄厚、门类齐全、配套完善。","mk":"/","f":"产","o":"事","form":"广东是什么","dest":"例子","why":"广东的产业家底：门类齐全、配套完善——例子的入口","used":[]}]},"2-5-2":{"id":"2-5-2","m":"2","p":5,"xi":false,"pieces":[{"t":"广东拥有全部31个制造业大类，电子信息制造、汽车、电气机械等15个行业规模位居全国第一。","mk":"/","f":"产","o":"事","form":"广东是什么","dest":"例子","why":"带数：15 个行业规模全国第一——亮眼","st":true,"used":[]}]},"2-5-3":{"id":"2-5-3","m":"2","p":5,"xi":false,"pieces":[{"t":"全国纳入统计的主要工业产品597种，广东生产514种，其中汽车、智能手机、工业机器人、无人机等产品产量连续多年位居全国第一。","mk":"/","f":"产","o":"事","form":"广东是什么","dest":"例子","why":"带数：多种产品产量连续多年全国第一——亮眼","st":true,"used":[]}]},"2-6-1":{"id":"2-6-1","m":"2","p":6,"xi":false,"pieces":[{"t":"数人才，广东广聚天下英才。","mk":"/","f":"制","o":"事","form":"广东是什么","dest":"例子","why":"人才家底的入口：广聚天下英才","used":[]}]},"2-6-2":{"id":"2-6-2","m":"2","p":6,"xi":false,"pieces":[{"t":"东西南北中，发展到广东。","mk":"尾","f":null,"o":"听","form":"画面（俗语）","dest":"结尾","why":"俗语，没多什么，但好听——结尾备用","used":[]}]},"2-6-3":{"id":"2-6-3","m":"2","p":6,"xi":false,"pieces":[{"t":"高质量实施省重大人才工程项目，引进和培育高层次人才，尤其是战略科技人才，高等院校、科研院所、科技领军企业积厚成势；率先出台技能人才发展条例，各类人才加速集聚，创新成果不断涌现，创造活力竞相迸发。","mk":"/","f":"制","o":"事","form":"广东做了什么","dest":"例子","why":"具体：省重大人才工程、技能人才发展条例","used":[]}]},"2-6-4":{"id":"2-6-4","m":"2","p":6,"xi":false,"pieces":[{"t":"截至2024年底，全省研发人员数量超150万，居全国首位。","mk":"/","f":"科","o":"事","form":"广东做成了什么","dest":"例子","why":"带数：研发人员超 150 万，全国首位——亮眼","st":true,"used":[]}]},"2-6-5":{"id":"2-6-5","m":"2","p":6,"xi":false,"pieces":[{"t":"2025年，广东开始实施“百万英才汇南粤”行动计划，计划吸纳100万高校毕业生来粤就业创业。","mk":"/","f":"制","o":"事","form":"广东做了什么","dest":"例子","why":"带数：“百万英才汇南粤”，计划吸纳 100 万毕业生","used":[]}]},"2-7-1":{"id":"2-7-1","m":"2","p":7,"xi":false,"pieces":[{"t":"广东通江达海、融汇中西，改革开放的精神、创新创造的意识、苦干实干的品格深入骨髓、融入基因，一路走来，虽历经风雨但屡创奇迹。","mk":"尾","f":null,"o":"听","form":"广东是什么","dest":"结尾","why":"没多什么，但好听：创新创造的意识融入基因——结尾备用","used":[]}]},"2-7-2":{"id":"2-7-2","m":"2","p":7,"xi":false,"pieces":[{"t":"新时代，广东大力弘扬改革开放精神和特区精神，进一步释放产业优势、市场优势、开放优势，为全球企业在粤发展创造更优的营商环境、更大的发展机遇。","mk":"{}","f":"制","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"广东做的事，但宽：释放产业、市场、开放优势，营商环境——制度那面能用","used":[]}]},"2-8-1":{"id":"2-8-1","m":"2","p":8,"xi":false,"pieces":[{"t":"这份沉甸甸的成绩，是广东改革开放40多年来的奋斗成果，也是加快发展新质生产力、推动高质量发展的坚实基础。","mk":"③","f":null,"o":"事","form":"广东是什么（成效线的接口）","dest":"开头·广东出场","why":"“这份沉甸甸的成绩……是坚实基础”——成效线接到“继续”上","used":["开头·对广东而言"]}]},"2-8-2":{"id":"2-8-2","m":"2","p":8,"xi":false,"pieces":[{"t":"向着新的目标进发，再造一个新广东，广东意气风发，豪情万丈。","mk":"尾","f":null,"o":"听","form":"要什么（号召）","dest":"结尾","why":"号召，没多什么，但好听：再造一个新广东——结尾备用","used":[]}]},"3-1-1":{"id":"3-1-1","m":"3","p":1,"xi":false,"pieces":[{"t":"新质生产力主要由技术革命性突破催生而成。","mk":"{}","f":"科","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：新质生产力由技术革命性突破催生","used":[]}]},"3-1-2":{"id":"3-1-2","m":"3","p":1,"xi":false,"pieces":[{"t":"科技创新能够催生新产业、新模式、新动能，是发展新质生产力的核心要素。","mk":"{}","f":"科","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：科技创新催生新产业、新模式、新动能——“新×”重复，好看","st":true,"used":["开头·做什么","科技创新段·道理"]}]},"3-1-3":{"id":"3-1-3","m":"3","p":1,"xi":false,"pieces":[{"t":"在新一轮产业变革中，科技创新已成为核心驱动力。","mk":"{}","f":"科","o":"理","form":"做成了什么（主语是 A）","dest":"论点／道理料","why":"完成时，但说的是科技创新的作用（核心驱动力）——盖住“已”就是道理，进 { }","used":[]}]},"3-2-1":{"id":"3-2-1","m":"3","p":2,"xi":false,"pieces":[{"t":"近年来，广东加强科技创新，以建设粤港澳大湾区国际科创中心和综合性国家科学中心为牵引，加快构建“基础研究+技术攻关+成果转化+科技金融+人才支撑”全过程创新链，点燃科技创新澎湃引擎，利用科创平台为发展新质生产力提供强有力的支撑。","mk":"/","f":"科","o":"事","form":"广东做了什么","dest":"例子","why":"例子的入口：全过程创新链","used":[]}]},"3-3-1":{"id":"3-3-1","m":"3","p":3,"xi":false,"pieces":[{"t":"广东向“高”攀登，在战略必争领域并跑领跑。","mk":"{}","f":"科","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"宽的“做了什么”：广东向“高”攀登，在战略必争领域并跑领跑——没有数字和个案，算 { }；引号里一个字，好看","st":true,"used":["科技创新段·论点"]}]},"3-3-2":{"id":"3-3-2","m":"3","p":3,"xi":false,"pieces":[{"t":"目前，以鹏城实验室、广州实验室这两个国家实验室为引领，以省实验室、粤港澳联合实验室等为支撑的多层次实验室体系不断完善；“广东强芯”、核心软件攻关等重大科技工程持续推进。","mk":"/","f":"科","o":"事","form":"广东做成了什么","dest":"例子","why":"具体：两个国家实验室领衔的实验室体系","used":[]}]},"3-3-3":{"id":"3-3-3","m":"3","p":3,"xi":false,"pieces":[{"t":"随着散裂中子源、人类细胞谱系、冷泉生态系统、先进阿秒激光等世界一流重大科技基础设施的落地，全省已建和在建国家大科学装置数量达10个，成为支撑粤港澳大湾区乃至全国科学研究的“大国重器”。","mk":"/","f":"科","o":"事","form":"广东做成了什么","dest":"例子","why":"带数：国家大科学装置 10 个","used":["科技创新段·例子"]}]},"3-4-1":{"id":"3-4-1","m":"3","p":4,"xi":false,"pieces":[{"t":"广东向“实”聚焦，从产业需求出发，凝练科学问题。","mk":"{}","f":"科","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"宽的“做了什么”：广东向“实”聚焦——和向“高”是一对，好看","st":true,"used":["科技创新段·论点"]}]},"3-4-2":{"id":"3-4-2","m":"3","p":4,"xi":false,"pieces":[{"t":"广东兼具机电技术和数智技术两大优势，在人工智能和机器人等领域集中发力。","mk":"/","f":"科","o":"事","form":"广东做了什么","dest":"例子","why":"具体：人工智能和机器人领域集中发力","used":[]}]},"3-4-3":{"id":"3-4-3","m":"3","p":4,"xi":false,"pieces":[{"t":"“新一代人工智能”重大专项加快实施，在智能检测、智能工厂、智能物流、智慧安防、无人系统等多方面形成一批关键技术。","mk":"/","f":"科","o":"事","form":"广东做了什么","dest":"例子","why":"具体：新一代人工智能重大专项","used":[]}]},"3-4-4":{"id":"3-4-4","m":"3","p":4,"xi":false,"pieces":[{"t":"从实验室里的量子比特到湾区上空的无人航空器，从生物制造工厂的合成细胞到自动驾驶汽车的感知算法，广东正以更多先进的新技术、新设备、新材料、新工艺，撬动新质生产力的几何级增长。","mk":"()","f":"科","o":"听","form":"做成了什么","dest":"收尾","why":"没多什么，但好听：从量子比特到无人航空器——科技那段收尾","used":["科技创新段·回扣"]}]},"3-5-1":{"id":"3-5-1","m":"3","p":5,"xi":false,"pieces":[{"t":"为了解决“卡脖子”的技术难题，广东努力打好关键核心技术攻关战。","mk":"{}","f":"科","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"宽的“做了什么”：打好关键核心技术攻关战","used":[]}]},"3-5-2":{"id":"3-5-2","m":"3","p":5,"xi":false,"pieces":[{"t":"精密仪器、工业软件等领域取得突破性成果，一系列高端手术设备成功打破国外技术垄断。","mk":"/","f":"科","o":"事","form":"广东做成了什么","dest":"例子","why":"具体：高端手术设备打破国外垄断","used":["科技创新段·例子"]}]},"3-5-3":{"id":"3-5-3","m":"3","p":5,"xi":false,"pieces":[{"t":"在大湾区国家技术创新中心，术中手持式医用伽马相机等重大产业创新项目为众多患者带来福音。","mk":"/","f":"科","o":"事","form":"个案","dest":"例子","why":"具体：术中手持式医用伽马相机","used":[]}]},"3-5-4":{"id":"3-5-4","m":"3","p":5,"xi":false,"pieces":[{"t":"这款仅重800克的伽马相机能在短短一秒钟内成像，实时检测到手术切除边缘的肿瘤细胞分布，助力医生进行精准切除。","mk":"/","f":"科","o":"事","form":"个案","dest":"例子","why":"带数：仅重 800 克，一秒成像","used":["科技创新段·例子"]}]},"3-5-5":{"id":"3-5-5","m":"3","p":5,"xi":false,"pieces":[{"t":"项目负责人表示：“通过大湾区国创中心这一平台，我们能够全程验证产品的需求定义、研发试制、生产加工以及临床应用。”","mk":"跟","f":"科","o":"听","form":"画面（个案）","dest":"跟着例子走","why":"负责人的话，跟着例子走","used":[]}]},"3-6-1":{"id":"3-6-1","m":"3","p":6,"xi":false,"pieces":[{"t":"从源头创新、技术攻关到产业应用各环节，广东构建了“有组织科研+有组织成果转化”的科技创新体系，为高质量发展注入强劲动力。","mk":"()","f":"科","o":"听","form":"做成了什么","dest":"收尾","why":"主语是广东，说的是做成后的效果：注入强劲动力——收尾备用","used":[]}]},"3-6-2":{"id":"3-6-2","m":"3","p":6,"xi":false,"pieces":[{"t":"在全球科创的大海中，广东将以更加高超的“泳技”，提升科技自立自强水平、产业链自主可控水平，切实把创新落在企业上、产业上、发展上，加快推进科技创新和产业创新融合发展，在实践上持续探索具有广东特色的新质生产力发展道路。","mk":"{}","f":"总","o":"理","form":"要什么","dest":"论点／道理料（管整篇）","why":"拿不准：“泳技”比喻，“企业上、产业上、发展上”重复——好看","st":true,"used":[]}]},"4-1-1":{"id":"4-1-1","m":"4","p":1,"xi":true,"pieces":[{"t":"企业是广东S市科技创新当之无愧的主体和主力军，该市近年来的一组数据足以证明：约90%的科研机构、90%的科研人员、90%的研发经费、90%的发明专利申请都来源于企业。","used":[]}]},"4-2-1":{"id":"4-2-1","m":"4","p":2,"xi":true,"pieces":[{"t":"Y科技公司是S市人工智能大模型代表企业，AI与3D技术服务国内领先，旗下VR大空间品牌领跑行业，已落地全国30多个城市。","used":[]}]},"4-2-2":{"id":"4-2-2","m":"4","p":2,"xi":true,"pieces":[{"t":"日前，S市召开人工智能与机器人产业发展座谈会，该公司创始人受邀出席座谈会并发言，就行业发展问题谈认识、说体会、提建议。","used":[]}]},"4-2-3":{"id":"4-2-3","m":"4","p":2,"xi":true,"pieces":[{"t":"记者见到他时，他依然激动不已，“在S市，政府制定科技政策时，征求我们企业的意见已经是一个‘规定动作’。”","used":[]}]},"4-2-4":{"id":"4-2-4","m":"4","p":2,"xi":true,"pieces":[{"t":"市有关单位负责人表示，我们就是要让“听得见市场‘炮声’的人”有话语权。","used":[]}]},"4-3-1":{"id":"4-3-1","m":"4","p":3,"xi":true,"pieces":[{"t":"近年来，S市不断健全以企业研发投入为主，财政投入、信贷融资、个人投入并举的多元化科技创新投入体系。","used":[]}]},"4-3-2":{"id":"4-3-2","m":"4","p":3,"xi":true,"pieces":[{"t":"2024年，该市全社会研发投入2236.61亿元，其中企业研发投入占比93.3%。","used":[]}]},"4-4-1":{"id":"4-4-1","m":"4","p":4,"xi":true,"pieces":[{"t":"2025年1月，S市某新能源汽车公司举办“梦想日”活动，行业首个智电融合的智能化架构“筑梦”亮相。","used":[]}]},"4-4-2":{"id":"4-4-2","m":"4","p":4,"xi":true,"pieces":[{"t":"“最大的研发投入，最强的研发团队，才能打造最好的智能驾驶。","used":[]}]},"4-4-3":{"id":"4-4-3","m":"4","p":4,"xi":true,"pieces":[{"t":"未来，我们将响应政府号召，在研发上继续投入1000亿元，加速汽车行业智能化转型。”该公司研发部负责人说。","used":[]}]},"4-5-1":{"id":"4-5-1","m":"4","p":5,"xi":true,"pieces":[{"t":"S市某商业银行信贷部周经理说：“我们银行助力企业研发，也尊重企业的主体地位。","used":[]}]},"4-5-2":{"id":"4-5-2","m":"4","p":5,"xi":true,"pieces":[{"t":"我们探索建立了科技型企业全生命周期金融服务机制，为企业提供多元化接力式金融服务，受到广大企业欢迎。","used":[]}]},"4-5-3":{"id":"4-5-3","m":"4","p":5,"xi":true,"pieces":[{"t":"今年以来，我们已经为上百家企业提供了研发融资。”","used":[]}]},"4-5-4":{"id":"4-5-4","m":"4","p":5,"xi":true,"pieces":[{"t":"该市的相关经验做法被新闻媒体竞相报道。","used":[]}]},"4-6-1":{"id":"4-6-1","m":"4","p":6,"xi":true,"pieces":[{"t":"企业面向社会“发榜”，是S市近年来兴起的一种科研组织模式。","used":[]}]},"4-6-2":{"id":"4-6-2","m":"4","p":6,"xi":true,"pieces":[{"t":"该模式强调创新需求由市场提出、创新主体由市场选择、创新成果由市场验证，构建起以企业为主体的科研组织体系。","used":[]}]},"4-6-3":{"id":"4-6-3","m":"4","p":6,"xi":true,"pieces":[{"t":"该市创新研究院依靠“企业出题、研究院遴选、高校揭榜”工作机制，2024年以来共遴选出300多个企业课题与高校对接合作。","used":[]}]},"4-6-4":{"id":"4-6-4","m":"4","p":6,"xi":true,"pieces":[{"t":"该市H科技公司定期将产业发展中遇到的难题向社会发布，迄今已有数百人“揭榜”，相关问题得到了有效解决。","used":[]}]},"4-6-5":{"id":"4-6-5","m":"4","p":6,"xi":true,"pieces":[{"t":"“在科研组织工作中，S市做到了‘像尊重科学家一样尊重企业家’。”公司董事长宋先生高兴地说。","used":[]}]},"4-7-1":{"id":"4-7-1","m":"4","p":7,"xi":true,"pieces":[{"t":"为了让创新成果更好地从科研人员的办公桌、实验室“走”向工厂车间，该市制造业重镇R镇率先出台以企业为主体的产学研专项政策，有效打通产学研融合的“最后一公里”。","used":[]}]},"4-7-2":{"id":"4-7-2","m":"4","p":7,"xi":true,"pieces":[{"t":"G公司是扎根R镇的优秀制造业企业，公司总经理余女士表示，公司是最早一批受惠于R镇产学研政策的企业，政府搭建平台聚合企业需求，科研机构、高校依托自身强大的研发能力有针对性地帮助企业解决问题。","used":[]}]},"4-7-3":{"id":"4-7-3","m":"4","p":7,"xi":true,"pieces":[{"t":"余女士说：“产学研合作，‘产’是第一位的，我们企业要掌握成果转化的主动权。”","used":[]}]},"4-8-1":{"id":"4-8-1","m":"4","p":8,"xi":true,"pieces":[{"t":"长期研究产业发展的刘教授认为，“企业主导产学研，意味着企业主导产品研发方向，主导研发工作和产业化进程。","used":[]}]},"4-8-2":{"id":"4-8-2","m":"4","p":8,"xi":false,"pieces":[{"t":"企业是创新目标的提出者、实践者，企业主导产学研深度融合，能够产出更多适合市场需求的产品。”","mk":"{}","f":"科","o":"理","form":"是什么","dest":"论点／道理料","why":"小题材料里的判断句：企业是创新目标的提出者、实践者——科技那面备用","used":[]}]},"5-1-1":{"id":"5-1-1","m":"5","p":1,"xi":true,"pieces":[{"t":"近日，G市科技局举办圆桌论坛，邀请相关领域专家学者，围绕G市“如何有效促进科研成果转化”这一主题展开讨论。","used":[]}]},"5-1-2":{"id":"5-1-2","m":"5","p":1,"xi":true,"pieces":[{"t":"以下是与会者的发言摘录。","used":[]}]},"5-2-1":{"id":"5-2-1","m":"5","p":2,"xi":true,"pieces":[{"t":"市农科院叶研究员：我们以前曾直接找企业去做技术转化，但最后总碰到各种问题。","used":[]}]},"5-2-2":{"id":"5-2-2","m":"5","p":2,"xi":true,"pieces":[{"t":"科研人员如何了解产业现状和企业需求，成果转化如何服务产业发展，这始终是我们面对的困难和挑战。","used":[]}]},"5-2-3":{"id":"5-2-3","m":"5","p":2,"xi":true,"pieces":[{"t":"我的研究方向是发酵技术，我们把最新的发酵技术引入果蔬加工领域，开发出高活性的果蔬发酵专用益生菌剂。","used":[]}]},"5-2-4":{"id":"5-2-4","m":"5","p":2,"xi":true,"pieces":[{"t":"我们的技术已经在40多家企业推广应用，成功开发了果汁、酸奶等产品，大受欢迎。","used":[]}]},"5-2-5":{"id":"5-2-5","m":"5","p":2,"xi":true,"pieces":[{"t":"我们成功的经验，主要是科研成果和市场需求、产业发展对接上了，不少科研成果转化不顺利，就是因为没有把准企业需求，科研成果跟产业发展脱节。","used":[]}]},"5-3-1":{"id":"5-3-1","m":"5","p":3,"xi":true,"pieces":[{"t":"市社科院廖教授：我接触过不少科研人员，他们的很多研究成果是有产业潜力和市场前景的，但没有去做转化，只是把论文发表作为第一目标。","used":[]}]},"5-3-2":{"id":"5-3-2","m":"5","p":3,"xi":true,"pieces":[{"t":"一些高校和研究机构还没有把科研成果转化纳入科研评价体系，有的虽然纳入了但权重较低，实际上还是把论文发表、课题申报作为主要评价标准。","used":[]}]},"5-3-3":{"id":"5-3-3","m":"5","p":3,"xi":true,"pieces":[{"t":"另外，据我了解，在科研成果转化中，有些单位对科研人员设置的收益比例明显过低，还附加了不少限制性条件，打击了科研人员成果转化的积极性。","used":[]}]},"5-4-1":{"id":"5-4-1","m":"5","p":4,"xi":true,"pieces":[{"t":"报社记者张女士：科技成果转化项目应涵盖三个元素，一是学术成果质量；二是技术经理人，这个指科研成果转化的中介人员；三是企业和资本。","used":[]}]},"5-4-2":{"id":"5-4-2","m":"5","p":4,"xi":true,"pieces":[{"t":"一个项目具备这三个元素，转化成功率是比较高的。","used":[]}]},"5-4-3":{"id":"5-4-3","m":"5","p":4,"xi":true,"pieces":[{"t":"据我了解，第二个元素是成果转化链条中的短板，这支队伍数量不足、素质也不够高。","used":[]}]},"5-4-4":{"id":"5-4-4","m":"5","p":4,"xi":true,"pieces":[{"t":"科研人员创业、转化自己的科研成果，应该去找个经验丰富的技术经理人，这样可以避免再花费时间和精力去钻研一些自己不擅长、不太懂的东西，科研和转化毕竟属于不同的领域。","used":[]}]},"5-4-5":{"id":"5-4-5","m":"5","p":4,"xi":true,"pieces":[{"t":"说得大一点，就是要打通科研成果转化的通道和桥梁，培养高水平的技术经理人，搭建企业和科研机构沟通的平台。","used":[]}]},"5-5-1":{"id":"5-5-1","m":"5","p":5,"xi":true,"pieces":[{"t":"青年学者苗博士：作为青年科研人员，我也渴望自己的研究成果能够转化为产品，既推动产业发展，自己也能获得回报和收益。","used":[]}]},"5-5-2":{"id":"5-5-2","m":"5","p":5,"xi":true,"pieces":[{"t":"但我们面对的现实问题是，评价体系主要是以学术论文、纵向科研项目为主，高校科研工作要跟着这个“指挥棒”走。","used":[]}]},"5-5-3":{"id":"5-5-3","m":"5","p":5,"xi":true,"pieces":[{"t":"我们很多老师常年埋头做研究、写论文，确实没有多少市场意识、产业意识，对产业发展方向和需求也不是很了解，如果有机构辅导一下就好了。","used":[]}]},"5-5-4":{"id":"5-5-4","m":"5","p":5,"xi":true,"pieces":[{"t":"我也看到有些成果转化失败的例子，投入的经费、智力、人力都打了水漂，我们也有一些顾虑，万一转化失败了怎么办？","used":[]}]},"5-5-5":{"id":"5-5-5","m":"5","p":5,"xi":true,"pieces":[{"t":"对我们而言，风险太大了。","used":[]}]},"5-6-1":{"id":"5-6-1","m":"5","p":6,"xi":true,"pieces":[{"t":"某科技公司王经理：科研成果转化问题，我们企业也高度关注。","used":[]}]},"5-6-2":{"id":"5-6-2","m":"5","p":6,"xi":true,"pieces":[{"t":"企业更在意技术在产品应用中的性价比和市场前景，而不仅仅是技术的先进程度，做科研的老师应当注意这一点。","used":[]}]},"5-6-3":{"id":"5-6-3","m":"5","p":6,"xi":true,"pieces":[{"t":"高校的科研导向、评价体系确实要把成果转化、促进产业发展这个要素加进去，权重设置也要合理。","used":[]}]},"5-6-4":{"id":"5-6-4","m":"5","p":6,"xi":true,"pieces":[{"t":"可以让高校教师、研究生以科技特派员身份深入企业，了解市场需求和企业运营模式，把论文写在生产一线。","used":[]}]},"5-7-1":{"id":"5-7-1","m":"5","p":7,"xi":true,"pieces":[{"t":"市科技局李处长：前段时间，中央、省、市先后出台了鼓励科研成果转化的政策文件，现在主要是政策落地的问题，部分高校和科研机构还没有及时出台具体实施办法。","used":[]}]},"5-7-2":{"id":"5-7-2","m":"5","p":7,"xi":true,"pieces":[{"t":"下一步，我们将加强督促和指导，推动他们及时出台相关规定。","used":[]}]},"5-7-3":{"id":"5-7-3","m":"5","p":7,"xi":true,"pieces":[{"t":"高校和科研机构要主动开展调查研究，根据最新的政策要求，结合自身实际，抓紧出台科研成果转化的具体制度规定；也要加大宣传力度，为科研人员解疑答惑，把激励机制和保障措施用活用好，消除他们的后顾之忧。","used":[]}]},"5-7-4":{"id":"5-7-4","m":"5","p":7,"xi":true,"pieces":[{"t":"我们鼓励校企共建创新联合体，也在规划建设科研成果统一交易平台，推动科研成果高效转化，更好服务产业发展。","used":[]}]},"6-1-1":{"id":"6-1-1","m":"6","p":1,"xi":false,"pieces":[{"t":"产业兴则经济兴，产业强则国家强。","mk":"{}","f":"产","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：产业兴则经济兴，产业强则国家强——对仗","st":true,"used":["产业创新段·道理"]}]},"6-1-2":{"id":"6-1-2","m":"6","p":1,"xi":false,"pieces":[{"t":"习近平总书记指出，“要围绕发展新质生产力布局产业链”，“加大创新力度，培育壮大新兴产业，超前布局建设未来产业，完善现代化产业体系”。","mk":"{}","f":"产","o":"理","form":"要什么","dest":"论点／道理料","why":"总书记的要求：围绕新质生产力布局产业链","used":[]}]},"6-1-3":{"id":"6-1-3","m":"6","p":1,"xi":false,"pieces":[{"t":"产业体系向新图强，发展才能以质取胜。","mk":"{}","f":"产","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：产业体系向新图强，发展才能以质取胜——对仗","st":true,"used":[]}]},"6-2-1":{"id":"6-2-1","m":"6","p":2,"xi":false,"pieces":[{"t":"广东作为全国第一经济大省，肩负着在推进产业体系现代化方面继续走在前列的光荣使命。","mk":"③","f":null,"o":"事","form":"广东要答什么题（令）","dest":"开头·广东出场","why":"广东肩负的使命：产业体系现代化继续走在前列——开头“令”那条线备用","used":[]}]},"6-2-2":{"id":"6-2-2","m":"6","p":2,"xi":false,"pieces":[{"t":"近年来，广东以科技创新推动产业创新，向“新”而行、以“新”提质，坚持传统产业、新兴产业、未来产业并举，具有国际竞争力的现代化产业体系建设取得积极进展。","mk":"{}","f":"产","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"宽的“做了什么”：向“新”而行、以“新”提质，三类产业并举——好看","st":true,"used":["开头·做什么","产业创新段·论点"]}]},"6-3-1":{"id":"6-3-1","m":"6","p":3,"xi":false,"pieces":[{"t":"传统产业向“新”而行，让“老树发新芽”。","mk":"{}","f":"产","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"宽的“做了什么”：传统产业让“老树发新芽”——比喻","st":true,"used":["产业创新段·例子"]}]},"6-3-2":{"id":"6-3-2","m":"6","p":3,"xi":false,"pieces":[{"t":"石化、钢铁、食品饮料、纺织服装、家电家居等传统产业，通过数智技术、绿色技术赋能，不断转型升级，焕发出新的生机。","mk":"/","f":"产","o":"事","form":"广东做了什么","dest":"例子","why":"具体：传统产业数智化、绿色化转型","used":["产业创新段·例子"]}]},"6-3-3":{"id":"6-3-3","m":"6","p":3,"xi":false,"pieces":[{"t":"以电子信息制造业为例，2024年产值持续增长，众多企业加大研发投入，推动产品向高端化、智能化迈进。","mk":"/","f":"产","o":"事","form":"广东做了什么","dest":"例子","why":"具体：电子信息制造业向高端化、智能化迈进","used":[]}]},"6-3-4":{"id":"6-3-4","m":"6","p":3,"xi":false,"pieces":[{"t":"广东在智能手机领域不断推陈出新，其产品全球销量持续攀升。","mk":"/","f":"产","o":"事","form":"广东做了什么","dest":"例子","why":"具体：智能手机全球销量持续攀升","used":[]}]},"6-4-1":{"id":"6-4-1","m":"6","p":4,"xi":false,"pieces":[{"t":"新兴产业向“新”而长，让“新树扎深根”。","mk":"{}","f":"产","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"宽的“做了什么”：新兴产业让“新树扎深根”——比喻","st":true,"used":[]}]},"6-4-2":{"id":"6-4-2","m":"6","p":4,"xi":false,"pieces":[{"t":"低空经济、智能机器人、新能源等新兴产业不断取得新突破，形成一批综合实力领先的细分产业集群。","mk":"/","f":"产","o":"事","form":"广东做了什么","dest":"例子","why":"具体：低空经济、智能机器人、新能源产业集群","used":[]}]},"6-4-3":{"id":"6-4-3","m":"6","p":4,"xi":false,"pieces":[{"t":"以智能机器人为例，2024年，广东工业机器人产量同比增长31.2%、服务机器人增长7.2%，全国每3台工业机器人就有一台“广东造”。","mk":"/","f":"产","o":"事","form":"广东做成了什么","dest":"例子","why":"带数：全国每 3 台工业机器人就有一台“广东造”——亮眼","st":true,"used":["产业创新段·例子"]}]},"6-4-4":{"id":"6-4-4","m":"6","p":4,"xi":false,"pieces":[{"t":"新能源汽车产业发展势头迅猛，2024年广东新能源汽车产量增长43%，占全国的四分之一。","mk":"/","f":"产","o":"事","form":"广东做成了什么","dest":"例子","why":"带数：新能源汽车产量占全国四分之一","used":[]}]},"6-5-1":{"id":"6-5-1","m":"6","p":5,"xi":false,"pieces":[{"t":"未来产业向“新”而展，让“小树变大树”。","mk":"{}","f":"产","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"宽的“做了什么”：未来产业让“小树变大树”——比喻","st":true,"used":[]}]},"6-5-2":{"id":"6-5-2","m":"6","p":5,"xi":false,"pieces":[{"t":"广东出台未来产业发展总体方案，瞄准未来智能、未来生命健康、未来能源等“七大领域”实施“七大工程”。","mk":"/","f":"产","o":"事","form":"广东做了什么","dest":"例子","why":"具体：七大领域、七大工程","used":[]}]},"6-5-3":{"id":"6-5-3","m":"6","p":5,"xi":false,"pieces":[{"t":"人工智能领域核心产业规模达1800亿元，算力规模、企业规模等均居全国第一方阵。","mk":"/","f":"产","o":"事","form":"广东做成了什么","dest":"例子","why":"带数：人工智能核心产业 1800 亿元，规模居全国第一方阵——亮眼","st":true,"used":[]}]},"6-5-4":{"id":"6-5-4","m":"6","p":5,"xi":false,"pieces":[{"t":"在新型储能领域，广东围绕锂离子电池、钠离子电池等项目开展攻关，在电池材料、储能系统集成等方面取得国内领先的技术成果，支撑广东新型储能产业产值稳居全国第一。","mk":"/","f":"产","o":"事","form":"广东做成了什么","dest":"例子","why":"带排名：新型储能产业产值全国第一——亮眼","st":true,"used":[]}]},"6-6-1":{"id":"6-6-1","m":"6","p":6,"xi":false,"pieces":[{"t":"水积而鱼聚，木茂而鸟集。","mk":"()","f":"产","o":"听","form":"画面（古语）","dest":"收尾","why":"古语，没多什么，但好听——收尾备用","used":[]}]},"6-6-2":{"id":"6-6-2","m":"6","p":6,"xi":false,"pieces":[{"t":"广东有1900多万户经营主体、830多万家企业，还有大量企业如雨后春笋般破土而出、拔节生长，这是建设现代化产业体系的底气所在、根基所在。","mk":"/","f":"产","o":"事","form":"广东是什么","dest":"例子","why":"带数：1900 多万户经营主体、830 多万家企业","used":[]}]},"6-6-3":{"id":"6-6-3","m":"6","p":6,"xi":false,"pieces":[{"t":"一批国家级专精特新“小巨人”企业勇挑重担，在高端装备制造和数控系统等领域发力；一批挑大梁的龙头企业迅猛发展，在生产服务和出口贸易等方面扬名四海。","mk":"/","f":"产","o":"事","form":"广东做成了什么","dest":"例子","why":"具体：专精特新“小巨人”、龙头企业","used":[]}]},"6-6-4":{"id":"6-6-4","m":"6","p":6,"xi":false,"pieces":[{"t":"广东百业俱兴，成为全国公认的制造业强省、科技强省、出口强省。","mk":"()","f":"产","o":"听","form":"做成了什么","dest":"收尾","why":"没多什么，但好听：百业俱兴，三个强省——产业那段收尾","used":["产业创新段·回扣"]}]},"6-7-1":{"id":"6-7-1","m":"6","p":7,"xi":false,"pieces":[{"t":"风好正是扬帆时，策马扬鞭再奋蹄。","mk":"尾","f":null,"o":"听","form":"画面（诗）","dest":"结尾","why":"一联诗，读完没多什么，但好听——结尾起句备用","used":["结尾·起"]}]},"6-7-2":{"id":"6-7-2","m":"6","p":7,"xi":false,"pieces":[{"t":"展望未来，广东将继续发挥创新驱动作用，推动产业科技互促双强，奋力在建设现代化产业体系上继续走在全国前列。","mk":"尾","f":null,"o":"听","form":"要什么（目标）","dest":"结尾","why":"未然的目标：继续走在全国前列——结尾落点","used":["结尾·回收＋落"]}]},"7-1-1":{"id":"7-1-1","m":"7","p":1,"xi":false,"pieces":[{"t":"“很难想象，眼前这个花园一样的生态园，其实是一座垃圾发电厂，不仅可以游览参观，还能坐下来喝杯咖啡看个电影。”许多市民逛完龙岗能源生态园后发出这样的感慨。","mk":"跟","f":"绿","o":"听","form":"画面（个案）","dest":"跟着例子走","why":"市民的话，跟着例子走","used":[]}]},"7-2-1":{"id":"7-2-1","m":"7","p":2,"xi":false,"pieces":[{"t":"这个位于深圳市的现代化垃圾焚烧发电厂，每日可处理生活垃圾5000吨，生产约300万度电，足以满足一万户家庭近一个月的用电需求。","mk":"/","f":"绿","o":"事","form":"个案","dest":"例子","why":"带数：每日处理垃圾 5000 吨、发电约 300 万度","used":[]}]},"7-2-2":{"id":"7-2-2","m":"7","p":2,"xi":false,"pieces":[{"t":"园区在烟气、废水和灰渣处理上采用创新技术，实现垃圾无害化处理与资源化利用完美结合。","mk":"/","f":"绿","o":"事","form":"个案","dest":"例子","why":"具体：垃圾无害化处理与资源化利用结合","used":[]}]},"7-2-3":{"id":"7-2-3","m":"7","p":2,"xi":false,"pieces":[{"t":"园区厂房设计融于自然，配套建设科普教育基地、小型影院、党群服务中心、书吧咖啡吧等多功能空间，把垃圾焚烧发电厂打造为集“产、学、宣、研、游”五位一体的绿色低碳公益设施，现在已成为市民游客争相游览的“网红打卡地”。","mk":"/","f":"绿","o":"事","form":"个案","dest":"例子","why":"具体：“产、学、宣、研、游”五位一体","used":[]}]},"7-3-1":{"id":"7-3-1","m":"7","p":3,"xi":false,"pieces":[{"t":"习近平总书记强调：“","used":[]},{"t":"绿色发展是高质量发展的底色","mk":"{}","f":"绿","o":"理","form":"是什么","dest":"论点／道理料","why":"总书记的一个道理：绿色发展是高质量发展的底色——比喻","st":true,"used":["开头·做什么","绿色创新段·论点"]},{"t":"，","used":[]},{"t":"新质生产力本身就是绿色生产力","mk":"{}","f":"绿","o":"理","form":"是什么","dest":"论点／道理料","why":"总书记的一个道理：新质生产力本身就是绿色生产力——“××生产力”重复","st":true,"used":["绿色创新段·论点"]},{"t":"。”","used":[]}]},"7-3-2":{"id":"7-3-2","m":"7","p":3,"xi":false,"pieces":[{"t":"通过科技创新和产业升级，广东正大力推动生产过程清洁化、资源利用循环化、能源消费低碳化、产品供给绿色化、产业结构高端化，不断提升社会经济发展的“含绿量”，形成具有竞争力的绿色生产力。","mk":"{}","f":"绿","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"宽的“做了什么”：五个“化”，提升“含绿量”——重复，好看","st":true,"used":["绿色创新段·道理"]}]},"7-3-3":{"id":"7-3-3","m":"7","p":3,"xi":false,"pieces":[{"t":"龙岗能源生态园就是其中一个案例。","mk":null,"f":null,"o":"无","form":"过渡","dest":"不划","why":"指认案例","used":[]}]},"7-4-1":{"id":"7-4-1","m":"7","p":4,"xi":false,"pieces":[{"t":"惠州积极探索红树林碳汇交易，不断创新开发交易模式，走出红树林碳汇价值实现新路径。","mk":"/","f":"绿","o":"事","form":"个案","dest":"例子","why":"具体：惠州红树林碳汇交易","used":[]}]},"7-4-2":{"id":"7-4-2","m":"7","p":4,"xi":false,"pieces":[{"t":"2024年7月26日，即“保护红树林生态系统国际日”当天，惠东县红树林造林项目碳汇成功交易超400万元，实现经济发展与生态保护相得益彰。","mk":"/","f":"绿","o":"事","form":"个案","dest":"例子","why":"带数：碳汇交易超 400 万元","used":[]}]},"7-5-1":{"id":"7-5-1","m":"7","p":5,"xi":false,"pieces":[{"t":"“世界风电看中国，海上风电看阳江。”","mk":"跟","f":"绿","o":"听","form":"画面（个案）","dest":"跟着例子走","why":"俗语，只说阳江——跟着例子走","used":[]}]},"7-5-2":{"id":"7-5-2","m":"7","p":5,"xi":false,"pieces":[{"t":"在阳江，新技术海上风电实现从无到有、从小到大的跨越式发展，截至2024年11月，海上风电已并网装机容量500万千瓦，约占全国七分之一、广东的“半壁江山”。","mk":"/","f":"绿","o":"事","form":"个案","dest":"例子","why":"带数：阳江海上风电 500 万千瓦，约占全国七分之一","used":[]}]},"7-6-1":{"id":"7-6-1","m":"7","p":6,"xi":false,"pieces":[{"t":"在湛江，百万吨级氢基竖炉项目在某钢铁公司成功点火投产，使用氢气作为还原气体可以使炼铁摆脱对化石能源的依赖，从源头上解决碳排放问题。","mk":"/","f":"绿","o":"事","form":"个案","dest":"例子","why":"具体：湛江百万吨级氢基竖炉投产","used":["绿色创新段·例子"]}]},"7-6-2":{"id":"7-6-2","m":"7","p":6,"xi":false,"pieces":[{"t":"据测算，新技术对比传统工艺，每年可减少二氧化碳排放50万吨以上，相当于在湛江市再造一个500平方公里的森林。","mk":"/","f":"绿","o":"事","form":"个案","dest":"例子","why":"带数：每年减碳 50 万吨以上","used":["绿色创新段·例子"]}]},"7-7-1":{"id":"7-7-1","m":"7","p":7,"xi":false,"pieces":[{"t":"一项关于区域科技创新能力评价的智库报告显示，2023年广东绿色生产力指数位居全国第二，绿色发展指标位列前三，绿色政策指标领跑全国。","mk":"/","f":"绿","o":"事","form":"广东做成了什么","dest":"例子","why":"带排名：绿色生产力指数全国第二，绿色政策指标领跑全国——亮眼","st":true,"used":["绿色创新段·例子"]}]},"7-8-1":{"id":"7-8-1","m":"7","p":8,"xi":false,"pieces":[{"t":"乘着新时代的浩荡东风，广东正充分发挥科技创新引领作用，培育壮大新质生产力，打造绿色低碳发展高地，让绿色产业优势源源不断转化为高质量发展优势。","mk":"()","f":"绿","o":"听","form":"做成了什么","dest":"收尾","why":"主语是广东，说的是正在做成的效果：绿色优势转化为发展优势——绿色那段收尾","used":["绿色创新段·回扣"]}]},"8-1-1":{"id":"8-1-1","m":"8","p":1,"xi":false,"pieces":[{"t":"体制机制“活”，要素资源“聚”，是广东发展新质生产力的重要特点和优势。","mk":"{}","f":"制","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：体制机制“活”，要素资源“聚”——对仗","st":true,"used":["开头·做什么","制度创新段·论点"]}]},"8-2-1":{"id":"8-2-1","m":"8","p":2,"xi":false,"pieces":[{"t":"从《关于高质量建设制造强省的意见》到《广东省建设现代化产业体系2025年行动计划》，从《广东省新形势下推动工业企业加快实施技术改造若干措施》到《广东省科技创新条例》，近年来，广东着力构建政策体系，持续优化体制机制，引导各类优质要素朝着新质生产力发展方向集聚。","mk":"{}","f":"制","o":"理","form":"广东做了什么（宽）","dest":"论点／道理料","why":"宽的“做了什么”：构建政策体系、优化体制机制、引导要素集聚——一串文件名不算个案","used":[]}]},"8-3-1":{"id":"8-3-1","m":"8","p":3,"xi":false,"pieces":[{"t":"粤港澳大湾区是新质生产力发展的主阵地。","mk":"{}","f":"制","o":"理","form":"是什么","dest":"论点／道理料","why":"一个道理：大湾区是新质生产力发展的主阵地——比喻","st":true,"used":[]}]},"8-3-2":{"id":"8-3-2","m":"8","p":3,"xi":false,"pieces":[{"t":"2023年9月，国务院印发《河套深港科技创新合作区深圳园区发展规划》，随着该规划的出台，以横琴、前海、南沙、河套为主的粤港澳大湾区重大合作平台体系框架更加清晰完善，粤港澳共同推动新质生产力发展、推动高质量发展的格局已然形成。","mk":"/","f":"制","o":"事","form":"广东做成了什么","dest":"例子","why":"具体：横琴、前海、南沙、河套重大合作平台","used":[]}]},"8-4-1":{"id":"8-4-1","m":"8","p":4,"xi":false,"pieces":[{"t":"作为改革开放的“试验田”，深圳出台了一系列“先行先试”创新政策，着力打通束缚新质生产力发展的堵点卡点，让各类先进优质生产要素向发展新质生产力顺畅流动，如率先出台《深圳经济特区科技创新条例》，率先建立知识产权侵权惩罚性赔偿制度等。","mk":"/","f":"制","o":"事","form":"个案","dest":"例子","why":"具体：深圳率先出台科技创新条例、知识产权惩罚性赔偿","used":["制度创新段·例子"]}]},"8-4-2":{"id":"8-4-2","m":"8","p":4,"xi":false,"pieces":[{"t":"“深圳是适合创业的城市。","mk":"跟","f":"制","o":"听","form":"画面（个案）","dest":"跟着例子走","why":"负责人的话，跟着例子走","used":[]}]},"8-4-3":{"id":"8-4-3","m":"8","p":4,"xi":false,"pieces":[{"t":"在深圳创业只需考虑一件事，那就是如何将企业的创新能力展现出来。”某公司负责人说。","mk":"跟","f":"制","o":"听","form":"画面（个案）","dest":"跟着例子走","why":"负责人的话，跟着例子走","used":[]}]},"8-5-1":{"id":"8-5-1","m":"8","p":5,"xi":false,"pieces":[{"t":"广东发展新质生产力的赛场上，珠三角城市在你追我赶，粤东西北也在大展拳脚。","mk":"()","f":"制","o":"听","form":"做成了什么","dest":"收尾","why":"没多什么，但好听：珠三角你追我赶，粤东西北大展拳脚——收尾备用","used":["制度创新段·回扣"]}]},"8-5-2":{"id":"8-5-2","m":"8","p":5,"xi":false,"pieces":[{"t":"随着“百千万工程”的深入推进，广东城乡区域协调发展机制不断完善，科技创新力量也在不断“扩容”。","mk":"()","f":"制","o":"听","form":"做成了什么","dest":"收尾","why":"没多什么，但好听：科技创新力量不断“扩容”——收尾备用","used":[]}]},"8-5-3":{"id":"8-5-3","m":"8","p":5,"xi":false,"pieces":[{"t":"2017年某科技公司落户云浮，2022年便跻身福布斯中国独角兽榜单。","mk":"/","f":"制","o":"事","form":"个案","dest":"例子","why":"具体：云浮一家科技公司五年成独角兽","used":["制度创新段·例子"]}]},"8-5-4":{"id":"8-5-4","m":"8","p":5,"xi":false,"pieces":[{"t":"该公司创始人说，每当企业遇到困难，当地党政领导都会召开现场办公会，推动制度和政策落实，为企业解决问题。","mk":"/","f":"制","o":"事","form":"个案","dest":"例子","why":"具体：党政领导开现场办公会解决问题","used":["制度创新段·例子"]}]},"8-5-5":{"id":"8-5-5","m":"8","p":5,"xi":false,"pieces":[{"t":"不久前，2家供应链企业在该公司带动下落地云浮。","mk":"/","f":"制","o":"事","form":"个案","dest":"例子","why":"具体：带动 2 家供应链企业落地","used":[]}]},"8-6-1":{"id":"8-6-1","m":"8","p":6,"xi":false,"pieces":[{"t":"广东不仅是经济大省，也是文化产业大省，优质文化要素资源不断集聚，文化新业态迅猛发展。","mk":"/","f":"制","o":"事","form":"广东是什么","dest":"例子","why":"例子的入口：文化要素集聚","used":[]}]},"8-6-2":{"id":"8-6-2","m":"8","p":6,"xi":false,"pieces":[{"t":"随着电影《哪吒之魔童闹海》热映，“哪吒”IP系列周边、衍生品出现“一吒难求”局面。","mk":"跟","f":"制","o":"听","form":"画面（个案）","dest":"跟着例子走","why":"背景，跟着例子走","used":[]}]},"8-6-3":{"id":"8-6-3","m":"8","p":6,"xi":false,"pieces":[{"t":"专注孵化设计师品牌与原创IP的东莞某科技企业获得授权，春节复工后接到产值高达1亿元的“哪吒2”周边“排排坐mini系列”订单，仅此一项，便超过去年公司年产值。","mk":"/","f":"制","o":"事","form":"个案","dest":"例子","why":"带数：1 亿元“哪吒2”周边订单","used":[]}]},"8-6-4":{"id":"8-6-4","m":"8","p":6,"xi":false,"pieces":[{"t":"订单的背后，正是政府牵头构建的上下游企业协同机制展现的强大竞争优势。","mk":"{}","f":"制","o":"理","form":"是什么（归因）","dest":"论点／道理料","why":"“……背后，正是……”：剥掉框架，里面是一个机制（上下游企业协同机制）——进 { }","used":[]}]},"8-7-1":{"id":"8-7-1","m":"8","p":7,"xi":false,"pieces":[{"t":"向“新”发力、不断健全因地制宜发展新质生产力体制机制，是广东推动高质量发展的必由之路","mk":"{}","f":"总","o":"理","form":"是什么","dest":"论点／道理料（管整篇）","why":"一个道理：健全体制机制是推动高质量发展的“必由之路”——比喻；主题题改判断时借它","st":true,"used":["开头·论点句"]},{"t":"，是这个经济大省在推进中国式现代化建设中继续走在前列的使命担当。","mk":"尾","f":null,"o":"听","form":"是什么（使命）","dest":"结尾","why":"后半没多什么，说得比题目大（继续走在前列的使命担当）——结尾","used":[]}]}},"seq":["1-1-1","1-1-2","1-1-3","1-1-4","1-2-1","1-3-1","1-4-1","1-5-1","1-6-1","1-7-1","1-8-1","1-8-2","1-9-1","1-9-2","1-9-3","1-10-1","1-10-2","2-1-1","2-2-1","2-3-1","2-4-1","2-4-2","2-5-1","2-5-2","2-5-3","2-6-1","2-6-2","2-6-3","2-6-4","2-6-5","2-7-1","2-7-2","2-8-1","2-8-2","3-1-1","3-1-2","3-1-3","3-2-1","3-3-1","3-3-2","3-3-3","3-4-1","3-4-2","3-4-3","3-4-4","3-5-1","3-5-2","3-5-3","3-5-4","3-5-5","3-6-1","3-6-2","4-8-2","6-1-1","6-1-2","6-1-3","6-2-1","6-2-2","6-3-1","6-3-2","6-3-3","6-3-4","6-4-1","6-4-2","6-4-3","6-4-4","6-5-1","6-5-2","6-5-3","6-5-4","6-6-1","6-6-2","6-6-3","6-6-4","6-7-1","6-7-2","7-1-1","7-2-1","7-2-2","7-2-3","7-3-1","7-3-2","7-3-3","7-4-1","7-4-2","7-5-1","7-5-2","7-6-1","7-6-2","7-7-1","7-8-1","8-1-1","8-2-1","8-3-1","8-3-2","8-4-1","8-4-2","8-4-3","8-5-1","8-5-2","8-5-3","8-5-4","8-5-5","8-6-1","8-6-2","8-6-3","8-6-4","8-7-1"],"xiNote":{"4":"小题一的材料，做小题时读过。作文没有用到这一则。","5":"小题二的材料，做小题时读过。作文没有用到这一则。"},"essay":{"title":"抓住创新“牛鼻子”　做好创新大文章","parts":[{"name":"开头","formula":"引语 → 道理句（有就用）→ 对广东而言 → 做什么 → 论点句","rows":[{"e":"e1","role":"引语","text":"习近平总书记指出，“新质生产力的显著特点是创新”，“必须继续做好创新这篇大文章，推动新质生产力加快发展”。","src":[{"sid":"1-3-1","frag":"新质生产力的显著特点是创新","mk":"{}","f":"总","st":true},{"sid":"1-1-3","frag":"必须继续做好创新这篇大文章，推动新质生产力加快发展","mk":"①","f":null,"st":false}],"how":"题干里给的两句总书记原话，照抄；材料一第 1、3 段也有，看到就用","note":null},{"e":"e2","role":"道理句","text":"创新是第一动力，创新才能把握时代、引领时代。","src":[{"sid":"1-1-1","frag":"创新是第一动力","mk":"{}","f":"总","st":false},{"sid":"1-1-2","frag":"创新才能把握时代、引领时代","mk":"{}","f":"总","st":true}],"how":"材料一最前面两句，紧挨着引语，看到就用；第二句划了 ★，放在开头显眼","note":null},{"e":"e3","role":"对广东而言","text":"对广东而言，区域创新能力已连续8年全国第一，这份沉甸甸的成绩，是加快发展新质生产力的坚实基础。","src":[{"sid":"2-3-1","frag":"区域创新能力连续8年全国第一","mk":"③","f":null,"st":false},{"sid":"2-8-1","frag":"这份沉甸甸的成绩","mk":"③","f":null,"st":false},{"sid":"2-8-1","frag":"是加快发展新质生产力、推动高质量发展的坚实基础","mk":"③","f":null,"st":false}],"how":"题干说“继续”，就从成绩说起；材料二打了序号的两句接起来，一串数里只留和创新有关的一个","note":null},{"e":"e4","role":"做什么","text":"要把这份家底用好，广东必须推动科技创新、产业创新、绿色创新、制度创新协同发力，继续做好创新这篇大文章。","src":[{"sid":"3-1-2","frag":"科技创新","mk":"{}","f":"科","st":true},{"sid":"6-2-2","frag":"以科技创新推动产业创新","mk":"{}","f":"产","st":true},{"sid":"7-3-1","frag":"绿色发展是高质量发展的底色","mk":"{}","f":"绿","st":true},{"sid":"8-1-1","frag":"体制机制“活”","mk":"{}","f":"制","st":true}],"how":"四个面字连起来，前面加一句“把家底用好”接住上一句的成绩，句尾落回题干","note":null},{"e":"e5","role":"论点句","text":"继续做好创新这篇大文章，正是广东推动高质量发展的必由之路。","src":[{"sid":"8-7-1","frag":"是广东推动高质量发展的必由之路","mk":"{}","f":"总","st":true},{"sid":"@题干","frag":"继续做好创新这篇大文章 → ……正是……必由之路"}],"how":"题干是件要做的事，加不上“正”；记得材料八末句有个 ★ 的“必由之路”，借来先改成判断","note":null}]},{"name":"科技创新段","formula":"论点（两半句）→ 道理（有就用）→ 例子（两个）→ 回扣","rows":[{"e":"e6","role":"论点","text":"科技创新向“高”攀登、向“实”聚焦，在战略必争领域并跑领跑。","src":[{"sid":"3-3-1","frag":"广东向“高”攀登，在战略必争领域并跑领跑","mk":"{}","f":"科","st":true},{"sid":"3-4-1","frag":"广东向“实”聚焦","mk":"{}","f":"科","st":true}],"how":"材料三两段的开头句，划的 {★}；主语换成面字，两半都是做什么","note":null},{"e":"e7","role":"道理","text":"科技创新能够催生新产业、新模式、新动能，是发展新质生产力的核心要素。","src":[{"sid":"3-1-2","frag":"科技创新能够催生新产业、新模式、新动能，是发展新质生产力的核心要素","mk":"{}","f":"科","st":true}],"how":"材料三第一句 ★，照抄","note":null},{"e":"e8","role":"例子","text":"全省已建和在建国家大科学装置达10个；一系列高端手术设备打破国外技术垄断，仅重800克的伽马相机一秒钟就能成像。","src":[{"sid":"3-3-3","frag":"全省已建和在建国家大科学装置数量达10个","mk":"/","f":"科","st":false},{"sid":"3-5-2","frag":"一系列高端手术设备成功打破国外技术垄断","mk":"/","f":"科","st":false},{"sid":"3-5-4","frag":"这款仅重800克的伽马相机能在短短一秒钟内成像","mk":"/","f":"科","st":false}],"how":"向“高”一个、向“实”一个，各留一个数，分号隔开","note":null},{"e":"e9","role":"回扣","text":"从实验室里的量子比特到湾区上空的无人航空器，广东正以新技术撬动新质生产力的几何级增长，在战略必争领域并跑领跑。","src":[{"sid":"3-4-4","frag":"从实验室里的量子比特到湾区上空的无人航空器","mk":"()","f":"科","st":false},{"sid":"3-4-4","frag":"撬动新质生产力的几何级增长","mk":"()","f":"科","st":false},{"sid":"@回扣","frag":"论点后半“在战略必争领域并跑领跑” → 接在句尾"}],"how":"材料三第 4 段那句 ( )，就在例子旁边，看到就用，中间压短；句尾把论点后半再说一遍","note":null}]},{"name":"产业创新段","formula":"论点（两半句）→ 道理（有就用）→ 例子（两个）→ 回扣","rows":[{"e":"e10","role":"论点","text":"产业创新向“新”而行、以“新”提质，坚持传统产业、新兴产业、未来产业并举。","src":[{"sid":"6-2-2","frag":"向“新”而行、以“新”提质，坚持传统产业、新兴产业、未来产业并举","mk":"{}","f":"产","st":true}],"how":"材料六第 2 段的宽句，和科技那段一个样子（向“×”），主语换成面字","note":null},{"e":"e11","role":"道理","text":"产业兴则经济兴，产业强则国家强。","src":[{"sid":"6-1-1","frag":"产业兴则经济兴，产业强则国家强","mk":"{}","f":"产","st":true}],"how":"材料六首句 ★，对仗，照抄","note":null},{"e":"e12","role":"例子","text":"石化、钢铁等传统产业通过数智技术、绿色技术赋能，让“老树发新芽”；全国每3台工业机器人就有一台“广东造”。","src":[{"sid":"6-3-2","frag":"通过数智技术、绿色技术赋能","mk":"/","f":"产","st":false},{"sid":"6-3-1","frag":"让“老树发新芽”","mk":"{}","f":"产","st":true},{"sid":"6-4-3","frag":"全国每3台工业机器人就有一台“广东造”","mk":"/","f":"产","st":true}],"how":"老产业一个，新产业一个 /★","note":null},{"e":"e13","role":"回扣","text":"广东百业俱兴，成为全国公认的制造业强省、科技强省、出口强省，产业正向“新”而行。","src":[{"sid":"6-6-4","frag":"广东百业俱兴，成为全国公认的制造业强省、科技强省、出口强省","mk":"()","f":"产","st":false},{"sid":"@回扣","frag":"论点里的“向‘新’而行” → 产业正向“新”而行"}],"how":"材料六倒数第二段的 ( )，看到就用，照抄；后半把论点改成“正……”","note":null}]},{"name":"绿色创新段","formula":"论点（两半句）→ 道理（没有，拿同段的宽句顶上）→ 例子（两个）→ 回扣","rows":[{"e":"e14","role":"论点","text":"绿色发展是高质量发展的底色，新质生产力本身就是绿色生产力。","src":[{"sid":"7-3-1","frag":"绿色发展是高质量发展的底色","mk":"{}","f":"绿","st":true},{"sid":"7-3-1","frag":"新质生产力本身就是绿色生产力","mk":"{}","f":"绿","st":true}],"how":"材料七总书记那句两半都是 {★}，去掉“习近平总书记强调”；“向‘×’”套不上这一面，就不硬套","note":null},{"e":"e15","role":"道理","text":"广东正大力推动生产过程清洁化、能源消费低碳化，不断提升社会经济发展的“含绿量”。","src":[{"sid":"7-3-2","frag":"广东正大力推动生产过程清洁化","mk":"{}","f":"绿","st":true},{"sid":"7-3-2","frag":"能源消费低碳化","mk":"{}","f":"绿","st":true},{"sid":"7-3-2","frag":"不断提升社会经济发展的“含绿量”","mk":"{}","f":"绿","st":true}],"how":"没有现成的道理句，拿同段那句宽的“做了什么”顶上，五个“化”留两个","note":null},{"e":"e16","role":"例子","text":"2023年，广东绿色生产力指数位居全国第二；湛江百万吨级氢基竖炉项目每年可减少二氧化碳排放50万吨以上。","src":[{"sid":"7-7-1","frag":"2023年广东绿色生产力指数位居全国第二","mk":"/","f":"绿","st":true},{"sid":"7-6-1","frag":"百万吨级氢基竖炉项目","mk":"/","f":"绿","st":false},{"sid":"7-6-2","frag":"每年可减少二氧化碳排放50万吨以上","mk":"/","f":"绿","st":false}],"how":"全省一个 /★，湛江一个个案","note":null},{"e":"e17","role":"回扣","text":"广东正打造绿色低碳发展高地，让绿色产业优势源源不断转化为高质量发展优势。","src":[{"sid":"7-8-1","frag":"打造绿色低碳发展高地，让绿色产业优势源源不断转化为高质量发展优势","mk":"()","f":"绿","st":false}],"how":"材料七末句 ( )，去掉前面的“乘着……东风”","note":null}]},{"name":"制度创新段","formula":"论点（两半句）→ 道理（本块没有，翻开头拿）→ 例子（两个）→ 回扣","rows":[{"e":"e18","role":"论点","text":"体制机制“活”，要素资源“聚”，是广东发展新质生产力的重要优势。","src":[{"sid":"8-1-1","frag":"体制机制“活”，要素资源“聚”，是广东发展新质生产力的重要特点和优势","mk":"{}","f":"制","st":true}],"how":"材料八首句 ★，照抄，删“特点和”；前半就有体制机制","note":null},{"e":"e19","role":"道理","text":"构建支持全面创新的体制机制，才能促进各类先进生产要素向发展新质生产力集聚。","src":[{"sid":"1-5-1","frag":"注重构建支持全面创新体制机制","mk":"{}","f":"制","st":false},{"sid":"1-5-1","frag":"促进各类先进生产要素向发展新质生产力集聚","mk":"{}","f":"制","st":false}],"how":"本块只有“主阵地”一句 { }，不贴；记得材料一有总书记讲体制机制的话，翻回开头拿，用“才能”接起来","note":null},{"e":"e20","role":"例子","text":"深圳率先出台科技创新条例，率先建立知识产权侵权惩罚性赔偿制度；云浮一家科技公司遇到困难，当地就开现场办公会，企业落户五年便跻身独角兽榜单。","src":[{"sid":"8-4-1","frag":"率先出台《深圳经济特区科技创新条例》，率先建立知识产权侵权惩罚性赔偿制度","mk":"/","f":"制","st":false},{"sid":"8-5-4","frag":"当地党政领导都会召开现场办公会","mk":"/","f":"制","st":false},{"sid":"8-5-3","frag":"2017年某科技公司落户云浮，2022年便跻身福布斯中国独角兽榜单","mk":"/","f":"制","st":false}],"how":"深圳一个、云浮一个；云浮那句把两个年份压成“五年”","note":null},{"e":"e21","role":"回扣","text":"珠三角城市你追我赶，粤东西北大展拳脚，广东的体制机制正越来越“活”。","src":[{"sid":"8-5-1","frag":"珠三角城市在你追我赶，粤东西北也在大展拳脚","mk":"()","f":"制","st":false},{"sid":"@回扣","frag":"论点里的“活” → 正越来越“活”"}],"how":"材料八第 5 段的 ( )，就在例子前面；后半把论点改成“正越来越……”","note":null}]},{"name":"结尾","formula":"起 → 唯有……才能…… → 落","rows":[{"e":"e22","role":"起","text":"风好正是扬帆时，策马扬鞭再奋蹄。","src":[{"sid":"6-7-1","frag":"风好正是扬帆时，策马扬鞭再奋蹄","mk":"尾","f":null,"st":false}],"how":"材料六末段的诗句，题干说“继续”，这句正对","note":null},{"e":"e23","role":"回收＋落","text":"唯有抓住创新这个“牛鼻子”，推动科技创新、产业创新、绿色创新、制度创新协同发力，才能继续做好创新这篇大文章，在建设现代化产业体系上继续走在全国前列，让一幅百业兴旺、春色满园的美好画卷“粤”然纸上。","src":[{"sid":"1-10-2","frag":"抓住创新这个“牛鼻子”","mk":"{}","f":"总","st":true},{"sid":"6-7-2","frag":"奋力在建设现代化产业体系上继续走在全国前列","mk":"尾","f":null,"st":false},{"sid":"1-10-2","frag":"一幅百业兴旺、春色满园的美好画卷“粤”然纸上","mk":"尾","f":null,"st":false}],"how":"“牛鼻子”和标题呼应；点名四种创新，接回题干；落在材料六末句的目标，最后用材料一末句的画卷收住","note":null}]}]},"conflicts":[["题干","卡住","题干“继续做好创新这篇大文章”是件要做的事，开头论点句加不上“正”。翻到材料八末句 ★ 的“必由之路”，先改成判断再加“正”。"],["3-3-1 / 3-4-1 / 6-2-2","顺手","材料三、六的开头句都是“向‘×’……”，按人用版算宽的“做了什么”，划成 {★}。科技、产业两段直接拿来当论点，算架上两面。"],["7-3-1 / 8-1-1","破例","架子只架上两面。绿色、制度两段没有硬推成“向‘绿’”“向‘活’”，各用本块的 ★ 原句当论点；四句论点不是一个样子，也就这样了。"],["7-3-2","破例","绿色那段没有现成的道理句，拿同段那句宽的“做了什么”顶在第二句；它说的是做了什么，不是道理。"],["1-5-1","顺手","制度那段本块的 { } 只有“大湾区是主阵地”，和论点不贴。按“找不到附近就翻开头”，用了材料一总书记讲体制机制的话。"]],"ref":{"title":"抓住创新\"牛鼻子\"　做好创新\"大文章\"","points":["科技创新向\"高\"攀登，在战略必争领域并跑领跑。","产业创新向\"新\"而行，以\"新\"提质。","绿色创新向\"绿\"提质，不断提升发展的\"含绿量\"。","制度创新向\"活\"发力，引导各类优质要素朝着新质生产力集聚。"],"note":"格子和参考范文一样（科技、产业、绿色、制度），标题只差一对引号，科技、产业两句论点也和参考范文同用材料里的“向‘×’”句式；参考范文把这个架子套满四面（向“绿”提质、向“活”发力），考生绿色、制度两面没硬套、用了材料原句，参考范文这两面的后半（“含绿量”、要素集聚）在考生段里落在道理位。参考范文的标题和论点在模拟之前已经在对话里出现过，标题和前两句撞上不能算盲测。"},"refuse":[{"sid":"2-3-1","pos":"第1段第3句","role":"开头","text":"广东区域创新能力连续8年全国第一，主要科技指标均居全国首位。","xi":false,"marks":[{"mk":"③","f":null,"dest":"开头·广东出场","st":false}]},{"sid":"1-9-2","pos":"第1段第4句","role":"开头","text":"推进产业科技创新、发展新质生产力，是一场艰苦的竞速赛、耐力赛、接力赛。","xi":false,"marks":[{"mk":"{}","f":"总","dest":"道理料（管整篇）","st":true}]},{"sid":"3-3-1","pos":"第2段第1句","role":"论点","text":"科技创新向\"高\"攀登，在战略必争领域并跑领跑。","xi":false,"marks":[{"mk":"{}","f":"科","dest":"论点／道理料","st":true}]},{"sid":"3-1-1","pos":"第2段第2句","role":"道理","text":"新质生产力主要由技术革命性突破催生而成。","xi":false,"marks":[{"mk":"{}","f":"科","dest":"论点／道理料","st":false}]},{"sid":"3-2-1","pos":"第2段第3句","role":"例子","text":"近年来，广东加快构建\"基础研究+技术攻关+成果转化+科技金融+人才支撑\"全过程创新链：全省已建和在建国家大科学装置达10个；","xi":false,"marks":[{"mk":"/","f":"科","dest":"例子","st":false}]},{"sid":"3-5-2","pos":"第2段第4句","role":"例子","text":"一系列高端手术设备成功打破国外技术垄断。","xi":false,"marks":[{"mk":"/","f":"科","dest":"例子","st":false}]},{"sid":"3-6-2","pos":"第2段第5句","role":"收尾","text":"广东切实把创新落在企业上、产业上、发展上，加快推进科技创新和产业创新融合发展。","xi":false,"marks":[{"mk":"{}","f":"总","dest":"论点／道理料（管整篇）","st":true}]},{"sid":"6-2-2","pos":"第3段第1句","role":"论点","text":"产业创新向\"新\"而行，以\"新\"提质。","xi":false,"marks":[{"mk":"{}","f":"产","dest":"论点／道理料","st":true}]},{"sid":"6-1-3","pos":"第3段第2句","role":"道理","text":"产业体系向新图强，发展才能以质取胜。","xi":false,"marks":[{"mk":"{}","f":"产","dest":"论点／道理料","st":true}]},{"sid":"6-3-2","pos":"第3段第3句","role":"总括","text":"近年来，广东坚持传统产业、新兴产业、未来产业并举，让\"老树发新芽\"\"新树扎深根\"\"小树变大树\"：传统产业通过数智技术、绿色技术赋能，不断转型升级；","xi":false,"marks":[{"mk":"/","f":"产","dest":"例子","st":false}]},{"sid":"6-4-3","pos":"第3段第4句","role":"例子","text":"全国每3台工业机器人就有一台\"广东造\"；","xi":false,"marks":[{"mk":"/","f":"产","dest":"例子","st":true}]},{"sid":"6-5-3","pos":"第3段第5句","role":"例子","text":"人工智能领域核心产业规模达1800亿元。","xi":false,"marks":[{"mk":"/","f":"产","dest":"例子","st":true}]},{"sid":"4-7-1","pos":"第3段第6句","role":"例子","text":"R镇率先出台以企业为主体的产学研专项政策，打通产学研融合的\"最后一公里\"。","xi":true,"marks":[]},{"sid":"6-6-4","pos":"第3段第7句","role":"收尾","text":"广东百业俱兴，成为全国公认的制造业强省、科技强省、出口强省。","xi":false,"marks":[{"mk":"()","f":"产","dest":"收尾","st":false}]},{"sid":"7-3-2","pos":"第4段第1句","role":"论点","text":"绿色创新向\"绿\"提质，不断提升发展的\"含绿量\"。","xi":false,"marks":[{"mk":"{}","f":"绿","dest":"论点／道理料","st":true}]},{"sid":"7-3-1","pos":"第4段第2句","role":"道理","text":"新质生产力本身就是绿色生产力。","xi":false,"marks":[{"mk":"{}","f":"绿","dest":"论点／道理料","st":true},{"mk":"{}","f":"绿","dest":"论点／道理料","st":true}]},{"sid":"7-3-2","pos":"第4段第3句","role":"总括","text":"广东通过科技创新和产业升级，推动生产过程清洁化、能源消费低碳化、产品供给绿色化","xi":false,"marks":[{"mk":"{}","f":"绿","dest":"论点／道理料","st":true}]},{"sid":"7-2-1","pos":"第4段第4句","role":"例子","text":"深圳龙岗能源生态园每日可处理生活垃圾5000吨；","xi":false,"marks":[{"mk":"/","f":"绿","dest":"例子","st":false}]},{"sid":"7-5-2","pos":"第4段第5句","role":"例子","text":"阳江海上风电并网装机容量500万千瓦，约占全国七分之一；","xi":false,"marks":[{"mk":"/","f":"绿","dest":"例子","st":false}]},{"sid":"7-6-2","pos":"第4段第6句","role":"例子","text":"湛江百万吨级氢基竖炉项目每年可减少二氧化碳排放50万吨以上。","xi":false,"marks":[{"mk":"/","f":"绿","dest":"例子","st":false}]},{"sid":"7-8-1","pos":"第4段第7句","role":"收尾","text":"绿色产业优势源源不断转化为高质量发展优势。","xi":false,"marks":[{"mk":"()","f":"绿","dest":"收尾","st":false}]},{"sid":"8-2-1","pos":"第5段第1句","role":"论点","text":"制度创新向\"活\"发力，引导各类优质要素朝着新质生产力集聚。","xi":false,"marks":[{"mk":"{}","f":"制","dest":"论点／道理料","st":false}]},{"sid":"8-1-1","pos":"第5段第2句","role":"道理","text":"体制机制\"活\"，要素资源\"聚\"，是广东发展新质生产力的重要特点和优势。","xi":false,"marks":[{"mk":"{}","f":"制","dest":"论点／道理料","st":true}]},{"sid":"8-2-1","pos":"第5段第3句","role":"总括","text":"广东着力构建政策体系，持续优化体制机制","xi":false,"marks":[{"mk":"{}","f":"制","dest":"论点／道理料","st":false}]},{"sid":"8-4-1","pos":"第5段第4句","role":"例子","text":"深圳率先出台《深圳经济特区科技创新条例》，率先建立知识产权侵权惩罚性赔偿制度；","xi":false,"marks":[{"mk":"/","f":"制","dest":"例子","st":false}]},{"sid":"2-6-4","pos":"第5段第5句","role":"例子","text":"全省研发人员数量超150万；","xi":false,"marks":[{"mk":"/","f":"科","dest":"例子","st":true}]},{"sid":"8-5-3","pos":"第5段第6句","role":"例子","text":"某科技公司2017年落户云浮，2022年便跻身福布斯中国独角兽榜单。","xi":false,"marks":[{"mk":"/","f":"制","dest":"例子","st":false}]},{"sid":"8-7-1","pos":"第5段第7句","role":"收尾","text":"不断健全因地制宜发展新质生产力体制机制，是广东推动高质量发展的必由之路。","xi":false,"marks":[{"mk":"{}","f":"总","dest":"论点／道理料（管整篇）","st":true},{"mk":"尾","f":null,"dest":"结尾","st":false}]},{"sid":"1-10-1","pos":"第6段第1句","role":"结尾","text":"岭南春来早，人勤地生宝。","xi":false,"marks":[{"mk":"尾","f":null,"dest":"结尾","st":false}]},{"sid":"6-7-2","pos":"第6段第2句","role":"结尾","text":"科技创新向\"高\"攀登、产业创新向\"新\"而行、绿色创新向\"绿\"提质、制度创新向\"活\"发力，推动产业科技互促双强，奋力在建设现代化产业体系上继续走在全国前列。","xi":false,"marks":[{"mk":"尾","f":null,"dest":"结尾","st":false}]},{"sid":"1-10-2","pos":"第6段第3句","role":"结尾","text":"抓住创新这个\"牛鼻子\"，因地制宜发展新质生产力，一幅百业兴旺、春色满园的美好画卷\"粤\"然纸上。","xi":false,"marks":[{"mk":"{}","f":"总","dest":"标题","st":true},{"mk":"尾","f":null,"dest":"结尾","st":false}]}],"id":"25sx","topic":"广东“继续做好创新这篇大文章”","own":false,"chars":966,"pageTitle":"25省市作文推演"}];
+  const SUM = null;
+  const ID = {};
+  PAPERS.forEach(p => { ID[p.key] = p.id; });
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const trimP = s => String(s).replace(/^[，、。；：！？]+|[，、。；：！？]+$/g, '');
+  const short = (s, n) => { const t = trimP(s); return t.length > n ? t.slice(0, n) + '……' : t; };
+  const OUT = { '事': ['shi', '多了一件具体的事'], '理': ['li', '多了一个道理'], '听': ['ting', '没多什么，但好听'], '无': ['wu', '没多什么，也不好听'] };
+  const NUMS = '①②③④⑤';
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const narrow = window.matchMedia('(max-width: 959px)');
+  const SINGLE = PAPERS.length === 1;
+  let P = null, VIEW = '', matName = {}, cur = null, cur2 = null;
+
+  const nav = $('.steps');
+  const setNavH = () => document.documentElement.style.setProperty('--nav-h', nav.offsetHeight + 'px');
+  window.addEventListener('resize', setNavH);
+  function scrollToEl(el, frac) {
+    const y = el.getBoundingClientRect().top + window.scrollY - (frac == null ? window.innerHeight * (narrow.matches ? 0.16 : 0.28) : nav.offsetHeight);
+    window.scrollTo({ top: Math.max(0, y), behavior: reduce ? 'auto' : 'smooth' });
+  }
+
+  /* ---------- marks ---------- */
+  const tag = (f, c) => f ? `<span class="tag${c ? ' ' + c : ''}">${esc(f)}</span>` : '';
+  const LP = /^[，、。；：！？]+/, RP = /[，、。；：！？]+$/;
+  const STAR = '<b class="mk star">★</b>';
+  function pieceHTML(pc) {
+    if (!pc.mk) return `<span class="pc">${esc(pc.t)}</span>`;
+    if (pc.mk === '跟') return `<span class="pc follow">${esc(pc.t)}</span>`;
+    let t = pc.t, a = '', z = '', m;
+    if ((m = t.match(LP))) { a = m[0]; t = t.slice(a.length); }
+    if ((m = t.match(RP))) { z = m[0]; t = t.slice(0, t.length - z.length); }
+    let pre = '', post = '';
+    if (pc.mk === '{}') { pre = '<b class="mk">{</b>'; post = '<b class="mk">}</b>' + (pc.st ? STAR : '') + tag(pc.f); }
+    else if (pc.mk === '()') { pre = '<b class="mk">(</b>'; post = '<b class="mk">)</b>' + tag(pc.f); }
+    else if (pc.mk === '尾') { pre = '<b class="mk">(</b>'; post = '<b class="mk">)</b>' + tag('尾'); }
+    else if (pc.mk === '/') { pre = '<b class="mk ex">/</b>' + (pc.st ? STAR : '') + tag(pc.f, 'ex'); }
+    else { pre = `<b class="mk num">${esc(pc.mk)}</b>`; }
+    return `${esc(a)}<span class="pc on">${pre}${esc(t)}${post}</span>${esc(z)}`;
+  }
+  const sentHTML = id => P.sents[id].pieces.map(pieceHTML).join('');
+  const isMarked = id => P.sents[id].pieces.some(p => p.mk);
+  function glyph(mk, f, st) {
+    if (!mk) return '<span class="g off">不划</span>';
+    if (mk === '跟') return '<span class="g ex">跟着例子走</span>';
+    if (mk === '{}') return `<span class="g"><b class="mk">{ }</b>${st ? STAR : ''}${tag(f)}</span>`;
+    if (mk === '()') return `<span class="g"><b class="mk">( )</b>${tag(f)}</span>`;
+    if (mk === '尾') return `<span class="g"><b class="mk">( )</b>${tag('尾')}</span>`;
+    if (mk === '/') return `<span class="g"><b class="mk ex">/</b>${st ? STAR : ''}${tag(f, 'ex')}</span>`;
+    return `<span class="g"><b class="mk num">${esc(mk)}</b></span>`;
+  }
+
+  /* ---------- header, chooser, steps ---------- */
+  const STEPS_P = [['s-read', '1', '读题'], ['s-mark', '2', '划句子'], ['s-pile', '3', '找格子'], ['s-build', '4', '拼文章'], ['s-sheet', '5', '誊稿纸'], ['s-check', '6', '对答案']];
+  const STEPS_O = [['o-rule', '一', '人用版规则'], ['o-papers', '二', '八篇一览'], ['o-ref', '三', '参考范文的料']];
+  const shortName = p => p.meta.year.slice(2) + ' ' + p.meta.label.replace(/^\d{4}\s*/, '');
+  function renderChooser() {
+    if (SINGLE) { $('#papers').hidden = true; $('#pselWrap').hidden = true; return; }
+    let cards = SUM ? `<a class="pcard ovc" href="#overview"><span class="py">总览</span><span class="pn">规则和八篇</span><span class="pt">人用版规则；八篇一览；参考范文的料</span></a>` : '';
+    let opts = SUM ? '<option value="overview">总览</option>' : '';
+    PAPERS.forEach(p => {
+      cards += `<a class="pcard" href="#${p.id}"><span class="py">${esc(p.meta.year)}</span><span class="pn">${esc(p.meta.label.replace(/^\d{4}\s*/, ''))}</span>` +
+        `<span class="pt">${esc(p.topic)}</span><span class="pb">${p.own ? '本人作答' : '模拟考生'} · ${p.chars} 字</span></a>`;
+      opts += `<option value="${p.id}">${esc(shortName(p))}</option>`;
+    });
+    $('#papers').innerHTML = cards;
+    $('#paperSel').innerHTML = opts;
+  }
+  function setSteps(list) {
+    $('#stepList').innerHTML = list.map(([id, n, t]) => `<li><a href="#${id}" data-step="${id}"><span class="n">${n}</span>${t}</a></li>`).join('');
+    setNavH();
+  }
+  $('#stepList').addEventListener('click', e => {
+    const a = e.target.closest('a[data-step]');
+    if (!a) return;
+    e.preventDefault();
+    const el = document.getElementById(a.dataset.step);
+    if (el) scrollToEl(el, 0);
+  });
+  $('#paperSel').addEventListener('change', e => { location.hash = e.target.value; });
+
+  /* ---------- step 1 ---------- */
+  function renderRead() {
+    const m = P.meta;
+    $('#readLead').textContent = `小题先做完，${m.xiaoti}已经读过。翻到问题三，题干只抓三样。`;
+    $('#prompt').innerHTML = `<p class="q"><b>问题三</b>　${esc(m.question)}</p><ol>${m.reqs.map(r => `<li>${esc(r)}</li>`).join('')}</ol>`;
+    $('#three').innerHTML = `<dl><dt>A</dt><dd>${esc(m.A)}</dd><dt>B</dt><dd>${esc(m.B)}</dd><dt>关系</dt><dd>${esc(m.rel)}</dd><dt>题型</dt><dd>${esc(m.qtype)}</dd></dl>`;
+    $('#faceWords').textContent = `面字：${m.faces.map(f => f[0]).join('、')}；管整篇的写“总”。`;
+  }
+
+  /* ---------- step 2: materials ---------- */
+  const sentSpan = id => `<span class="s${isMarked(id) ? '' : ' off'}" data-id="${id}" role="button" tabindex="0">${sentHTML(id)}</span>`;
+  const paraHTML = p => `<p class="para">${p.map(sentSpan).join('')}</p>`;
+  function renderMats() {
+    let h = '';
+    P.mats.forEach(m => {
+      h += `<article class="paper mat" id="mat-${m.k}"><header class="mat-h"><h3>${esc(m.name)}</h3><span class="gist">${esc(m.gist)}</span></header>`;
+      if (m.kind === 'xiaoti') {
+        const keep = m.paras.filter(p => p.some(isMarked));
+        const fold = m.paras.filter(p => !p.some(isMarked));
+        h += `<details class="xt"><summary>${esc(m.fold)}</summary><div class="mtext">${fold.map(paraHTML).join('')}</div></details>`;
+        if (keep.length) h += `<div class="mtext">${keep.map(paraHTML).join('')}</div>`;
+      } else {
+        h += `<div class="mtext">${m.paras.map(paraHTML).join('')}</div>`;
+      }
+      h += '</article>';
+    });
+    $('#mats').innerHTML = h;
+  }
+
+  const card = $('#card');
+  const INTRO = card.innerHTML;
+  function cardHTML(id) {
+    const s = P.sents[id];
+    const i = P.seq.indexOf(id);
+    let h = `<div class="card-h"><div class="where">${esc(matName[s.m])} · 第 ${s.p} 段 · <span class="sid">${id}</span></div>` +
+      `<div class="navb"><button type="button" class="btn" data-act="prev"${i <= 0 ? ' disabled' : ''}>上一句</button>` +
+      `<button type="button" class="btn" data-act="next"${i < 0 || i >= P.seq.length - 1 ? ' disabled' : ''}>下一句</button>` +
+      `<button type="button" class="btn close" data-act="close">收起</button></div></div>`;
+    const judged = s.pieces.filter(p => p.o);
+    if (!judged.length) return h + `<p class="xi-note">${esc(P.xiNote[s.m] || '')}</p>`;
+    const multi = judged.length > 1;
+    judged.forEach(p => {
+      const [oc, ot] = OUT[p.o];
+      h += `<div class="jd">${multi ? `<p class="q">「${esc(short(p.t, 30))}」</p>` : ''}<dl>` +
+        `<dt>读完</dt><dd><span class="o o-${oc}">${ot}</span></dd>` +
+        `<dt>句式</dt><dd>${esc(p.form)}</dd>` +
+        `<dt>记号</dt><dd>${glyph(p.mk, p.f, p.st)}<span class="arrow">→</span>${esc(p.dest)}</dd>` +
+        `<dt>为什么</dt><dd>${esc(p.why)}</dd>` +
+        `<dt>后来</dt><dd>${p.used && p.used.length ? `<span class="use">${esc(p.used.join('；'))}</span>` : '<span class="muted">没用上</span>'}</dd></dl></div>`;
+    });
+    if (s.pieces.some(p => !p.o)) h += '<p class="rest">其余部分：不划</p>';
+    return h;
+  }
+  function select(id, scroll) {
+    $$('.s.sel').forEach(e => e.classList.remove('sel'));
+    cur = id;
+    const el = $(`.s[data-id="${id}"]`);
+    if (el) {
+      const det = el.closest('details');
+      if (det && !det.open) det.open = true;
+      el.classList.add('sel');
+      if (scroll) scrollToEl(el);
+      else if (narrow.matches && el.getBoundingClientRect().bottom > window.innerHeight * 0.5) scrollToEl(el);
+    }
+    card.innerHTML = cardHTML(id);
+    card.scrollTop = 0;
+    document.body.classList.add('sheet-on');
+  }
+  function closeCard() {
+    $$('.s.sel').forEach(e => e.classList.remove('sel'));
+    cur = null;
+    card.innerHTML = INTRO;
+    document.body.classList.remove('sheet-on');
+  }
+  card.addEventListener('click', e => {
+    const b = e.target.closest('[data-act]');
+    if (!b) return;
+    const act = b.dataset.act;
+    if (act === 'start') { select(P.seq[0], true); return; }
+    if (act === 'close') { closeCard(); return; }
+    const i = P.seq.indexOf(cur);
+    if (act === 'next' && i < P.seq.length - 1) select(P.seq[i + 1], true);
+    if (act === 'prev' && i > 0) select(P.seq[i - 1], true);
+    const again = card.querySelector(`[data-act="${act}"]:not([disabled])`);
+    if (again) again.focus({ preventScroll: true });
+  });
+  $('#startRead').addEventListener('click', () => select(P.seq[0], true));
+  $('#mats').addEventListener('click', e => {
+    if (e.target.closest('summary')) return;
+    const s = e.target.closest('.s');
+    if (s) select(s.dataset.id, false);
+  });
+  $('#mats').addEventListener('keydown', e => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const s = e.target.closest('.s');
+    if (s) { e.preventDefault(); select(s.dataset.id, false); }
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && cur) closeCard(); });
+  $('#dimToggle').addEventListener('change', e => $('#markLayout').classList.toggle('dim', e.target.checked));
+
+  /* ---------- step 3: grid + pile ---------- */
+  function renderGrid() {
+    const g = P.meta.grid, faces = P.meta.faces;
+    let h = `<div class="paper gridbox"><h3 class="box-h">格子在哪<span class="kind">${esc(g.kind)}</span></h3>`;
+    if (g.sid) h += `<p class="gsent"><span class="fid">${g.sid}</span>${sentHTML(g.sid)}</p>`;
+    h += `<p class="gtext">格子：<b>${esc(g.text)}</b></p>`;
+    h += '<ul class="embed">' + g.embed.map(([f, where, what], i) => {
+      const fc = faces[i] || [f, ''];
+      return `<li><span class="big">${esc(f)}</span><span class="fn">${esc(fc[1])}<small>${esc(where)}</small></span><span class="ex">${esc(what)}</span></li>`;
+    }).join('') + '</ul>';
+    if (g.rejected && g.rejected.length) {
+      h += '<ul class="rej">' + g.rejected.map(([sid, text, why]) =>
+        `<li><span class="x">试过</span><b>${esc(text)}</b>（${esc(sid)}）——${esc(why)}</li>`).join('') + '</ul>';
+    }
+    $('#grid').innerHTML = h + '</div>';
+  }
+  function renderPile() {
+    $('#pileLead').textContent = `格子定了，料按记号和面字归堆。${P.meta.pile_lead} 标“用”的，是成稿里用上的。`;
+    const items = [];
+    P.mats.forEach(m => m.paras.forEach(p => p.forEach(id => P.sents[id].pieces.forEach(pc => {
+      if (pc.mk && pc.mk !== '跟') items.push({ id, pc });
+    }))));
+    const li = x => {
+      const used = x.pc.used && x.pc.used.length;
+      return `<li class="it${used ? ' used' : ''}"><span class="id">${x.id}</span><span class="tx">${x.pc.st ? '<b class="mk star">★</b>' : ''}${esc(short(x.pc.t, 24))}</span>` +
+        (used ? `<span class="use-dot" title="${esc(x.pc.used.join('；'))}">用</span>` : '<span></span>') + '</li>';
+    };
+    const grp = (head, list) => list.length ? `<div class="grp"><div class="grp-h">${head}</div><ul class="its">${list.map(li).join('')}</ul></div>` : '';
+    const open = items.filter(x => NUMS.includes(x.pc.mk));
+    const total = items.filter(x => x.pc.mk === '{}' && x.pc.f === '总');
+    const totalEx = items.filter(x => (x.pc.mk === '/' || x.pc.mk === '()') && x.pc.f === '总');
+    const tail = items.filter(x => x.pc.mk === '尾');
+    const spare = items.filter(x => x.pc.mk === '{}' && !(x.pc.used && x.pc.used.length));
+    let h = `<div class="pile-row pile-open"><div class="paper heap"><h3><span class="big">开</span>开头料<span class="src">序号，加管整篇的 { }</span></h3>` +
+      grp(`${glyph('①')}引语　${glyph('③')}广东出场　${glyph('④')}做什么`, open) +
+      grp(`${glyph('{}', '总')}管整篇的道理，开头的道理句从这挑`, total) +
+      grp(`${glyph('/', '总')}全省的总账：哪个格子都嵌不进去`, totalEx) + '</div></div>';
+    h += '<div class="pile-row pile-faces">';
+    P.meta.faces.forEach(([f, name, src]) => {
+      const br = items.filter(x => x.pc.mk === '{}' && x.pc.f && x.pc.f !== '总' && x.pc.f.includes(f));
+      const sl = items.filter(x => x.pc.mk === '/' && x.pc.f === f);
+      const pa = items.filter(x => x.pc.mk === '()' && x.pc.f === f);
+      h += `<div class="paper heap"><h3><span class="big">${esc(f)}</span>${esc(name)}<span class="src">${esc(src)}</span></h3>` +
+        grp(`${glyph('{}', f)}论点、道理`, br) + grp(`${glyph('/', f)}例子`, sl) + grp(`${glyph('()', f)}收尾`, pa) + '</div>';
+    });
+    h += '</div><div class="pile-row pile-end">' +
+      `<div class="paper heap"><h3><span class="big">尾</span>结尾料<span class="src">好听，说整个广东或更大</span></h3>${grp(`${glyph('尾')}结尾的画面和落点`, tail)}</div>` +
+      `<div class="paper heap"><h3><span class="big">剩</span>没用上的 { }<span class="src">结尾起句还能用</span></h3>${grp(`${glyph('{}')}正文没挑中的道理`, spare)}</div></div>`;
+    $('#pile').innerHTML = h;
+  }
+
+  /* ---------- step 4: 论点句 + build ---------- */
+  const bodyParts = () => P.essay.parts.slice(1, -1);
+  const lunRows = () => bodyParts().map(pt => pt.rows.find(r => r.role === '论点')).filter(Boolean);
+  function halves(t) {
+    const k = t.indexOf('，');
+    return k < 0 ? [t, ''] : [t.slice(0, k), t.slice(k + 1)];
+  }
+  function labelsFor(i) {
+    const c = P.meta.combo;
+    if (c.labels && c.labels[i]) return c.labels[i];
+    const n = c.name.split('，');
+    return [n[0] || '', n[1] || ''];
+  }
+  function renderLun() {
+    const c = P.meta.combo;
+    $('#buildLead').textContent = `成稿：${P.meta.essay_by}。每一句都从料堆里拿：左边是这句在文章里干什么，下面是用了哪几块料、怎么改的；点料可以看原句。显眼的位置先放 ★。`;
+    const rows = lunRows();
+    let h = `<div class="paper lun"><h3 class="box-h">论点句：两半句</h3><p class="combo"><b>${esc(c.name)}</b>　${esc(c.why)}</p><ol>`;
+    rows.forEach((r, i) => {
+      const [a, b] = halves(r.text.replace(/[。！]$/, ''));
+      const [l1, l2] = labelsFor(i);
+      const f = (P.meta.faces[i] || [''])[0];
+      h += `<li><span class="big">${esc(f)}</span><span class="tx"><span class="h1">${esc(a)}</span><span class="lab l1">${esc(l1)}</span>` +
+        (b ? `，<span class="h2">${esc(b)}</span><span class="lab l2">${esc(l2)}</span>` : '') + '。</span></li>';
+    });
+    $('#lun').innerHTML = h + '</ol></div>';
+  }
+  function formulaHTML(f) {
+    return esc(f)
+      .replace(/\( \)尾/g, '<span class="g"><b class="mk">( )</b><span class="tag">尾</span></span>')
+      .replace(/\( \)/g, '<span class="g"><b class="mk">( )</b></span>')
+      .replace(/\{ \}/g, '<span class="g"><b class="mk">{ }</b></span>')
+      .replace(/例子 \//g, '例子 <span class="g"><b class="mk ex">/</b></span>');
+  }
+  function srcChips(r) {
+    return r.src.map(s => s.sid.charAt(0) === '@'
+      ? `<span class="chip self"><span class="lbl">${esc(s.sid.slice(1))}</span><span class="cf">${esc(s.frag)}</span></span>`
+      : `<button type="button" class="chip" data-full aria-expanded="false">${glyph(s.mk, s.f, s.st)}<span class="cid">${s.sid}</span><span class="cf">${esc(short(s.frag, 26))}</span></button>`).join('');
+  }
+  function rowInner(r) {
+    const ids = [...new Set(r.src.filter(s => s.sid.charAt(0) !== '@').map(s => s.sid))];
+    return `<p class="out">${esc(r.text)}</p><div class="chips">${srcChips(r)}</div>` +
+      `<p class="how"><span class="lbl">怎么改</span>${esc(r.how)}</p>` +
+      (r.note ? `<p class="note"><span class="lbl">按现在的方法</span>${esc(r.note)}</p>` : '') +
+      (ids.length ? `<div class="full" hidden>${ids.map(id => `<p><span class="fid">${id}</span>${sentHTML(id)}</p>`).join('')}</div>` : '');
+  }
+  function renderParts() {
+    $('#parts').innerHTML = P.essay.parts.map(pt =>
+      `<article class="paper part"><header class="part-h"><h3>${esc(pt.name)}</h3><p class="formula">${formulaHTML(pt.formula)}</p></header>` +
+      `<ol class="rows">${pt.rows.map(r => `<li class="row"><span class="role">${esc(r.role)}</span><div class="row-b">${rowInner(r)}</div></li>`).join('')}</ol></article>`
+    ).join('');
+  }
+  document.addEventListener('click', e => {
+    const b = e.target.closest('[data-full]');
+    if (!b) return;
+    const box = b.closest('.row-b, #sheetInfo');
+    const full = box && box.querySelector('.full');
+    if (!full) return;
+    full.hidden = !full.hidden;
+    $$('[data-full]', box).forEach(x => x.setAttribute('aria-expanded', String(!full.hidden)));
+  });
+
+  /* ---------- step 5: grid paper ---------- */
+  const CLOSERS = '，。、；：？！”）》';
+  function tokens(text) {
+    const out = [];
+    let i = 0;
+    while (i < text.length) {
+      if (/[0-9A-Za-z.%]/.test(text[i])) {
+        let j = i;
+        while (j < text.length && /[0-9A-Za-z.%]/.test(text[j])) j++;
+        const run = text.slice(i, j);
+        for (let k = 0; k < run.length; k += 2) out.push(run.slice(k, k + 2));
+        i = j;
+      } else { out.push(text[i]); i++; }
+    }
+    return out;
+  }
+  let ROWS = {}, textCells = 0;
+  function prepSheet() {
+    ROWS = {}; textCells = 0;
+    P.essay.parts.forEach(pt => pt.rows.forEach(r => { ROWS[r.e] = { r, part: pt.name }; textCells += tokens(r.text).length; }));
+    $('#count').textContent = `正文 ${textCells} 格（不算标题和段首空格）。每到第 200、400……格，格子右下角标一个小数字。`;
+    $('#sheetInfo').innerHTML = '<p class="muted">点稿纸上任意一句，这里显示它在文章里干什么、用了哪几块料、怎么改的。</p>';
+    lastKey = '';
+  }
+  function layout(cols) {
+    const cells = [];
+    const blank = () => cells.push({ t: '', e: null });
+    const fill = () => { while (cells.length % cols) blank(); };
+    const tt = tokens(P.essay.title);
+    for (let i = 0; i < Math.max(0, Math.floor((cols - tt.length) / 2)); i++) blank();
+    tt.forEach(t => cells.push({ t, e: 'title' }));
+    fill();
+    P.essay.parts.forEach(pt => {
+      blank(); blank();
+      pt.rows.forEach(r => tokens(r.text).forEach(t => {
+        if (CLOSERS.includes(t) && cells.length % cols === 0) { cells[cells.length - 1].t += t; return; }
+        cells.push({ t, e: r.e });
+      }));
+      fill();
+    });
+    return cells;
+  }
+  const gp = $('#gridpaper'), cellsBox = $('#cells');
+  let lastKey = '';
+  function renderSheet() {
+    if (VIEW !== 'paper') return;
+    const cs = getComputedStyle(gp);
+    const w = gp.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+    if (w <= 0) return;
+    const cols = Math.max(12, Math.min(25, Math.floor(w / 22)));
+    const cell = Math.floor(w / cols);
+    const key = P.key + ':' + cols + ':' + cell;
+    if (key === lastKey) return;
+    lastKey = key;
+    cellsBox.style.setProperty('--cols', cols);
+    cellsBox.style.setProperty('--cell', cell + 'px');
+    const seen = new Set();
+    let h = '';
+    layout(cols).forEach((c, i) => {
+      let attrs = '';
+      if (c.e && c.e !== 'title') {
+        attrs += ` data-e="${c.e}"`;
+        if (!seen.has(c.e)) { seen.add(c.e); attrs += ` role="button" tabindex="0" aria-label="${esc(ROWS[c.e].r.text)}"`; }
+      }
+      if ((i + 1) % 200 === 0) attrs += ` data-n="${i + 1}"`;
+      const cls = 'c' + (i % cols === 0 ? ' c0' : '') + (c.e === 'title' ? ' tt' : '') + (cur2 && c.e === cur2 ? ' on' : '');
+      h += `<span class="${cls}"${attrs}>${esc(c.t)}</span>`;
+    });
+    cellsBox.innerHTML = h;
+  }
+  function selectEssay(e) {
+    cur2 = e;
+    $$('.c.on', cellsBox).forEach(x => x.classList.remove('on'));
+    $$(`.c[data-e="${e}"]`, cellsBox).forEach(x => x.classList.add('on'));
+    const { r, part } = ROWS[e];
+    $('#sheetInfo').innerHTML = `<p class="si-h"><span class="role">${esc(r.role)}</span><span class="si-part">${esc(part)}</span></p>` + rowInner(r);
+  }
+  cellsBox.addEventListener('click', ev => { const c = ev.target.closest('.c[data-e]'); if (c) selectEssay(c.dataset.e); });
+  cellsBox.addEventListener('keydown', ev => {
+    if (ev.key !== 'Enter' && ev.key !== ' ') return;
+    const c = ev.target.closest('.c[data-e]');
+    if (c) { ev.preventDefault(); selectEssay(c.dataset.e); }
+  });
+  cellsBox.addEventListener('pointerover', ev => {
+    const c = ev.target.closest('.c[data-e]');
+    $$('.c.hv', cellsBox).forEach(x => x.classList.remove('hv'));
+    if (c) $$(`.c[data-e="${c.dataset.e}"]`, cellsBox).forEach(x => x.classList.add('hv'));
+  });
+  cellsBox.addEventListener('pointerleave', () => $$('.c.hv', cellsBox).forEach(x => x.classList.remove('hv')));
+
+  /* ---------- step 6: check ---------- */
+  const USUAL = { '开头': ['①', '③', '④', '{}', '尾'], '论点': ['{}'], '道理': ['{}'], '例子': ['/', '跟'], '总括': ['/', '{}', '跟'], '收尾': ['()', '尾'], '结尾': ['尾', '{}'], '标题': ['尾', '{}', '④'], '对策': ['{}', '/'] };
+  function useState(u) {
+    if (u.xi) return ['小题材料，当时没判', true];
+    if (!u.marks.length) return ['不划', true];
+    const mks = u.marks.map(m => m.mk);
+    const ok = (USUAL[u.role] || []).some(k => mks.includes(k));
+    return [null, !ok];
+  }
+  function renderCheck() {
+    const ref = P.ref, mine = lunRows().map(r => r.text);
+    let h = '<div class="cmp">' +
+      `<div class="paper"><h3>这里拼的</h3><p class="t">${esc(P.essay.title)}</p><ol>${mine.map(t => `<li>${esc(t)}</li>`).join('')}</ol></div>` +
+      `<div class="paper"><h3>参考范文</h3><p class="t">${esc(ref.title || '—')}</p><ol>${ref.points.map(t => `<li>${esc(t)}</li>`).join('')}</ol></div></div>`;
+    h += `<p class="verdict"><span class="lbl">对下来</span>${esc(ref.note)}</p>`;
+    const odd = P.refuse.filter(u => useState(u)[1]).length;
+    h += `<div class="paper block"><h3 class="box-h">参考范文从材料里拿的句子，当时划成了什么</h3>` +
+      `<p>按参考范文里的顺序。底色标黄的是对不上的：当时没划、小题材料里没判，或者记号和参考范文的用法不一样${odd ? '' : '（这卷没有）'}。</p><ul class="uses">`;
+    P.refuse.forEach(u => {
+      const [flag, bad] = useState(u);
+      const marks = u.marks.length ? u.marks.map(m => glyph(m.mk, m.f, m.st)).join(' ') : '';
+      h += `<li class="${bad ? 'odd' : ''}"><div class="u-h"><span class="u-r">${esc(u.role)}</span><span>${esc(u.pos)}</span><span>←</span><span class="u-id">${esc(u.sid)}</span>${marks}${flag ? `<span class="flag">${esc(flag)}</span>` : ''}</div>` +
+        `<p class="u-t">${esc(u.text)}</p></li>`;
+    });
+    h += '</ul></div>';
+    if (P.conflicts.length) {
+      h += `<div class="paper block"><h3 class="box-h">${P.own ? '这卷卡住的地方' : '考场记录'}</h3><ul class="conf">` +
+        P.conflicts.map(([sid, t, text]) => `<li><div class="c-h"><span class="c-t">${esc(t)}</span><span class="c-id">${esc(sid)}</span></div><p>${esc(text)}</p></li>`).join('') + '</ul></div>';
+    }
+    $('#check').innerHTML = h;
+  }
+
+  /* ---------- overview ---------- */
+  function groupHTML(g) {
+    return `<div class="paper ggrp"><h3 class="box-h">${esc(g.t)}</h3><p>${esc(g.what)}</p>` +
+      (g.fix ? `<p class="fix"><span class="lbl">怎么办</span>${esc(g.fix)}</p>` : '') + '<ul class="conf">' +
+      g.items.map(([key, sid, text]) => {
+        const p = PAPERS.find(x => x.key === key);
+        return `<li><div class="c-h"><a class="c-p" href="#${p.id}">${esc(p.meta.label)}</a><span class="c-id">${esc(sid)}</span></div><p>${esc(text)}</p></li>`;
+      }).join('') + '</ul></div>';
+  }
+  function renderOverview() {
+    $('#oRuleLead').textContent = SUM.ruleLead;
+    $('#oRule').innerHTML = SUM.rule.map(b =>
+      `<div class="paper ggrp"><h3 class="box-h">${esc(b.t)}</h3><ul class="rule">${b.items.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>`).join('');
+    $('#oPapersLead').textContent = SUM.papersLead;
+    $('#oPapers').innerHTML = PAPERS.filter(p => !p.own).map(p => {
+      const lun = (p.essay.parts.slice(1, -1).map(pt => (pt.rows.find(r => r.role === '论点') || {}).text).filter(Boolean));
+      const logs = p.conflicts.map(([, t, text]) => `<li><b>${esc(t)}</b>　${esc(text)}</li>`).join('');
+      return `<div class="paper prow"><h3><a href="#${p.id}">${esc(p.meta.label)}</a><span class="ok">${p.chars} 字</span></h3>` +
+        `<p class="ptitle">${esc(p.essay.title)}</p><dl><dt>格子</dt><dd>${esc(p.meta.grid.text)}</dd><dt>论点句</dt><dd>${lun.map(esc).join('<br>')}</dd></dl>` +
+        (logs ? `<ul class="plog">${logs}</ul>` : '') + '</div>';
+    }).join('');
+    $('#oRefLead').textContent = SUM.refLead;
+    $('#oRef').innerHTML = SUM.ref.map(groupHTML).join('');
+  }
+
+  /* ---------- views ---------- */
+  let navIO = null, awayIO = null;
+  function observe() {
+    if (!('IntersectionObserver' in window)) return;
+    if (navIO) navIO.disconnect();
+    if (awayIO) awayIO.disconnect();
+    const links = $$('#stepList a');
+    navIO = new IntersectionObserver(ents => ents.forEach(en => {
+      if (!en.isIntersecting) return;
+      links.forEach(a => a.setAttribute('aria-current', a.dataset.step === en.target.id ? 'true' : 'false'));
+    }), { rootMargin: '-40% 0px -55% 0px' });
+    $$(VIEW === 'paper' ? '#pv > section' : '#ov > section').forEach(s => navIO.observe(s));
+    if (VIEW === 'paper') {
+      // the top margin skips the strip under the sticky nav, so jumping to the next step hides the card
+      awayIO = new IntersectionObserver(ents => ents.forEach(en => document.body.classList.toggle('away', !en.isIntersecting)), { rootMargin: `-${nav.offsetHeight + 8}px 0px -30% 0px` });
+      awayIO.observe($('#s-mark'));
+    }
+  }
+  function setHeader() {
+    if (SINGLE) {
+      const m = PAPERS[0].meta;
+      $('#hKicker').textContent = m.kicker;
+      $('#hTitle').textContent = PAPERS[0].pageTitle;
+      $('#hSub').textContent = `把《${PAPERS[0].essay.title}》按考场顺序重走一遍：读题，一句句读材料、划记号，找格子、把料归堆，拼出开头、各段和结尾，誊上稿纸，最后对参考范文。划句子只用两把尺子：读完多了什么，句子是什么句式。`;
+      $('#pbanner').hidden = true;
+    } else {
+      $('#hKicker').textContent = "2024–2026 广东省考、选调 · 问题三大作文";
+      $('#hTitle').textContent = "大作文考场推演";
+      $('#hSub').textContent = "八套卷子，模拟一个普通考生按人用版规则重写：尽力而为，量力而行，不套模板，只做基本改写。每卷按考场顺序走一遍：读题、划句子、找格子、拼文章、誊稿纸、对答案。2026 省市另附本人作答。";
+    }
+  }
+  function markCards(id) {
+    $$('#papers .pcard').forEach(a => a.setAttribute('aria-current', a.getAttribute('href') === '#' + id ? 'page' : 'false'));
+    const sel = $('#paperSel');
+    if (sel.value !== id) sel.value = id;
+  }
+  function showPaper(p, jump) {
+    P = p; VIEW = 'paper';
+    matName = {};
+    P.mats.forEach(m => { matName[m.k] = m.name; });
+    cur = null; cur2 = null;
+    $('#ov').hidden = true; $('#pv').hidden = false;
+    $('#pbKicker').textContent = P.meta.kicker;
+    $('#pbTitle').textContent = P.essay.title;
+    $('#pbBy').textContent = `题目：${P.topic}　成稿：${P.meta.essay_by}`;
+    renderRead(); renderMats(); closeCard(); renderGrid(); renderPile(); renderLun(); renderParts(); prepSheet(); renderCheck();
+    setSteps(STEPS_P);
+    renderSheet();
+    $('#foot').innerHTML = `<p>${esc(P.meta.sources)}</p><p>记号按“读完多了什么＋句式”判；对答案只用参考范文，不用高分卷。</p>`;
+    markCards(P.id);
+    observe();
+    if (jump) scrollToEl($('#pbanner'), 0);
+  }
+  function showOverview(jump) {
+    VIEW = 'ov'; P = null;
+    closeCardSafe();
+    $('#pv').hidden = true; $('#ov').hidden = false;
+    renderOverview();
+    setSteps(STEPS_O);
+    $('#foot').innerHTML = '<p>八套卷子：2024 一卷、二卷、选调，2025 省市、县镇、选调，2026 省市、县镇。八篇都是模拟考生按人用版规则写的（Claude 模拟）；2026 省市另附本人作答。对答案只用参考范文，不用高分卷。</p>';
+    markCards('overview');
+    observe();
+    if (jump) scrollToEl($('#o-rule'), 0);
+  }
+  function closeCardSafe() { cur = null; card.innerHTML = INTRO; document.body.classList.remove('sheet-on'); }
+  function route(jump) {
+    const h = decodeURIComponent(location.hash.slice(1));
+    const p = PAPERS.find(x => x.id === h);
+    if (p) showPaper(p, jump);
+    else if (SUM && (h === 'overview' || !h)) showOverview(jump && h === 'overview');
+    else if (!SUM) showPaper(PAPERS[0], false);
+    else showOverview(false);
+  }
+  window.addEventListener('hashchange', () => route(true));
+
+  setHeader();
+  renderChooser();
+  route(false);
+  setNavH();
+  if ('ResizeObserver' in window) new ResizeObserver(() => renderSheet()).observe(gp);
+  else window.addEventListener('resize', renderSheet);
+})();
+</script>
+</body>
+</html>

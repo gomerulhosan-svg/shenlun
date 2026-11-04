@@ -1,0 +1,2287 @@
+<!DOCTYPE HTML>
+
+<html id="ne_wrap" data-publishtime="2019-05-17 18:59:22" version="20220428" data-category="要闻">
+<head>
+    <script>
+        var hideOuterSearch="0",getReferFrom=function(){var t,e=[{test:/https?:\/\/www\.163\.com[^\/]*?$/i,val:"163_index",type:"url"},{test:/https?\:\/\/.*\.163\.com(?:\/news\/(?:a|d|article)\/|(?:\/[^\/]+)?\/[0-9]{2}\/[0-9]{4}\/[0-9]{2}\/|(?:\/v2)?\/article\/(?:detail\/)?)([^\.\/]+)\.html.*/i,val:"163_doc",type:"url"},{test:/https?:\/\/.*\.163\.com\/(?:news\/v\/|v\/video\/|static\/[0-9]{1}\/|paike\/.*\/)([^\.\/]+)\.html.*/i,val:"163_video",type:"url"},{test:/163\.com$/i,val:"163",type:"domain"},{test:/baidu\.com$/i,val:"baidu",type:"domain"},{test:/sm\.cn$/i,val:"sm",type:"domain"},{test:/sogou\.com$/i,val:"sogou",type:"domain"},{test:/so\.com$/i,val:"360",type:"domain"},{test:/google/i,val:"google",type:"domain"},{test:/bing/i,val:"bing",type:"domain"},{test:/weibo/i,val:"weibo",type:"domain"},{test:/toutiao/i,val:"toutiao",type:"domain"}],i=document.referrer,o="",a="";if(i&&(o=(t=i.match(/^([hH][tT]{2}[pP]:\/\/|[hH][tT]{2}[pP][sS]:\/\/)([^\/]+).*?/))&&t[2]?t[2]:o),o){a=o;for(var r,s=0;s<e.length;s++)if((r=e[s]).test.test("url"===r.type?location.href:o)){a=r.val;break}}return a};function isTargetRefer(t){return!!t&&("baidu"===t||"toutiao"===t||"sm"===t||"google"===t||"360"===t||"sogou"===t||"bing"===t)}isTargetRefer(getReferFrom())&&hideOuterSearch&&"1"===hideOuterSearch&&(window.location.href="https://www.163.com/search?keyword=深晚报道 |文博会重头戏  中华民族文化创意产品设计大赛正式开赛");
+    </script>
+    <title>深晚报道 |文博会重头戏  中华民族文化创意产品设计大赛正式开赛_网易订阅</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content="深晚报道 |文博会重头戏  中华民族文化创意产品设计大赛正式开赛,"/>
+    <meta name="author" content="网易">
+    <meta name="Copyright" content="网易版权所有">
+    <link rel="apple-touch-icon" href="https://static.ws.126.net/163/f2e/common/share-icon.png">
+    <meta name="msapplication-TileImage" content="https://static.ws.126.net/163/f2e/common/share-icon.png">
+    <link rel="mask-icon" href="https://static.ws.126.net/163/f2e/common/share-icon.png">
+    <base target="_blank"><!--[if lte IE 6]></base><![endif]-->
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="Cache-Control" content="no-transform"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta property="og:type" content="news">
+    <meta property="og:title" content="深晚报道 |文博会重头戏  中华民族文化创意产品设计大赛正式开赛">
+    <meta property="og:description" content="深晚报道 |文博会重头戏  中华民族文化创意产品设计大赛正式开赛,">
+    <meta property="og:url" content="https://www.163.com/dy/article/EFDBGT6V05149PH8.html">
+    <meta property="article:author" content="网易">
+    <meta property="article:published_time" content="2019-05-17T18:59:22+08:00">
+    <meta name="referrer" content="always">
+    <link rel="alternate" media="only screen and(max-width: 640px)" href="https://m.163.com/dy/article/EFDBGT6V05149PH8.html">
+    <link rel="canonical" href="https://www.163.com/dy/article/EFDBGT6V05149PH8.html">
+    <meta name="mobile-agent" content="format=html5; url=https://m.163.com/dy/article/EFDBGT6V05149PH8.html">
+    <meta name="mobile-agent" content="format=xhtml; url=https://m.163.com/dy/article/EFDBGT6V05149PH8.html">
+    <meta name="mobile-agent" content="format=wml; url=https://m.163.com/dy/article/EFDBGT6V05149PH8.html">
+    <script src="https://static.ws.126.net/163/f2e/product/post2020_dy/static/redirect3.1.js?v=20231222" async="async"></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="https://static.ws.126.net/163/f2e/post_nodejs/libs/js/html5shiv.min.js"></script><script type="text/javascript" src="https://static.ws.126.net/163/f2e/post_nodejs/libs/js/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://static.ws.126.net/utf8/assets/js/jquery-1.10.2.min.js"></script>
+    <script>jQuery.ajaxSettings.cache = true</script>
+    
+    <script>(function(){var bp=document.createElement('script');var curProtocol=window.location.protocol.split(':')[0];if(curProtocol==='https'){bp.src='https://zz.bdstatic.com/linksubmit/push.js'}else{bp.src='http://push.zhanzhang.baidu.com/push.js'}var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(bp,s)})();;(function(){
+var el = document.createElement("script");
+el.src = "https://lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js?de70e43cfa5b194e21ef889e98d7123a7deb9487dce7ed62313212129c4244a219d1c501ebd3301f5e2290626f5b53d078c8250527fa0dfd9783a026ff3cf719";
+el.id = "ttzz";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(el, s);
+})(window);</script>
+    
+    <!--include virtual="/special/ntes_common_model/post_dy_css.html" -->
+      <script src="https://static.ws.126.net/163/f2e/libs/hls.min.js"></script>
+    <link href="https://static.ws.126.net/163/f2e/product/post2020_dy/static/css/main.cee60e51.css" rel="stylesheet">
+</head>
+<body aria-url="https://www.163.com/dy/article/EFDBGT6V05149PH8_pdya11y.html" class="float_ad_flag">
+    <!-- header -->
+    <link rel="stylesheet" href="https://static.ws.126.net/163/f2e/commonnav2019/css/commonnav_headcss-fad753559b.css"/>
+<!-- urs -->
+<script _keep="true" src="https://urswebzj.nosdn.127.net/webzj_cdn101/message.js" type="text/javascript"></script>
+<div class="ntes_nav_wrap" id="js_N_NTES_wrap">
+  <div class="ntes-nav" id="js_N_nav">
+    <div class="ntes-nav-main clearfix">
+            <div class="c-fl" id="js_N_nav_left">
+        <a class="ntes-nav-index-title ntes-nav-entry-wide c-fl" href="https://www.163.com/" title="网易首页">网易首页</a>
+        <!-- 应用 -->
+        <div class="js_N_navSelect ntes-nav-select ntes-nav-select-wide ntes-nav-app  c-fl">
+          <a href="https://www.163.com/#f=topnav" class="ntes-nav-select-title ntes-nav-entry-bgblack JS_NTES_LOG_FE">应用
+            <em class="ntes-nav-select-arr"></em>
+          </a>
+          <div class="ntes-nav-select-pop">
+            <ul class="ntes-nav-select-list clearfix">
+              <li>
+                <a href="https://m.163.com/newsapp/#f=topnav">
+                  <span>
+                    <em class="ntes-nav-app-newsapp">网易新闻</em>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://open.163.com/#f=topnav">
+                  <span>
+                    <em class="ntes-nav-app-open">网易公开课</em>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://hongcai.163.com/?from=pcsy-button">
+                  <span>
+                    <em class="ntes-nav-app-hongcai">网易红彩</em>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://u.163.com/aosoutbdbd8">
+                  <span>
+                    <em class="ntes-nav-app-yanxuan">网易严选</em>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://mail.163.com/client/dl.html?from=mail46">
+                  <span>
+                    <em class="ntes-nav-app-mail">邮箱大师</em>
+                  </span>
+                </a>
+              </li>
+              <li class="last">
+                <a href="https://study.163.com/client/download.htm?from=163app&utm_source=163.com&utm_medium=web_app&utm_campaign=business">
+                  <span>
+                    <em class="ntes-nav-app-study">网易云课堂</em>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="c-fr">
+        <!-- 片段开始 -->
+        <div class="ntes-nav-quick-navigation">
+          <a rel="noreferrer"class="ntes-nav-quick-navigation-btn" id="js_N_ntes_nav_quick_navigation_btn" target="_self">
+            <em>快速导航
+              <span class="menu1"></span>
+              <span class="menu2"></span>
+              <span class="menu3"></span>
+            </em>
+          </a>
+          <div class="ntes-quicknav-pop" id="js_N_ntes_quicknav_pop">
+            <div class="ntes-quicknav-list">
+              <div class="ntes-quicknav-content">
+                <ul class="ntes-quicknav-column ntes-quicknav-column-1">
+                  <li>
+                    <h3>
+                      <a href="https://news.163.com">新闻</a>
+                    </h3>
+                  </li>
+                  <li>
+                    <a href="https://news.163.com/domestic">国内</a>
+                  </li>
+                  <li>
+                    <a href="https://news.163.com/world">国际</a>
+                  </li>
+                  <li>
+                    <a href="https://news.163.com/special/wangsansanhome/">王三三</a>
+                  </li>
+                </ul>
+                <ul class="ntes-quicknav-column ntes-quicknav-column-2">
+                  <li>
+                    <h3>
+                      <a href="https://sports.163.com">体育</a>
+                    </h3>
+                  </li>
+                  <li>
+                    <a href="https://sports.163.com/nba">NBA</a>
+                  </li>
+                  <li>
+                    <a href="https://sports.163.com/cba">CBA</a>
+                  </li>
+                  <li>
+                    <a href="https://sports.163.com/allsports">综合</a>
+                  </li>
+                  <li>
+                    <a href="https://sports.163.com/zc">中超</a>
+                  </li>
+                  <li>
+                    <a href="https://sports.163.com/world">国际足球</a>
+                  </li>
+                  <li>
+                    <a href="https://sports.163.com/yc">英超</a>
+                  </li>
+                  <li>
+                    <a href="https://sports.163.com/xj">西甲</a>
+                  </li>
+                  <li>
+                    <a href="https://sports.163.com/yj">意甲</a>
+                  </li>
+                </ul>
+                <ul class="ntes-quicknav-column ntes-quicknav-column-3">
+                  <li>
+                    <h3>
+                      <a href="https://ent.163.com">娱乐</a>
+                    </h3>
+                  </li>
+                  <li>
+                    <a href="https://ent.163.com/star">明星</a>
+                  </li>
+                  <li>
+                    <a href="https://ent.163.com/movie">电影</a>
+                  </li>
+                  <li>
+                    <a href="https://ent.163.com/tv">电视</a>
+                  </li>
+                  <li>
+                    <a href="https://ent.163.com/music">音乐</a>
+                  </li>
+                  <li>
+                    <a href="https://ent.163.com/special/fmgs/">封面故事</a>
+                  </li>
+                </ul>
+                <ul class="ntes-quicknav-column ntes-quicknav-column-4">
+                  <li>
+                    <h3>
+                      <a href="https://money.163.com">财经</a>
+                    </h3>
+                  </li>
+                  <li>
+                    <a href="https://money.163.com/stock">股票</a>
+                  </li>
+                  <li>
+                    <a href="https://money.163.com/special/caijingyuanchuang/">原创</a>
+                  </li>
+                  <li>
+                    <a href="https://money.163.com/special/wycjzk-pc/">智库</a>
+                  </li>
+                </ul>
+                <ul class="ntes-quicknav-column ntes-quicknav-column-5">
+                  <li>
+                    <h3>
+                      <a href="https://auto.163.com">汽车</a>
+                    </h3>
+                  </li>
+                  <li>
+                    <a href="https://auto.163.com/buy">购车</a>
+                  </li>
+                  <li>
+                    <a href="http://product.auto.163.com">车型库</a>
+                  </li>
+                </ul>
+                <ul class="ntes-quicknav-column ntes-quicknav-column-6">
+                  <li>
+                    <h3>
+                      <a href="https://tech.163.com">科技</a>
+                    </h3>
+                  </li>
+                  <li>
+                    <a href="https://tech.163.com/smart/">网易智能</a>
+                  </li>
+                  <li>
+                    <a href="https://tech.163.com/special/S1554800475317/">原创</a>
+                  </li>
+                  <li>
+                    <a href="https://tech.163.com/it">IT</a>
+                  </li>
+                  <li>
+                    <a href="https://tech.163.com/internet">互联网</a>
+                  </li>
+                  <li>
+                    <a href="https://tech.163.com/telecom/">通信</a>
+                  </li>
+                </ul>
+                <ul class="ntes-quicknav-column ntes-quicknav-column-7">
+                  <li>
+                    <h3>
+                      <a href="https://fashion.163.com">时尚</a>
+                    </h3>
+                  </li>
+                  <li>
+                    <a href="https://fashion.163.com/art">艺术</a>
+                  </li>
+                  <li>
+                    <a href="https://travel.163.com">旅游</a>
+                  </li>
+                </ul>
+                <ul class="ntes-quicknav-column ntes-quicknav-column-8">
+                  <li>
+                    <h3>
+                      <a href="https://mobile.163.com">手机</a>
+                      <span>/</span>
+                      <a href="https://digi.163.com/">数码</a>
+                    </h3>
+                  </li>
+                  <li>
+                    <a href="https://mobile.163.com/special/jqkj_list/">惊奇科技</a>
+                  </li>
+                  <li>
+                    <a href="https://mobile.163.com/special/cpshi_list/">易评机</a>
+                  </li>
+                  <li>
+                    <a href="https://hea.163.com/">家电</a>
+                  </li>
+                </ul>
+                <ul class="ntes-quicknav-column ntes-quicknav-column-9">
+                  <li>
+                    <h3>
+                      <a href="https://house.163.com">房产</a>
+                      <span>/</span>
+                      <a href="https://home.163.com">家居</a>
+                    </h3>
+                  </li>
+                  <li>
+                    <a href="https://bj.house.163.com">北京房产</a>
+                  </li>
+                  <li>
+                    <a href="https://sh.house.163.com">上海房产</a>
+                  </li>
+                  <li>
+                    <a href="https://gz.house.163.com">广州房产</a>
+                  </li>
+                  <li>
+                    <a href="https://xf.house.163.com/">楼盘库</a>
+                  </li>
+                  <li>
+                    <a href="https://designer.home.163.com/search">设计师库</a>
+                  </li>
+                  <li>
+                    <a href="https://photo.home.163.com/">案例库</a>
+                  </li>
+                </ul>
+                <ul class="ntes-quicknav-column ntes-quicknav-column-11">
+                  <li>
+                    <h3>
+                      <a href="https://edu.163.com">教育</a>
+                    </h3>
+                  </li>
+                  <li>
+                    <a href="https://edu.163.com/liuxue">留学</a>
+                  </li>
+                  <li>
+                    <a href="https://edu.163.com/gaokao">高考</a>
+                  </li>
+                </ul>
+                <div class="ntes-nav-sitemap">
+                  <a href="https://sitemap.163.com/">
+                    <i></i>查看网易地图</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="c-fr">
+          <div class="c-fl" id="js_N_navLoginBefore">
+            <div id="js_N_navHighlight" class="js_loginframe ntes-nav-login ntes-nav-login-normal">
+              <a href="https://reg.163.com/" class="ntes-nav-login-title" id="js_N_nav_login_title">登录</a>
+              <div class="ntes-nav-loginframe-pop" id="js_N_login_wrap">
+                <!--加载登陆组件-->
+              </div>
+            </div>
+            <div class="js_N_navSelect ntes-nav-select ntes-nav-select-wide  JS_NTES_LOG_FE c-fl">
+              <a class="ntes-nav-select-title ntes-nav-select-title-register" href="https://mail.163.com/register/index.htm?from=163navi&regPage=163">注册免费邮箱
+                <em class="ntes-nav-select-arr"></em>
+              </a>
+              <div class="ntes-nav-select-pop">
+                <ul class="ntes-nav-select-list clearfix" style="width:210px;">
+                  <li>
+                    <a href="https://reg1.vip.163.com/newReg1/reg?from=new_topnav&utm_source=new_topnav">
+                      <span style="width:190px;">注册VIP邮箱（特权邮箱，付费）</span>
+                    </a>
+                  </li>
+                  <li class="last JS_NTES_LOG_FE">
+                    <a href="https://mail.163.com/client/dl.html?from=mail46">
+                      <span style="width:190px;">免费下载网易官方手机邮箱应用</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="c-fl" id="js_N_navLoginAfter" style="display:none">
+            <div id="js_N_logined_warp" class="js_N_navSelect ntes-nav-select ntes-nav-logined JS_NTES_LOG_FE">
+              <a class="ntes-nav-select-title ntes-nav-logined-userinfo">
+                <span id="js_N_navUsername" class="ntes-nav-logined-username"></span>
+                <em class="ntes-nav-select-arr"></em>
+              </a>
+              <div id="js_login_suggest_wrap" class="ntes-nav-select-pop">
+                <ul id="js_logined_suggest" class="ntes-nav-select-list clearfix"></ul>
+              </div>
+            </div>
+            <a class="ntes-nav-entry-wide c-fl" target="_self" id="js_N_navLogout">安全退出</a>
+          </div>
+        </div>
+
+        <ul class="ntes-nav-inside">
+          <li>
+            <div class="js_N_navSelect ntes-nav-select c-fl">
+              <a href="https://www.163.com/newsapp/#f=163nav" class="ntes-nav-mobile-title ntes-nav-entry-bgblack">
+                <em class="ntes-nav-entry-mobile">移动端</em>
+              </a>
+              <div class="qrcode-img">
+                <a href="https://www.163.com/newsapp/#f=163nav">
+                  <img src="//static.ws.126.net/f2e/include/common_nav/images/topapp.jpg">
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="js_N_navSelect ntes-nav-select c-fl">
+              <a id="js_love_url" href="https://open.163.com/#ftopnav0" class="ntes-nav-select-title ntes-nav-select-title-huatian ntes-nav-entry-bgblack">
+                <em class="ntes-nav-entry-huatian">网易公开课</em>
+                <em class="ntes-nav-select-arr"></em>
+                <span class="ntes-nav-msg">
+                  <em class="ntes-nav-msg-num"></em>
+                </span>
+              </a>
+              <div class="ntes-nav-select-pop ntes-nav-select-pop-huatian">
+                <ul class="ntes-nav-select-list clearfix">
+                  <li>
+                    <a href="https://open.163.com/ted/#ftopnav1">
+                      <span>TED</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://open.163.com/cuvocw/#ftopnav2">
+                      <span>中国大学视频公开课</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://open.163.com/ocw/#ftopnav3">
+                      <span>国际名校公开课</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://open.163.com/appreciation/#ftopnav4">
+                      <span>赏课·纪录片</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://vip.open.163.com/#ftopnav5">
+                      <span>付费精品课程</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://open.163.com/special/School/beida.html#ftopnav6">
+                      <span>北京大学公开课</span>
+                    </a>
+                  </li>
+                  <li class="last">
+                    <a href="https://open.163.com/newview/movie/courseintro?newurl=ME7HSJR07#ftopnav7">
+                      <span>英语课程学习</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="js_N_navSelect ntes-nav-select c-fl">
+              <a id="js_lofter_icon_url" href="https://you.163.com/?from=web_fc_menhu_xinrukou_1" class="ntes-nav-select-title ntes-nav-select-title-lofter ntes-nav-entry-bgblack">
+                <em class="ntes-nav-entry-lofter">网易严选</em>
+                <em class="ntes-nav-select-arr"></em>
+                <span class="ntes-nav-msg" id="js_N_navLofterMsg">
+                  <em class="ntes-nav-msg-num"></em>
+                </span>
+              </a>
+              <div class="ntes-nav-select-pop ntes-nav-select-pop-lofter">
+                <ul id="js_lofter_pop_url" class="ntes-nav-select-list clearfix">
+                  <li>
+                    <a href="https://act.you.163.com/act/pub/ABuyLQKNmKmK.html?from=out_ynzy_xinrukou_2">
+                      <span>新人特价</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://you.163.com/topic/v1/pub/Pew1KBH9Au.html?from=out_ynzy_xinrukou_3">
+                      <span>9.9专区</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://you.163.com/item/newItemRank?from=out_ynzy_xinrukou_4">
+                      <span>新品热卖</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://you.163.com/item/recommend?from=out_ynzy_xinrukou_5">
+                      <span>人气好物</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://you.163.com/item/list?categoryId=1005000&from=out_ynzy_xinrukou_7">
+                      <span>居家生活</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://you.163.com/item/list?categoryId=1010000&from=out_ynzy_xinrukou_8">
+                      <span>服饰鞋包</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://you.163.com/item/list?categoryId=1011000&from=out_ynzy_xinrukou_9">
+                      <span>母婴亲子</span>
+                    </a>
+                  </li>
+                  <li class="last">
+                    <a href="https://you.163.com/item/list?categoryId=1005002&from=out_ynzy_xinrukou_10">
+                      <span>美食酒水</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="js_N_navSelect ntes-nav-select c-fl">
+              <a href="https://ecard.163.com/" class="ntes-nav-select-title
+        ntes-nav-select-title-money ntes-nav-entry-bgblack">
+                <em class="ntes-nav-entry-money">支付</em>
+                <em class="ntes-nav-select-arr"></em>
+              </a>
+              <div class="ntes-nav-select-pop ntes-nav-select-pop-temp">
+                <ul class="ntes-nav-select-list clearfix">
+                  <li>
+                    <a href="https://ecard.163.com/#f=topnav">
+                      <span>一卡通充值</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://ecard.163.com/script/index#f=topnav">
+                      <span>一卡通购买</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://epay.163.com/">
+                      <span>我的网易支付</span>
+                    </a>
+                  </li>
+                  <li class="last">
+                    <a href="https://globalpay.163.com/home">
+                      <span>网易跨境支付</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="js_N_navSelect ntes-nav-select c-fl">
+              <a id="js_mail_url" rel="noreferrer"class="ntes-nav-select-title
+        ntes-nav-select-title-mail ntes-nav-entry-bgblack">
+                <em class="ntes-nav-entry-mail">邮箱</em>
+                <em class="ntes-nav-select-arr"></em>
+                <span class="ntes-nav-msg" id="js_N_navMailMsg">
+                  <em class="ntes-nav-msg-num" id="js_N_navMailMsgNum"></em>
+                </span>
+              </a>
+              <div class="ntes-nav-select-pop ntes-nav-select-pop-mail">
+                <ul class="ntes-nav-select-list clearfix">
+                  <li>
+                    <a href="https://email.163.com/#f=topnav">
+                      <span>免费邮箱</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://vipmail.163.com/#f=topnav">
+                      <span>VIP邮箱</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://qiye.163.com/?from=NetEase163top">
+                      <span>企业邮箱</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://mail.163.com/register/index.htm?from=ntes_nav&regPage=163">
+                      <span>免费注册</span>
+                    </a>
+                  </li>
+                  <li class="last">
+                    <a href="https://mail.163.com/dashi/dlpro.html?from=mail46">
+                      <span>客户端下载</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://static.ws.126.net/163/f2e/commonnav2019/js/commonnav_headjs-8e9e7c8602.js"></script>
+    <!-- content -->
+    <div class="wrapper clearfix" id="contain" data-wemediaid="W6651593431949685876" data-docid="EFDBGT6V05149PH8" data-ptime="2019-05-17 18:59:22" data-hidead="false"  data-h-account="-"  data-ispay="false" data-adv="">
+        
+        <div class="post_area post_columnad_top" data-adid="article_dy_column_1" style="margin-top: 30px; height:125px;">
+            <!-- 网易号文章通发页顶部通栏 -->
+<div style="position:relative;">
+<div class="at_item common_ad_item top_ad_column" adType="topColumnAd" normalw="1200" normalh="125" requestUrl="https://nex.163.com/q?app=7BE0FC82&c=dyarticle&l=11&site=netease&affiliate=163&cat=dyarticle&type=column1200x125&location=1"></div>
+<a href="javascript:;" target="_self" class="ad_hover_href"></a>
+</div>
+        </div>
+        
+        <div class="post_main">
+            
+            <!-- crumb -->
+            <div class="post_crumb">
+                <a href="https://www.163.com/">网易首页</a> &gt; <a href="https://dy.163.com/">网易号</a> &gt; 正文
+                <a class="to_reg" href="https://dy.163.com/wemedia/index.html">申请入驻</a>
+				<div id="netease_search"  style=" margin: -12px 20px 0 0; vertical-align: top; float:right;"></div>
+              	<script>window.UID_TARGET = ['0', '1', '2', '3', '4', '5', '6', '7']</script>
+				<script src="https://static.ws.126.net/163/f2e/modules/search2022/search2022.cdbc9331.js" async></script>
+            </div>
+            
+            
+            <h1 class="post_title">深晚报道 |文博会重头戏  中华民族文化创意产品设计大赛正式开赛</h1>
+            <!--keywordsList beigin-->
+            
+            <!--keywordsList end-->
+            <!-- 来源 -->
+            <div class="post_info">
+                
+                    
+                      2019-05-17 18:59:22　来源: <a href="https://www.163.com/dy/media/T1467623372235.html">深圳晚报</a>
+                    
+                    
+                
+                &nbsp;<a href="https://www.163.com/special/0077jt/tipoff.html?title=%E6%B7%B1%E6%99%9A%E6%8A%A5%E9%81%93%20%7C%E6%96%87%E5%8D%9A%E4%BC%9A%E9%87%8D%E5%A4%B4%E6%88%8F%20%20%E4%B8%AD%E5%8D%8E%E6%B0%91%E6%97%8F%E6%96%87%E5%8C%96%E5%88%9B%E6%84%8F%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%E6%AD%A3%E5%BC%8F%E5%BC%80%E8%B5%9B" target="_blank" class="post_jubao">举报</a>
+            </div>
+            <div class="post_content" id="content" data-cover="">
+                <div class="post_top">
+                    
+                    <div class="post_top_tie">
+                        <a class="post_top_tie_icon" target="_self" href="#post_comment_area" title="快速发贴"></a>
+                        <a class="post_top_tie_count js-tielink js-tiejoincount" href="#" title="点击查看跟贴">0</a>
+                    </div>
+                    
+                    <div class="post_top_share">
+                        <span class="post_top_share_title">分享至</span>
+                        <ul class="post_share">
+                            <li class="share_weixin js_weixin">
+                                <a href="javascript:;" target="_self"><i title="分享到微信"></i></a>
+                            </li>
+                            <li class="share_weibo js_share" data-type="weibo">
+                                <a href="javascript:;" target="_self"><i title="分享到新浪微博"></i></a>
+                            </li>
+                            <li class="share_qzone js_share" data-type="qzone">
+                                <a href="javascript:;" target="_self"><i title="分享到QQ空间"></i></a>
+                            </li>
+                        </ul>
+                        <div class="js_qrcode_wrap hidden" id="js_qrcode_top">
+                            <div class="js_qrcode_arr"></div>
+                            <a href="javascript:;" target="_self" class="js_qrcode_close" title="关闭"></a>
+                            <div class="js_qrcode_img js_share_qrcode"></div>
+                            <p>用微信扫码二维码</p>
+                            <p>分享至好友和朋友圈</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="post_body">
+                    <p class="f_center"><img src="https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2019%2F05%2F17%2Fe53b7805a5684d61b852007d05f21103.jpeg&thumbnail=660x2147483647&quality=80&type=jpg"/><br/></p><p>5月17日上午，“中华民族文化创意产品设计大赛”在文博会主场馆深圳会展中心的非遗馆开赛，面向广大公众征集优秀文化创意设计作品。</p><p>作为第十五届文博会的重要活动之一，该大赛由广东省少数民族文化创意产业协会、澳门中华民族文创学会主办，深圳市金雅福设计创意有限公司承办。</p><p><strong>多方助力创意产品设计大赛</strong></p><p>广东省少数民族文化创意产业协会会长肖俊华，澳门中华民族文创学会理事长丁潇，广东省少数民族文化创意产业协会顾问、金雅福集团董事长黄仕坤，鼎翰文化总经理黄新，广州利美文化科技有限公司总经理杜志国，连山壮族瑶族自治县壮瑶风采文化发展有限责任公司总经理钱清华，连南瑶族自治县名瑶工艺坊创始人唐买社吊，连南醉美瑶绣坊传承人房春花等出席，为此次大赛剪彩。</p><p class="f_center"><img src="https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2019%2F05%2F17%2F5599f8cde61242f880092bd47a9a5771.jpeg&thumbnail=660x2147483647&quality=80&type=jpg"/><br/></p><p>在致辞中，广东省少数民族文化创意产业协会会长肖俊华表示，广东省少数民族文化创意产业协会的宗旨是开展与民族文化相关的业务咨询、政策研究、会员交流等活动，进一步弘扬中华民族文化。而举办本次比赛，则意在借助文化产品推广少数民族特色文化，着力打造一批富有少数民族特色元素的标识性品牌文创产品。</p><p class="f_center"><img src="https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2019%2F05%2F17%2Fdf2632c878e6406d8a1c36b0cd40be39.jpeg&thumbnail=660x2147483647&quality=80&type=jpg"/><br/></p><p><strong>大赛意在引发文创产品设计风潮</strong></p><p>据介绍，大赛将结合全国各地的优秀创意设计人才资源、先进的生产工艺技术，立足于中国各民族传统的优秀文化资源、非物质文化遗产技艺、山地旅游资源等，以“实用性、时尚性、创意性、文化性”等设计理念，引发标识性文创产品设计新风潮。</p><p class="f_center"><img src="https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2019%2F05%2F17%2F4dc14dee2f3e40cfb2281381cf3252ca.jpeg&thumbnail=660x2147483647&quality=80&type=jpg"/><br/></p><p>广东省少数民族文化创意产业协会秘书长苏沫琪（左一）介绍本次大赛的参赛要求及活动情况。<br/></p><p>作品征集内容包括旅游商品及产品设计、特产产品包装设计、民族服饰设计三大类别。其中，旅游商品及产品设计类包括银饰、蜡染、刺绣、竹器、玉石、木器、书法、剪纸、布艺、玩具、玉器、木器、银器、刺绣、茶具、手工制品等文化旅游纪念工艺品，特产产品包装设计类包括水果、农产品、山地特产、小吃、茶等特产品种。</p><p>大赛以团队或个人为参赛单位，参赛对象可以是文化创意机构、品牌设计公司、民间手工艺创作公司，也可以是国内外院校、独立设计师等等。大赛将邀请国内外创意设计领域知名专家、学者及设计大师担当专业评审。</p><p><strong>未来还将举办民族文创产业发展论坛</strong></p><p>承办方金雅福集团表示，本次大赛只是开端，未来还将陆续开展作品评审、获奖公示及作品展览、系列峰会论坛暨颁奖晚会、产业化培训扶持等系列活动，全面展示和培育一批富有民族特色的文化创意成果。</p><p class="f_center"><img src="https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2019%2F05%2F17%2Fee234fa67fe94896b6970e82868ae791.jpeg&thumbnail=660x2147483647&quality=80&type=jpg"/><br/></p><p>其中，民族文创产业发展论坛将以“传承文化、创新发展”为宗旨，届时将邀请国内外知名专家、学者围绕民族文化资源的价值转换与民族文化创意产业发展等热点议题展开深入探讨，助力文化创意产业扬帆远航。</p><p>大赛获奖的优秀作品将在国内各民族院校、产业园及澳门等地进行巡展，让更多人了解传统民族文化与现代设计工艺结合诞生的文化创意成果。大赛获奖作品，可入驻澳门金沙城中心的创意廊进行展示与销售。</p><p>深圳晚报 记者易芬 通讯员 范建华 文/图</p>
+                </div>
+                
+                
+                    
+                    
+                <div class="post_statement">
+                    <span class="bg"></span>
+                    
+                    <p>特别声明：以上内容(如有图片或视频亦包括在内)为自媒体平台“网易号”用户上传并发布，本平台仅提供信息存储服务。</p>
+                    <p>Notice: The content above (including the pictures and videos if any) is uploaded and posted by a user of NetEase Hao, which is a social media platform and only provides information storage services.</p>
+                    
+                </div>
+                <!-- tie -->
+                <link rel="stylesheet" href="https://static.ws.126.net/163/f2e/tie-sdk/tie-2020-11b4ffc1a813dfcc799e.css">
+<script>
+  var loadMessageError2 = function () {
+      // message加载失败降级到nginx,产品可以在load事件重新初始化
+      var cdnPath = 'https://dl.reg.163.com/webzj/ngx/message.js';
+      var script = document.createElement('script');
+      script.src = cdnPath;
+      document.body.appendChild(script);
+  }
+  var loadMessageError1 = function () {
+      // message加载失败降级备份cdn域名,产品可以在load事件重新初始化
+      var cdnPath = 'https://webzj.netstatic.net/webzj_cdn101/message4.js';
+      var script = document.createElement('script');
+      script.src = cdnPath;
+      script.onerror = loadMessageError2
+      document.body.appendChild(script);
+  }  
+</script>
+<script onerror="loadMessageError1()" src="https://urswebzj.nosdn.127.net/webzj_cdn101/message.js"></script>
+<script type="text/javascript" src="https://acstatic-dun.126.net/tool.min.js"></script>
+<script type="text/javascript">
+  //初始化反作弊
+  var wm = null;
+  // 只需初始化一次
+  initWatchman({
+    productNumber: 'YD00157343455660',
+    onload: function (instance) {
+      wm = instance
+    }
+  });
+</script>
+<script type="text/javascript" src="https://static.ws.126.net/163/f2e/tie-sdk/tie-2020-11b4ffc1a813dfcc799e.js"></script>
+
+                <div class="tie-areas post_comment" id="post_comment_area">
+                    <div id="tie"></div>
+                </div>
+                <script type="text/javascript" language="javascript">
+                    var isShowComments = true, tieChannel = "";
+                </script>
+                <script>
+                    (function () {
+                        if (window.isShowComments === undefined) {
+                            window.isShowComments = true;
+                        }
+                        var config = {
+                            "productKey": "a2869674571f77b5a0867c3d71db5856",
+                            "docId": "EFDBGT6V05149PH8", //"data.article.postid", "FNMG85GQ0514HDQI"
+                            "target": document.getElementById("tie"),
+                            "operators": ["up", "down", "reply", "share"],
+                            "isShowComments": isShowComments,   //是否显示帖子列表
+                            "hotSize": 3,   //热门跟贴列表 展示3 条
+                            "newSize": 2,   //最新跟贴列表 展示 10 条
+                            "showPaging": false, //显示分页栏
+                            "submitType": "commentPage"   //新发帖子的展现形式：停留在当前页面(currentPage) | 跳转到跟贴详情页(commentPage)
+                        };
+                        Tie.init(config, function(data) {});
+                    })();
+                </script>
+                <!-- next -->
+                <div class="post_next hidden">
+                    <div class="post_next_name"><i>/</i><span>阅读下一篇</span><i>/</i></div>
+                    <h3><a id="js_next" href=""></a></h3>
+                    <div class="post_next_to">
+                        <a href="https://www.163.com/?f=post2020_dy">返回网易首页</a>
+                        <a href="https://www.163.com/newsapp/#f=post2020_dy">下载网易新闻客户端</a>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- recommend -->
+            <div class="post_recommends js-tab-mod" data-event="click" >
+                <div class="post_recommends_titles">
+                    <div class="post_recommends_title js-tab">相关推荐</div>
+                    
+                    <div class="post_recommends_title js-tab">热点推荐</div>
+                    
+                </div>
+                <div class="post_recommends_ulist js-content">
+                    <ul class="post_recommends_list">
+                        
+                        
+                        
+                        
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/v/video/VK6T2PSOB.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://videoimg.ws.126.net/cover/20260927/bdrovjpn4_cover.jpg&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/v/video/VK6T2PSOB.html?f=post2020_dy_recommends"><i class="post_recommend_video"></i>壮美！60余名工作人员在太行山间展开巨幅五星红旗</a></h3>
+                                <p class="post_recommend_time">学申论的谈妹 2026-09-27 09:36:21</p>
+                                
+                                <a href="https://www.163.com/v/video/VK6T2PSOB.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 156
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 156
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/v/video/VZ6TAVGAS.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://videoimg.ws.126.net/cover/20260927/dzYauAJvW_cover.jpg&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/v/video/VZ6TAVGAS.html?f=post2020_dy_recommends"><i class="post_recommend_video"></i>弟弟眼睛里没有对哥哥的心疼，只有对自己即将“上刑场”打针的恐惧</a></h3>
+                                <p class="post_recommend_time">东方娱乐 2026-09-27 11:59:13</p>
+                                
+                                <a href="https://www.163.com/v/video/VZ6TAVGAS.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 32
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 32
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                      	<div class="post_recommend artificial_collect_item"></div>
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/news/article/L7RDMH2700019SNS.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://cms-bucket.ws.126.net/2026/0927/a130acf9p00tm0gdb002ac0009c0070c.png&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/news/article/L7RDMH2700019SNS.html?f=post2020_dy_recommends">张雪机车团队多人在意大利被盗</a></h3>
+                                <p class="post_recommend_time">环球网 2026-09-27 14:45:34</p>
+                                
+                                <a href="https://www.163.com/news/article/L7RDMH2700019SNS.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 7381
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 7381
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                      	<div class="post_recommend artificial_collect_item"></div>
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/dy/article/L7ROQQ440511DJHA.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/three819f3ac2e45j00tm0oqe002rd200u000gwg00zk00k0.jpg&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/dy/article/L7ROQQ440511DJHA.html?f=post2020_dy_recommends">假助农直播间用大豆油冒充核桃油、紫苏籽油等，半年销售额超过310万元</a></h3>
+                                <p class="post_recommend_time">农视网 2026-09-27 17:51:52</p>
+                                
+                                <a href="https://www.163.com/dy/article/L7ROQQ440511DJHA.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 10
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 10
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/dy/article/L7RO5NP4053469LG.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://dingyue.ws.126.net/2026/0927/49eb7a0ej00tm0nsj00qsd0035s02dcg.jpg&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/dy/article/L7RO5NP4053469LG.html?f=post2020_dy_recommends">吴京平因脑梗抢救无效去世 告别式在上海举办</a></h3>
+                                <p class="post_recommend_time">极目新闻 2026-09-27 17:40:22</p>
+                                
+                                <a href="https://www.163.com/dy/article/L7RO5NP4053469LG.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 68
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 68
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                      	<div class="post_recommend artificial_collect_item"></div>
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/dy/article/L7RADOIE0512B07B.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://cms-bucket.ws.126.net/2026/0927/1a423b38p00tm0hwi0015c0009c0070c.png&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/dy/article/L7RADOIE0512B07B.html?f=post2020_dy_recommends">特斯拉一个月两度现金优惠 销售人员:9月现车基本没了</a></h3>
+                                <p class="post_recommend_time">每日经济新闻 2026-09-27 13:40:05</p>
+                                
+                                <a href="https://www.163.com/dy/article/L7RADOIE0512B07B.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 556
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 556
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                      	<div class="post_recommend artificial_collect_item"></div>
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/dy/article/L7QT99460514R9P4.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://cms-bucket.ws.126.net/2026/0927/d10a055cp00tm0ifo001ec0009c0070c.png&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/dy/article/L7QT99460514R9P4.html?f=post2020_dy_recommends">山西一景区3000万元招NPC，是话题营销还是突围之计？澎湃记者实地调查</a></h3>
+                                <p class="post_recommend_time">澎湃新闻 2026-09-27 09:50:29</p>
+                                
+                                <a href="https://www.163.com/dy/article/L7QT99460514R9P4.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 54
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 54
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/dy/article/L7RB7NQK0514BQ68.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/doccover_gen/c38b8422_12_cover.png&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/dy/article/L7RB7NQK0514BQ68.html?f=post2020_dy_recommends">乌克兰南部一城市发出饥荒警告</a></h3>
+                                <p class="post_recommend_time">参考消息 2026-09-27 13:54:16</p>
+                                
+                                <a href="https://www.163.com/dy/article/L7RB7NQK0514BQ68.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 954
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 954
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                      	<div class="post_recommend artificial_collect_item"></div>
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/dy/article/L7QQA2180514R9P4.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/little6244a217a89j00tm001e001id000sg00lcc.jpg&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/dy/article/L7QQA2180514R9P4.html?f=post2020_dy_recommends">大理通报导游在大巴车上胁迫游客购物：固定证据后罚款六千元</a></h3>
+                                <p class="post_recommend_time">澎湃新闻 2026-09-27 08:58:26</p>
+                                
+                                <a href="https://www.163.com/dy/article/L7QQA2180514R9P4.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 797
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 797
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/dy/article/L7RKFTAA05129QAF.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/little611c6f3d20dj00tm0l7w003vd000u0018fm.jpg&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/dy/article/L7RKFTAA05129QAF.html?f=post2020_dy_recommends">昨晚突发！知名4A级景区，女演员从高空坠下，最新消息</a></h3>
+                                <p class="post_recommend_time">南方都市报 2026-09-27 16:36:01</p>
+                                
+                                <a href="https://www.163.com/dy/article/L7RKFTAA05129QAF.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 125
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 125
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/dy/article/L7RA9S8U0550A0OW.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/little636c654ae73j00tm0cz6010cd200u000gwg00is00ak.jpg&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/dy/article/L7RA9S8U0550A0OW.html?f=post2020_dy_recommends">网友为抢国庆高铁票连下5个候补订单，订票费花了1万多元，12306客服：其实只需下一个订单，中签概率一样，可避免产生退票费用</a></h3>
+                                <p class="post_recommend_time">新民周刊 2026-09-27 13:37:57</p>
+                                
+                                <a href="https://www.163.com/dy/article/L7RA9S8U0550A0OW.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 303
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 303
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/dy/article/L7RB7NUI0514BQ68.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/doccover_gen/c38b8422_5_cover.png&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/dy/article/L7RB7NUI0514BQ68.html?f=post2020_dy_recommends">俄媒：俄军摧毁乌克兰25%互联网基础设施</a></h3>
+                                <p class="post_recommend_time">参考消息 2026-09-27 13:54:16</p>
+                                
+                                <a href="https://www.163.com/dy/article/L7RB7NUI0514BQ68.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 775
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 775
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/dy/article/L7QM1TQC0512D3VJ.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/doccover_gen/c38b8422_13_cover.png&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/dy/article/L7QM1TQC0512D3VJ.html?f=post2020_dy_recommends">沙特称霍尔木兹海峡须恢复至“战前状态”</a></h3>
+                                <p class="post_recommend_time">新京报 2026-09-27 07:44:05</p>
+                                
+                                <a href="https://www.163.com/dy/article/L7QM1TQC0512D3VJ.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 50
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 50
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/dy/article/L7S2S647053469LG.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/little8746320f281j00tm0wpo001ad0018g00p0g.jpg&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/dy/article/L7S2S647053469LG.html?f=post2020_dy_recommends">王曼昱夺得乒乓球女单冠军</a></h3>
+                                <p class="post_recommend_time">极目新闻 2026-09-27 20:47:23</p>
+                                
+                                <a href="https://www.163.com/dy/article/L7S2S647053469LG.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 2
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 2
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/dy/article/L7S70EHF0514EGPO.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/doccover_gen/c38b8422_8_cover.png&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/dy/article/L7S70EHF0514EGPO.html?f=post2020_dy_recommends">别让“智能驾驶”沦为酒驾的“挡箭牌”</a></h3>
+                                <p class="post_recommend_time">看看新闻Knews 2026-09-27 21:59:37</p>
+                                
+                                <a href="https://www.163.com/dy/article/L7S70EHF0514EGPO.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 0
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 0
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    	
+                        
+                        <li class="post_recommend">
+                            
+                            <a class="post_recommend_img" href="https://www.163.com/dy/article/L7S5ENQJ0514R9P4.html?f=post2020_dy_recommends">
+                                <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/little485180e15cdj00tm0yy300h6d000k300dec.jpg&thumbnail=140y88&quality=80&type=jpg" onerror="this.onerror=''; this.src='https://static.ws.126.net/dy/images/default180x120.jpg'">
+                            </a>
+                            
+                            <div class="post_recommend_info">
+                                <h3 class="post_recommend_title"><a href="https://www.163.com/dy/article/L7S5ENQJ0514R9P4.html?f=post2020_dy_recommends">临港增值电信对外开放试点再扩“朋友圈”：新增中微智码等三家</a></h3>
+                                <p class="post_recommend_time">澎湃新闻 2026-09-27 21:32:28</p>
+                                
+                                <a href="https://www.163.com/dy/article/L7S5ENQJ0514R9P4.html?f=post2020_dy_recommends" class="post_recommend_tie">
+                                    <span class="post_recommend_tie_inner">
+                                        <span class="post_recommend_tie_icon">
+                                            <i></i> 0
+                                        </span>
+                                        <span class="post_recommend_tie_text">
+                                            <em>跟贴</em> 0
+                                        </span>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="post_recommends_ulist js-content">
+                    <div class="post_recommend_news_hot">
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7NSV2350556BZCZ.html?f=post1603_tab_news" title="几乎全是假货！利润高达2400%，为何消费者还前赴后继争相购买？" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/big917a8c1ad9fj00tlxwhv002ad000tn00jgp.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="几乎全是假货！利润高达2400%，为何消费者还前赴后继争相购买？">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7NSV2350556BZCZ.html?f=post1603_tab_news" title="几乎全是假货！利润高达2400%，为何消费者还前赴后继争相购买？">几乎全是假货！利润高达2400%，为何消费者还前赴后继争相购买？</a>
+    </h3>
+    <span class="post_recommend_source">星星跌入梦里中</span>
+    <div class="post_recommend_time">2026-09-26 05:47:11</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7QMDHU80514R9OJ.html?f=post1603_tab_news" title="年薪30万元！还没毕业就被“抢订”！这类人才，太抢手→" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/doccover_gen/58ecf9ef_4_cover.png&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="年薪30万元！还没毕业就被“抢订”！这类人才，太抢手→">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7QMDHU80514R9OJ.html?f=post1603_tab_news" title="年薪30万元！还没毕业就被“抢订”！这类人才，太抢手→">年薪30万元！还没毕业就被“抢订”！这类人才，太抢手→</a>
+    </h3>
+    <span class="post_recommend_source">环球网资讯</span>
+    <div class="post_recommend_time">2026-09-27 07:50:26</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7PU5AHB0556KDN0.html?f=post1603_tab_news" title="卢比奥摊牌：不管美国大选输赢，特朗普都能独立制裁伊朗！" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/big2086263dcfej00tlzd8c00kjd000v900khp.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="卢比奥摊牌：不管美国大选输赢，特朗普都能独立制裁伊朗！">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7PU5AHB0556KDN0.html?f=post1603_tab_news" title="卢比奥摊牌：不管美国大选输赢，特朗普都能独立制裁伊朗！">卢比奥摊牌：不管美国大选输赢，特朗普都能独立制裁伊朗！</a>
+    </h3>
+    <span class="post_recommend_source">北海史记</span>
+    <div class="post_recommend_time">2026-09-27 00:46:38</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L6FOAD270552QKPK.html?f=post1603_tab_news" title="“爷爷黄毛，奶奶满背！”一家五口火了，网友：孩子小学毕业就算高学历！" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://dingyue.ws.126.net/2026/0910/aa431ac4j00tl516h000id000ct009lp.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="“爷爷黄毛，奶奶满背！”一家五口火了，网友：孩子小学毕业就算高学历！">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L6FOAD270552QKPK.html?f=post1603_tab_news" title="“爷爷黄毛，奶奶满背！”一家五口火了，网友：孩子小学毕业就算高学历！">“爷爷黄毛，奶奶满背！”一家五口火了，网友：孩子小学毕业就算高学历！</a>
+    </h3>
+    <span class="post_recommend_source">林林先生</span>
+    <div class="post_recommend_time">2026-09-12 12:25:03</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7MQ2RD80535T18G.html?f=post1603_tab_news" title="特朗普向北京递了五张清单，第一张就写着“美军生死”" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://dingyue.ws.126.net/2026/0925/c66cd0d3j00tlx4ag000kd000hs00bvm.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="特朗普向北京递了五张清单，第一张就写着“美军生死”">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7MQ2RD80535T18G.html?f=post1603_tab_news" title="特朗普向北京递了五张清单，第一张就写着“美军生死”">特朗普向北京递了五张清单，第一张就写着“美军生死”</a>
+    </h3>
+    <span class="post_recommend_source">瞩望云霄</span>
+    <div class="post_recommend_time">2026-09-25 19:37:33</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7PU1EQO05561FZA.html?f=post1603_tab_news" title="更衣室投票后，爱尔兰队决定戴着黑纱去踢以色列" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/big356a7920267j00tlzd3t000wd000mr00ctp.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="更衣室投票后，爱尔兰队决定戴着黑纱去踢以色列">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7PU1EQO05561FZA.html?f=post1603_tab_news" title="更衣室投票后，爱尔兰队决定戴着黑纱去踢以色列">更衣室投票后，爱尔兰队决定戴着黑纱去踢以色列</a>
+    </h3>
+    <span class="post_recommend_source">体坛观察猿</span>
+    <div class="post_recommend_time">2026-09-27 00:44:25</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7GNJNQN0556PHBE.html?f=post1603_tab_news" title="朝鲜的4条奇特规定：每条都让人意想不到，稍有不慎就会锒铛入狱！" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://dingyue.ws.126.net/2026/0923/080bde5dj00tlsqx0002ed000sm00g3p.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="朝鲜的4条奇特规定：每条都让人意想不到，稍有不慎就会锒铛入狱！">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7GNJNQN0556PHBE.html?f=post1603_tab_news" title="朝鲜的4条奇特规定：每条都让人意想不到，稍有不慎就会锒铛入狱！">朝鲜的4条奇特规定：每条都让人意想不到，稍有不慎就会锒铛入狱！</a>
+    </h3>
+    <span class="post_recommend_source">晚叙山川</span>
+    <div class="post_recommend_time">2026-09-27 10:15:23</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7JM33CP051597HS.html?f=post1603_tab_news" title="四名议员施压特朗普，想恢复对台军售，鲁比奥表态，释放两大信号" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/big811c19cb3d9j00tluusc0013d000hs00bxg.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="四名议员施压特朗普，想恢复对台军售，鲁比奥表态，释放两大信号">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7JM33CP051597HS.html?f=post1603_tab_news" title="四名议员施压特朗普，想恢复对台军售，鲁比奥表态，释放两大信号">四名议员施压特朗普，想恢复对台军售，鲁比奥表态，释放两大信号</a>
+    </h3>
+    <span class="post_recommend_source">DS北风</span>
+    <div class="post_recommend_time">2026-09-24 14:30:03</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7C9K7EE05566AVT.html?f=post1603_tab_news" title="2015年，方静客死他乡，11年后，那个诬陷她是间谍的主持人已荣休" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/big979b19be982j00tlpk1l003fd0012m00p2p.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="2015年，方静客死他乡，11年后，那个诬陷她是间谍的主持人已荣休">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7C9K7EE05566AVT.html?f=post1603_tab_news" title="2015年，方静客死他乡，11年后，那个诬陷她是间谍的主持人已荣休">2015年，方静客死他乡，11年后，那个诬陷她是间谍的主持人已荣休</a>
+    </h3>
+    <span class="post_recommend_source">小先生笔记</span>
+    <div class="post_recommend_time">2026-09-21 17:37:33</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L3JOFHVJ05560XVI.html?f=post1603_tab_news" title="人不会平白无故患带状疱疹！医生强调：得带状疱疹多半有4个共性" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/little71525e85a32j00tjavah001td000ss00flm.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="人不会平白无故患带状疱疹！医生强调：得带状疱疹多半有4个共性">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L3JOFHVJ05560XVI.html?f=post1603_tab_news" title="人不会平白无故患带状疱疹！医生强调：得带状疱疹多半有4个共性">人不会平白无故患带状疱疹！医生强调：得带状疱疹多半有4个共性</a>
+    </h3>
+    <span class="post_recommend_source">芹姐说生活</span>
+    <div class="post_recommend_time">2026-08-05 22:09:05</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7E4JOH00556EYM1.html?f=post1603_tab_news" title="比特朗普更危险？手握上万亿美元的他，早已成了中国最大的隐患？" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/big6934dadb5fbj00tlqvrn010yd000v900jwp.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="比特朗普更危险？手握上万亿美元的他，早已成了中国最大的隐患？">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7E4JOH00556EYM1.html?f=post1603_tab_news" title="比特朗普更危险？手握上万亿美元的他，早已成了中国最大的隐患？">比特朗普更危险？手握上万亿美元的他，早已成了中国最大的隐患？</a>
+    </h3>
+    <span class="post_recommend_source">观史搜寻着</span>
+    <div class="post_recommend_time">2026-09-22 10:48:33</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7PGNOG20556E96Z.html?f=post1603_tab_news" title="欠钱不还的人最怕这一招：微信上申请支付令，15天不还直接划扣！" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://dingyue.ws.126.net/2026/0926/523a34fdj00tlz2fb0022d001sx00rep.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="欠钱不还的人最怕这一招：微信上申请支付令，15天不还直接划扣！">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7PGNOG20556E96Z.html?f=post1603_tab_news" title="欠钱不还的人最怕这一招：微信上申请支付令，15天不还直接划扣！">欠钱不还的人最怕这一招：微信上申请支付令，15天不还直接划扣！</a>
+    </h3>
+    <span class="post_recommend_source">另子维爱读史</span>
+    <div class="post_recommend_time">2026-09-26 20:53:15</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L6S14J3L05248GKH.html?f=post1603_tab_news" title="高晓松要拍《林徽因传》，被梁再冰警告：“你要是拍我妈和徐志摩的感情线，我告你破产！”高晓松满脸不快" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/big889a4676500j00tlduy6000pd200rh00eqg00it00a2.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="高晓松要拍《林徽因传》，被梁再冰警告：“你要是拍我妈和徐志摩的感情线，我告你破产！”高晓松满脸不快">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L6S14J3L05248GKH.html?f=post1603_tab_news" title="高晓松要拍《林徽因传》，被梁再冰警告：“你要是拍我妈和徐志摩的感情线，我告你破产！”高晓松满脸不快">高晓松要拍《林徽因传》，被梁再冰警告：“你要是拍我妈和徐志摩的感情线，我告你破产！”高晓松满脸不快</a>
+    </h3>
+    <span class="post_recommend_source">背包旅行</span>
+    <div class="post_recommend_time">2026-09-15 10:01:19</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7OJ1UH80526K1KN.html?f=post1603_tab_news" title="明星赛何润东成全场唯一手柄玩家 一旁陈赫都看呆了" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/little10288b6052ej00tlybc5007ld000fa007dg.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="明星赛何润东成全场唯一手柄玩家 一旁陈赫都看呆了">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7OJ1UH80526K1KN.html?f=post1603_tab_news" title="明星赛何润东成全场唯一手柄玩家 一旁陈赫都看呆了">明星赛何润东成全场唯一手柄玩家 一旁陈赫都看呆了</a>
+    </h3>
+    <span class="post_recommend_source">游民星空</span>
+    <div class="post_recommend_time">2026-09-26 12:13:11</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7CA2UT4051499JG.html?f=post1603_tab_news" title="50岁后肌肉流失20%，5个力量动作留住肌肉，让你延长健康寿命" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/big862844da6d7j00tlpkgk0019d000zk00npm.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="50岁后肌肉流失20%，5个力量动作留住肌肉，让你延长健康寿命">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7CA2UT4051499JG.html?f=post1603_tab_news" title="50岁后肌肉流失20%，5个力量动作留住肌肉，让你延长健康寿命">50岁后肌肉流失20%，5个力量动作留住肌肉，让你延长健康寿命</a>
+    </h3>
+    <span class="post_recommend_source">增肌减脂</span>
+    <div class="post_recommend_time">2026-09-21 17:46:07</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7QQNCQB0519VPHD.html?f=post1603_tab_news" title="估值超1万亿！美股史上最大半导体IPO要来了，曾被英特尔600亿卖掉" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/little183306040c6j00tm00dh001pd200pt00dkg00pt00dk.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="估值超1万亿！美股史上最大半导体IPO要来了，曾被英特尔600亿卖掉">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7QQNCQB0519VPHD.html?f=post1603_tab_news" title="估值超1万亿！美股史上最大半导体IPO要来了，曾被英特尔600亿卖掉">估值超1万亿！美股史上最大半导体IPO要来了，曾被英特尔600亿卖掉</a>
+    </h3>
+    <span class="post_recommend_source">独角兽早知道</span>
+    <div class="post_recommend_time">2026-09-27 09:05:43</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L6V5DCE30553TF8W.html?f=post1603_tab_news" title="斑块最怕的“清洁工”，就在你家厨房！一天吃两口，血管干干净净" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/big772a8df43bdj00tlg42n002cd000hs00hsg.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="斑块最怕的“清洁工”，就在你家厨房！一天吃两口，血管干干净净">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L6V5DCE30553TF8W.html?f=post1603_tab_news" title="斑块最怕的“清洁工”，就在你家厨房！一天吃两口，血管干干净净">斑块最怕的“清洁工”，就在你家厨房！一天吃两口，血管干干净净</a>
+    </h3>
+    <span class="post_recommend_source">华庭讲美食</span>
+    <div class="post_recommend_time">2026-09-16 15:13:45</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7S2S647053469LG.html?f=post1603_tab_news" title="王曼昱夺得乒乓球女单冠军" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/little8746320f281j00tm0wpo001ad0018g00p0g.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="王曼昱夺得乒乓球女单冠军">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7S2S647053469LG.html?f=post1603_tab_news" title="王曼昱夺得乒乓球女单冠军">王曼昱夺得乒乓球女单冠军</a>
+    </h3>
+    <span class="post_recommend_source">极目新闻</span>
+    <div class="post_recommend_time">2026-09-27 20:47:23</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7OAP4UE055622B1.html?f=post1603_tab_news" title="当一个烈女即将失节......" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://dingyue.ws.126.net/2026/0926/dfd3871cj00tly7qg0074d000ys01pmm.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="当一个烈女即将失节......">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7OAP4UE055622B1.html?f=post1603_tab_news" title="当一个烈女即将失节......">当一个烈女即将失节......</a>
+    </h3>
+    <span class="post_recommend_source">我是历史其实挺有趣</span>
+    <div class="post_recommend_time">2026-09-26 09:55:13</div>
+  </div>
+        <div class="post_recommend_new">
+        <a href="https://www.163.com/dy/article/L7R7R2TJ055616XM.html?f=post1603_tab_news" title="柬埔寨凌晨截获840公斤毒品和49支枪，7人全中国人，有人纹龙画虎" class="post_recommend_img">
+      <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/big88934118c4dj00tm0azd001jd000hs00dcg.jpg&thumbnail=140y88&quality=90&type=jpg" width="140" height="88" alt="柬埔寨凌晨截获840公斤毒品和49支枪，7人全中国人，有人纹龙画虎">
+    </a>
+        <h3>
+      <a href="https://www.163.com/dy/article/L7R7R2TJ055616XM.html?f=post1603_tab_news" title="柬埔寨凌晨截获840公斤毒品和49支枪，7人全中国人，有人纹龙画虎">柬埔寨凌晨截获840公斤毒品和49支枪，7人全中国人，有人纹龙画虎</a>
+    </h3>
+    <span class="post_recommend_source">据说说娱乐</span>
+    <div class="post_recommend_time">2026-09-27 12:54:55</div>
+  </div>
+    <span style="display:none;">2026-09-27 22:12:49</span>
+</div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="post_side">
+            
+              
+                
+                  <div class="post_wemedia">
+                      <div class="post_wemedia_avatar">
+                          <a href="https://www.163.com/dy/media/T1467623372235.html" style="position:relative;">
+                              <img src="https://nimg.ws.126.net/?url=http://dingyue.ws.126.net/x5Q67kwm9SZzOxnEhgAK2ruwYsNw6sZABf5T78Zxf2yLN1467623371764.jpg&thumbnail=160y160&quality=80&type=jpg"
+                                  alt="深圳晚报">
+                              
+                              <img src="http://cms-bucket.ws.126.net/2024/1118/d938c7c9p00sn4w230001c0001o001oc.png" alt="incentive-icons" style="width: 25px;height: 25px;position: absolute;left: 50%;bottom: 0px;margin-left: 20px;border: none;">
+                              
+                          </a>
+                      </div>
+                      <!-- channelInfo {"category":"三农|动漫|动物|二次元|星座|亚文化|职场|社会|反恐|要闻|生活|故事|美食","name":"新闻","channel":"news"} -->
+                      <!-- data.article.category 亚文化 -->
+                      <!-- data.article.recCategory 要闻/地方政务 -->
+                      <div class="post_wemedia_name"><a
+                              href="https://www.163.com/dy/media/T1467623372235.html">深圳晚报</a></div>
+                      <div class="post_wemedia_title"><a
+                              href="https://www.163.com/dy/media/T1467623372235.html">给生活更多创意</a></div>
+                      <div class="post_wemedia_info">
+                          <span class="post_wemedia_info1"><a
+                                  href="https://www.163.com/dy/media/T1467623372235.html"><em>55623</em></a>文章数</span>
+                          <span class="post_wemedia_info2"><a
+                                  href="https://www.163.com/dy/media/T1467623372235.html"><em>142057</em></a>关注度</span>
+                      </div>
+                      <div class="post_wemedia_a_name">往期回顾 <a
+                              href="https://www.163.com/dy/media/T1467623372235.html">全部</a></div>
+                      <ul class="post_wemedia_a_list" id="post_wemedia_a_list">
+                      </ul>
+                  </div>
+                
+              
+              
+              
+              <div class="blank25"></div>
+              <div class="ad_module" data-adid="article_dy_right_1">
+                  <!-- 广告位：网易号--内页矩形M1 -->
+<div class="gg300">
+<div class="at_item right_ad_item" adType="rightAd" requestUrl="https://nex.163.com/q?app=7BE0FC82&c=dyarticle&l=131&site=netease&affiliate=163&cat=dyarticle&type=logo300x250&location=1"></div>
+<a href="javascript:;" target="_self" class="ad_hover_href"></a>
+</div>
+              </div>
+              <div class="blank20"></div>
+              <div class="post_side_mod js-bjshow">
+    <h2 class="post_side_mod_title"><a href="https://news.163.com/?f=post2020_dy_news_bj">头条要闻</a></h2>
+                                          <div class="post_side_mod_imgnews">
+        <a href="https://www.163.com/news/article/L7S4Q9FJ0001899O.html">
+            <img src="https://nimg.ws.126.net/?url=http://cms-bucket.ws.126.net/2026/0927/282261eap00tm0yf90011c0009c0070c.png&thumbnail=300x150&quality=90&type=jpg" class="post_side_mod_img">
+            <h3>又是一投致胜 18岁严子怡打破女子标枪亚运会纪录夺冠</h3>
+            <!-- 红星新闻 -->
+        </a>
+    </div>
+                                                                                                                                                       <ul class="post_side_mod_list">
+                           <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7S1SH2I053469LG.html">武契奇辞职后将以"普通公民"身份竞选总理 5月刚访华</a></h3>
+            <!-- 极目新闻 -->
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7RLFG1Q0514R9OJ.html">专家：若外方"越界" 中方演习力量随时可以"由训转战"</a></h3>
+            <!-- 环球网资讯 -->
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7S1M1TK055040N3.html">武契奇将正式辞去总统职务 塞尔维亚迎来两场重磅选举</a></h3>
+            <!-- 上观新闻 -->
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7RNPR37051494GR.html">飞机备降电车没电李克勤演唱会迟到 草根歌手唱20首歌</a></h3>
+            <!-- 台州交通广播 -->
+        </li>
+                                                                                                                                           </ul>
+</div>
+<div class="post_side_mod js-cnshow">
+    <h2 class="post_side_mod_title"><a href="https://news.163.com/?f=post2020_dy_news">头条要闻</a></h2>
+                                          <div class="post_side_mod_imgnews">
+        <a href="https://www.163.com/news/article/L7S4Q9FJ0001899O.html">
+            <img src="https://nimg.ws.126.net/?url=http://cms-bucket.ws.126.net/2026/0927/282261eap00tm0yf90011c0009c0070c.png&thumbnail=300x150&quality=90&type=jpg" class="post_side_mod_img">
+            <h3>又是一投致胜 18岁严子怡打破女子标枪亚运会纪录夺冠</h3>
+            <!-- 红星新闻 -->
+        </a>
+    </div>
+                                                                                                                                                       <ul class="post_side_mod_list">
+                           <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7S1SH2I053469LG.html">武契奇辞职后将以"普通公民"身份竞选总理 5月刚访华</a></h3>
+            <!-- 极目新闻 -->
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7RLFG1Q0514R9OJ.html">专家：若外方"越界" 中方演习力量随时可以"由训转战"</a></h3>
+            <!-- 环球网资讯 -->
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7S1M1TK055040N3.html">武契奇将正式辞去总统职务 塞尔维亚迎来两场重磅选举</a></h3>
+            <!-- 上观新闻 -->
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7RNPR37051494GR.html">飞机备降电车没电李克勤演唱会迟到 草根歌手唱20首歌</a></h3>
+            <!-- 台州交通广播 -->
+        </li>
+                                                                                                                                           </ul>
+</div>
+
+              <div class="blank25"></div>
+              <div class="ad_module" data-adid="article_dy_right_2">
+                  <!-- 广告位：网易号--内页矩形M2 -->
+<div class="gg300">
+<div class="at_item right_ad_item" adType="rightAd" requestUrl="https://nex.163.com/q?app=7BE0FC82&c=dyarticle&l=132&site=netease&affiliate=163&cat=dyarticle&type=logo300x250&location=2"></div>
+<a href="javascript:;" target="_self" class="ad_hover_href"></a>
+</div>
+              </div>
+              <div class="blank20"></div>
+              <div class="post_side_mod">
+    <h2 class="post_side_mod_title"><a href="https://sports.163.com/">体育要闻</a></h2>
+                                          <div class="post_side_mod_imgnews">
+        <a href="https://www.163.com/dy/article/L7QJ0U9N0529CA1F.html">
+            <img src="https://nimg.ws.126.net/?url=http://cms-bucket.ws.126.net/2026/0927/ca32d5a6p00tm07ce006zc000s600e3c.png&thumbnail=300x150&quality=90&type=jpg" class="post_side_mod_img">
+            <h3>2-1！41岁魔笛世界波 克罗地亚欧国联开门红</h3>
+        </a>
+    </div>
+                     <ul class="post_side_mod_list">
+                           <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7S3023O0549HTER.html">亚运会女单金牌得主诞生！王曼昱4-2险胜孙颖莎，摘得生涯第2冠</a></h3>
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/sports/article/L7S5B66Q00058780.html">热身-国足0-3新西兰 韦世豪陶强龙造险 2小将首秀 </a></h3>
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7RSK28V05566VBM.html">王皓握拳怒吼！林诗栋/黄友政第6局轰出11-1夺冠 张本智和沉默不语</a></h3>
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7R7V0K20549B4UK.html">9-3领先没拿下连丢3局！温瑞博向鹏3-4张本智和篠冢大登错失决赛！</a></h3>
+        </li>
+         </ul>
+</div>
+
+              <!-- M2-1 -->
+              <div class="blank25"></div>
+              <div class="ad_module" data-adid="article_dy_right_2_1">
+                  <!-- 广告位：网易号文章通发页	M2-1 -->
+<div class="gg300">
+<div class="at_item right_ad_item" adType="rightAd" requestUrl="https://nex.163.com/q?app=7BE0FC82&c=dyarticle&l=134&site=netease&affiliate=163&cat=dyarticle&type=logo300x250&location=11"></div>
+<a href="javascript:;" target="_self" class="ad_hover_href"></a>
+</div>
+              </div>
+              <div class="blank20"></div>
+              <div class="post_side_mod">
+    <h2 class="post_side_mod_title"><a href="https://ent.163.com/">娱乐要闻</a></h2>
+                                                     <div class="post_side_mod_imgnews">
+            <a href="https://www.163.com/dy/article/L7RRI3UM0537QR76.html">
+                <img src="https://nimg.ws.126.net/?url=http://cms-bucket.ws.126.net/2026/0927/af85d07cp00tm0t2g003gc000s600e3c.png&thumbnail=300x150&quality=90&type=jpg" class="post_side_mod_img">
+                <h3>刘欢去世后谣言四起，韩磊被翻旧账</h3>
+            </a>
+        </div>
+                 <ul class="post_side_mod_list">
+                             <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7ROI83H055616Z7.html">佟丽娅刚澄清复婚，陈思诚转头就和阮巨秀恩爱</a></h3>
+        </li>
+                        <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7R9PTDB0556PRES.html">刘翔中秋出游 vlog 刷屏，他终于为自己而活！</a></h3>
+        </li>
+                        <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7RS5O0G0556DKWV.html">17岁拿影后，42岁离婚，靠央视《兰香如故》复出</a></h3>
+        </li>
+                        <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7ROTTOU0553HBMY.html">《我们来了2026》最新阵容：8大官宣嘉宾标签</a></h3>
+        </li>
+         </ul>
+</div>
+              <div class="blank25"></div>
+              <div class="ad_module" data-adid="article_dy_right_3">
+                  <!--网易号画中画03-->
+<div class="gg300">
+<div class="at_item right_ad_item" adType="rightAd" requestUrl="https://nex.163.com/q?app=7BE0FC82&c=dyarticle&l=133&site=netease&affiliate=163&cat=dyarticle&type=logo300x250&location=3"></div>
+<a href="javascript:;" target="_self" class="ad_hover_href"></a>
+</div>
+              </div>
+              <div class="blank20"></div>
+              <div class="post_side_mod">
+    <h2 class="post_side_mod_title"><a href="https://money.163.com/">财经要闻</a></h2>
+                                        <div class="post_side_mod_imgnews">
+        <a href="https://www.163.com/dy/article/L7PLBNMM0519E3QB.html">
+            <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/little77818be8847j00tlz64w0039d200sg00qqg00fm00en.jpg&thumbnail=300x150&quality=90&type=jpg" class="post_side_mod_img">
+            <h3>“为了看短剧，我妈两年花了22万 ”</h3>
+        </a>
+    </div>
+    
+    <ul class="post_side_mod_list">
+                        <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7QJ7TBH05199NPP.html">伊朗总统：不再信任同美国的对话</a></h3>
+        </li>
+                        <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7QBITSU05198CJN.html">英超“世纪财务案”迎关键裁定</a></h3>
+        </li>
+                        <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7PS1D8D05566UTE.html">6月买的知名私募腰斩了！投资者灵魂喊话</a></h3>
+        </li>
+                        <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7S4TGI205198ATO.html">神作，迎来了大结局</a></h3>
+        </li>
+        </ul>
+ </div>
+
+              <!-- M4 -->
+              <div class="blank25"></div>
+              <div class="ad_module" data-adid="article_dy_right_4">
+                  <!-- 广告位：网易号文章通发页M4 -->
+<div class="gg300">
+<div class="at_item right_ad_item" adType="rightAd" requestUrl="https://nex.163.com/q?app=7BE0FC82&c=dyarticle&l=135&site=netease&affiliate=163&cat=dyarticle&type=logo300x250&location=4"></div>
+<a href="javascript:;" target="_self" class="ad_hover_href"></a>
+</div>
+              </div>
+              <div class="blank20"></div>
+              <div class="post_side_mod">
+    <h2 class="post_side_mod_title"><a href="https://tech.163.com/">科技要闻</a></h2>
+                                          <div class="post_side_mod_imgnews">
+        <a href="https://www.163.com/dy/article/L7QU9PRV05118O92.html">
+            <img src="https://nimg.ws.126.net/?url=http://cms-bucket.ws.126.net/2026/0927/7861c783j00tm03kd0094c000s600e3c.jpg&thumbnail=300x150&quality=90&type=jpg" class="post_side_mod_img">
+            <h3>星舰第14飞，为什么准备绕地球六圈？</h3>
+        </a>
+    </div>
+                     <ul class="post_side_mod_list">
+                           <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7R3TDC60511AQHO.html">OpenAI又停训了：Agent逃出沙箱，更多越权事件被扒</a></h3>
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7O0FGBE05198NMR.html">拖了近10年，特斯拉Semi终于量产！</a></h3>
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7O1QHL405199NPP.html">苹果创历史新高，市值一夜猛增5000亿元</a></h3>
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7KC4UH70531M1CO.html">华为赛力斯，一次声势浩大的权、利再分配</a></h3>
+        </li>
+         </ul>
+</div>
+
+              <!-- M5 -->
+              <div class="blank25"></div>
+              <div class="ad_module" data-adid="article_dy_right_5">
+                  <!-- 广告位：网易号文章通发页M5 -->
+<div class="gg300">
+<div class="at_item right_ad_item" adType="rightAd" requestUrl="https://nex.163.com/q?app=7BE0FC82&c=dyarticle&l=136&site=netease&affiliate=163&cat=dyarticle&type=logo300x250&location=5"></div>
+<a href="javascript:;" target="_self" class="ad_hover_href"></a>
+</div>
+              </div>
+              <div class="blank20"></div>
+              
+<div class="post_side_mod">
+    <h2 class="post_side_mod_title"><a href="https://auto.163.com/">汽车要闻</a></h2>
+                                                                   	          
+    <div class="post_side_mod_imgnews">
+        <a href="https://www.163.com/auto/article/L7PJHQL90008856R.html">
+            <img src="https://nimg.ws.126.net/?url=http://cms-bucket.ws.126.net/2026/0926/18d97f6cp00tlz4ns0060c000s600e3c.png&thumbnail=300x150&quality=90&type=jpg" class="post_side_mod_img">
+            <h3>MAZDA EZ-60激光版上市 焕新全系11.39万元起</h3>
+        </a>
+    </div>
+                                    	                                	                                                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	                                	     <ul class="post_side_mod_list">
+           	                            	                                      <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/auto/article/L7OAGHBI0008856R.html">可城可野可旅行 捷途旅行者 7 双车预售14.99万起</a></h3>
+        </li>
+          	                                      <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/auto/article/L7P1DBEN0008856R.html">黑武士风格到位 BJ40增程黑曜版上市售18.48万元</a></h3>
+        </li>
+          	                                        <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/v/video/VK6P6BHUR.html">小鹏G9L VS 保时捷卡宴，同场实测讲解</a></h3>
+        </li>
+          	                                      <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/auto/article/L7KD2LUA0008856R.html">全新第四代博越L 上市限时价9.29万元起</a></h3>
+        </li>
+          	                          	                        	                        	                          	                          	                        	                        	                          	                        	                        	                        	                        	                        	                          	                        	                          	                          	                          	                        	                        	                        	                        	                        	                        	                        	                        	                          	                        	                          	                          	                          	                        	                        	                          	                        	                        	                        	                        	                        	                        	                        	                          	                        	                          	                           </ul>
+</div>
+
+              <!-- M6 -->
+              <div class="blank25"></div>
+              <div class="ad_module" data-adid="article_dy_right_6">
+                  <!-- 广告位：网易号文章通发页M6 -->
+<div class="gg300">
+<div class="at_item right_ad_item" adType="rightAd" requestUrl="https://nex.163.com/q?app=7BE0FC82&c=dyarticle&l=137&site=netease&affiliate=163&cat=dyarticle&type=logo300x250&location=6"></div>
+<a href="javascript:;" target="_self" class="ad_hover_href"></a>
+</div>
+              </div>
+              <div class="blank20"></div>
+              
+              
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+            <div class="post_side_mod post_side_mod_noimg post_side_mod_noborder">
+                <h2 class="post_side_mod_title">态度原创</h2>
+                <ul class="post_side_mod_list" id="js-yuanchuang-content">
+
+                    <li class="post_side_mod_item">
+                        <h3><a href="'+arrTaiduYuanC[i].link+'"><em>+arrTaiduYuanC[i].tag+'</em> | '+arrTaiduYuanC[i].title+'</a></h3>\
+                    </li>
+                
+                </ul>
+            </div>
+<script>
+var taiduYuanC = [
+                                         {
+    "tag" : "轻松一刻",
+    "link" : "https://www.163.com/news/article/L7K00SNL000181BR.html",
+    "time" : "2026-09-24 17:23:36",
+    "title" : "你们中秋发了啥？我老板发火了",
+    "imgurl" : "http://cms-bucket.ws.126.net/2026/0924/881a0d73p00tlv3f10051c000s600e3c.png",
+    "from" : "p_yc"
+}
+        
+                  , 
+{
+    "tag" : "界外编辑部",
+    "link" : "https://www.163.com/sports/article/L7OH1LHF00058782.html",
+    "time" : "2026-09-26 11:41:46",
+    "title" : "奇迹之子，亚运七金王，张展硕的19岁秋天",
+    "imgurl" : "http://cms-bucket.ws.126.net/2026/0926/a5a42993j00tlycxg01m1c000s600e3c.jpg",
+    "from" : "p_yc"
+}
+        
+                  , 
+{
+    "tag" : "西北望看台",
+    "link" : "https://www.163.com/sports/article/L7LMNR7S00059A7T.html",
+    "time" : "2026-09-25 09:22:07",
+    "title" : "这场青春风暴，中国足球等了太久",
+    "imgurl" : "http://cms-bucket.ws.126.net/2026/0925/618c949dj00tlwbsr00zkc000s600e3c.jpg",
+    "from" : "p_yc"
+}
+        
+                  , 
+{
+    "tag" : "后厂村体工队",
+    "link" : "https://www.163.com/sports/article/L7J6QEFT0005877U.html",
+    "time" : "2026-09-24 10:05:49",
+    "title" : "巴图姆，以父之名",
+    "imgurl" : "http://cms-bucket.ws.126.net/2026/0924/15d237aaj00tluj5n004dc000s600e3c.jpg",
+    "from" : "p_yc"
+}
+                          , 
+{
+    "tag" : "药说漫画",
+    "link" : "https://www.163.com/jiankang/article/L5B8NMIK00389A9R.html",
+    "time" : "2026-08-27 11:31:18",
+    "title" : "胎停后，我在手术台上送走了它",
+    "imgurl" : "http://cms-bucket.ws.126.net/2026/0827/1d2cd446p00tkfb7a000xc0004g0028c.png",
+    "from" : "p_yc"
+}
+                          , 
+{
+    "tag" : "人间",
+    "link" : "https://www.163.com/renjian/article/JHUA9HBI000181RV.html",
+    "time" : "2024-11-26 15:27:51",
+    "title" : "35岁，能在国企躺平吗？",
+    "imgurl" : "http://cms-bucket.ws.126.net/2024/1126/c60ad147p00snjr99005uc000u000a0c.png",
+    "from" : "p_yc"
+}
+                          , 
+{
+    "tag" : "态℃",
+    "link" : "https://tech.163.com/special/netease_future_2026/",
+    "time" : "2026-09-21 10:00:26",
+    "title" : "2026网易未来大会",
+    "imgurl" : "http://cms-bucket.ws.126.net/2026/0922/5735a35fp00tlqt5w004zc0005k003hc.png",
+    "from" : "p_yc"
+}
+                          , 
+{
+    "tag" : "why星人",
+    "link" : "https://www.163.com/v/video/VC6495SFP.html",
+    "time" : "2026-09-20 17:00:17",
+    "title" : "没有几个亡者喜欢自己的葬礼奏哀乐",
+    "imgurl" : "http://videoimg.ws.126.net/cover/20260917/bY1Py0HtV_cover.jpg",
+    "from" : "p_yc"
+}
+                          , 
+{
+    "tag" : "清流",
+    "link" : "https://www.163.com/money/article/KQ0GK3VI00258105.html",
+    "time" : "2026-04-08 14:24:51",
+    "title" : "广州通则康威IPO:产品海外市场空间或有隐忧，关联方信披语焉不详|清流IPO",
+    "imgurl" : "http://cms-bucket.ws.126.net/2026/0408/56284b13p00td5ymr00a2c0009c0070c.png",
+    "from" : "p_yc"
+}
+                          , 
+{
+    "tag" : "号外",
+    "link" : "https://www.163.com/money/article/L7CBV1SJ00258105.html",
+    "time" : "2026-09-21 18:18:23",
+    "title" : "酒鬼酒经销商半年跑了40% 胖东来成第一大客户",
+    "imgurl" : "http://cms-bucket.ws.126.net/2026/0921/bfeeae66p00tlplyi001jc0009c0070c.png",
+    "from" : "p_yc"
+}
+                          , 
+{
+    "tag" : "锋雳",
+    "link" : "https://www.163.com/money/article/L4PTGFLD00258105.html",
+    "time" : "2026-08-20 17:48:02",
+    "title" : "今世缘上半年营收净利双降 董事长顾祥悦150亿豪言落空",
+    "imgurl" : "http://cms-bucket.ws.126.net/2026/0820/b80efc78p00tk2b7x007dc000qs00hpc.png",
+    "from" : "p_yc"
+}
+                          , 
+{
+    "tag" : "智库",
+    "link" : "https://www.163.com/money/article/L7H9GIOU00259SCR.html",
+    "time" : "2026-09-23 16:11:44",
+    "title" : "2026网易经济学家年会・夏季论坛共话“智变・崛起”",
+    "imgurl" : "http://cms-bucket.ws.126.net/2026/0923/05af6968p00tlt23s001ac0009c0070c.png",
+    "from" : "p_yc"
+}
+                          , 
+{
+    "tag" : "当下",
+    "link" : "https://www.163.com/gov/article/JD3ST3MJ002399RB.html",
+    "time" : "2024-09-27 16:10:50",
+    "title" : "75 周年特别策划|AI歌曲 MV《一笔一划瞰长城》今日上线",
+    "imgurl" : "http://cms-bucket.ws.126.net/2024/0927/329eb9cep00skgq87001ac0009c0070c.png",
+    "from" : "p_yc"
+}
+                          , 
+{
+    "tag" : "公开课",
+    "link" : "https://open.163.com/newview/movie/free?pid=OHFS8DQ6F&mid=IHGLDM4GH",
+    "time" : "2024-03-14 16:10:31",
+    "title" : "史上最完美的【八段锦】教学",
+    "imgurl" : "http://cms-bucket.ws.126.net/2024/0314/49ff4e5cj00sabw1g0003c0004v0032c.jpg",
+    "from" : "p_yc"
+}
+        
+                  , 
+{
+    "tag" : "城市印象",
+    "link" : "https://www.163.com/v/video/VI66FUKM1.html",
+    "time" : "2026-09-18 15:03:36",
+    "title" : "中秋逛白塔寺，体验国医妙荟雅集",
+    "imgurl" : "http://cms-bucket.ws.126.net/2026/0918/c9ebe9d3p00tljtqn01jtc0009c0070c.png",
+    "from" : "p_yc"
+}
+        
+                  , 
+{
+    "tag" : "上流",
+    "link" : "https://www.163.com/dy/article/L4ROPU9O0521DCLG.html",
+    "time" : "2026-08-21 11:04:45",
+    "title" : "《牛来》的一声“妈妈”，到底多少人被精神污染了",
+    "imgurl" : "http://dingyue.ws.126.net/2026/0821/a1002234j00tk3n6d00dgd000p300gxm.jpg",
+    "from" : "p_yc"
+}
+        
+                                  , 
+{
+    "tag" : "中国匠人",
+    "link" : "https://www.163.com/v/video/VI3BTMGNG.html",
+    "time" : "2026-08-14 11:03:35",
+    "title" : "黄景藏用半刀泥刻瓷都魂",
+    "imgurl" : "http://cms-bucket.ws.126.net/2026/0814/4c2106aej00tjqohp008sc000s600e3c.jpg",
+    "from" : "p_yc"
+}
+];
+function getRandomArrayElements(arr, count) {
+    var shuffled = arr.slice(0), i = arr.length, min = i - count, temp, index;
+    while (i-- > min) {
+        index = Math.floor((i + 1) * Math.random());
+        temp = shuffled[index];
+        shuffled[index] = shuffled[i];
+        shuffled[i] = temp;
+    }
+    return shuffled.slice(min);
+}
+var arrTaiduYuanC = getRandomArrayElements(taiduYuanC, 4), arrTaiduYuanC_html = "";
+for (var i = 0; i < arrTaiduYuanC.length; i++) {
+    arrTaiduYuanC_html += '\
+                    <li class="post_side_mod_item">\
+                        <h3><a href="'+arrTaiduYuanC[i].link+'"><em>'+arrTaiduYuanC[i].tag+'</em> | '+arrTaiduYuanC[i].title+'</a></h3>\
+                    </li>\
+    '
+}
+document.getElementById('js-yuanchuang-content').innerHTML = arrTaiduYuanC_html;
+</script>
+              
+              <!-- M7 -->
+              <div class="blank25"></div>
+              <div class="ad_module" data-adid="article_dy_right_7">
+                  <!-- 广告位：网易号文章通发页M7 -->
+<div class="gg300">
+<div class="at_item right_ad_item" adType="rightAd" requestUrl="https://nex.163.com/q?app=7BE0FC82&c=dyarticle&l=138&site=netease&affiliate=163&cat=dyarticle&type=logo300x250&location=7"></div>
+<a href="javascript:;" target="_self" class="ad_hover_href"></a>
+</div>
+              </div>
+              <div class="blank25"></div>
+              
+              
+            
+            <div class="post_side_mod js-tab-mod" data-event="mouseover" data-during="5">
+                <div class="post_side_mod_tabs clearfix">
+                    
+                    
+                    <div class="post_side_mod_tab js-tab" style="width: 40px;margin-right: 24px">
+                        <!-- width: 64px -->
+                        <a href="https://house.163.com/">房产</a>
+                    </div>
+                    
+                    
+                    <div class="post_side_mod_tab js-tab" style="width: 40px;margin-right: 24px">
+                        <!-- width: 64px -->
+                        <a href="https://travel.163.com/">旅游</a>
+                    </div>
+                    
+                    
+                    <div class="post_side_mod_tab js-tab" style="width: 40px;margin-right: 24px">
+                        <!-- width: 64px -->
+                        <a href="https://baby.163.com/">亲子</a>
+                    </div>
+                    
+                    
+                    <div class="post_side_mod_tab js-tab" style="width: 40px;margin-right: 24px">
+                        <!-- width: 64px -->
+                        <a href="https://home.163.com/">家居</a>
+                    </div>
+                    
+                    
+                    <div class="post_side_mod_tab js-tab" style="width: 40px;margin-right: 24px">
+                        <!-- width: 64px -->
+                        <a href="https://art.163.com/">艺术</a>
+                    </div>
+                    
+                </div>
+                <div class="post_side_mod_panels">
+                    
+                    
+                    <div class="post_side_mod_panel js-content">
+                        <div class="post_side_mod">
+    <h2 class="post_side_mod_title"><a href="https://house.163.com/">房产要闻</a></h2>
+                                          <div class="post_side_mod_imgnews">
+        <a href="https://www.163.com/dy/article/L7LUCJJ805158HDK.html">
+            <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/little888fc5b429aj00tlwhvs004vd200u0013zg00u0013z.jpg&thumbnail=300x150&quality=90&type=jpg" class="post_side_mod_img">
+            <h3>全年霸榜TOP1！南海・叁號院周年官宣：新作即将登场</h3>
+        </a>
+    </div>
+                   <ul class="post_side_mod_list">
+                           <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7LUCHV205158HDK.html">海控出手，海口市中心再落一子!</a></h3>
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7K42HCP05158HDK.html">中秋、国庆小长假来了，但我劝你别离开海口</a></h3>
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7JA02EP05158HDK.html">特斯拉开始挖海南地产营销总！一手信息扒到了！</a></h3>
+        </li>
+         </ul>
+</div>
+
+                    </div>
+                    
+                    
+                    <div class="post_side_mod_panel js-content">
+                        <div class="post_side_mod">
+    <h2 class="post_side_mod_title"><a href="https://travel.163.com/">旅游要闻</a></h2>
+                                          <div class="post_side_mod_imgnews">
+        <a href="https://www.163.com/dy/article/L7S5HPB605129QAF.html">
+            <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/little804437ed9d1j00tm0ywx0021d000m800cjg.jpg&thumbnail=300x150&quality=90&type=jpg" class="post_side_mod_img">
+            <h3>南洋新韵，乐聚岐江！中山南洋风情旅游周开幕</h3>
+        </a>
+    </div>
+                   <ul class="post_side_mod_list">
+                           <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7S5A19P055040N3.html">在行走中求知，在体验中成长，南通崇川打造精品研学游目的地</a></h3>
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7S4R3480530WJIN.html">让文化通江达海！“运河1号”首航，山东交旅融合再启新程</a></h3>
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7S45OSF053469M5.html">北碚端出文旅“大餐”，八方游客共度诗意中秋</a></h3>
+        </li>
+         </ul>
+</div>
+
+                    </div>
+                    
+                    
+                    <div class="post_side_mod_panel js-content">
+                        <div class="post_side_mod">
+    <h2 class="post_side_mod_title"><a href="https://baby.163.com/">亲子要闻</a></h2>
+                                          <div class="post_side_mod_imgnews">
+        <a href="https://www.163.com/v/video/VQ6LSFQ77.html">
+            <img src="https://nimg.ws.126.net/?url=http://videoimg.ws.126.net/cover/20260924/wnseIuJTF_cover.jpg&thumbnail=300x150&quality=90&type=jpg" class="post_side_mod_img">
+            <h3>温馨提示：请勿模仿#彩虹糖裴曼伊#内容太过真实#姐弟日常</h3>
+        </a>
+    </div>
+             <ul class="post_side_mod_list">
+                         <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/v/video/VW6TV349K.html">俄罗斯媳妇和混血宝宝第一次过中秋！收到爷爷给的红包反应绝了！</a></h3>
+        </li>
+                        <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/v/video/VL6T7OQBU.html">宝蓝不喜欢吃爸爸做的饭。偷偷和叔叔吃甜甜圈。</a></h3>
+        </li>
+                        <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/v/video/VF6TQV5P0.html">都说穷养儿子富养女儿，在教育上你真的做对了吗？</a></h3>
+        </li>
+                        <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7RE7RL4051482MP.html">白岩松评幼师举报幼儿园后厨：这正当之举在现实中也并不容易，大家应当一起监督，让她今后的日子好过，不被人为难</a></h3>
+        </li>
+         </ul>
+</div>
+
+                    </div>
+                    
+                    
+                    <div class="post_side_mod_panel js-content">
+                        <div class="post_side_mod">
+    <h2 class="post_side_mod_title"><a href="https://home.163.com/">家居要闻</a></h2>
+                                                                          <div class="post_side_mod_imgnews">
+        <a href="https://live.163.com/room/292120.html">
+            <img src="https://nimg.ws.126.net/?url=http://cms-bucket.ws.126.net/2026/0703/2ab86639j00thlh8w0033c000u000f0c.jpg&thumbnail=300x150&quality=90&type=jpg" class="post_side_mod_img">
+            <h3>2026建博会(广州) 公装联探展交流活动</h3>
+        </a>
+    </div>
+                   <ul class="post_side_mod_list">
+                           <li class="post_side_mod_item">
+            <h3><a href="https://home.163.com/photoview/POUR0010/82224.html">传奇筑 日常诗<i class="post_side_icon_photo"></i></a></h3>
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://home.163.com/photoview/POUR0010/82221.html">绿意盎然 自然之境<i class="post_side_icon_photo"></i></a></h3>
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://home.163.com/photoview/POUR0010/82219.html">空间微调 移形换境<i class="post_side_icon_photo"></i></a></h3>
+        </li>
+         </ul>
+</div>
+
+                    </div>
+                    
+                    
+                    <div class="post_side_mod_panel js-content">
+                        <div class="post_side_mod">
+    <h2 class="post_side_mod_title"><a href="https://art.163.com/">艺术要闻</a></h2>
+  	                                          <div class="post_side_mod_imgnews">
+        <a href="https://www.163.com/dy/article/L7RUIGDA05219O3P.html">
+            <img src="https://nimg.ws.126.net/?url=http://bjnewsrec-cv.ws.126.net/little156bf90e883j00tm0tcx00a1d200u00129g00u00129.jpg&thumbnail=300x150&quality=90&type=jpg" class="post_side_mod_img">
+            <h3>8位当代画家的13幅风景油画</h3>
+        </a>
+    </div>
+                   <ul class="post_side_mod_list">
+                           <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7RMSKK40514BE1D.html">明代一位禅僧，写出最美《春江花月夜》，这字赵孟頫再世也写不出！</a></h3>
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7RMRFE50514BE1D.html">日本第一书家临摹的《书谱》，纯正唐人笔法，启功：超越宋元！</a></h3>
+        </li>
+                          <li class="post_side_mod_item">
+            <h3><a href="https://www.163.com/dy/article/L7RHQCFK05219O3P.html">俄罗斯当代女画家——Svetlana Rodionova</a></h3>
+        </li>
+         </ul>
+</div>
+                    </div>
+                    
+                </div>
+            </div>              
+              
+            
+        </div>
+        <!-- 返回顶部 -->
+        <a href="http://www.163.com/newsapp/#f=qr" class="newsapp-qrcode">
+            <img src="https://static.ws.126.net/f2e/www/index2014/images/sprite_dw2.png">
+        </a>
+        <a href="#" class="ns-side-totop" target="_self">
+            <i></i>
+        </a>
+        
+        <!-- 新增广告：底通 -->
+        <div class="post_area post_columnad_btm" data-adid="article_dy_column_3" style="clear: both;margin-bottom: 100px;">
+          <!-- 广告位：网易-内页底部通栏 -->
+<div style="position:relative;">
+<div class="at_item common_ad_item bottom_ad_column" adType="bottomColumnAd" normalw="1200" normalh="125" requestUrl="https://nex.163.com/q?app=7BE0FC82&c=dyarticle&l=112&site=netease&affiliate=163&cat=dyarticle&type=column1200x125&location=2"></div>
+<a href="javascript:;" target="_self" class="ad_hover_href"></a>
+</div>
+
+        </div>
+        
+    </div>
+    
+    <!-- footer -->
+    <div class="N-nav-bottom">
+    <div class="N-nav-bottom-main" style="min-width: 1024px;">
+        <div class="ntes_foot_link" style="min-width: 1024px;">
+            <span class="N-nav-bottom-copyright"><span class="N-nav-bottom-copyright-icon">&copy;</span> 1997-2026 网易公司版权所有</span>
+            <a href="https://corp.163.com/">About NetEase</a> |
+            <a href="https://corp.163.com/gb/about/overview.html">公司简介</a> |
+            <a href="https://corp.163.com/gb/contactus.html">联系方法</a> |
+            <a href="https://corp.163.com/gb/job/job.html">招聘信息</a> |
+            <a href="https://help.163.com/">客户服务</a> |
+            <a href="https://corp.163.com/gb/legal.html">隐私政策</a> |
+           <!--  <a ne-role="feedBackLink" ne-click="handleFeedBackLinkClick()" href="http://www.163.com/special/0077450P/feedback_window.html" class="ne_foot_feedback_link">意见反馈</a> | -->
+            <a href="https://www.163.com/special/0077jt/tipoff.html">不良信息举报 Complaint Center</a> |
+            <a href="https://jubao.163.com/">廉正举报</a> |
+            <a href="https://corp.163.com/special/008397U0/reporting_infringements.html">侵权投诉</a>
+        </div>
+    </div>
+</div>
+<script>
+if (/closetie/.test(window.location.search)) {
+  function addNewStyle(newStyle) {
+    var styleElement = document.getElementById('styles_js');
+    if (!styleElement) {
+      styleElement = document.createElement('style');
+      styleElement.type = 'text/css';
+      styleElement.id = 'styles_js';
+      document.getElementsByTagName('head')[0].appendChild(styleElement);
+    }
+    styleElement.appendChild(document.createTextNode(newStyle));
+  }
+  addNewStyle('.tie-area, .comment-wrap, .ep-tie-top {display: none !important;} .post_comment {opacity: 0;padding: 0;margin: 0;min-height: 0px !important;} .post_tie_top {opacity: 0;} .js-tielink {display: none;}');
+}
+</script>
+    
+    <!--include virtual="/special/ntes_common_model/post_dy_js.html" -->
+    <script type="text/javascript">
+      window.experiment_rightAdCharList = [];
+      window.experiment_bodyAdCharList = [];
+    </script>
+   
+    <script type="text/javascript" src="https://static.ws.126.net/163/f2e/product/post2020_dy/static/js/main.7d5d8201.js" async></script>
+    <!-- 单篇付费文章才需要此js+css -->
+    
+    <script>$('.post_body video').each(function(i,item) {$(item).attr('poster', $(item).attr('data-img'));});var reg=/@@[\s\S]*?VIDEO="(http.*?\.(mp3|MP3))[\s\S]*?IMG=\"([^\"]*?)\"[\s\S]*?ALT=[\s\S]*?-->/;$(".post_body, .end-text").each(function(i,item){$(item).children().each(function(index,node){if(reg.test(node.innerHTML)){var match=reg.exec(node.innerHTML);$(node).addClass("f_center").html('\n          <img src="'.concat(match[3],'" width="490">\n          <audio src="').concat(match[1].replace("http://","https://"),'" controls="controls">\u60A8\u7684\u6D4F\u89C8\u5668\u4E0D\u652F\u6301\u97F3\u9891\u64AD\u653E\uFF0C\u8BF7\u5347\u7EA7\u6D4F\u89C8\u5668</audio>\n        ',),)}})});</script>
+    <style>
+    .gg300 {
+        position: relative;
+    }
+    .ad_hover_href {
+        width: 30px;
+        height: 17px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 10;
+        background: url(https://yt-adp.ws.126.net/channel4/ad_3017_ajgf_20190221.png) no-repeat;
+    }
+    </style>
+    <!--无障碍功能-->
+<style type="text/css">
+.ntes-nav-wza,.ntes-nav-wzapage,.ntes-nav-wza-show{float: left;padding-left: 3px;margin-left: 2px;margin-right:10px;position: relative;}
+.ntes-nav-wza,.ntes-nav-wzapage{display: none;}
+.ntes-nav-wza-show{display: block;}
+/*.ntes-nav-wza:before{background: url(https://static.ws.126.net/163/f2e/www/index20170701/images/shilaohua_v2.png) -1px 0px;width: 14px;height: 12px;content: "";position: absolute;left: 2px;top: 16px;}*/
+</style>
+<a class="ntes-nav-wza" target="_self" href="javascript:void(0)" id="cniil_wza">无障碍浏览</a>
+<a class="ntes-nav-wzapage" target="_self" href="javascript:void(0)" id="js_gowza">进入关怀版</a>
+<script type="text/javascript">
+    (function(){
+        function wzaInit(){
+            var wza_link = document.getElementById("cniil_wza");
+            var gowza_link = document.getElementById("js_gowza");
+            var nav_left = document.getElementById("js_N_nav_left");
+            var ua = navigator.userAgent.toLowerCase();
+            var wzaUrl = document.getElementsByTagName("body")[0].getAttribute("aria-url");
+            if(!/ipad/i.test(ua) && wza_link && nav_left){
+                nav_left.appendChild(wza_link);
+                wza_link.className = "ntes-nav-wza-show";
+            }
+            if(!/ipad/i.test(ua) && gowza_link && nav_left && wzaUrl){
+                nav_left.appendChild(gowza_link);	
+                gowza_link.setAttribute("href",wzaUrl);
+                gowza_link.className = "ntes-nav-wza-show";
+            }
+            wza_link.onclick = function () {
+                if(!window.ntm || !window.ntm.projectId)return;
+                var param = {
+                    "val_act": "wzanavclick",
+                    "projectid": window.ntm.projectId
+                }
+                window.NTESAntAnalysis.sendData(param);  
+            }
+            gowza_link.onclick = function () {
+                if(!window.ntm || !window.ntm.projectId)return;
+                var param = {
+                    "val_act": "wzapageclick",
+                    "projectid": window.ntm.projectId
+                }
+                window.NTESAntAnalysis.sendData(param);  
+            }
+            if ( window.addEventListener ) {
+                window.addEventListener("load", function(){wzaReport();}, false);
+            } else if ( window.attachEvent ) {
+                window.attachEvent("onload", function(){wzaReport();});
+            }
+        }
+        
+        function wzaReport(){
+            setTimeout(function(){
+                if(!window.ntm || !window.ntm.projectId || document.getElementsByTagName('body')[0].className.indexOf("ariabodytopfiexed") < 0)return;
+                var param = {
+                    "val_act": "wza-default-open",
+                    "projectid": window.ntm.projectId
+                }
+                window.NTESAntAnalysis.sendData(param); 
+            },3000);
+        }
+        wzaInit();
+    })();
+</script>
+<script type="text/javascript" src="https://static.ws.126.net/163/f2e/common/wza230620/aria.js?appid=a6655141bab6921b58446b4b806b9fbf" charset="utf-8"></script>
+<!-- 易信x -->
+<style>
+.ne-shares-pop6x1 li:first-child{display: none}
+.ne-shares-pop6x1 li {padding: 5px 0}
+</style>
+    <script>
+    $('.N-nav-bottom-main').css('white-space', 'nowrap').find('a').last().text('侵权投诉 Reporting Infringements').attr('href', 'https://corp.163.com/special/008397U0/reporting_infringements_dy.html?35');$('.post_body [data-type="dy"]').show();
+    </script>
+    <!-- tongji -->
+    <script src="//static.ws.126.net/163/frontend/libs/antanalysis.min.js"></script>
+    <script src="//static.ws.126.net/163/frontend/antnest/NTM-LEST41Y4-58.js"></script>
+    <!-- 广告 -->
+    <script src="https://static.ws.126.net/163/f2e/modules/adtracker2022/adtracker2022.be06f843.js"></script>
+<script src="https://static.mediav.com/js/ssp_ad_sdk.js"></script>
+<script src="https://static-ssl.mediav.com/js/qihooSyhQllTrafficAds.iife.js"></script>
+    
+      <div id="float_ad" style="display: none;position: fixed; bottom: 0;">
+        <div class="at_item right_ad_item ad_module" data-adid="bottomfloating_ad" adtype="columnAd" normalw="670" normalh="90" requestUrl="https://nex.163.com/q?app=7BE0FC82&c=dyarticle&l=164&site=netease&affiliate=163&cat=dyarticle&type=floating&location=164"></div>
+      </div>
+      <script src="https://static.ws.126.net/163/f2e/libs/adtracker-floater.1442f883.min.js"></script>
+    
+<script>
+function addAd() {
+  if (!/testAd/.test(window.location.search) || !document.body.getBoundingClientRect) {
+    return;
+  }
+  var adDom = $('.ad_module[data-adid=article_dy_right_1]').clone().css({'float': 'left', 'margin': '8px 20px 0 0'})
+  var tagPs = $('.post_body>p')
+  var scrollTop = 0
+  for (var i = 0; i < tagPs.length; i++) {
+    if (i == 0) {
+      continue;
+    }
+    if (getOffset(tagPs[i]).top >= window.innerHeight && isTextP(tagPs[i]) && isTextP(tagPs[i - 1])) {
+      $(tagPs[i - 1]).before(adDom)
+      break;
+    }
+  }
+  function getOffset(el) {
+    var rect = el.getBoundingClientRect()
+    return {
+      left: rect.left + window.pageXOffset,
+      top: rect.top + window.pageYOffset,
+      width: Math.round(rect.width),
+      height: Math.round(rect.height),
+    }
+  }
+  function isTextP(el) {
+    if (!el || !el.childNodes || !el.childNodes.length || el.className == 'f_center') {
+      return false
+    }
+    return el.childNodes[0].nodeType === 3 || el.childNodes[0].nodeName == 'STRONG'
+  }
+}
+setTimeout(function() {
+  addAd();
+}, 1050)
+</script>
+              <style>
+             body .post_body .f_center {
+    margin-bottom: 34px;
+}
+                body .post_body pre {    white-space: break-spaces;}
+body .post_body a, body .post_body a:visited {
+    color: #008cd2;
+    text-decoration: none
+}
+
+body .post_body a:active, body .post_body a:hover {
+    color: #e10000;
+    text-decoration: underline
+}
+              </style>
+<!-- BjopMonitoring -->
+</body>
+</html>

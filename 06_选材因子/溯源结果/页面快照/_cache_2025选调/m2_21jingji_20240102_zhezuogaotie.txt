@@ -1,0 +1,536 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+    <title>元旦假期广东接待游客同比增长近8成：坐着高铁去赶海，撬动文旅收入同比增长99.1% - 21经济网</title>
+    <meta name="keywords" content="广东,元旦假期,文旅市场,交通网,游客" />
+    <meta name="description" content="" />
+    <!-- <link rel="dns-prefetch" href="//static.21jingji.com" />
+      <link rel="dns-prefetch" href="//img.21jingji.com" />
+      <link rel="apple-touch-icon" href="//static.21jingji.com/images/app/sfcAppShareIcon_114.jpg" /> -->
+
+    <link href="https://static.21jingji.com/css/m/swiper.min.css" rel="stylesheet" />
+    <link href="https://static.21jingji.com/plugin/datepicker/datepicker.min.css" rel="stylesheet">
+    <link href="https://static.21jingji.com/web_fed/css/style.css?v20211012" rel="stylesheet" type="text/css" />
+    </head>
+
+<body>
+        <!-- header -->
+<div class="layout header">
+    <div class="top">
+        <div class="logo"><a href="https://www.21jingji.com/"><img src="https://static.21jingji.com/web_fed/images/logo.png" alt=""></a></div>
+        <div class="search">
+            <form action="https://www.21jingji.com/channel/search/" method="get"><input class="search-input" type="text" name="k" value="" placeholder="请输入搜索关键词" /><input class="search-btn" type="submit" name="" value="" /></form>
+        </div>
+        <div class="tools">
+            <div class="tools-list">
+                <a href="https://app.21jingji.com/"><i class="icon-app"></i><span>21财经APP</span></a>
+                <a href="https://mp.sfccn.com/"><i class="icon-nch"></i><span>南财号</span></a>
+                <a href="http://epaper.21jingji.com"><i class="icon-epaper"></i><span>数字报</span></a>
+                <a href="https://m.21jingji.com/dynamic/complaint/index"><i class="icon-blt"></i><span>爆料通</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- header end -->
+
+<!-- 导航 -->
+<div class="wrap nav-wrap">
+    <div class="layout" id="navWrap">
+        <a href="https://www.21jingji.com/" >首页</a>
+        <a href="/channel/politics" >宏观</a>
+        <a href="/channel/capital" >证券</a>
+        <a href="/channel/finance" class="nav-more" df="1" >金融</a>
+        <a href="/channel/business" >商业</a>
+        <a href="/channel/global" >全球市场</a>
+        <a href="/channel/opinion" >观点</a>
+        <a href="/channel/Property" >地产</a>
+        <a href="/channel/technology" >科技</a>
+        <a href="/channel/auto" >汽车</a>
+        <a href="/channel/healthnews" >新健康</a>
+        <a href="/channel/entrepreneur" >创投</a>
+        <a href="/channel/thinktank" >智库</a>
+        <a href="javascript:void(0)" class="nav-more">更多</a>
+    </div>
+    <div class="wrap nav-list">
+        <div class="layout" id="navList">
+            <a href="/channel/GHM_GreaterBay" >大湾区</a>
+            <a href="/channel/BandR" >一带一路</a>
+            <a href="/channel/cultureTravel" >文旅</a>
+            <a href="/channel/readnumber" >数读</a>
+            <a href="/channel/financing" >理财</a>
+            <a href="/channel/Intelligence" >投资通</a>
+            <a href="/channel/21tv" >21视频</a>
+            <a href="/channel/live" >直播</a>
+            <a href="https://app.21jingji.com/epaper/html/market.html" >品牌活动</a>
+<!--            <a href="https://www.21jingji.com/channel/special/" >专题</a>-->
+        </div>
+        <div class="layout" id="navList_df" style="display: none">
+            <a href="/channel/dfjrjs" >地方金融（苏州）</a>
+        </div>
+    </div>
+</div>
+<!-- 导航 end -->
+
+<!-- 主体内容 -->
+<div class="layout">
+    <!-- 左侧 -->
+    <div class="col-l">
+        <div class="location"><a href="https://www.21jingji.com/">首页</a> &gt;
+            <!--            &gt; <a href="index.html">财经 </a> &gt; -->
+            <a href="javascript:;">正文</a></div>
+        <div class="main">
+            <h1>元旦假期广东接待游客同比增长近8成：坐着高铁去赶海，撬动文旅收入同比增长99.1%</h1>
+            <h6>
+                2024年01月02日 21:30                &nbsp;&nbsp;21世纪经济报道 21财经APP                &nbsp;&nbsp;谭海燕            </h6>
+
+            
+            <div class="content">
+
+                                <p><strong>南方财经全媒体见习记者谭海燕&nbsp;广州报道</strong></p>
+<p>去汕尾看大海、到江门city walk、来潮州吃牛肉火锅……在元旦的三天假期里，广东多地文旅市场火爆“开局”。</p>
+<p>广铁集团发布数据，从2023年12月30日至2024年1月1日，广铁集团累计发送旅客653.1万人次，日均发送217.7万人次。密织的交通网使得人畅其行，货畅其流。据广东省文化和旅游厅初步统计，2024年元旦假期，广东全省接待游客1447.9万人次，同比增长78.1%，较2019年增长8.5%；实现旅游收入89亿元，同比增长99.1%，较2019年增长12.1%。</p>
+<p>“今年元旦假期，铁路客流主要集中于广深之间，广深至潮汕、江湛、长沙之间，以及湖南省内流动，呈现短途出行客流需求旺盛、出行时段集中、热门方向往返交织等特点。”广铁集团客运部相关负责人向南方财经全媒体记者介绍。</p>
+<p>选择从北京“南下”跨年的游客梅高梓告诉南方财经全媒体记者，广州与周边城市的交通往来十分便捷，与佛山、江门等城市都在1小时车程范围内，不用提前做太多攻略，可以随走随玩。</p>
+<h4>交通网助力旅游资源共享、客源互送</h4>
+<p>梅高梓的顺畅出行，要得益于广东交通枢纽建设的不断提速。</p>
+<p>12月26日，广州白云站与汕汕高铁同日开通。广州白云站是亚洲最大火车站，也是广州铁路枢纽“五主四辅”的主要客站。乘客经由广州白云站，可快速到达汕头、揭阳与汕尾三市。</p>
+<p>12月28日，广东交通集团下属的兴汕高速海红段二期工程、湛江机场高速一期、南三岛大桥、广深高速新塘互通立交同日建成通车，该集团运营管理的高速公路里程突破8000公里。这4条“交通动脉”建成通车，为广东客流架起“快车道”，进一步催热了文旅市场，实现了旅游资源共享、客源互送。</p>
+<p>12月31日，广州白云国际机场东四西四指廊投运，实现了T1、T2两座航站楼的贯通，全球最大单体航站楼由此诞生。贯通后，旅客可以实现一次性通关转机，出行更加便捷。</p>
+<p>随着广州白云站通车，白云国际机场还将于本月初联合广州白云站，投入空铁中转服务点，实现飞机、高铁“无缝衔接”。在后续规划中，白云国际机场现有航站区还将建设多条APM捷运通道，进一步打通空间，缩短旅客出行距离。</p>
+<p>南方财经全媒体记者从广铁集团获悉，从2024年1月10日零时起，铁路部门将启用新的列车运行图，进一步优化客货列车开行方案。</p>
+<p>值得注意的是，新开行的列车安排将进一步优化广州枢纽运力布局，对广州南站、广州白云站、广州东站职能进行重新分工，减轻广州南站运输组织压力。</p>
+<p>调图后，广州白云站将办理客车业务104列，主要为北向的京广高铁列车、南向的广深城际列车和普速旅客列车，其中京广高铁动车组42列，广州白云站至汕头南动车组2列，广深城际动车组始发终到作业28列，普速旅客列车32列。广州东站仅办理动车组列车业务，广州站办理普速客车和广深城际动车组列车业务。</p>
+<p>此外，随着汕汕高铁（汕头南至汕尾段）的开通运营，东部沿海快捷通道初步成型，部分途经杭深线动车组将调整至甬广高铁运行。</p>
+<p>届时，粤港澳大湾区与潮汕地区往来将更加紧密。甬广高铁共开行动车组列车148列，较上季度运行图增加62列，汕头南至广州东、深圳北站间最快分别114分、110分可达，粤东地区“融湾”驶出“加速度”。</p>
+<h4>交通“骨架”拉开广东新年文旅大幕</h4>
+<p>2024年的第一天，广州元旦《我爱你中国》音乐快闪活动在广州白云国际机场、广州白云站、广州南站三大交通枢纽上演，点连成面，拉开新年文旅大幕。</p>
+<p>据悉，三地快闪活动分别以“开放·国际交往”“创新·文化交融”“温情·归乡之路”为主题，在三个拥有“超级流量”的交通枢纽，现场嘉宾唱出广州文化底蕴。</p>
+<p>除了广州，深圳、珠海、汕头、湛江四市也同步开展了元旦音乐快闪活动。</p>
+<p>在刚刚投用不久的汕头南站，悠扬的歌声点燃了来往旅客的热情。上一年，广汕高铁、汕汕高铁陆续通车运营，为汕头及周边地区拥抱大湾区“1小时生活圈 ”、带动粤东产业发展带来广阔机遇。</p>
+<p>把握汕汕高铁正式开通运营契机，汕尾市积极组织“坐着高铁来赶海 齐心聚力百千万”庆祝汕汕高铁开通系列活动，持续掀起推介汕尾文旅与招商热潮。</p>
+<p>例如，2023年12月26日至27日，汕尾举办“坐着高铁来赶海”首发旅行团欢迎活动；此外，汕尾还举办了“坐着高铁来赶海，齐心聚力百千万”庆祝汕汕高铁开通暨2023年深莞惠汕河流动大舞台五地文艺展演（汕尾专场）；“中国蚝乡 蚝情万丈”第三届汕尾晨洲蚝文化节则在元旦期间火热展开。</p>
+<p>“坐着高铁来赶海”，汕汕高铁的通车为广东“市市通350高铁”宏大目标画上有力一笔，旅客乘上大湾区轨道“快车道”，粤东与其他地区联系更加紧密。</p>
+<p>数据显示，元旦假期三天，汕尾接待游客总数64.22万人次，同比增长66.46%；过夜游客37.89万人次，同比增长29.85%。全市旅游总收入达31393.8 万元，同比增长16.57%。</p>
+<p>元旦当天上午，在全球最大客货滚装码头——湛江徐闻港，歌曲《我爱你，中国》旋律在海面荡漾。徐闻港将把徐闻至海南的距离缩短至12海里，琼州海峡航程和通航时间都缩短一半，形成了新的粤琼“1小时经济圈”，为打造广东“南门户城市”打下坚实基础。</p>
+<p>作为全球最大的客货滚装码头，徐闻港有16个万吨级客货滚装泊位，旅客年通过能力约为1730万人次。数据显示，2023年前11个月，徐闻港旅客吞吐量1781.13万人次，同比增加64.2%。</p>
+<p>徐闻港现代化水陆交通运输综合枢纽建设加速中，铺开“大交通”布局带来的不仅仅是客流，更是资金流与信息流。公开数据显示，2023年全年，徐闻招商新引入项目10个，总签约额达97.07亿元。其中，亿元以上招商项目8个，制造业项目4个。</p>                <!-- 加载更多 -->
+                            </div>
+            <div class="share-wrap">
+                <a href="https://www.21jingji.com/" class="back">返回21经济网首页 &gt;&gt;</a>
+                <div data-tag="share_1" class="share-box" >
+                    <span>分享到：</span>
+                    <a data-cmd="weixin" class="icon-share weixin" onclick="shareToWeixin()" title="分享到微信朋友圈" ></a>
+                    <a data-cmd="tsina" class="icon-share sina" onclick="shareToSinaWB(event)" title="分享到新浪微博"></a>
+                    <!--<a data-cmd="more" class="bds_more share" title="更多分享"></a>-->
+                </div>
+                <div class="shareWeixin">
+                    <a href="javascript:closeWeixin();">×</a>
+                    <div class="s-tit">分享到微信朋友圈</div>
+                    <div id="urlQrcode"></div>
+                    <div class="s-tip">打开微信，点击底部的“发现”，<br />使用“扫一扫”即可将网页分享至朋友圈。</div>
+                </div>
+            </div>
+
+        </div>
+        <span class="spanBlank20"></span>
+        <div class="cmsAD" data-id="113" style="margin: 0px auto 35px;width: 840px;height: 120px;"></div>
+        <div class="row" style="display: none">
+            <h1><span>相关新闻</span></h1>
+            <div class="news Xnew">
+
+            </div>
+        </div>
+    </div>
+    <!-- 左侧 end -->
+    <!-- 右侧 -->
+    <div class="col-r">
+        <div class="bn r-bn cmsAD" data-id="12"></div>
+        <div class="row">
+            <h1><span>热文排行</span></h1>
+            <div class="box">
+                <ul class="hot-list">
+                                                <li class="hot-top"><em>1</em><a href="https://www.21jingji.com/article/20231231/herald/ab7c5d95628e63fadf225ddb906c66c2.html" title="集体降价！第一批网红店，已悄悄倒闭" target="_blank">
+                        <div class="thumb"  data-original="https://ocmsmedia.sfccn.com/vod-4310da/image/default/43C90CC9A56245028082C7B1A1D3576F-6-2.png"></div>
+                        <p>集体降价！第一批网红店，已悄悄倒闭</p>
+                    </a></li>
+                                        <li class="hot-top"><em>2</em><a href="https://www.21jingji.com/article/20231229/herald/f166023c28b5c4a81c4017c3f70f98b4.html" title="专访澜起科技杨崇和：科创企业需要长期积累，不论环境冷暖都要潜心技术、尊重市场" target="_blank">
+                        <div class="thumb"  data-original="https://ocmsmedia.sfccn.com/vod-4310da/image/default/B6C640BA567446DCBBD7220D7357C6D2-6-2.png"></div>
+                        <p>专访澜起科技杨崇和：科创企业需要长期积累，不论环境冷暖都要潜心技术、尊重市场</p>
+                    </a></li>
+                                        <li class="hot-top"><em>3</em><a href="https://www.21jingji.com/article/20231230/herald/bde6803056dc430b7315fafa925a7035.html" title="全国首例！证监会促成投资者赔付新方式 事关全体股民、中介机构" target="_blank">
+                        <div class="thumb"  data-original="https://img.21jingji.com/uploadfile/cover/tuchong/20220301/202203011706475376_listthumb.jpeg"></div>
+                        <p>全国首例！证监会促成投资者赔付新方式 事关全体股民、中介机构</p>
+                    </a></li>
+                                        <li><em>4</em><a href="https://www.21jingji.com/article/20231228/herald/c762f3b59d0ec27527f55fe7360d7878.html" title="视频｜广东省委常委、常务副省长张虎：在深圳、横琴试点进一步放宽市场准入" target="_blank">视频｜广东省委常委、常务副省长张虎：在深圳、横琴试点进一步放宽市场准入</a></li>
+                                        <li><em>5</em><a href="https://www.21jingji.com/article/20231228/herald/f817478348f90e6f6a7006fd4cd1c495.html" title="深圳市委副书记、市长覃伟中：全面落实好《前海规划》，深化深港更紧密合作" target="_blank">深圳市委副书记、市长覃伟中：全面落实好《前海规划》，深化深港更紧密合作</a></li>
+                                        <li><em>6</em><a href="https://www.21jingji.com/article/20231227/herald/acbc6130d56ee5353f9c438214b53379.html" title="程大爷：否极泰来，A股正站在一轮大行情的起点" target="_blank">程大爷：否极泰来，A股正站在一轮大行情的起点</a></li>
+                                        <li><em>7</em><a href="https://www.21jingji.com/article/20231230/herald/19b2061ab8934f538ddc8c68d09a575e.html" title="市场剧烈调整后 中国交建欲“重启”三亚凤凰岛项目丨基建新动能⑱" target="_blank">市场剧烈调整后 中国交建欲“重启”三亚凤凰岛项目丨基建新动能⑱</a></li>
+                                        <li><em>8</em><a href="https://www.21jingji.com/article/20231228/herald/19ebe81544ae9fdd86c34eff3a3db16b.html" title="央行：将抓紧制定《非银行支付机构监督管理条例》实施细则，注重监管一致性与连续性" target="_blank">央行：将抓紧制定《非银行支付机构监督管理条例》实施细则，注重监管一致性与连续性</a></li>
+                                        <li><em>9</em><a href="https://www.21jingji.com/article/20231229/e2862532c3178be956ea4c35c94d7377.html" title="唯有相信，才会看见丨21世纪年度好书（2023年）入围书单" target="_blank">唯有相信，才会看见丨21世纪年度好书（2023年）入围书单</a></li>
+                                        <li><em>10</em><a href="https://www.21jingji.com/article/20231228/herald/a045c3a6caa6bc103c1d0bc6980d101a.html" title=" 央行货币政策委员会成员调整：财政部副部长廖岷、外汇局局长朱鹤新加入" target="_blank"> 央行货币政策委员会成员调整：财政部副部长廖岷、外汇局局长朱鹤新加入</a></li>
+                                    </ul>
+                <!--                <a href="javascript:;" class="btn-more"><span>查看全部</span><i></i></a>-->
+            </div>
+        </div>
+
+        <div class="row">
+            <h1><span>财经日历</span></h1>
+            <div class="box">
+                <div class="today"></div>
+                <div class="calendar" type="text" id="datepicker">
+                </div>
+                <div class="c-nav" id="FinanceDaily_menu">
+                    <a href="javascript:;" class="active" data-id="jryd">今日要点</a>
+                    <a href="javascript:;" data-id="qqds">全球大事</a>
+                    <a href="javascript:;" data-id="jjsj">经济数据</a>
+                </div>
+                <div class="c-list jryd">
+
+                </div>
+                <div class="c-list qqds" style="display: none;">
+
+                </div>
+                <div class="c-list jjsj" style="display: none;">
+
+                </div>
+                <a href="https://app.21jingji.com/epaper/html/app/financeDaily/#/" class="btn-more" target="_blank"><span>查看全部</span><i></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <h1><a href="/channel/readnumber" title="数读"><span>数读</span></a></h1>
+            <div class="box">
+                                        <a href="https://www.21jingji.com/article/20240101/herald/082166e7e4d7c9cb04620917811f2f77.html" title="全新轮转！100秒数论2023年中国市值500强企业的跃落更替" target="_blank" class="sd" data-original="https://ocmsmedia.sfccn.com/vod-4310da/image/default/CAAC5CE7CC3C4C6A803FCD4DEFC96563-6-2.jpg">
+                    <p>全新轮转！100秒数论2023年中国市值500强企业的跃落更替</p>
+                    <div class="sd-mask"></div>
+                </a>
+                                <a href="https://www.21jingji.com/article/20240101/herald/e2e4e6668945e4b7fdd6f856dcfc97af.html" title="上市公司不再热衷买理财了？最新数据揭秘" target="_blank" class="sd" data-original="https://img.21jingji.com/uploadfile/cover/tuchong/20231212/288c1621777396a60520c81825cd54c5_listthumb.jpg">
+                    <p>上市公司不再热衷买理财了？最新数据揭秘</p>
+                    <div class="sd-mask"></div>
+                </a>
+                                <a href="https://www.21jingji.com/article/20240101/herald/985dce78b0fb3f48e9a83c8b1a14b000.html" title="2024年怎么投？我们研究了国内外近50家机构的观点，发现这些趋势" target="_blank" class="sd" data-original="https://img.21jingji.com/uploadfile/cover/tuchong/20231212/288c1621777396a60520c81825cd54c5_listthumb.jpg">
+                    <p>2024年怎么投？我们研究了国内外近50家机构的观点，发现这些趋势</p>
+                    <div class="sd-mask"></div>
+                </a>
+                            </div>
+        </div>
+
+        <div class="row">
+            <h1><span>每日智库看点</span></h1>
+            <div class="box">
+                                        <a href="https://www.21jingji.com/article/20211129/herald/18300681afc608e2328031b5a0af623a.html" title="南 财 智 库 简 介" target="_blank" class="r">
+                    <p>南 财 智 库 简 介</p><b  data-original="https://img.21jingji.com/uploadfile/cover/20220809/202208091420555683_small.jpg"></b>
+                </a>
+                                <a href="https://www.21jingji.com/article/20240102/herald/e2465f0d4e13e731a8f753398b4f04d8.html" title="营商环境周报（第119期）｜进一步深化户籍制度改革，推出粤港澳大湾区国际一流营商环境建设三年行动计划" target="_blank" class="r">
+                    <p>营商环境周报（第119期）｜进一步深化户籍制度改革，推出粤港澳大湾区国际一流营商环境建设三年行动计划</p><b  data-original="https://img.21jingji.com/uploadfile/cover/original/20230315/41a8f64be762eda6aa1fb4c11ee0a014_listthumb.png"></b>
+                </a>
+                                <a href="https://www.21jingji.com/article/20240102/herald/956185af0849cb1408a80f875e3306c3.html" title="观酒周报｜茅台集团首度达成“双千亿”；郎酒回款创新高；习酒完成全年任务；古井贡今世缘西凤酒官宣业绩" target="_blank" class="r">
+                    <p>观酒周报｜茅台集团首度达成“双千亿”；郎酒回款创新高；习酒完成全年任务；古井贡今世缘西凤酒官宣业绩</p><b  data-original="https://img.21jingji.com/uploadfile/cover/original/20230930/34eb93ccbf5d0da7115d4c456c62bf61_listthumb.jpg"></b>
+                </a>
+                                <a href="https://www.21jingji.com/article/20231229/herald/97f03b4bc6443b9539c2005d50524e85.html" title="21健讯Daily｜五部门：门急诊涉及大包装药品可拆零调配；国产PD-1首在东南亚获批上市" target="_blank" class="r">
+                    <p>21健讯Daily｜五部门：门急诊涉及大包装药品可拆零调配；国产PD-1首在东南亚获批上市</p><b  data-original="https://img.21jingji.com/uploadfile/cover/original/20220902/b560fbb687f452cadaa00573de5f3cdb_listthumb.jpg"></b>
+                </a>
+                                <a href="https://www.21jingji.com/article/20231229/herald/824f8ba9ea6f28cb97dcd7533e53c7c4.html" title="21健讯Daily｜中疾控称JN.1可能发展成国内流行株；中医药广东省实验室正式揭牌" target="_blank" class="r">
+                    <p>21健讯Daily｜中疾控称JN.1可能发展成国内流行株；中医药广东省实验室正式揭牌</p><b  data-original="https://img.21jingji.com/uploadfile/cover/original/20220902/b560fbb687f452cadaa00573de5f3cdb_listthumb.jpg"></b>
+                </a>
+                
+                <a href="javascript:;" class="btn-more"><span>查看全部</span><i></i></a>
+            </div>
+        </div>
+
+        <!--        <div class="bn r-bn"><a href=""><img src="https://img.21jingji.com/uploadfile/cover/20210826/c3d4a9d01c8e36a801c79b7a08cc20a3.jpg" alt=""></a></div>-->
+                <div class="row">
+    <h1><span>关注我们</span></h1>
+    <div class="box">
+        <ul class="follow-list">
+            <li><img src="https://static.21jingji.com/web_fed/images/logo_21app.png" alt="">
+                <div class="qrcode"><img src="https://static.21jingji.com/web_fed/images/qrcode/khd.png" alt="客户端">
+                    <p>扫描二维码下载<br />21财经APP</p>
+                </div>
+            </li>
+            <li><img src="https://static.21jingji.com/web_fed/images/logo_wechat.png" alt="">
+                <div class="qrcode"><img src="https://static.21jingji.com/web_fed/images/qrcode/wx.jpg" alt="微信">
+                    <p>扫描二维码关注<br />微信公众号</p>
+                </div>
+            </li>
+            <li><img src="https://static.21jingji.com/web_fed/images/logo_weibo.png" alt="">
+                <div class="qrcode"><img src="https://static.21jingji.com/web_fed/images/qrcode/wb.png" alt="微博">
+                    <p>扫描二维码关注<br />微博</p>
+                </div>
+            </li>
+            <li><img src="https://static.21jingji.com/web_fed/images/logo_dy.png" alt="">
+                <div class="qrcode"><img src="https://static.21jingji.com/web_fed/images/qrcode/dy.png" alt="抖音">
+                    <p>扫描二维码关注<br />抖音</p>
+                </div>
+            </li>
+            <li><img src="https://static.21jingji.com/web_fed/images/logo_bilibili.png" alt="">
+                <div class="qrcode"><img src="https://static.21jingji.com/web_fed/images/qrcode/b.png" alt="B站">
+                    <p>扫描二维码关注<br />BiliBili</p>
+                </div>
+            </li>
+            <li><img src="https://static.21jingji.com/web_fed/images/logo_jrtt.png" alt="">
+                <div class="qrcode"><img src="https://static.21jingji.com/web_fed/images/qrcode/jrtt.png" alt="头条">
+                    <p>扫描二维码关注<br />今日头条</p>
+                </div>
+            </li>
+            <li><img src="https://static.21jingji.com/web_fed/images/logo_bjh.png" alt="">
+                <div class="qrcode"><img src="https://static.21jingji.com/web_fed/images/qrcode/bjh.jpg" alt="百家号">
+                    <p>扫描二维码关注<br />百家号</p>
+                </div>
+            </li>
+            <li><img src="https://static.21jingji.com/web_fed/images/logo_ks.png" alt="">
+                <div class="qrcode"><img src="https://static.21jingji.com/web_fed/images/qrcode/ks.jpg" alt="快手">
+                    <p>扫描二维码关注<br />快手</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>        <div class="row">
+            <h1><span>公告</span></h1>
+            <div class="box gg-list">
+                <ul id="note_list">
+                                                <li><a href="https://www.21jingji.com/article/20230601/herald/d5e2f7bede2c784325eb27b8af4901b9.html" title="拟申领新闻记者证人员名单公示" target="_blank">拟申领新闻记者证人员名单公示</a></li>
+                                        <li><a href="https://www.21jingji.com/article/20230201/herald/e86fc25200788a735d4cfabc3f59c081.html" title="拟申领新闻记者证人员名单公示" target="_blank">拟申领新闻记者证人员名单公示</a></li>
+                                        <li><a href="https://www.21jingji.com/article/20230629/herald/f73160921638334ab4519981b473a50e.html" title="拟申领新闻记者证人员名单公示" target="_blank">拟申领新闻记者证人员名单公示</a></li>
+                                        <li><a href="https://www.21jingji.com/article/20230601/herald/9126da13cd3cf94506742dcb2139d207.html" title="拟申领新闻记者证人员名单公示" target="_blank">拟申领新闻记者证人员名单公示</a></li>
+                                        <li><a href="https://www.21jingji.com/article/20220225/herald/321638c235cd3278c933c169680feca6.html" title="拟申领新闻记者证人员名单公示" target="_blank">拟申领新闻记者证人员名单公示</a></li>
+                                        <li><a href="https://www.21jingji.com/article/20230308/herald/cf709da69b67a21f5ab597a49e8d874b.html" title="“财”等你来~南财集团2023人才招聘火热进行中！" target="_blank">“财”等你来~南财集团2023人才招聘火热进行中！</a></li>
+                                    </ul>
+                <a href="https://www.21jingji.com/notice/" class="btn-more"><span>查看全部</span><i></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- 右侧 end -->
+</div>
+
+        <div class="wrap footer" style="height: 210px">
+    <style>
+        .layout .line-list a{
+            font-size: 16px;
+        }
+        .layout .line-list span{
+            font-size: 11px;
+            margin: 0 10px;
+            color: #bebec6;
+            margin: 0 20px 0 26px;
+        }
+    </style>
+    <div class="layout" style="text-align: center">
+        <div class="row line-list" style="margin-bottom: 20px">
+            <img height="25px" src="https://static.21jingji.com/v2.0/images/logof.png" alt="" ><span>|</span>
+            <a href="https://www.21jingji.com/channel/aboutus/">关于我们</a><span>|</span>
+            <a href="https://www.21jingji.com/channel/contactus/">联系我们</a><span>|</span>
+            <a href="https://www.21jingji.com/channel/statement/">版权声明</a><span>|</span>
+            <a href="https://www.21jingji.com/channel/link/">友情链接</a>
+        </div>
+        <div class="row">
+            <div class="copy-l" style="width: auto;margin: 0 auto;float: none">
+                <p style="margin-top: 10px;">
+                    <!--                    ICP经营许可证号：粤B2-20090432号     广播电视节目制作经营许可证（粤）字第02126号 -->
+                    <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021113567号</a>
+                    &nbsp;&nbsp;
+                    <a href="https://static.21jingji.com/web_fed/images/about/xkz.jpg" target="_blank">互联网新闻信息服务许可证编号：44120180007</a>
+                    <br>
+                    <a href="https://www.12377.cn/" target="_blank">中国互联网举报中心</a>&nbsp;&nbsp;&nbsp;&nbsp;违法和不良信息举报电话：020-87399755&nbsp;&nbsp;&nbsp;&nbsp;law21@21jingji.com
+                    <br>
+                    广东二十一世纪环球经济报社有限公司版权所有
+                </p>
+
+                <p style="margin-top: 5px;"><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010402000579" style="color:#CCC;display:inline-block;text-decoration:none;height:20px;line-height:20px;">粤公网安备 44010402000579号</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="display:none"><script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1281224897&web_id=1281224897"></script></div>
+<!--2024-01-02 23:41:04--><!-- 主体内容 end -->
+<a href="#" class="go-top"></a>
+<!-- js -->
+<script src="https://static.21jingji.com/js/jquery-3.6.0.min.js"></script>
+<script src="https://static.21jingji.com/js/jquery.lazyload_1.9.7.min.js"></script>
+<script src="https://static.21jingji.com/plugin/datepicker/datepicker.min.js"></script>
+<script src="https://static.21jingji.com/plugin/datepicker/datepicker.zh-CN.min.js"></script>
+<script src="https://static.21jingji.com/js/m/swiper.min.js"></script>
+<script type="text/javascript" src="https://static.21jingji.com/v2.0/js/login.js?v5"></script>
+<script src="https://static.21jingji.com/web_fed/js/index.js?v2"></script>
+<!--广告js-->
+<script type="text/javascript" >
+    var $ads='';
+    $('.cmsAD').each(function(n,d){
+        $ads += $(d).data('id')+',';
+    })
+    $.getScript('https://www.21jingji.com/dynamic/poster/cmsad/get?ids='+$ads+'&'+Math.random());
+</script>
+<script>
+    
+    // 相关文章
+    var newspaperid = "600095";
+    var catid = "750";
+    var subcat = "811,1130,816";
+    var getXG = function () {
+        var gustUrl = 'https://api.21jingji.com/article/relatednew';
+        $.ajax({
+            type: 'get',
+            async: false,
+            url: gustUrl,
+            dataType: 'jsonp',
+            jsonp: "callback",
+            data: {
+                "id": newspaperid,
+                "catid": catid,
+                "platform":102,
+            },
+            success: function (data) {
+                var html = '';
+                $.each(data,function (n,d){
+                    d.url = d.url.replace('https://m.21jingji.com/article/','https://www.21jingji.com/article/');
+                    d.url = d.url.replace('http://m.21jingji.com/article/','https://www.21jingji.com/article/');
+                    d.pic = d.pic?d.pic:'https://static.21jingji.com/v2.0/images/default.png';
+                    html +=
+                        '<a href="'+d.url+'">\n' +
+                        '                    <div class="thumb" data-original="'+d.pic+'"></div>\n' +
+                        '                    <div class="title">\n' +
+                        '                        <h2>'+d.title+'</h2>\n' +
+                        // '<p>'+d.keywords+'</p>' +
+                        '<p class="showtime" data-inputtime="'+d.date+'"></p>' +
+                        // '                        <span>'+d.author+'</span>\n' +
+                        '                    </div>\n' +
+                        '                </a>'
+                })
+                if(data.length>0) {
+                    $('.Xnew').html(html)
+                    $('.Xnew').parent().show();
+                }
+                setLazyLoad();
+                showTime()
+            }
+        });
+    }
+
+    if(newspaperid != 431153 && newspaperid != 435164)
+    {
+        getXG()
+    }
+    function showTime(){
+        var $Date = new Date();
+        var time = Math.floor($Date.getTime()/1000);
+        var t;
+        $('.showtime').each(function(n,d){
+            if($(d).data('inputtime')) {
+                t = time-$(d).data('inputtime');
+                if(t < 60){
+                    $(d).html('刚刚');
+                    return true;
+                }
+                if(t < 3600){
+                    $(d).html(Math.floor(t/60)+'分钟前');
+                    return true;
+                }
+                if(t < 86400){
+                    $(d).html(Math.floor(t/3600)+'小时前');
+                    return true;
+                }
+                var Ddate = new Date($(d).data('inputtime')*1000);
+                var Year = Ddate.getFullYear();
+                var month = Ddate.getMonth()+1;
+                var day = Ddate.getDate();
+                $(d).html(Year+'年'+month+'月'+day+'日');
+                return true;
+            }
+        })
+
+    }
+
+</script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script>
+    var share_title = "元旦假期广东接待游客同比增长近8成：坐着高铁去赶海，撬动文旅收入同比增长99.1%";
+    var share_desc = "";
+    var share_imgUrl = 'https://static.21jingji.com/v2.0/images/logo_Share.gif';
+    var share_link = window.location.href;
+    // share_link = share_link.replace('https://www.21jingji.com','https://m.21jingji.com') //分享用回www
+
+
+    var ua = window.navigator.userAgent.toLowerCase();
+    //通过正则表达式匹配ua中是否含有MicroMessenger字符串
+    if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+        var jssdk_url = "https://m.21jingji.com/wechat/jssdk/?url="+encodeURIComponent(window.location.href);
+        document.write("<script src='"+jssdk_url+"'><\/script>");
+        wx.ready(function () {
+            wx.updateAppMessageShareData({title: share_title,link: share_link,desc: share_desc,imgUrl: share_imgUrl, success: function () {shareLog('wechatSession');shareRecommend();}})
+            wx.updateTimelineShareData({title: share_title, link: share_link,imgUrl: share_imgUrl, success: function () {shareLog('wechatTimeline');shareRecommend();}})
+            wx.onMenuShareWeibo({title: share_title,link: share_link,desc: share_desc,imgUrl: share_imgUrl,success: function(){shareLog('Weibo');shareRecommend();}});
+        })
+    }
+    /**分享日志*/
+    function shareLog(platform) {
+        var gustUrl = 'https://api.21jingji.com/user/sharelog';
+        var realurl = $('#realurl').val();
+        jQuery.ajax({
+            type: 'post',
+            async: false,
+            url: gustUrl,
+            dataType: 'jsonp',
+            jsonp: 'callback',
+            data: {
+                pid: newspaperid,
+                catid: catid,
+                title: articleTitle,
+                url: realurl,
+                source: 3,
+                type: 2,
+                status: 99,
+                pagename: '抢鲜报',
+                platform: platform,
+                dosubmit: 1
+            },
+            success: function (data) { }
+        });
+    }
+    /**分享日志*/
+
+    /**behavior*/
+    var statApi = 'https://stats.21jingji.com/behavior/log';
+    var _referrer = encodeURIComponent(document.referrer);
+    var _from = getUrlParam('from');
+    var _rand = Math.random();
+    var datas = {
+        id: newspaperid,
+        catid: catid,
+        subcat: subcat,
+        platform: 'website',
+        uid: '',
+        referrer: _referrer,
+        rand: _rand,
+        from: _from
+    };
+    jQuery.ajax({
+        type: 'POST',
+        // async: true,
+        url: statApi,
+        dataType: 'jsonp',
+        jsonp: 'callback',
+        data: {
+            type: 1,
+            datas: datas
+        },
+        success: function (data) { }
+    });
+
+    // 获取链接参数
+    function getUrlParam(name) {
+        //封装方法
+        var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)');
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]);
+        return '';
+    }
+</script>
+<script type="text/javascript" src="https://static.21jingji.com/js/jquery.qrcode.min.js"></script>
+<script type="text/javascript" src="https://static.21jingji.com/web_fed/js/share.js?v5"></script>
+</body>
+
+</html>

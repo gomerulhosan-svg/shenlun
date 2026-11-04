@@ -1,0 +1,645 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+        <title>现代化海洋牧场建设，广东开启“倍速”模式 - 广东 - 南方财经网</title>
+    <meta name="keywords" content="南方财经,南方财经全媒体集团,南方财经网,南财网,21经济网,21世纪经济报道,21财经,广东经视,TVS,股市广播,上市公司,股票,IPO,新股,基金,房产,汽车,财经频道" />
+    <meta name="description" content="" />
+        <link rel="stylesheet" href="https://static.sfccn.com/sfccn/2021y/css/common.css"/>
+    <link rel="stylesheet" href="https://static.sfccn.com/sfccn/plugin/swiper/swiper.2.7.css">
+    <link rel="stylesheet" href="https://static.sfccn.com/sfccn/2021y/css/style.css"/>
+    <link rel="stylesheet" href="https://static.sfccn.com/sfccn/v4/css/style1.css"/>
+    <script type="text/javascript" src="https://static.sfccn.com/sfccn/2021y/js/jquery-3.6.0.min.js"></script>
+<!--    <script type="text/javascript" src="https://static.sfccn.com/sfccn/2021y/js/jquery-1.7.2.min.js"></script>-->
+    <script type="text/javascript" src="https://static.sfccn.com/sfccn/2021y/js/global.js"></script>
+    <script src="https://static.sfccn.com/sfccn/v2/js/platform.js"></script>
+    <script type="text/javascript">
+        //判断平台跳转
+        if (is_mobile()) {
+            window.location=window.location.href.replace('//www.sfccn.com','//m.sfccn.com');
+        }
+    </script>
+<!--    <script type="text/javascript">-->
+<!--        try {-->
+<!--            var urlhash = window.location.hash;-->
+<!--            if (!urlhash.match("fromapp")){-->
+<!--                if ((navigator.userAgent.match(/(iPhone|iPod|Android)/i))){-->
+<!--                    window.location=window.location.href.replace('//www.sfccn.com','//m.sfccn.com');-->
+<!--                }-->
+<!--            }-->
+<!--        }catch(err){-->
+<!--        }-->
+<!--    </script>-->
+    <!-- <link rel="stylesheet" href="https://static.21jingji.com/js/plugin/reveal/reveal.css"> -->
+    <!-- <link rel="stylesheet" href="https://static.21jingji.com/sfccn/plugin/swiper/swiper-3.4.0.min.css"> -->
+
+    <style>
+        .title{
+            line-height: 40px;
+            height: 40px;
+        }
+        .bdsharebuttonbox a{
+            width: 45px!important;height: 45px!important;display: block;background-position:0px!important;
+            padding-left: 0px!important;
+            margin-left: 17px!important;
+
+        }
+        .center {width: 640px;}
+        .detailCont {text-indent:0px;}
+        /* 音频 */
+        .news_audio {margin:0; padding:0 0 0 0;}
+        .news_audio audio { width:100%; }
+        .news_audio audio {display: none}
+        .news_audio {height:60px;width: 100%;margin:0 auto 10px auto;border: 1px #d4d4d4 solid;background-color: #f8f7f7}
+        .news_audio .button {height: 36px;width: 36px;margin: 12px 10px 7px 15px;float: left}
+        .news_audio .button img {width: 100%;height: 100%;background-color: inherit}
+        .news_audio .button .playing {display: none}
+        .news_audio .a-t {line-height: 60px;float: left;color: #292934}
+        .news_audio .time {float: right;margin-right: 20px;line-height: 60px; color: #8e8e93}
+        .news_audio .button .play {
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+            background: url("https://static.21jingji.com/images/m/play.png") no-repeat center center;
+            background-size: 36px 36px;
+            vertical-align: middle;
+        }
+        .news_audio .button .play,
+        .editor a i,
+        .mask a i,
+        .comment_empty i,
+        .pop_t i,
+        .close {
+            display: inline-block;
+            background: url("https://static.21jingji.com/images/m/2018/news.png") no-repeat;
+            background-size: 170px 255px;
+            vertical-align: middle;
+        }
+        .news_audio .button .play {
+            width: 36px;
+            height: 36px;
+            background-position: 0 -132px;
+            background-size: 112px 168px
+        }
+    </style>
+    
+    <style>
+        /* 修复视频封面缩略图变形 */
+        .video img.vcp-poster-pic {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* 铺满容器，不变形，裁剪部分内容 */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="head" id="top">
+    <div class="head1">
+        <div class="head-top cf">
+            <div class="right headRight login">
+            </div>
+        </div>
+    </div>
+
+    <div class="head2">
+        <div class="left">
+            <a href="http://www.sfccn.com" class="logo">南方财经网</a>
+        </div>
+        <!-- <div class="radioBanner">
+                <img src="https://static.sfccn.com/sfccn/2021y/pics/radio.jpg" width="417" height="90" alt="广东股市广播">
+            </div> -->
+        <div class="app">
+            <a href="https://app.21jingji.com/" target="_blank">21财经客户端</a>
+            <span class="splice">|</span>
+<!--            <a href="https://mp.sfccn.com" target="_blank">南财号</a>-->
+<!--            <span class="splice">|</span>-->
+            <a href="https://gym.sfccn.com/" target="_blank">理财通</a>
+            <span class="splice">|</span>
+            <a href="https://city.sfccn.com" target="_blank">城市通</a>
+            <span class="splice">|</span>
+            <a href="https://sfconnect.sfccn.com/" target="_blank">南财金融终端</a>
+            <span class="splice">|</span>
+            <a href="http://www.sfccn.com/aboutus/description/"  target="_blank">集团简介</a>
+            <span class="splice">|</span>
+            <a href="http://www.sfccn.com/channel/jtdt/">集团动态</a>
+<!--            <span class="splice">|</span>-->
+<!--            <a href="http://www.sfccn.com/channel/aboutus/joinUs/">加入我们</a>-->
+            <span class="splice">|</span>
+            <a href="http://www.sfccn.com/aboutus/contactus/"  target="_blank">联系我们</a>
+        </div>
+        <div class="search">
+            <form action="https://www.sfccn.com/channel/search/" method="get" onsubmit="if($('#search_key').val().length==0){alert('请输入搜索关键词');return false;}">
+                <input class="search_input" type="text" name="keyword" id="search_key" value="" placeholder="请输入搜索关键词" />
+                <input type="hidden" name="csrf_token" value="ba1733828b4881d047281bde5491cb2e" />
+                <input class="search_bt" type="submit" name="" value=""/>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="head3">
+        <div class="head3Box">
+            <div class="tip"><span class="openTip">展开</span><span class="closeTip">收起</span></div>
+            <ul class="nav hover">
+                <li><a href="http://www.sfccn.com" class="">首页</a></li>
+                <li class="twoNav"><a href="JavaScript:void(0);" class="current">要闻</a>
+                    <div class="sub-wrap">
+                        <ul class="sub-nav">
+                            <li>
+                                <a href="http://www.sfccn.com/channel/yaowen/guangdong/" >广东</a>
+                            </li>
+                            <li>
+                                <a href="http://www.sfccn.com/channel/yaowen/chinanews/" >中国</a>
+                            </li>
+                            <li>
+                                <a href="http://www.sfccn.com/channel/yaowen/worldnews/" >国际</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                                                  <li><a href="http://www.sfccn.com/channel/learning_economy/jingjisixiang/"  class=""   target="_blank">学习经济</a></li>
+                                <li><a href="http://www.sfccn.com/channel/zhiku/"  class=""   target="_blank">智库</a></li>
+                                <li><a href="https://gym.sfccn.com"  class=""   target="_blank">理财通</a></li>
+                                <li><a href="https://city.sfccn.com"  class=""   target="_blank">城市通</a></li>
+                                <li><a href="http://www.yslcw.com/fund/index.html"  class=""   target="_blank">基金通</a></li>
+                                <li><a href="https://app.21jingji.com/epaper/html/app/shuju/data/"  class=""   target="_blank">数据</a></li>
+                                <li><a href="https://m.21jingji.com/#/channel/live"  class=""   target="_blank">直播</a></li>
+                                <li><a href="http://www.sfccn.com/channel/shipin/"  class=""   target="_blank">视频</a></li>
+                                <li><a href="http://www.sfccn.com/channel/yinpin/"  class=""   target="_blank">音频</a></li>
+                                <li><a href="http://www.sfccn.com/channel/touzitong/"  class=""   target="_blank">投资通</a></li>
+                                <li><a href="https://toujiao.sfccn.com"  class=""   target="_blank">投教</a></li>
+                            </ul>
+            <ul class="nav navTwo">
+                                                <li><a href="http://app.21jingji.com/epaper/html/market.html" class=""  target="_blank">论坛活动</a></li>
+                                <li><a href="http://www.sfccn.com/channel/politics/politics/" class=""  target="_blank">宏观</a></li>
+                                <li><a href="http://www.sfccn.com/channel/finance/" class=""  target="_blank">金融</a></li>
+                                <li><a href="http://www.sfccn.com/channel/money/" class=""  target="_blank">证券</a></li>
+                                <li><a href="http://www.sfccn.com/channel/business/" class=""  target="_blank">商业</a></li>
+                                <li><a href="http://www.sfccn.com/channel/BandR/" class=""  target="_blank">一带一路</a></li>
+                                <li><a href="http://www.sfccn.com/channel/GHM_GreaterBay/" class=""  target="_blank">大湾区</a></li>
+                                <li><a href="http://www.sfccn.com/channel/guandian/" class=""  target="_blank">观点</a></li>
+                                <li><a href="http://www.sfccn.com/channel/chuangtou/" class=""  target="_blank">创投</a></li>
+                                <li><a href="http://www.sfccn.com/channel/auto/" class=""  target="_blank">汽车</a></li>
+                                <li><a href="http://www.sfccn.com/channel/technology/" class=""  target="_blank">科技</a></li>
+                                <li><a href="http://www.sfccn.com/channel/travel/" class=""  target="_blank">文旅</a></li>
+                                <li><a href="http://www.sfccn.com/channel/property/" class=""  target="_blank">地产</a></li>
+                                <li><a href="http://www.sfccn.com/channel/xinjiankang/" class=""  target="_blank">新健康</a></li>
+                
+           </ul>
+        </div>
+    </div>
+</div><!------head end-------><!------head end------->
+<span class="spanBlank20"></span><span class="spanBlank40"></span>
+<div class="content">
+    <div class="main">
+
+         <div class="guideBox">
+            <a href="http://www.sfccn.com" class="">首页</a>&nbsp;&gt;&nbsp;<a href="http://www.sfccn.com/channel/yaowen/guangdong/">广东</a>&nbsp;&gt;&nbsp;<a href="javascript:">正文</a>
+        </div>
+
+        <div class="articleBox">
+            <span class="spanBlank20"></span>
+
+            <h2 class="articleTitle">现代化海洋牧场建设，广东开启“倍速”模式</h2>
+
+            <span class="spanBlank15"></span>
+
+            <div class="articleSource">
+                <span class="date">2023-08-21 12:52:09</span>
+                <span class="baodao">南方评论</span>
+                                <span class="Wh1"></span>
+            </div>
+            <span class="spanBlank15"></span>
+<!--            <span class="spanBlank25"></span>-->
+
+            <div class="detailCont">
+                                                <p>　　文 | 南方日报评论员</p><p>　　首批“加强型重力式深水网箱”成功下水，全省最大海上智能养殖平台“海威2号”正式投苗，海水优势鱼种培育速度进一步加快，海洋牧场产业高质量发展引导基金组建……今天起，南方日报、南方+推出“南粤耕海记”全媒体报道，全面展现广东现代化海洋牧场建设的火热实践。</p><p>　　世界渔业看中国，中国渔业看广东。今年4月，习近平总书记视察广东时强调，要树立大食物观，既向陆地要食物，也向海洋要食物，耕海牧渔，建设海上牧场、“蓝色粮仓”。这其中既有高瞻远瞩的全局视野，也有从实际出发的战略考量。广东是海洋大省，自然资源禀赋优势明显，拥有全国最长的海岸线4084.48公里、第二大的海域面积41.93万平方公里;渔业资源丰富，水产品总产量和水产养殖产量稳居全国第一。对于广东而言，建设现代化海洋牧场，既是落实粮食安全战略、践行大食物观的重要举措，又是推动经济高质量发展的重要突破口，还是推进“百县千镇万村高质量发展工程”促进城乡区域协调发展的有力抓手。</p><p>　　鱼虾满舱背后，照见“生猛”广东、“希望”广东。向海洋要资源、要粮食，广东抓住机遇、乘势而上。省委十三届三次全会对“做大做强做优现代海洋产业”作出系统部署，召开全省现代化海洋牧场建设推进会，制定《广东省现代化海洋牧场建设实施方案》……新征程上，广东按下现代化海洋牧场建设“加速键”，各地建设取得可喜进展。</p><p>　　从加快海洋种业振兴到建设深海养殖装备大平台，从精深加工到冷链运输，从发展滨海旅游到做好金融保险护航……现代化海洋牧场建设涉及种业、装备、养殖、加工、金融等各方面，是一个环环相扣、有效衔接、耦合配套、协同发展的有机链条。加快建设现代化海洋牧场，需要树立全产业链理念，实现从抓生产到抓链条、从抓产品到抓产业、从抓环节到抓体系的转变。近年来，广东海洋渔业发展较快，但仍存在不少短板和薄弱环节，质量效益和竞争力仍有提升空间。面向未来，要坚持统筹谋划，突出产业融合，把种业创新作为关键环节，着力抓好装备建设，加快实施品牌强农战略，强化海洋科技、海洋生态等保障，补短板、锻长板，在补链延链强链上展现新作为、打开新空间。</p><p>　　一条稳定的、更具韧性和竞争力的海洋渔业全产业链，离不开创新链、供应链、资金链的有力支撑。加快建设现代化海洋牧场，还要进一步完善政策配套，坚持协同推进，进一步形成政府推动、市场主导、龙头带动、多方参与的良好产业生态。从一尾尾鱼苗到一个个网箱，我们欣喜地看到，各地正全力以赴、攻坚克难，以“工业化思维”解锁现代化海洋牧场产业新模式，向着产业链条全、创新能力强、绿色底色足、融合层次深等目标不懈奋进。</p><p>　　广东因海而生、因海而兴。做大做强做优现代海洋产业，建设“粤海粮仓”是一个重要方面，同时还要聚力发展海洋能源等基础性产业和战略性新兴产业，打造海上矿山、海上药库、海上油田，充分激发海洋“聚宝盆”潜能。</p><p>　　“靠山吃山唱山歌，靠海吃海念海经。”只要坚持在海洋这一高质量发展战略要地上的辛勤耕耘，必将激发源源不断的蓝色动能，汇聚打造海上新广东的磅礴力量。</p><p><br/></p>                
+            </div>
+            <span class="spanBlank25"></span>
+            <div id="pages" class="">
+                            </div>
+            <span class="spanBlank25"></span>
+            <span class="spanBlank45"></span>
+<!--            <div class="detailShare">-->
+<!--                <div data-tag="share_1" class="bdsharebuttonbox" style="margin:0 auto;width:150px;">-->
+<!--                    <a data-cmd="weixin" class="bds_weixin share" title="分享到微信朋友圈" style="background-image: url('http://static.21jingji.com/sfccn/v2/images/icon2.png');"></a>-->
+<!--                    <a data-cmd="tsina" class="bds_tsina share" title="分享到微博" style="background-image: url('http://static.21jingji.com/sfccn/v2/images/icon3.png');"></a>-->
+<!--                </div>-->
+<!--            </div>-->
+            <style>
+
+                .share {
+                    /*padding: 20px 0 40px;*/
+                    overflow: hidden;
+                    zoom: 1;
+                }
+                .bdsharebuttonbox a{
+
+                    width: 45px!important;
+                    height: 45px!important;
+                    display: block;
+                    background-position: 0px!important;
+                    padding-left: 0px!important;
+                    margin-left: 17px!important;
+                }
+
+                .social-share{ text-align: center;font-size: 12px;overflow: visible;}
+                .social-share a{position:relative;text-decoration:none;margin:10px;display:inline-block;outline:none}
+                .social-share .social-share-icon{position:relative;display:inline-block;width:44px;height:44px;border-radius:50%;}
+                .social-share .icon-weibo,
+                .social-share .icon-weibo:hover{background:url(https://static.sfccn.com/sfccn/2021y/images/icon3.png) no-repeat;}
+                .social-share .icon-wechat,
+                .social-share .icon-wechat:hover{background:url(https://static.sfccn.com/sfccn/2021y/images/icon2.png) no-repeat;}
+                .icon-weibo:before,.icon-wechat:before{display: none;}
+                .social-share .icon-wechat .wechat-qrcode{display:none;border:1px solid #eee;position:absolute;z-index:9;top:-205px;left:-84px;width:200px;height:200px;color:#666;font-size:12px;text-align:center;background-color:#fff;box-shadow:0 2px 10px #aaa;transition:all 200ms;-webkit-tansition:all 350ms;-moz-transition:all 350ms}
+                .social-share .icon-wechat .wechat-qrcode.bottom{top:40px;left:-84px}
+                .social-share .icon-wechat .wechat-qrcode.bottom:after{display:none}
+                .social-share .icon-wechat .wechat-qrcode h4{font-weight:normal;height:26px;line-height:26px;font-size:12px;background-color:#f3f3f3;margin:0;padding:0;color:#777}
+                .social-share .icon-wechat .wechat-qrcode .qrcode{width:105px;margin:10px auto}
+                .social-share .icon-wechat .wechat-qrcode .qrcode table{margin:0 !important}
+                .social-share .icon-wechat .wechat-qrcode .help p{font-weight:normal;line-height:16px;padding:0;margin:0}
+                .social-share .icon-wechat .wechat-qrcode:after{content:'';position:absolute;left:50%;margin-left:-6px;bottom:-13px;width:0;height:0;border-width:8px 6px 6px 6px;border-style:solid;border-color:#fff transparent transparent transparent}
+                .social-share .icon-wechat:hover .wechat-qrcode{display:block}
+            </style>
+            <div class="social-share" data-sites="wechat,weibo"><!--分享到微信和微博--></div>
+
+            <span class="spanBlank45"></span>
+
+        </div>
+    </div>
+
+    <div class="sidebar" id="replace_right">
+        <div class="bigTittle2 new_iconL">热门新闻</div>
+    <ul class="qiangxian">
+                <li><span class=" circle bgc">1</span><a href="http://www.sfccn.com/2026/4-6/0NMDE1MjBfMjEyNjE0Ng.html" title="中国3月CPI、PPI将出炉；美国多个通胀数据将公布｜一周前瞻" target="_blank">中国3月CPI、PPI将出炉；美国多个通胀数据将公布｜一周前瞻</a></li>
+            <li><span class=" circle bgc">2</span><a href="http://www.sfccn.com/2026/4-5/2NMDE1MTNfMjEyNTk2NQ.html" title="火出圈！4月5日亮相《中国诗词大会》总决赛，肇庆七星岩凭什么惊艳全国？" target="_blank">火出圈！4月5日亮相《中国诗词大会》总决赛，肇庆七星…</a></li>
+            <li><span class=" circle bgc">3</span><a href="http://www.sfccn.com/2026/4-5/zMMDE1MTNfMjEyNjEzMw.html" title="AI夜校追梦人" target="_blank">AI夜校追梦人</a></li>
+            <li><span class=" circle ">4</span><a href="http://www.sfccn.com/2026/3-30/yNMDE1MTVfMjEyMzMyNA.html" title="世界数据组织成立" target="_blank">世界数据组织成立</a></li>
+            <li><span class=" circle ">5</span><a href="http://www.sfccn.com/2026/3-29/xNMDE0MDdfMjEyMjkxNg.html" title="百亿估值具身智能创企，走到哪一步了？" target="_blank">百亿估值具身智能创企，走到哪一步了？</a></li>
+            <li><span class=" circle ">6</span><a href="http://www.sfccn.com/2026/4-2/0NMDE1MjBfMjEyNTE0NA.html" title="WTI原油期货，狂飙10%！工信部，首提“算力银行”" target="_blank">WTI原油期货，狂飙10%！工信部，首提“算力银行”</a></li>
+            <li><span class=" circle ">7</span><a href="http://www.sfccn.com/2026/4-5/3OMDE1MTNfMjEyNTk3OQ.html" title="8.6万人次创历史新高 广深港高铁迎来港人北上出行高峰" target="_blank">8.6万人次创历史新高 广深港高铁迎来港人北上出行高峰</a></li>
+            <li><span class=" circle ">8</span><a href="http://www.sfccn.com/2026/4-1/0NMDE1MTVfMjEyNDU0NA.html" title="当全球陷入能源焦虑，中国为何能淡定自若？英国前投资大臣解读" target="_blank">当全球陷入能源焦虑，中国为何能淡定自若？英国前投资…</a></li>
+            <li><span class=" circle ">9</span><a href="http://www.sfccn.com/2026/3-16/3NMDE1MTVfMjExNzU3Ng.html" title="日本民众抗议导弹部署计划：违宪行为，加剧地区紧张" target="_blank">日本民众抗议导弹部署计划：违宪行为，加剧地区紧张</a></li>
+            <li><span class=" circle ">10</span><a href="http://www.sfccn.com/2026/4-2/5MMDE1MTVfMjEyNTA5Mg.html" title="商务部：进一步发挥中美经贸磋商机制作用加强对话沟通" target="_blank">商务部：进一步发挥中美经贸磋商机制作用加强对话沟通</a></li>
+                             
+    </ul>
+    <span class="spanBlank55"></span>
+    <div class="bigTittle2 sd_iconL">数读</div>
+                      <div class="titleInPicBox">
+        <a href="http://www.sfccn.com/2026/3-11/1NMDE0NzBfMjExNTU1NA.html" title="开“物”了！识“十五”者，为俊杰" class="shudu_img" target="_blank">
+            <div class="p_1" style="background-image:url(https://ocmsmedia.sfccn.com/vod-4310da/image/default/1CDAEB47E6854048880D7AEE453FB305-6-2.jpg)"></div>
+            <p class="shudu_title"><span>开“物”了！识“十五”者，为俊杰</span></p>
+        </a>
+    	</div>
+                  <div class="titleInPicBox">
+        <a href="http://www.sfccn.com/2026/3-5/xNMDE1MzRfMjExMzAxNA.html" title="中国经济新八骏图：奔向更好的未来" class="shudu_img" target="_blank">
+            <div class="p_1" style="background-image:url(https://ocmsmedia.sfccn.com/vod-4310da/image/default/A50BB472614549BE968D1BC367695528-6-2.jpg)"></div>
+            <p class="shudu_title"><span>中国经济新八骏图：奔向更好的未来</span></p>
+        </a>
+    	</div>
+                  <div class="titleInPicBox">
+        <a href="http://www.sfccn.com/2026/3-5/2MMDE0NzBfMjExMzE2MQ.html" title="“十四五”成绩单来了！人均可支配收入年均增长5.4%" class="shudu_img" target="_blank">
+            <div class="p_1" style="background-image:url(https://ocmsmedia.sfccn.com/vod-4310da/image/default/2EB34656C97E428BB4322498A2B0BD3C-6-2.jpg)"></div>
+            <p class="shudu_title"><span>“十四五”成绩单来了！人均可支配收入年均增长5.4%</span></p>
+        </a>
+    	</div>
+                  <div class="titleInPicBox">
+        <a href="http://www.sfccn.com/2026/2-24/2MMDE0NzBfMjExMzE2MA.html" title="全国都往广东跑？这个春节，彻底爆了！" class="shudu_img" target="_blank">
+            <div class="p_1" style="background-image:url(https://ocmsmedia.sfccn.com/vod-4310da/image/default/A9A8491AF5C44DA29290DD7F976D4C59-6-2.png)"></div>
+            <p class="shudu_title"><span>全国都往广东跑？这个春节，彻底爆了！</span></p>
+        </a>
+    	</div>
+                  <div class="titleInPicBox">
+        <a href="http://www.sfccn.com/2026/2-24/1OMDE0NzBfMjExMzE1OQ.html" title="战鼓催征，广东“新春第一会”就这么策马开干！" class="shudu_img" target="_blank">
+            <div class="p_1" style="background-image:url(https://ocmsmedia.sfccn.com/vod-4310da/image/default/10493D1EBD0742679742DD2D90DE7670-6-2.jpg)"></div>
+            <p class="shudu_title"><span>战鼓催征，广东“新春第一会”就这么策马开干！</span></p>
+        </a>
+    	</div>
+        
+</div><!---sidebar-->    <!---sidebar end--></div>
+<span class="spanBlank35"></span>
+<script>
+
+    //    文章统计
+    function article_count() {
+        var id = "1853240";
+        var catid = "1513";
+        var url = '//sp.sfccn.com/sfccn/index/article_count?catid='+catid+'&id='+id+'&defind=true&callback=?';
+        $.ajax({
+            url: url,
+            dataType: 'jsonp',
+            jsonp: 'callback',
+            success: function(data) {
+                console.log('Data received:', data);
+            },
+            error: function(xhr, status, error) {
+                console.error('Error:', status, error);
+            }
+        });
+    }
+    article_count();
+</script>
+<script src="https://static.sfccn.com/sfccn/plugin/swiper/swiper.min.2.7.js"></script>
+<script>
+    $(function(){
+        /*股票滚动*/
+        var mySwiper3 = new Swiper('#stockBody',{
+            mode:'horizontal',
+            loop:true,
+            slidesPerView: 3,
+            speed:6000,
+            autoplay: {
+                delay: 0,
+                stopOnLastSlide: false,
+                disableOnInteraction: true,
+            },
+        });
+        //导航栏点击张开
+        $('.head3Box .tip').click(function(event) {
+            /* Act on the event */
+            $('.head3Box').toggleClass('active');
+        });
+
+    });
+</script>
+<!--股市行情-->
+<script type="text/javascript" src="https://static.sfccn.com/sfccn/2021y/js/163_stockchart.js"></script>
+<!--<script type="text/javascript" src="https://img1.money.126.net/data/hs/time/today/0000011.json?callback=createImg_show"></script>-->
+<script>
+    //行情
+    // function refreshImg(code) {
+    //     var list = {
+    //         '0000001': '//img1.money.126.net/data/hs/time/today/0000001.json?callback=createImg_show',
+    //         '1399001': '//img1.money.126.net/data/hs/time/today/1399001.json?callback=createImg_show',
+    //         '1399006': '//img1.money.126.net/data/hs/time/today/1399006.json?callback=createImg_show',
+    //         '0000300': '//img1.money.126.net/data/hs/time/today/0000300.json?callback=createImg_show',
+    //         '0000905': '//img1.money.126.net/data/hs/time/today/0000905.json?callback=createImg_show',
+    //     };
+    //     if(!!list[code]) {
+    //         $.getScript(list[code])
+    //     }
+    // }
+    function refreshPrice() {
+        $.getScript('//api.money.126.net/data/feed/0000001,1399001,1399300,1399006,0000300,0000905,0000688,FG_aozhougushi,FG_rj225,FG_hanguo,FG_xinjiapo,FG_yindu,FG_yingguo,FG_ruishi,FG_deguo,FG_eluosi,FG_faguo,FG_xibanya,0000011,1399305,FX_USDCNY,FX_USDCHF,FX_USDEUR,FX_USDHKD,FX_USDJPY,FX_USDCAD,FU_thismonth,FU_au,FU_ag,money.api?callback=updatePrice')
+        setTimeout(refreshPrice, 30000)
+    }
+    function updatePrice(data) {
+        for(i in data) {
+            var cla = data[i].updown > 0 ? 'colorRed':'colorGreen';
+            var r = /^(-?\d+)(\.\d+)?$/ //浮点数
+            if(r.test(data[i].percent)){
+                var extent = (data[i].percent*100).toFixed(2)+'%';
+            }else{
+                var extent = data[i].percent;
+            }
+            $('.price_'+(data[i].code || data[i].symbol)).html(data[i].price).removeClass('colorRed colorGreen').addClass(cla);
+            $('.extent_'+(data[i].code || data[i].symbol)).html(extent).removeClass('colorRed colorGreen').addClass(cla);
+            $('.updown_'+(data[i].code || data[i].symbol)).html(data[i].updown).removeClass('colorRed colorGreen').attr('class', cla)
+        }
+    }
+    //refreshPrice();
+    // refreshImg('0000001');
+    // refreshImg('1399001');
+    // refreshImg('1399006');
+    // refreshImg('0000300');
+    // refreshImg('0000905');
+    //end行情
+</script>
+
+<div class="footer">
+    <div class="foot">
+        <div class="siteLinks">
+            <a href="https://www.sfccn.com/aboutus/contactus/" target="_blank">联系我们</a>
+            <span class="splice">|</span>
+<!--            <a href="https://www.sfccn.com/aboutus/joinUs/" target="_blank">诚聘英才</a>-->
+            <a href="https://app.21jingji.com/epaper/html/app/jobs/index.html" target="_blank">加入我们</a>
+            <span class="splice">|</span>
+            <a href="https://www.sfccn.com/aboutus/law/" target="_blank">版权声明</a>
+            <span class="splice">|</span>
+            <a href="https://www.sfccn.com/aboutus/links/" target="_blank">友情链接</a>
+        </div>
+    </div>
+    <div class="siteInfo">
+        <p class="txt"><a href="https://www.12377.cn/" target="_blank">中国互联网举报中心</a>　&nbsp;&nbsp;&nbsp;&nbsp;违法和不良信息举报电话：020-87399755&nbsp;&nbsp;&nbsp;&nbsp;chenqian@sfccn.com</p>
+        <p class="txt"><a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备17098806号</a> &nbsp;&nbsp;<a href="https://beian.mps.gov.cn/#/query/webSearch?code=44010602012367" rel="noreferrer" target="_blank">粤公网安备 44010602012367</a>　互联网新闻信息服务许可证编号：44120180007</p>
+    </div>
+</div>
+
+<div class="top">
+    <a href="JavaScript:;" id="code">
+	<img src="https://static.sfccn.com/sfccn/v4/images/code.svg" class="code"/>
+	<div class="code2"><img src="https://static.sfccn.com/sfccn/v4/images/code.png"/><p>21财经客户端下载</p></div>
+	</a>
+    <a href="#top"><img src="https://static.sfccn.com/sfccn/v4/images/top.svg" class="topIcon" /></a>
+</div>
+
+
+<script type="text/javascript" src="https://static.sfccn.com/sfccn/js/login.js"></script>
+<script>
+
+    //    百度统计
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?4a1527cfa8715117a1eed228a200d712";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    //发布时间
+    function showTime(){
+        var $Date = new Date();
+        var time = Math.floor($Date.getTime()/1000);
+        var t;
+        $('.time').each(function(n,d){
+            if($(d).data('inputtime')) {
+                t = time-$(d).data('inputtime');
+                if(t < 60){
+                    $(d).html('刚刚');
+                    return true;
+                }
+                if(t < 3600){
+                    $(d).html(Math.floor(t/60)+'分钟前');
+                    return true;
+                }
+                if(t < 86400){
+                    $(d).html(Math.floor(t/3600)+'小时前');
+                    return true;
+                }
+                var Ddate = new Date($(d).data('inputtime')*1000);
+                var Year = Ddate.getFullYear();
+                var month = Ddate.getMonth()+1;
+                var day = Ddate.getDate();
+                $(d).html(Year+'年'+month+'月'+day+'日');
+                return true;
+            }
+        })
+    }
+    showTime();
+</script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+
+
+<script>
+    var jssdk_url = '//sp.sfccn.com/sfccn/wechat/jssdk?url=' + encodeURIComponent(window.location.href)
+    document.write("<script src='" + jssdk_url + "'><\/script>")
+    var share_title = '';
+    var share_desc = '南方财经网是南方财经全媒体集团门户网站，主打财经新闻，是21世纪经济报道、TVS1、投资快报等原创新闻最重要的展现平台。同时有机整合21财经客户端深度策划、抢鲜报及快报最新资讯，给读者提供优质的阅读。';
+    var share_link = window.location.href;
+    var share_imgUrl = '//static.sfccn.com/sfccn/2021y/images/sfcShareIcon_300.jpg'
+    wx.ready(function () {
+        wx.updateTimelineShareData({
+            title: share_title,
+            link: share_link,
+            desc: share_desc,
+            imgUrl: share_imgUrl,
+            success: function (res) {
+
+            }
+        });
+        wx.updateAppMessageShareData({
+            title: share_title,
+            link: share_link,
+            desc: share_desc,
+            imgUrl: share_imgUrl,
+            success: function (res) {
+
+            }
+        });
+
+    });
+</script>
+<!--2023-12-22 14:13:02--><script type="text/javascript" src="https://static.sfccn.com/js/smonitor/zmy-data-collection-2.0.0-t.min.js"></script>
+<!--<script type="text/javascript" src="http://static.21jingji.com/v2.0/js/share.js"></script>-->
+<!--动态右侧栏-->
+<script>
+   /** $(document).ready(function(){
+
+        $.ajax({
+            type:'get',
+            url:'//www.sfccn.com/channel/page_right/',
+            success:function(xml){
+                var newslist=$(xml);
+                if(newslist){
+                    $('#replace_right').empty();
+                    $('#replace_right').html(newslist);
+                }
+
+            },
+            error:function(){
+            }
+        });
+
+
+    });**/
+</script>
+
+<script>
+    // 正文音频控件
+    function support_audio() {
+        // 判断浏览器是否支持audio fixed ie6-7
+        return !!document.createElement("audio").canPlayType;
+    }
+
+    if (support_audio() && $(".news_audio audio").length > 0) {
+        $(".news_audio").append('<div class="button">\n' + '            <a class="play" onclick="doplay()"></a>\n' + '            <img class="playing" onclick="dopause()" src="https://static.21jingji.com/images/m/playing.gif">\n' + "            </div>\n" + '            <div class="a-t">播放音频</div>\n' + '            <div class="time"></div>');
+        var isAndroidapp = false;
+        var audioSrc = $(".news_audio audio").attr("src");
+
+        var ua = navigator.userAgent.toLowerCase();
+        if (/android/.test(ua) && /21epaper/.test(ua)) {
+            isAndroidapp = true;
+            AppJS2Native.setAudioSrc(audioSrc);
+        } else {
+            //var audio = document.createElement("audio");
+            var audio = $(".news_audio audio");
+            // audio.load();
+            audio.on("loadedmetadata", function () {
+                //doplay()
+                $(".news_audio .time").html(transTime($(".news_audio audio").get(0).duration));
+            });
+            audio.on("timeupdate", function () {
+                //console.log(audio.get(0).currentTime)
+                var t = $(".news_audio audio").get(0).duration - audio.get(0).currentTime.toFixed(0);
+                $(".news_audio .time").html(transTime(t));
+            });
+            audio.on("play", function () {
+                show_play();
+            });
+            audio.on("pause", function () {
+                show_pause();
+            });
+        }
+    }
+    //})
+    function doplay() {
+        if (isAndroidapp) {
+            //安卓自定义事件
+            AppJS2Native.audioPlay();
+        } else {
+            audio.trigger("play");
+        }
+    }
+
+    function dopause() {
+        if (isAndroidapp) {
+            //安卓自定义事件
+            AppJS2Native.audioPause();
+        } else {
+            audio.trigger("pause");
+        }
+    }
+
+    function show_play() {
+        $(".news_audio .play").hide();
+        $(".news_audio .playing").show();
+        $(".news_audio .desc").html("播放中");
+    }
+
+    function show_pause() {
+        $(".news_audio .play").show();
+        $(".news_audio .playing").hide();
+        $(".news_audio .desc").html("播放音频");
+    }
+    //转换音频时长显示
+    function transTime(time) {
+        var duration = parseInt(time);
+        var minute = parseInt(duration / 60);
+        var sec = (duration % 60) + "";
+        var isM0 = ":";
+        if (minute == 0) {
+            minute = "00";
+        } else if (minute < 10) {
+            minute = "0" + minute;
+        }
+        if (sec.length == 1) {
+            sec = "0" + sec;
+        }
+        return minute + isM0 + sec;
+    }
+    // end正文音频控件
+
+</script>
+
+<!--统计调用-->
+<script>
+    var id = "1853240";
+    var catid = "1513";
+    ZMYDataCollection.init({
+        tenant_code:'prod-nfcj-254ae18baad0cefbfc8bbed',
+        key: 'F6plOs4Mn6HFbI3MX24Z6OwKzhcPjaQI'
+    });
+    ZMYDataCollection.openArticle({
+        article_id: id,
+        platform: 'PC'
+    });
+
+</script>
+
+<script src="https://sfcstatics.sfccn.com/track/index.js"></script>
+<script>window.trackJsStart("sfccn");</script>
+
+
+<script src="https://static.sfccn.com/sfccn/2021y/js/jquery.share.min.js"></script>
+</body>
+</html>
